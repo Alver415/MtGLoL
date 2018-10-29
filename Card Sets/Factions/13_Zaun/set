@@ -1,0 +1,159 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: new
+set info:
+	title: Zaun Creatures
+	symbol: symbol2.mse-symbol
+	automatic reminder text: 
+styling:
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Synthetic Sludge
+	casting cost: 2GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Ooze</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a spell or ability targets <atom-cardname><nospellcheck>Synthetic Sludge</nospellcheck></atom-cardname>, put a +1/+1 counter on it.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Reckless Accelerator
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Ooze</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: At the beginning of your upkeep, put a +1/+1 counter on <atom-cardname><nospellcheck>Reckless Accelerator</nospellcheck></atom-cardname>. Then, if it has more than five +1/+1 counters on it, sacrifice it.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Undergrowth Dealer
+	casting cost: 1GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a +1/+1 counter is put on a creature you control, you may pay UG. If you do, put an additional +1/+1 counter on that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Hormonologist
+	casting cost: 1GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a +1/+1 counter is put on a creature you control, you may scry 1.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Hexcrystal Runner
+	casting cost: G/U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: As long as <atom-cardname><nospellcheck>Hexcrystal Runner</nospellcheck></atom-cardname> has a +1/+1 counter on it, it has hexproof and can't be blocked.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2:
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Crystal Calibrator
+	casting cost: G/U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Creatures you contol with +1/+1 counters on them have hexproof.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2:	
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Crystal Seer
+	casting cost: 2GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: T, Remove a +1/+1 counter from this creature: Scry 3.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2:	
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 20:14:39
+	time modified: 2018-10-25 22:50:08
+	name: Hex Pilferer
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever this creature deals combat damage to an opponent you may remove a +1/+1 counter from target creature that player controls. If you do, put a +1/+1 counter on this creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2:	
+keyword:
+	keyword: Hexproof
+	match: Hexproof
+	reminder: This permanent can't be the target of spells or abilities your opponents control.
+	rules: 
+	mode: core
+version control:
+	type: none
+apprentice code: 
