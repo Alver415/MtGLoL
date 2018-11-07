@@ -1,99 +1,195 @@
 Spell Ideas
 
-Faction		Cost	Type		Text
+Faction	Cost	Type		Text
+	Color
 
+	
 Demacia
 	White
-		1	{W}		Instant		You gain 2 life for each spell an opponent cast this turn.
-		2	1{W}	Instant		Target creature gains first strike and lifelink until end of turn.
-		3	2{W}	Sorcery		Spawn two 1/1 white soldiers with Hexproof.
-		4	2{W}{W}	Sorcery		Exile target non-land permanent.
+		{W}		Instant		You gain 2 life for each spell an opponent cast this turn.
+		1{W}	Instant		Target creature gains first strike and lifelink until end of turn.
+		2{W}	Sorcery		Spawn two 1/1 white soldiers with Hexproof.
+		2{W}{W}	Sorcery		Exile target non-land permanent.
 		
 	Blue
-		1	{U}		Instant		Counter target spell that targets you or a creature you control.
-		2 	{1}{U}	Instant		Counter target spell. If a spell would be countered this way, put it back into its owners hand.
-		3 	1{U}{U}	Instant		Counter target spell. If that spell is successfully countered this way, your that spells controller can't play spells until the end of turn. 	
-		4	2{U}{U}	Sorcery		Silence all creatures your opponents control until end of turn. As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.
+		{U}		Instant		Counter target spell that targets you or a creature you control.
+		{1}{U}	Instant		Counter target spell. If a spell would be countered this way, put it back into its owners hand.
+		1{U}{U}	Instant		Counter target spell. If that spell is successfully countered this way, your that spells controller can't play spells until the end of turn. 	
+		2{U}{U}	Sorcery		Silence all creatures your opponents control until end of turn. As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.
 
-	White/Blue
-		1			
-		2	{W}{U}	Instant		Target creature gains hexproof and gets +1/+1 until end of turn.
-		3	1{W}{U} Instant		Blink target attacking or blocking creature.
-		4	2{W}{U} Sorcery		Creatures you control gain flying until end of turn. Until end of turn, your opponents can't cast spells.
+	White/Blue	
+		{W}{U}	Instant		Target creature gains hexproof and gets +1/+1 until end of turn.
+		1{W}{U} Instant		Blink target attacking or blocking creature.
+		2{W}{U} Sorcery		Creatures you control gain flying until end of turn. Until end of turn, your opponents can't cast spells.
 
+		
 Freljord
 	Blue
-		1	{U}		Sorcery		Scry 2. If a creature you control dealt damage to an opponent this turn, draw a card.
-		2	1{U}	Sorcery		Until end of turn, target creature gains flying and "Whenever THIS deals combat damage to an opponent, you may draw a card"
-		3	2{U}	Instant		Return up to two target tapped creatures to their owners hands.
-		4	2{U}{U}	Instant		Stun all attacking creatures.
+		{U}		Sorcery		Scry 2. If a creature you control dealt damage to an opponent this turn, draw a card.
+		1{U}	Sorcery		Until end of turn, target creature gains flying and "Whenever THIS deals combat damage to an opponent, you may draw a card"
+		2{U}	Instant		Return up to two target tapped creatures to their owners hands.
+		2{U}{U}	Instant		Stun all attacking creatures.
 		
 	Black
-		1	{B}		Sorcery		Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card. You lose 2 life. That player may counter this spell by sacrificing a creature.
-		2	{B}{B}	Instant		Destroy target tapped creature.
-		3	2{B}	Sorcery		Return target creature with converted mana cost 3 or less from your graveyard to the battlfield tapped.
-		4	2{B}{B}	Sorcery		Target player sacrifices each tapped creature they control. You lose life equal to the number of creatures sacrificed this way.
+		{B}		Sorcery		Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card. You lose 2 life. That player may counter this spell by sacrificing a creature.
+		{B}{B}	Instant		Destroy target tapped creature.
+		2{B}	Sorcery		Return target creature with converted mana cost 3 or less from your graveyard to the battlfield tapped.
+		2{B}{B}	Sorcery		Target player sacrifices each tapped creature they control. You lose life equal to the number of creatures sacrificed this way.
 
-	Blue/Black
-		1			
-		2	{U}{B}	Sorcery		Scry 3, draw 2, then discard 1.
-		3	1{U}{B}	Instant		Stun target creature. If that creature was already tapped, destroy it instead.
-		4	2{U}{B}	Sorcery		Target creature gets -4/-4 until end of turn. If that creature dies this turn, you may draw two cards. Otherwise discard a card. 
+	Blue/Black	
+		{U}{B}	Sorcery		Scry 3, draw 2, then discard 1.
+		1{U}{B}	Instant		Stun target creature. If that creature was already tapped, destroy it instead.
+		2{U}{B}	Sorcery		Target creature gets -4/-4 until end of turn. If that creature dies this turn, you may draw two cards. Otherwise discard a card. 
 
+		
 Noxus
 	Black
-		1	{B}		Instant 	Target creature gets +1/-1 until end of turn.
-		2	1{B}	Sorcery		Destroy target creature with a -1/-1 counter.
-		3	2{B} 	Instant		Put a -1/-1 counter on up to two target attacking or blocking creatures.
-		4	2{B}{B}	Instant		Spawn X 2/2 black Zombie, where X is the number of creature cards in your opponents graveyards. You lose X life and discard X cards.
+		{B}		Instant 	Target creature gets +1/-1 until end of turn.
+		1{B}	Sorcery		Destroy target creature with a -1/-1 counter.
+		2{B} 	Instant		Put a -1/-1 counter on up to two target attacking or blocking creatures.
+		2{B}{B}	Instant		Spawn X 2/2 black Zombie, where X is the number of creature cards in your opponents graveyards. You lose X life and discard X cards.
 		
 	Red
-		1	{R}		Instant		Deal 3 damage to targe creature.
-		2	1{R}	Sorcery		Target creature you control gains haste and double strike until end of turn.
-		3	1{R}{R}	Sorcery		Choose one -- Destroy target artifact or sacrifice an artifact and deal 3 damage to target creature or player.
-		4	3{R}{R}	Sorcery		Untap all creatures you control. After this phase there is an additional combat phase followed by an additional main phase.
+		{R}		Instant		Deal 3 damage to targe creature.
+		1{R}	Sorcery		Target creature you control gains haste and double strike until end of turn.
+		1{R}{R}	Sorcery		Choose one -- Destroy target artifact or sacrifice an artifact and deal 3 damage to target creature or player.
+		3{R}{R}	Sorcery		Untap all creatures you control. After this phase there is an additional combat phase followed by an additional main phase.
 
-	Black/Red
-		1			
-		2	{B}{R}	Instant		Grievous Wounds. Deal 2 damage to target creature.
-		3	1{B}{R}	Sorcery		As an additional cost to play THIS, discard a card. Reveal the top X cards of your library and you lose X life, where X is the discarded cards converted mana cost. Until end of turn, you may cast one of the revealed cards without paying its mana cost.
-		4	2{B}{R}	Sorcery		Creature you control gain Grievous Wounds and Menace until end of turn.
+	Black/Red	
+		{B}{R}	Instant		Grievous Wounds. Deal 2 damage to target creature.
+		1{B}{R}	Sorcery		As an additional cost to play THIS, discard a card. Reveal the top X cards of your library and you lose X life, where X is the discarded cards converted mana cost. Until end of turn, you may cast one of the revealed cards without paying its mana cost.
+		2{B}{R}	Sorcery		Creature you control gain Grievous Wounds and Menace until end of turn.
 
+		
 Runeterra Wilds
 	Red
-		1	{R}		Instant		Target creature gets +1/+0 and first strike until end of turn.
-		2	1{R}	Sorcery		Untap target creature you control. That creature gains haste and doublestrike until end of turn.
-		3	2{R}	Instant		Deal 3 damage divide as you choose between any number of target blocking creatures and players.
-		4	2{R}{R}	Sorcery		Deal 4 damage to every creature.
+		{R}		Instant		Target creature gets +1/+0 and first strike until end of turn.
+		1{R}	Sorcery		Untap target creature you control. That creature gains haste and doublestrike until end of turn.
+		2{R}	Instant		Deal 3 damage divide as you choose between any number of target blocking creatures and players.
+		2{R}{R}	Sorcery		Deal 4 damage to every creature.
 		
 	Green
-		1	{G}		Sorcery		Chose one -- Add {G} mana for each creature you control or put a land from your hand onto the battlefield tapped.
-		2	1{G}	Instant		Target creature you control fights target creature you don't control.
-		3	2{G}	Instant		Target creature you control gains reach and deathtouch until end of turn.
-		4	2{G}{G}	Sorcery		Creatures you control get +2/+2 and gain trample until end of turn.
+		{G}		Sorcery		Chose one -- Add {G} mana for each creature you control or put a land from your hand onto the battlefield tapped.
+		1{G}	Instant		Target creature you control fights target creature you don't control.
+		2{G}	Instant		Target creature you control gains reach and deathtouch until end of turn.
+		2{G}{G}	Sorcery		Creatures you control get +2/+2 and gain trample until end of turn.
 
 	Red/Green
-		1			
-		2	{R}{G}	Instant		Destroy target artifact or enchantment. If that card was attached to a creature, deal 3 damage to that creature.
-		3	1{R}{G}	Sorcery		Target creature you control gets +1/+1 and gains first strike and engage until end of turn.
-		4	2{R}{G}	Sorcery		Choose one -- Destroy all artifacts your opponent controls, destroy all enchantments your opponent controls, or each creature you control gains engage until end of turn.
+		{R}{G}	Instant		Destroy target artifact or enchantment. If that card was attached to a creature, deal 3 damage to that creature.
+		1{R}{G}	Sorcery		Target creature you control gets +1/+1 and gains first strike and engage until end of turn.
+		2{R}{G}	Sorcery		Choose one -- Destroy all artifacts your opponent controls, destroy all enchantments your opponent controls, or each creature you control gains engage until end of turn.
+		
 		
 Ionia
 	Green
-		1	{G}		Instant		Prevent all combat damage that would be dealt this turn.
-		2	1{G}	Sorcery		Until end of turn target creature you control gains "When this creature dies, you gain life equal to its toughness and you may search your library for a land card and put it into play."
-		3	2{G}	Sorcery		Until end of turn, lands you control are 1/1 creatures. They are still lands.
-		4	2{G}{G}	Sorcery		Put X +1/+1 counters on target creature, where X is the number of lands or creatures you control.
+		{G}		Instant		Prevent all combat damage that would be dealt this turn.
+		1{G}	Sorcery		Until end of turn target creature you control gains "When this creature dies, you gain life equal to its toughness and you may search your library for a land card and put it into play."
+		2{G}	Sorcery		Until end of turn, lands you control are 1/1 creatures. They are still lands.
+		2{G}{G}	Sorcery		Put X +1/+1 counters on target creature, where X is the number of lands or creatures you control.
 		
 	White
-		1	{W}		Instant		Untap and remove target creature from combat. It's controller gains 2 life.
-		2	1{W}	Instant		Exile target attacking or blocking creature. It's controller gains life equal to it's power.
-		3	2{W}	Sorcery		Distribute three +1/+1 counters on up to three target creatures.
-		4	2{W}{W}	Instant		Exile each attacking creature. For each creature exiled this way, it's controller gains 1 life.
+		{W}		Instant		Untap and remove target creature from combat. It's controller gains 2 life.
+		1{W}	Instant		Exile target attacking or blocking creature. It's controller gains life equal to it's power.
+		2{W}	Sorcery		Distribute three +1/+1 counters on up to three target creatures.
+		2{W}{W}	Instant		Exile each attacking creature. For each creature exiled this way, it's controller gains 1 life.
 
 	Green/White
-		1			
-		2	{G}{W}	Instant		Target creature you control gets +2/+2 until end of turn. If that creature dies this turn, you may search your library for a land, put it onto the battlefield tapped, then shuffle your library.
-		3	1{G}{W}	Sorcery		Target creature you control gains vigilance, lifelink, and indestructable until end of turn.
-		4	2{G}{W} Instant		Prevent all combat damage that would be dealt to you or target creature you control. You gain life equal to the amount of damage prevented this way.
+		{G}{W}	Instant		Target creature you control gets +2/+2 until end of turn. If that creature dies this turn, you may search your library for a land, put it onto the battlefield tapped, then shuffle your library.
+		1{G}{W}	Sorcery		Target creature you control gains vigilance, lifelink, and indestructable until end of turn.
+		2{G}{W} Instant		Prevent all combat damage that would be dealt to you or target creature you control. You gain life equal to the amount of damage prevented this way.
+
+================================================================================================================================================================================================================================================
+		
+Targon
+	White
+		{W}		Instant		Attach target aura you control to target creature.
+		1{W}	Instant		Put a +1/+1 counter on target creature. Prevent the next 2 damage that would be dealt to that creature this turn.
+		2{W}	Sorcery		
+		2{W}{W}	Sorcery		
+		
+	Black
+		{B}		Sorcery		Sacrifice a creature you control, then each opponent sacrifices a creature they control.
+		1{B}	Instant		Put a -1/-1 counter on target creature. That creature's control loses 2 life. 
+		2{B}	Sorcery		
+		2{B}{B}	Sorcery		Creatures get -2/-2 until end of turn. Until end of turn, whenever a creature dies, spawn a 1/1 colorless Spirit.
+		
+	White/Black		
+		{W}{B}	Sorcery		Choose one -- Target creature gets -2/+2 and gains deathtouch until end of turn or +2/-2 and gains lifelink until end of turn.
+		1{W}{B}	Sorcery		Put three +1/+1 counters on target creature you control. At the beginning of your end step, if that creature did not deal combat damage to an opponent, sacrifice it.
+		2{W}{B}	Sorcery		Search your library for a enchantment card, exile that card, then shuffle your library. Until end of turn you may play that card without paying its mana cost. If you do, you lose life equal to it's converted mana cost.
+		
+		
+Shadow Isles
+	Black
+		{B}		Instant		
+		1{B}	Instant		
+		2{B}	Sorcery		
+		2{B}{B}	Sorcery		
+		
+	Green
+		{G}		Sorcery		
+		1{G}	Instant		
+		2{G}	Sorcery		
+		2{G}{G}	Sorcery		
+		
+	Black/Green		
+		{B}{G}	Sorcery		
+		1{B}{G}	Sorcery		
+		2{B}{G}	Sorcery		
+		
+		
+Zaun
+	Green
+		{G}		Instant		
+		1{G}	Instant		
+		2{G}	Sorcery		
+		2{G}{G}	Sorcery		
+		
+	Blue
+		{U}		Sorcery		
+		1{U}	Instant		
+		2{U}	Sorcery		
+		2{U}{U}	Sorcery		
+		
+	Green/Blue		
+		{G}{U}	Sorcery		
+		1{G}{U}	Sorcery		
+		2{G}{U}	Sorcery		
+			
+			
+Piltover
+	Blue
+		{U}		Instant		
+		1{U}	Instant		
+		2{U}	Sorcery		
+		2{U}{U}	Sorcery		
+		
+	Red
+		{R}		Sorcery		
+		1{R}	Instant		
+		2{R}	Sorcery		
+		2{R}{R}	Sorcery		
+		
+	Blue/Red		
+		{U}{R}	Sorcery		
+		1{U}{R}	Sorcery		
+		2{U}{R}	Sorcery		
+				
+Shurima
+	Red
+		{R}		Instant		
+		1{R}	Instant		
+		2{R}	Sorcery		
+		2{R}{R}	Sorcery		
+		
+	White
+		{W}		Sorcery		
+		1{W}	Instant		
+		2{W}	Sorcery		
+		2{W}{W}	Sorcery		
+		
+	Red/White		
+		{R}{W}	Sorcery		
+		1{R}{W}	Sorcery		
+		2{R}{W}	Sorcery		
 		
