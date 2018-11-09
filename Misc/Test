@@ -1,0 +1,1037 @@
+mse version: 0.3.8
+game: magic
+stylesheet: new
+set info:
+	title: League of Legends
+	symbol: symbol2.mse-symbol
+	automatic reminder text: 
+styling:
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Hexproof
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Stun on hit
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Greivous Wounds
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Engage
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: T: Prevent 1 damage
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: +1/+1 for each enchantment attached
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever you spawn a spirit, +1/+1 until end of turn
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever you augment, +1/+1 until end of turn
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: +1/+1 as long as it's equipped
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: +1/+1 as long as you control an artifact
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {W}{U}, T: Counter target activated or triggered ability that targets you or a creature you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {U}{B}, T: Srcy 1 or target player reveals a card at random from their hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {B}{R}, T: Put a -1/-1 counter on target creature that was dealt damage this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {R}{G}, T: Add {G} or {R} mana. If a creature spell is cast with that mana, it gains haste.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {G}{W}, T: Prevent all damage dealt to and by target blocking creature you control. Any creatures it blocks gains trample until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {W}{B}, T: Attacking creatures you control that are enchanted get +1/+1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {B}{G}, T: Spawn a 1/1 colorless spirit. You lose 2 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {G}{U}, T: Cleanse target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {U}{R}, T: Silence target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: {R}{W}, T: Target equipped creature you control gains doublestrike until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may blink another target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, tapped creatures your opponents control dont untap during their controllers next untap step.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, deal 1 damage to each creature with a -1/-1 counter on it.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may have it fight target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, prevent all damage dealt to target creature until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may return an aura card from your graveyard to the battlefield attached to CARDNAME.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may sacrifice a spirit. If you do return a creature from your graveyard to your hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, put a +1/+1 counter on each creature with a +1/+1 counter.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may deal 1 damage to target creature an opponent controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 1RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When CARDNAME enteres the battefields, you may attach an equipment you control to it.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Blocking and blocked creatures your opponents control are silenced.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: At the beginning of the second main phase, if you dealt combat damage to an opponent this turn you may draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Attacking creatures you control have Grievous Wounds
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Creatures you control have haste and engage.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a creature you control would be dealt damage from a source an opponent controls, that source deals one less damage instead.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Each aura you control has, "{X}: Attach CARDNAME to target creature. Where X is CARDNAME card's converted mana cost. Activate this ability only as a sorcery."
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a spirit enters the battlefield under your control, each opponent loses 1 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: At the beginning of your upkeep, put a +1/+1 counter on target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Opponents can't cast spells during combat phases.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 2RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Each creature you control gets +1/+1 for each equipment attached to it.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Hexproof
+	flavor text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, whenever CARDNAME deals combat damage to an opponent, reveal the top card of that players library. You may put that card into their graveyard.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Grievous Wounds, First Strike
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Trample, must be blocked if able.
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 6
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Vigilance, prevent all combat damage that would be dealt to CARDNAME.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Indestructible as long as it's enchanted.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: CARDNAME gets +1/+1 for each spirit you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever you cast a spell, put a +1/+1 counter on CARDNAME.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever CARDNAME attacks silence all creatures your opponents control until the end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 3RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever CARDNAME is dealt damage, spawn that many 1/1 colorless Golems.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Flash, When this enters the battlefield exile target creature that activated or triggered an ability this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4UB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Whenever CARDNAME attacks, stun target creature an opponent controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Haste, Creatures with -1/-1 counters can't block CARDNAME.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Trample, Engage.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 5
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Whenever CARDNAME becomes blocked, you may untap CARDNAME and remove it from combat.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 6
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, whenever CARDNAME deals combat damage to an opponent, that player sacrifices a non enchanted creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4BG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, Sacrifice a spirit: CARDNAME gets +1/+1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4GU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, At the beginning of your upkeep, put a +1/+1 counter on CARDNAME. Remove a +1/+1 counter from CARDNAME: Cleanse.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, whenever CARDNAME attacks, deal 1 damage to each creature the defending player controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: generated
+	time created: 2018-11-313 17:11:999
+	time modified: 2018-11-313 17:11:999
+	name: 
+	casting cost: 4RW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Flying, When CARDNAME enters the battlefield, you may search your library for an artifact card, put it into play, then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+version control:
+	type: none
+apprentice code: 

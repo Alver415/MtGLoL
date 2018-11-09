@@ -6,11 +6,11 @@ Cycles
 	Demacia				1/1			Hexproof
 	Freljord			1/1			Stun on hit
 	Noxus				1/1			Greivous Wounds
-	Runeterra Wild		1/1			Engage
+	Runeterra_Wild		1/1			Engage
 	Ionia				1/1			T: Prevent 1 damage
 	
 	Targon				1/1			+1/+1 for each enchantment attached
-	Shadow Isles		1/1			Whenever you spawn a spirit, +1/+1 until end of turn
+	Shadow_Isles		1/1			Whenever you spawn a spirit, +1/+1 until end of turn
 	Zaun				1/1			Whenever you augment, +1/+1 until end of turn
 	Piltover			1/1			+1/+1 as long as it's equipped
 	Shurima				1/1			+1/+1 as long as you control an artifact
@@ -21,11 +21,11 @@ Cycles
 	Demacia				2/2			{W}{U}, T: Counter target activated or triggered ability that targets you or a creature you control.
 	Freljord			1/2			{U}{B}, T: Srcy 1 or target player reveals a card at random from their hand.
 	Noxus				2/2			{B}{R}, T: Put a -1/-1 counter on target creature that was dealt damage this turn.
-	Runeterra Wild		1/2			{R}{G}, T: Add {G} or {R} mana. If a creature spell is cast with that mana, it gains haste.
+	Runeterra_Wild		1/2			{R}{G}, T: Add {G} or {R} mana. If a creature spell is cast with that mana, it gains haste.
 	Ionia				1/2			{G}{W}, T: Prevent all damage dealt to and by target blocking creature you control. Any creatures it blocks gains trample until end of turn.
 	
 	Targon				2/2			{W}{B}, T: Attacking creatures you control that are enchanted get +1/+1 until end of turn.
-	Shadow Isles		2/2			{B}{G}, T: Spawn a 1/1 colorless spirit. You lose 2 life.
+	Shadow_Isles		2/2			{B}{G}, T: Spawn a 1/1 colorless spirit. You lose 2 life.
 	Zaun				1/1			{G}{U}, T: Cleanse target creature.
 	Piltover			2/2			{U}{R}, T: Silence target creature.
 	Shurima				2/2			{R}{W}, T: Target equipped creature you control gains doublestrike until end of turn.
@@ -36,11 +36,11 @@ Cycles
 	Demacia				2/2			When THIS enteres the battefields, you may blink another target creature.
 	Freljord			1/2			When THIS enteres the battefields, tapped creatures your opponents control dont untap during their controllers next untap step.
 	Noxus				2/2			When THIS enteres the battefields, deal 1 damage to each creature with a -1/-1 counter on it.
-	Runeterra Wild		1/2			When THIS enteres the battefields, you may have it fight target creature.
+	Runeterra_Wild		1/2			When THIS enteres the battefields, you may have it fight target creature.
 	Ionia				1/2			When THIS enteres the battefields, prevent all damage dealt to target creature until end of turn.
 	
 	Targon				2/2			When THIS enteres the battefields, you may return an aura card from your graveyard to the battlefield attached to THIS.
-	Shadow Isles		2/2			When THIS enteres the battefields, you may sacrifice a spirit. If you do return a creature from your graveyard to your hand.
+	Shadow_Isles		2/2			When THIS enteres the battefields, you may sacrifice a spirit. If you do return a creature from your graveyard to your hand.
 	Zaun				1/1			When THIS enteres the battefields, put a +1/+1 counter on each creature with a +1/+1 counter.
 	Piltover			2/2			When THIS enteres the battefields, you may deal 1 damage to target creature an opponent controls.
 	Shurima				2/2			When THIS enteres the battefields, you may attach an equipment you control to it.
@@ -51,11 +51,11 @@ Cycles
 	Demacia				3/4			Blocking and blocked creatures your opponents control are silenced.
 	Freljord			2/3			At the beginning of the second main phase, if you dealt combat damage to an opponent this turn you may draw a card.
 	Noxus				4/3			Attacking creatures you control have Grievous Wounds
-	Runeterra Wild		3/3			Creatures you control have haste and engage.
+	Runeterra_Wild		3/3			Creatures you control have haste and engage.
 	Ionia				2/4			Whenever a creature you control would be dealt damage from a source an opponent controls, that source deals one less damage instead.
 	
 	Targon				3/4			Each aura you control has, "{X}: Attach THIS to target creature. Where X is THIS card's converted mana cost. Activate this ability only as a sorcery."
-	Shadow Isles		2/2			Whenever a spirit enters the battlefield under your control, each opponent loses 1 life.
+	Shadow_Isles		2/2			Whenever a spirit enters the battlefield under your control, each opponent loses 1 life.
 	Zaun				3/4			At the beginning of your upkeep, put a +1/+1 counter on target creature.
 	Piltover			4/2			Opponents can't cast spells during combat phases.
 	Shurima				4/3			Each creature you control gets +1/+1 for each equipment attached to it.
@@ -66,11 +66,11 @@ Cycles
 	Demacia				5/5			Hexproof
 	Freljord			3/3			Flying, whenever THIS deals combat damage to an opponent, reveal the top card of that players library. You may put that card into their graveyard.
 	Noxus				4/2			Grievous Wounds, First Strike
-	Runeterra Wild		6/6			Trample, must be blocked if able.
+	Runeterra_Wild		6/6			Trample, must be blocked if able.
 	Ionia				3/3			Vigilance, prevent all combat damage that would be dealt to THIS.
 	
 	Targon				4/4			Indestructible as long as it's enchanted.
-	Shadow Isles		3/3			THIS gets +1/+1 for each spirit you control.
+	Shadow_Isles		3/3			THIS gets +1/+1 for each spirit you control.
 	Zaun				3/3			Whenever you cast a spell, put a +1/+1 counter on THIS.
 	Piltover			4/2			Whenever THIS attacks silence all creatures your opponents control until the end of turn.
 	Shurima				4/4			Whenever THIS is dealt damage, spawn that many 1/1 colorless Golems.
@@ -81,11 +81,11 @@ Cycles
 	Demacia				4/4			Flying, Flash, When this enters the battlefield exile target creature that activated or triggered an ability this turn.
 	Freljord			3/3			Flying, Whenever THIS attacks, stun target creature an opponent controls.
 	Noxus				4/3			Flying, Haste, Creatures with -1/-1 counters can't block THIS.
-	Runeterra Wild		4/5			Flying, Trample, Engage.
+	Runeterra_Wild		4/5			Flying, Trample, Engage.
 	Ionia				4/6			Flying, Whenever THIS becomes blocked, you may untap THIS and remove it from combat.
 	
 	Targon				4/4			Flying, whenever THIS deals combat damage to an opponent, that player sacrifices a non enchanted creature.
-	Shadow Isles		4/3			Flying, Sacrifice a spirit: THIS gets +1/+1 until end of turn.
+	Shadow_Isles		4/3			Flying, Sacrifice a spirit: THIS gets +1/+1 until end of turn.
 	Zaun				3/3			Flying, At the beginning of your upkeep, put a +1/+1 counter on THIS. Remove a +1/+1 counter from THIS: Cleanse.
 	Piltover			4/4			Flying, whenever THIS attacks, deal 1 damage to each creature the defending player controls.
 	Shurima				4/4			Flying, When THIS enters the battlefield, you may search your library for an artifact card, put it into play, then shuffle your library.
