@@ -103,15 +103,15 @@ Ionia
 Targon
 	White
 		{W}		Instant		Attach target aura you control to target creature.
-		1{W}	Instant		Put a +1/+1 counter on target creature. Prevent the next 2 damage that would be dealt to that creature this turn.
-		2{W}	Sorcery		
-		2{W}{W}	Sorcery		
+		1{W}	Instant		Put a +1/+1 counter on target creature. If that creature is enchanted, put an additional +1/+1 counter on it.
+		2{W}	Sorcery		Search your library for an aura card with converted mana cost 2 or less, exile it , then shuffle your library. Until end of turn, you may play that card without paying it's mana cost.
+		2{W}{W}	Sorcery		Exile all nonenchanted creatures. Each opponent spawns an X/X black Demigod, where X is the number of creatures exiled this way.
 		
 	Black
-		{B}		Sorcery		Sacrifice a creature you control, then each opponent sacrifices a creature they control.
-		1{B}	Instant		Put a -1/-1 counter on target creature. That creature's control loses 2 life. 
-		2{B}	Sorcery		
-		2{B}{B}	Sorcery		Creatures get -2/-2 until end of turn. Until end of turn, whenever a creature dies, spawn a 1/1 colorless Spirit.
+		{B}		Sorcery		Return target creature from your graveyard to the battlefield. Then you may return an aura from your graveyard to the battlefield attached to that creature.
+		1{B}	Instant		Until end of turn, target creature becomes 1/1 and gains "{1}: THIS gets +1/+1 until end of turn". 
+		2{B}	Sorcery		Sacrifice a creature that dealt combat damage to an opponent this turn, draw 2, then scry 3.
+		2{B}{B}	Sorcery		Each player discards a card then sacrifices an artifact, an enchantment, a creature, and a land. 
 		
 	White/Black		
 		{W}{B}	Sorcery		Choose one -- Target creature gets -2/+2 and gains deathtouch until end of turn or +2/-2 and gains lifelink until end of turn.
@@ -121,16 +121,16 @@ Targon
 		
 Shadow Isles
 	Black
-		{B}		Instant		
-		1{B}	Instant		
-		2{B}	Sorcery		
-		2{B}{B}	Sorcery		
+		{B}		Sorcery		Discard a card, spawn two colorless Spirits.
+		1{B}	Instant		Spawn two 1/1 colorless Spirits with haste. Sacrifice them at end of turn.
+		2{B}	Instant		Target creature gets +2/-2 until end of turn. If that creature dies this turn, spawn a 1/1 colorless Spirit.
+		2{B}{B}	Sorcery		Creatures get -2/-2 until end of turn. Until end of turn, whenever a creature dies, spawn a 1/1 colorless Spirit.
 		
 	Green
-		{G}		Sorcery		
-		1{G}	Instant		
+		{G}		Sorcery		Gain 2 life for each Spirit you control.
+		1{G}	Instant		Choose one -- Regenerate target creature or if a Spirit you control died this turn, you may return a creature card from your graveyard to your hand.
 		2{G}	Sorcery		
-		2{G}{G}	Sorcery		
+		2{G}{G}	Sorcery		Until end of turn, when a Spirit you control dies you may gain 2 life and draw a card.
 		
 	Black/Green		
 		{B}{G}	Sorcery		

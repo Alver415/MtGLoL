@@ -1,0 +1,180 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: new
+set info:
+	title: White Creatures
+	symbol: symbol2.mse-symbol
+	automatic reminder text: 
+styling:
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 15:00:25
+	time modified: 2018-10-25 20:13:30
+	name: Demacian Protector
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>: Shield 1 target creature you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 15:01:56
+	time modified: 2018-10-22 15:03:15
+	name: Chroma Dancer
+	casting cost: 1WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Dancer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: When <atom-cardname><nospellcheck>Chroma Dancer</nospellcheck></atom-cardname> enters the battlefield choose a color. Target creature you control gains <kw-a><nospellcheck>protection from <param-name>the chosen color until end of turn</param-name></nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 22:02:07
+	time modified: 2018-10-25 20:31:04
+	name: Village Hero
+	casting cost: 1WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		You may cast <atom-cardname><nospellcheck>Village Hero</nospellcheck></atom-cardname> as if it had <kw-a><nospellcheck>flash</nospellcheck></kw-a> if you control a blocking creature.
+		When <atom-cardname><nospellcheck>Village Hero</nospellcheck></atom-cardname> enters the battlefield, until end of turn prevent all damage that would be dealt creatures you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 22:07:08
+	time modified: 2018-10-25 20:13:55
+	name: Peace Seeker
+	casting cost: 2WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>, <sym-auto>WW</sym-auto>: Prevent all combat damage that would be dealt to or by target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 22:14:45
+	time modified: 2018-10-25 20:31:21
+	name: Solari Templar
+	casting cost: WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Templar</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
+		On Hit Player: Put a +1/+1 counter on <atom-cardname><nospellcheck>Solari Templar</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 22:15:48
+	time modified: 2018-10-22 22:18:26
+	name: Prophet of the Solari
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Prophet</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: At the beginning of your upkeep target creature gains “On Hit Player: Put a +1/+1 on this creature.” until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-25 20:07:45
+	time modified: 2018-10-25 20:13:41
+	name: Demacian Guard
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Guard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever another creature enters the battlefield <atom-cardname><nospellcheck>Demacian Guard</nospellcheck></atom-cardname> gets +1/+1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 22:02:07
+	time modified: 2018-10-25 20:27:27
+	name: Accompanied Knight
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Knight</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When <atom-cardname><nospellcheck>Accompanied Knight</nospellcheck></atom-cardname> enters the battlefield, create a 1/1 white Squire creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-25 20:22:48
+	time modified: 2018-10-25 20:29:10
+	name: Banisher Magus
+	casting cost: 2WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Magus</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: When <atom-cardname><nospellcheck>Banisher Magus</nospellcheck></atom-cardname> enters the battlefield, exile target creature an opponent controls until <atom-cardname><nospellcheck>Banisher Magus</nospellcheck></atom-cardname> leaves the battlefield.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	copyright: 
+	image 2: 
+	copyright 2: 
+keyword:
+	keyword: Hexproof
+	match: Hexproof
+	reminder: This permanent can't be the target of spells or abilities your opponents control.
+	rules: 
+	mode: core
+version control:
+	type: none
+apprentice code: 
