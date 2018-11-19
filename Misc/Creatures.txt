@@ -3,12 +3,16 @@ Spell Ideas
 Faction	Cost		Type			P/T		Text
 	Color	
 
-	
+Keywords
+
+	Magic Resistence X: Whenever a spell or ability an opponent controls would target this, counter it unless it's controller pays X.
+	Armor X: Whenever a source would deal damage to this, prevent X of that damage.
+
 Demacia
 	White
 		W			Creature		1/1		Gets +1/+1 and first strike as long as an opponent has cast a spell this turn.
-		1W			Creature		2/2		Whenever an opponent casts a spell, you gain 1 life.
-		2W			Creature		2/2		Flying. Gets +1/+1 as long as an opponent has cast a spell this turn.
+		1W			Creature		2/2		Whenever a spell or ability targets a creature you control, you may gain 3 life.
+		2W			Creature		2/2		Flying, Magic Resistence 2
 		2WW			Creature		2/3		Spells your opponents cast cost 1 more to cast.
 		
 	Blue
@@ -19,7 +23,7 @@ Demacia
 
 	White/Blue	
 		WU			Creature		2/1		Flash. When CARDNAME enters the battlefield, silence target creature until end of turn.
-		1WU 		Creature		2/2		Whenever an opponent cast a spell, you may choose up to 1 target creature that player controls. Until end of turn, that creature can't attack or block.
+		1WU 		Creature		3/3		Magic Resistence 3.
 		2WU 		Creature		3/4		Other creatures you control with toughness less than CARDNAME have hexproof.
 
 		
@@ -88,9 +92,9 @@ Ionia
 		2GG			Creature		6/6		Defender. Trample. Whenever you are attacked, CARDNAME loses defender until your next end step.
 		
 	White
-		W			Creature		1/2		W, T: Prevent the next 1 damage that would be dealt to target creature or player.
+		W			Creature		1/1		CARDNAME has Shield 2 as long as it's blocking.
 		1W			Creature		2/2		When CARDNAME enters the battlefield, if you lost life last turn, you may gain 5 life.
-		1WW			Creature		2/2		Flying, Lifelink.
+		1WW			Creature		2/2		Flying, Lifelink, Shield 1.
 		2WW			Creature		3/2		Vigilance, First Strike. Whenever CARDNAME deals combat damage to a creatures, prevent all combat damage that would be dealt by that creature until end of turn.
 
 	Green/White
