@@ -14,8 +14,8 @@ public class TextParser {
 	private final static String CURRENT_TIME = new SimpleDateFormat("YYYY-MM-DD HH:MM:SS")
 			.format(Calendar.getInstance().getTime());
 
-	private String location_txt = "C:/projects/git/MtGLoL/Misc/Cycles.txt";
-	private String location_set = "C:/projects/git/MtGLoL/Misc/Test";
+	private String	location_txt	= "C:/projects/git/MtGLoL/Misc/Cycles.txt";
+	private String	location_set	= "C:/projects/git/MtGLoL/Misc/Test";
 
 	private static final String TOP = "mse version: 0.3.8\r\n" + "game: magic\r\n" + "stylesheet: new\r\n"
 			+ "set info:\r\n" + "	title: League of Legends\r\n" + "	symbol: symbol2.mse-symbol\r\n"
@@ -116,7 +116,7 @@ public class TextParser {
 		Card card = new Card.Builder().timeCreated(CURRENT_TIME).timeModified(CURRENT_TIME).castingCost(cost)
 				.superType(type).power(power).toughness(toughness).ruleText(text).build();
 
-		return card.format();
+		return Formatter.format(card);
 	}
 
 	private String convertLineSpells(String line) {
@@ -131,6 +131,6 @@ public class TextParser {
 		Card card = new Card.Builder().timeCreated(CURRENT_TIME).timeModified(CURRENT_TIME).castingCost(cost)
 				.superType(type).ruleText(text).build();
 
-		return card.format();
+		return Formatter.format(card);
 	}
 }
