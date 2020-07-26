@@ -32,13 +32,23 @@ script:
 	# Count the number of paragraphs to detect number of walker abilities.
 	paragraph_count := replace@(match:"\n", replace:"•")+
 		filter_text@(match:"•")
+	color := {
+		(if contains(card.casting_cost, match:"W") then "W")
+		(if contains(card.casting_cost, match:"U") then "U")
+		(if contains(card.casting_cost, match:"B") then "B")
+		(if contains(card.casting_cost, match:"R") then "R")
+		(if contains(card.casting_cost, match:"G") then "G")
+	}
 	write_normal := {
 		"\n\<card>"
 		+"\n\<name>"+card.name+"\</name>"
 		+"\n\<set>"+options.setcode+"\</set>"
-		+"\n\<manacost>"+card.casting_cost+"\</manacost>"
-		+"\n\<type>"+card.type+"\</type>"
-		+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\<prop>"
+			+"\n\<manacost>"+card.casting_cost+"\</manacost>"
+			+"\n\<colors>"+color()+"\</colors>"
+			+"\n\<type>"+card.type+"\</type>"
+			+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\</prop>"
 		+"\n\<tablerow>1\</tablerow>"
 		+"\n\<text>"+card.rule_text+"\</text>"
 		+"\n\</card>\n"
@@ -47,9 +57,12 @@ script:
 		"\n\<card>"
 		+"\n\<name>"+card.name+"\</name>"
 		+"\n\<set>"+options.setcode+"\</set>"
-		+"\n\<manacost>"+card.casting_cost+"\</manacost>"
-		+"\n\<type>"+card.type+"\</type>"
-		+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\<prop>"
+			+"\n\<manacost>"+card.casting_cost+"\</manacost>"
+			+"\n\<colors>"+color()+"\</colors>"
+			+"\n\<type>"+card.type+"\</type>"
+			+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\</prop>"
 		+"\n\<tablerow>1\</tablerow>"
 		+"\n\<loyalty>"+card.loyalty+"\</loyalty>"
 		+"\n\<text>"
@@ -79,9 +92,12 @@ script:
 		"\n\<card>"
 		+"\n\<name>"+card.name+"\</name>"
 		+"\n\<set>"+options.setcode+"\</set>"
-		+"\n\<manacost>"+card.casting_cost+"\</manacost>"
-		+"\n\<type>"+card.type+"\</type>"
-		+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\<prop>"
+			+"\n\<manacost>"+card.casting_cost+"\</manacost>"
+			+"\n\<colors>"+color()+"\</colors>"
+			+"\n\<type>"+card.type+"\</type>"
+			+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\</prop>"
 		+"\n\<tablerow>1\</tablerow>"
 		+"\n\<text>"
 		# The First Textbox
@@ -102,9 +118,12 @@ script:
 		"\n\<card>"
 		+"\n\<name>"+card.name+" // "+card.name_2+"\</name>"
 		+"\n\<set>"+options.setcode+"\</set>"
-		+"\n\<manacost>"+card.casting_cost+"\</manacost>"
-		+"\n\<type>"+card.type+"\</type>"
-		+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\<prop>"
+			+"\n\<manacost>"+card.casting_cost+"\</manacost>"
+			+"\n\<colors>"+color()+"\</colors>"
+			+"\n\<type>"+card.type+"\</type>"
+			+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\</prop>"
 		+"\n\<tablerow>1\</tablerow>"
 		+"\n\<text>"+card.rule_text_2+"\n---\n"+card.rule_text_2+"\</text>"
 		+"\n\</card>\n"
@@ -113,9 +132,12 @@ script:
 		"\n\<card>"
 		+"\n\<name>"+card.name+"\</name>"
 		+"\n\<set>"+options.setcode+"\</set>"
-		+"\n\<manacost>"+card.casting_cost+"\</manacost>"
-		+"\n\<type>"+card.type+"\</type>"
-		+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\<prop>"
+			+"\n\<manacost>"+card.casting_cost+"\</manacost>"
+			+"\n\<colors>"+color()+"\</colors>"
+			+"\n\<type>"+card.type+"\</type>"
+			+"\n\<pt>"+card.pt+"\</pt>"
+		+"\n\</prop>"
 		+"\n\<tablerow>1\</tablerow>"
 		+"\n\<text>"+card.rule_text+"\n---\n"+card.rule_text_2+"\</text>"
 		+"\n\</card>\n"
@@ -148,3 +170,4 @@ script:
 		 +"<cards>\n"+write_cards+"\n"
 		 +"</cards>\n"
 		 +"</cockatrice_carddatabase>\n")
+
