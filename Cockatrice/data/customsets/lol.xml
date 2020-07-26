@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+<sets>
+<set>
+<name>LOL</name>
+<longname>League of Legends</longname>
+</set>
+</sets>
+<cards>
+
+<card>
+<name>Demacian Coastline</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Plains Island </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Demacian Coastline enters the battlefield tapped if you control a Swamp, Mountain, or Forest.
+T: Add W or U.</text>
+</card>
+
+<card>
+<name>Gates of the Freljord</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Island Swamp </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Gates of the Freljord enters the battlefield tapped if you control a Plains, Mountain, or Forest.
+T: Add U or B.</text>
+</card>
+
+<card>
+<name>Ionian Canopy</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Plains Forest </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Ionian Canopy enters the battlefield tapped if you control an Island, Swamp, or Mountain.
+T: Add W or G.</text>
+</card>
+
+<card>
+<name>Mount Targon</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Plains Swamp </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Mount Targon enters the battlefield tapped if you control an Island Mountain, or Forest.
+T: Add W or B.</text>
+</card>
+
+<card>
+<name>Noxian Battlegrounds</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Swamp Mountain </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Noxian Battlegrounds enters the battlefield tapped if you control a Plains, Island, or Forest.
+T: Add B or R.</text>
+</card>
+
+<card>
+<name>Runeterra Wilds</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Land — Mountain Forest </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text>Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, or Swamp
+T: Add R or G.</text>
+</card>
+
+<card>
+<name>Plains</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Basic Land — Plains </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text></text>
+</card>
+
+<card>
+<name>Island</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Basic Land — Island </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text></text>
+</card>
+
+<card>
+<name>Swamp</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Basic Land — Swamp </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text></text>
+</card>
+
+<card>
+<name>Mountain</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Basic Land — Mountain </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text></text>
+</card>
+
+<card>
+<name>Forest</name>
+<set>LOL</set>
+<prop>
+<manacost></manacost>
+<colors></colors>
+<type>Basic Land — Forest </type>
+<pt></pt>
+</prop>
+<tablerow>1</tablerow>
+<text></text>
+</card>
+
+</cards>
+</cockatrice_carddatabase>

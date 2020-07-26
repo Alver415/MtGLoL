@@ -160,7 +160,7 @@ script:
 		}
 	write_cards := to_text(for each card in sort_list(cards, order_by: {input.card_number}) do write_card())
 	to_string("<?xml version='1.0' encoding='UTF-8'?>\n"
-		 +"<cockatrice_carddatabase version='2'>\n"
+		 +"<cockatrice_carddatabase version='4'>\n"
 		 +"<sets>\n"
 		 +"<set>\n"
 		 +"<name>"+options.setcode+"</name>\n"
