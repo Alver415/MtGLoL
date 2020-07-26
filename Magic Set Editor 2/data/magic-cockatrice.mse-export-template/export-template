@@ -32,12 +32,12 @@ script:
 	# Count the number of paragraphs to detect number of walker abilities.
 	paragraph_count := replace@(match:"\n", replace:"•")+
 		filter_text@(match:"•")
-	color := {
-		(if contains(card.casting_cost, match:"W") then "W")
-		(if contains(card.casting_cost, match:"U") then "U")
-		(if contains(card.casting_cost, match:"B") then "B")
-		(if contains(card.casting_cost, match:"R") then "R")
-		(if contains(card.casting_cost, match:"G") then "G")
+	color := {""
+		+(if contains(card.casting_cost, match:"W") then "W")
+		+(if contains(card.casting_cost, match:"U") then "U")
+		+(if contains(card.casting_cost, match:"B") then "B")
+		+(if contains(card.casting_cost, match:"R") then "R")
+		+(if contains(card.casting_cost, match:"G") then "G")
 	}
 	write_normal := {
 		"\n\<card>"
