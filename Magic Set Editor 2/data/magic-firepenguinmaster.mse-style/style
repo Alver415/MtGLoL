@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 full name: FPM's Normal Magic
 short name: FPM Normal
 installer group: magic/FirePenguinMaster/Normal cards
 icon: card-sample.png
-position hint: 801
+position hint: 800
 
-version: 2010-03-26
+version: 2018-02-23
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -240,6 +240,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 61

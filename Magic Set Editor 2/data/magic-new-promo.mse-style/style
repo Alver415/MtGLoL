@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Promotional
 full name: Large image
 installer group: magic/new style/promotional
 icon: card-sample.png
-position hint: 004
+position hint: 214
 
-version: 2009-07-07
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2007-12-29

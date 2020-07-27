@@ -31,6 +31,9 @@ symbol:
 	code: Q
 	image: mana_q.png
 symbol:
+	code: E
+	image: Energy.png
+symbol:
 	code: chaos
 	image: mana_chaos.png
 	image font size: 151.69
@@ -165,6 +168,26 @@ symbol:
 	image: mana_gu.png
 	image font size: 145
 symbol:
+	code: C/W
+	image: mana_cmc_cw.png
+	image font size: 145
+symbol:
+	code: C/U
+	image: mana_cmc_cu.png
+	image font size: 145
+symbol:
+	code: C/B
+	image: mana_cmc_cb.png
+	image font size: 145
+symbol:
+	code: C/R
+	image: mana_cmc_cr.png
+	image font size: 145
+symbol:
+	code: C/G
+	image: mana_cmc_cg.png
+	image font size: 145
+symbol:
 	code: 1/2
 	image: mana_1_half.png
 symbol:
@@ -188,6 +211,9 @@ symbol:
 symbol:
 	code: |S
 	image: mana_s_half.png
+symbol:
+	code: A
+	image: mana_chaos.png
 symbol:
 	code: H/W
 	image: mana_phyw.png
@@ -233,6 +259,26 @@ symbol:
 symbol:
 	code: S
 	image: mana_s.png
+symbol:
+	code: 2/W
+	image: 2W.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 2/U
+	image: 2U.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 2/B
+	image: 2B.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 2/R
+	image: 2R.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 2/G
+	image: 2G.png
+	enabled: {ancestral_mana()}
 symbol:
 	image: mana_nw.png
 	code: ([XYZ0-9])/W
@@ -309,6 +355,21 @@ symbol:
 		max stretch: 0.5
 	image font size: 145
 symbol:
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_cc.png", mask: "mask_hybrid.png") }
+	code: ([XYZ0-9])/C
+	regex: yes
+	draw text: 1
+	text margin left:   -.30
+	text margin right:  .2
+	text margin top:    -.14
+	text margin bottom: .34
+	text font:
+		name: MPlantin
+		size: .6
+		color: black
+		max stretch: 0.5
+	image font size: 145
+symbol:
 	image: mana_circle.png
 	code: [XYZ]
 	regex: yes
@@ -325,6 +386,70 @@ symbol:
 	code: I
 	image: mana_infinite.png
 symbol:
+	code: 15
+	image: 15.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 14
+	image: 14.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 13
+	image: 13.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 12
+	image: 12.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 11
+	image: 11.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 10
+	image: 10.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 9
+	image: 9.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 8
+	image: 8.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 7
+	image: 7.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 6
+	image: 6.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 5
+	image: 5.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 4
+	image: 4.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 3
+	image: 3.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 2
+	image: 2.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 1
+	image: 1.png
+	enabled: {ancestral_mana()}
+symbol:
+	code: 0
+	image: 0.png
+	enabled: {ancestral_mana()}
+symbol:
 	image: mana_circle.png
 	text margin left:   .23
 	text margin right:  .21
@@ -339,6 +464,27 @@ symbol:
 		color: rgb(0,0,0)
 		max stretch: 0.60
 
+###################################################################################### Colorless Hybrid Symbols
+symbol:
+	code: C/W
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_ww.png", mask: "mask_hybrid.png") }
+	image font size: 145
+symbol:
+	code: C/U
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_uu.png", mask: "mask_hybrid.png") }
+	image font size: 145
+symbol:
+	code: C/B
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_bb.png", mask: "mask_hybrid.png") }
+	image font size: 145
+symbol:
+	code: C/R
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_rr.png", mask: "mask_hybrid.png") }
+	image font size: 145
+symbol:
+	code: C/G
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_gg.png", mask: "mask_hybrid.png") }
+	image font size: 145
 ##############################################################
 # Insert-symbol menu
 insert symbol menu:
@@ -354,7 +500,7 @@ insert symbol menu:
 	item: C
 	item:
 		type: custom
-		name: colorless
+		name: generic
 	item:
 		type: line
 	item: W
@@ -389,6 +535,13 @@ insert symbol menu:
 		item: R/W
 		item: G/U
 	item:
+		name: colorless hybrid
+		item: C/W
+		item: C/U
+		item: C/B
+		item: C/R
+		item: C/G
+	item:
 		name: phyrexian
 		item: H
 		item: H/W
@@ -419,3 +572,4 @@ insert symbol menu:
 		item: 2/B
 		item: 2/R
 		item: 2/G
+		item: 2/C

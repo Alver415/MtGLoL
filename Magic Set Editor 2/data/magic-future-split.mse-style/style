@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Future Splits
 full name: Futureshift Splits
 installer group: magic/Future/Split cards
 icon: card-sample.png
-position hint: 303
+position hint: 275
 
-version: 2010-03-26
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -462,6 +462,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	rarity 2:
 		left: 488
 		top : 213
@@ -484,6 +485,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 30

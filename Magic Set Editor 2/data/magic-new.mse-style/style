@@ -1,17 +1,30 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Modern style
 full name: After 8th edition
 icon: card-sample.png
-position hint: 001
 installer group: magic/new style/normal cards
+position hint: 201
 
-version: 2009-07-07
-depends on: magic.mse-game                   2008-06-02
-depends on: magic-default-image.mse-include  2007-09-23
-depends on: magic-watermarks.mse-include     2007-09-23
-depends on: magic-mana-large.mse-symbol-font 2007-09-23
-depends on: magic-mana-small.mse-symbol-font 2007-09-23
+version: 2018-02-22
+depends on:
+	package: magic.mse-game
+	version: 2008-06-02
+depends on:
+	package: magic-default-image.mse-include
+	version: 2007-09-23
+depends on:
+	package: magic-watermarks.mse-include
+	version: 2007-09-23
+depends on:
+	package: magic-identity-new.mse-include
+	version: 2012-01-22
+depends on:
+	package: magic-mana-large.mse-symbol-font
+	version: 2007-09-23
+depends on:
+	package: magic-mana-small.mse-symbol-font
+	version: 2007-09-23
 
 card width: 375
 card height: 523
@@ -38,8 +51,10 @@ init script:
 			else "om"
 		) else	input
 	}
-	template      := { alternate_template() + "{type}.jpg" }
-	land_template := { (if input == "a" then "c" else alternate_template()) + "l{type}.jpg" }
+	template_prefix := [card: "" pt: "" identity: "/magic-identity-new.mse-include/"]
+	template_suffix := [card: "card.jpg" pt: "pt.jpg", identity: "identity.png"]
+	template      := { template_prefix[type] + alternate_template() + template_suffix[type] }
+	land_template := { template_prefix[type] + (if input == "a" then "c" else alternate_template()) + "l" + template_suffix[type] }
 	# Use land templates for previews because they show more contrast
 	hybrid_previews := "land,hybrid"
 	
@@ -238,10 +253,19 @@ card style:
 			script: if styling.image_size == "extended" then "imagemask_extended.png" else "imagemask_standard.png"
 		default: {default_image(card.card_color)}
 	############################# Card type
+	indicator:
+		left: 34
+		top: 299
+		width: 17
+		height: 17
+		z index: 2
+		render style: image
+		visible: { has_identity() }
+		image: { card_identity() }
 	type:
-		left: 35
+		left: { if has_identity() then "55" else "35" }
 		top : 298
-		width: { 308 - max(22,card_style.rarity.content_width) }
+		width: { (if has_identity() then "288" else "308") - max(22,card_style.rarity.content_width) }
 		height: 20
 		alignment: top shrink-overflow
 		z index: 1
@@ -273,6 +297,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 31

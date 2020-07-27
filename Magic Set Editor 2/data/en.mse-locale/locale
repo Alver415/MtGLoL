@@ -1,7 +1,7 @@
-mse version: 2.0.0
-installer group: translations/English
+﻿mse version: 2.0.0
+installer group: translations/english
 full name: English
-version: 2011-01-22
+version: 2013-08-13
 icon: usgb.png
 
 ############################################################## Menu items

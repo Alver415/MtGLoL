@@ -34,17 +34,30 @@ add cards script:
 #		for _ from 1 to count do [new_card()]
 
 add cards script:
-	name: &Horizontal Cycle
-	description: Add 1 card of each color to the set
+	name: &Common Cycle
+	description: Add a common card of each color to the set
 	script:
 		# TODO:
 		#rarity := show_text_dialog("What rarity should the cards be?")
-		[ new_card([card_color: "white"])
-		, new_card([card_color: "blue"])
-		, new_card([card_color: "black"])
-		, new_card([card_color: "red"])
-		, new_card([card_color: "green"])
+		[ new_card([casting_cost: "W"])
+		, new_card([casting_cost: "U"])
+		, new_card([casting_cost: "B"])
+		, new_card([casting_cost: "R"])
+		, new_card([casting_cost: "G"])
 		]
-
-#TODO: Vertical Cycle; needs text dialog for setting color
+add cards script:
+	name: &Uncommon Cycle
+	description: Add an uncommon card of each color to the set
+	script:
+		[ new_card([casting_cost: "W",   rarity: "uncommon"])
+		, new_card([casting_cost: "U",   rarity: "uncommon"])
+		, new_card([casting_cost: "B",   rarity: "uncommon"])
+		, new_card([casting_cost: "R",   rarity: "uncommon"])
+		, new_card([casting_cost: "G",   rarity: "uncommon"])
+		]
+add cards script:
+	name: &Rare Cycle
+	description: Adds a rare card of each color to the set
+	script:
+		[ new_card([casting_cost: "W",   rarity: "rare"]) , new_card([casting_cost: "U",   rarity: "rare"]) , new_card([casting_cost: "B",   rarity: "rare"]) , new_card([casting_cost: "R",   rarity: "rare"]) , new_card([casting_cost: "G",   rarity: "rare"]) ]
 

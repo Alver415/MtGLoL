@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Future Textless
 full name: Futureshift Textless
 installer group: magic/Future/Textless cards
 icon: card-sample.png
-position hint: 305
+position hint: 273
 
-version: 2010-03-26
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -288,6 +288,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# PT
 	pt:
 		z index: 2

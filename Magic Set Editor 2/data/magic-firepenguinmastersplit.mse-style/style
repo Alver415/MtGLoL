@@ -4,9 +4,9 @@ full name: FPM's Split Magic
 short name: FPM Split
 installer group: magic/FirePenguinMaster/Split cards
 icon: card-sample.png
-position hint: 803
+position hint: 804
 
-version: 2010-03-26
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2007-12-29
@@ -306,6 +306,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:	    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	rarity 2:
 		left: 306
 		top : 214
@@ -322,6 +323,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:	    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 49.25

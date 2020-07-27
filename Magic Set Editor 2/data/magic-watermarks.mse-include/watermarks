@@ -6,6 +6,7 @@ choice images:
 	mana symbol black:			/magic-watermarks.mse-include/watermark_b.png
 	mana symbol red:			/magic-watermarks.mse-include/watermark_r.png
 	mana symbol green:			/magic-watermarks.mse-include/watermark_g.png
+	mana symbol colorless:			/magic-watermarks.mse-include/watermark_c.png
 	mana symbol snow:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_s.png")
 
 	transparent mana symbol white:		script: set_alpha(alpha: 0.4, input:"/magic-watermarks.mse-include/watermark_w.png")
@@ -39,17 +40,24 @@ choice images:
 	faction symbol mirrodin:         	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_mirrodin.png")
 	faction symbol phyrexia:         	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_phyrexia.png")
 	
-	clan symbol The Abzan Houses (WBG):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_abzan.png")
-	clan symbol The Jeskai Way (URW):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_jeskai.png")
-	clan symbol The Sultai Brood (BGU):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_sultai.png")
-	clan symbol The Mardu Horde (RWB):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_mardu.png")
-	clan symbol The Temur Frontier (GUR):  	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_temur.png")
+	clan symbol The Abzan Houses (WBG):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_abzan.png"))
+	clan symbol The Jeskai Way (URW):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_jeskai.png"))
+	clan symbol The Sultai Brood (BGU):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_sultai.png"))
+	clan symbol The Mardu Horde (RWB):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_mardu.png"))
+	clan symbol The Temur Frontier (GUR):  	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_temur.png"))
 	
-	brood symbol Dromoka's Brood (GW):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_dromoka.png")
-	brood symbol Ojutai's Brood (WU):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_ojutai.png")
-	brood symbol Silumgar's Brood (UB):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_silumgar.png")
-	brood symbol Kolaghan's Brood (BR):    	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_kolaghan.png")
-	brood symbol Atarka's Brood (RG):  	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_atarka.png")
+	brood symbol Dromoka's Brood (GW):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_dromoka.png"))
+	brood symbol Ojutai's Brood (WU):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_ojutai.png"))
+	brood symbol Silumgar's Brood (UB):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_silumgar.png"))
+	brood symbol Kolaghan's Brood (BR):    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_kolaghan.png"))
+	brood symbol Atarka's Brood (RG):  	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.65, input:"/magic-watermarks.mse-include/watermark_atarka.png"))
+	
+	unstable factions Order of the Widget:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.35, input:"/magic-watermarks.mse-include/unstable_widget.png"))
+	unstable factions Agents of S.N.E.A.K.:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.35, input:"/magic-watermarks.mse-include/unstable_SNEAK.png"))
+	unstable factions League of Dastardly Doom:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.35, input:"/magic-watermarks.mse-include/unstable_doom.png"))
+	unstable factions Goblin Explosioneers:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.35, input:"/magic-watermarks.mse-include/unstable_explosioneers.png"))
+	unstable factions Crossbreed Labs:  	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.35, input:"/magic-watermarks.mse-include/unstable_crossbreed.png"))
+	
 	
 	colored xander hybrid mana B/R:			/magic-watermarks.mse-include/watermark_brmana_colored.png
 	colored xander hybrid mana U/B:			/magic-watermarks.mse-include/watermark_ubmana_colored.png
@@ -82,9 +90,43 @@ choice images:
 	future sight type symbols planeswalker:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/futsymbol_planeswalker.png")
 	future sight type symbols sorcery:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/futsymbol_sorcery.png")
 	
+	other magic symbols aetherprint:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/aetherprint.png"))
+	other magic symbols chaos symbol:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/chaos.png"))
 	other magic symbols color pie:				/magic-watermarks.mse-include/colorpie.png
 	other magic symbols conspiracy stamp:			script: set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/conspiracy_stamp.png")
-	
+	other magic symbols story spotlight:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/planeswalker.png"))
+	other magic symbols color spotlight: 			script: spotlight_watermark_blend()	
+	other magic symbols jace consortium:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/jace-consortium.png"))
+	other magic symbols phyrexia:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/phyrexia.png"))
+	other magic symbols seekers of carmot:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/seekersofcarmot.png"))
+	other magic symbols the thran:			script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/thran.png"))
+
+	other magic symbols innistrad provinces stensia:	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/stensia.png"))
+	other magic symbols innistrad provinces kessig:		script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/kessig.png"))
+	other magic symbols innistrad provinces gavony:		script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/gavony.png"))
+	other magic symbols innistrad provinces nephalia:	script: set_combine(combine:"shadow", input:set_alpha(alpha: 0.3, input:"/magic-watermarks.mse-include/nephalia.png"))
+
+	other magic symbols theros poleis akros:	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/akros.png")
+	other magic symbols theros poleis meletis:	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/meletis.png")
+	other magic symbols theros poleis setessa:	script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/setessa.png")
+
+	alara symbols Bant:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_bant.png")
+	alara symbols Esper:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_esper.png")
+	alara symbols Grixis:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_grixis.png")
+	alara symbols Jund:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_jund.png")
+	alara symbols Naya:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_naya.png")
+	alara symbols colored Bant:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_bant_colored.png")
+	alara symbols colored Esper:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_esper_colored.png")
+	alara symbols colored Grixis:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_grixis_colored.png")
+	alara symbols colored Jund:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_jund_colored.png")
+	alara symbols colored Naya:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_naya_colored.png")
+
+	custom watermark one:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_1()))
+	custom watermark two:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_2()))
+	custom watermark three:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_3()))
+	custom watermark four:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_4()))
+	custom watermark five:  	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_5()))
+
 	set symbol:
 		{ set_combine(combine:"shadow",
 		   set_alpha(

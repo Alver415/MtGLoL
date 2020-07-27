@@ -4,9 +4,9 @@ full name: Extended Art
 short name: Extended Art
 installer group: magic/new style/extended art
 icon: card-sample.png
-position hint: 702
+position hint: 214
 
-version: 2010-03-26
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -252,6 +252,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:	script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 34

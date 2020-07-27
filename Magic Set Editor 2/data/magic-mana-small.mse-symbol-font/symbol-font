@@ -1,9 +1,9 @@
 ﻿mse version: 2.0.0
-version: 2015-12-13
-short name: normal
-installer group: magic/Mana symbols/normal style
-position hint: 001
-icon: mana_r.png
+short name: M15 normal
+position hint: 201
+icon: mana_c.png
+version: 2016-03-13
+installer group: magic/Mana symbols/normal style with extra colors/M15
 # Symbol font in the normal, flat, style, used for text boxes and on old style cards
 # Note:
 #  Define  mana_t := {"new|old|older"} in the init script of the style
@@ -15,10 +15,70 @@ icon: mana_r.png
 
 image font size: 135
 horizontal space: 2
+
+###################################################################################### Loyalty Symbols
+symbol:
+	image: loyaltyup.png
+	code: ([+][XYZ0-9]) loyalty
+	regex: yes
+	draw text: 1
+	text margin left:   -.10
+	text margin right:  0
+	text margin top:    .10
+	text margin bottom: .10
+	text font:
+		name: Beleren Bold
+		size: .55
+		color: white
+		max stretch: 0.5
+	image font size: 132.1875
+symbol:
+	image: loyaltydown.png
+	code: ([-][XYZ0-9]) loyalty
+	regex: yes
+	draw text: 1
+	text margin left:   -.10
+	text margin right:  0
+	text margin top:    .10
+	text margin bottom: .10
+	text font:
+		name: Beleren Bold
+		size: .55
+		color: white
+		max stretch: 0.5
+	image font size: 132.1875
+symbol:
+	image: loyaltynaught.png
+	code: ([=XYZ0-9]) loyalty
+	regex: yes
+	draw text: 1
+	text margin left:   -.10
+	text margin right:  0
+	text margin top:    .10
+	text margin bottom: .10
+	text font:
+		name: Beleren Bold
+		size: .55
+		color: white
+		max stretch: 0.5
+	image font size: 132.1875
+###################################################################################### Symbols That Actually Appear on Cards
 symbol:
 	code: phi
 	image: phi.png
 	image font size: 27
+symbol:
+	code: E
+	image: energy.png
+	image font size: 300
+symbol:
+	code: .5
+	image: one_half.png
+	image font size: 206
+symbol:
+	code: S
+	image: mana_s.png
+###################################################################################### Tap Symbols
 symbol:
 	code: T
 	image: mana_t_older.png
@@ -30,6 +90,7 @@ symbol:
 symbol:
 	code: T
 	image: mana_t.png
+###################################################################################### Untap Symbols
 symbol:
 	code: Q
 	image: mana_q_older.png
@@ -41,50 +102,138 @@ symbol:
 symbol:
 	code: Q
 	image: mana_q.png
+###################################################################################### Chaos Symbol
 symbol:
 	code: chaos
 	image: mana_chaos.png
 	image font size: 168.75
+###################################################################################### Prismatic Symbols
 symbol:
-	code: B/G/W
-	image: mana_bgw.png
-	image font size: 145
+	code: W/U/B/R/G
+	image: mana_wubrg.png
+###################################################################################### Tri-hybrid Symbols
 symbol:
-	code: B/R/G
-	image: mana_brg.png
-	image font size: 145
-symbol:
-	code: G/U/B
-	image: mana_gub.png
-	image font size: 145
-symbol:
-	code: G/W/U
-	image: mana_gwu.png
-	image font size: 145
-symbol:
-	code: R/G/W
-	image: mana_rgw.png
-	image font size: 145
-symbol:
-	code: R/W/U
-	image: mana_rwu.png
+	code: W/U/B
+	image: 
+		script:
+			masked_blend(
+				light: "mana_www.png",
+				dark: masked_blend(
+					dark: "mana_uuu.png",
+					light: "mana_bbb.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
 	image font size: 145
 symbol:
 	code: U/B/R
-	image: mana_ubr.png
+	image: 
+		script:
+			masked_blend(
+				light: "mana_uuu.png",
+				dark: masked_blend(
+					dark: "mana_bbb.png",
+					light: "mana_rrr.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
 	image font size: 145
 symbol:
-	code: U/R/G
-	image: mana_urg.png
+	code: B/R/G
+	image: 
+		script:
+			masked_blend(
+				light: "mana_bbb.png",
+				dark: masked_blend(
+					dark: "mana_rrr.png",
+					light: "mana_ggg.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
+	image font size: 145
+symbol:
+	code: R/G/W
+	image: 
+		script:
+			masked_blend(
+				light: "mana_rrr.png",
+				dark: masked_blend(
+					dark: "mana_ggg.png",
+					light: "mana_www.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
+	image font size: 145
+symbol:
+	code: G/W/U
+	image: 
+		script:
+			masked_blend(
+				light: "mana_ggg.png",
+				dark: masked_blend(
+					dark: "mana_www.png",
+					light: "mana_uuu.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
 	image font size: 145
 symbol:
 	code: W/B/R
-	image: mana_wbr.png
+	image: 
+		script:
+			masked_blend(
+				light: "mana_www.png",
+				dark: masked_blend(
+					dark: "mana_bbb.png",
+					light: "mana_rrr.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
 	image font size: 145
 symbol:
-	code: W/U/B
-	image: mana_wub.png
+	code: U/R/G
+	image: 
+		script:
+			masked_blend(
+				light: "mana_uuu.png",
+				dark: masked_blend(
+					dark: "mana_rrr.png",
+					light: "mana_ggg.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
 	image font size: 145
+symbol:
+	code: B/G/W
+	image: 
+		script:
+			masked_blend(
+				light: "mana_bbb.png",
+				dark: masked_blend(
+					dark: "mana_ggg.png",
+					light: "mana_www.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
+	image font size: 145
+symbol:
+	code: R/W/U
+	image: 
+		script:
+			masked_blend(
+				light: "mana_rrr.png",
+				dark: masked_blend(
+					dark: "mana_www.png",
+					light: "mana_uuu.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
+	image font size: 145
+symbol:
+	code: G/U/B
+	image: 
+		script:
+			masked_blend(
+				light: "mana_ggg.png",
+				dark: masked_blend(
+					dark: "mana_uuu.png",
+					light: "mana_bbb.png",
+					mask: "mask_trihybrid_2.png")
+				mask: "mask_trihybrid_1.png")
+	image font size: 145
+
+###################################################################################### Guild Symbols
 symbol:
 	code: W/U
 	image: mana_guild_wu.png
@@ -135,94 +284,95 @@ symbol:
 	image: mana_guild_gu.png
 	image font size: 145
 	enabled: { guild_mana() }
+###################################################################################### Regular Hybrid Symbols
 symbol:
 	code: W/U
-	image: mana_wu.png
+	image: { masked_blend(dark: "mana_ww.png", light: "mana_uu.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: U/B
-	image: mana_ub.png
+	image: { masked_blend(dark: "mana_uu.png", light: "mana_bb.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: B/R
-	image: mana_br.png
+	image: { masked_blend(dark: "mana_bb.png", light: "mana_rr.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: R/G
-	image: mana_rg.png
+	image: { masked_blend(dark: "mana_rr.png", light: "mana_gg.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: G/W
-	image: mana_gw.png
+	image: { masked_blend(dark: "mana_gg.png", light: "mana_ww.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: W/B
-	image: mana_wb.png
+	image: { masked_blend(dark: "mana_ww.png", light: "mana_bb.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: U/R
-	image: mana_ur.png
+	image: { masked_blend(dark: "mana_uu.png", light: "mana_rr.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: B/G
-	image: mana_bg.png
+	image: { masked_blend(dark: "mana_bb.png", light: "mana_gg.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: R/W
-	image: mana_rw.png
+	image: { masked_blend(dark: "mana_rr.png", light: "mana_ww.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
 	code: G/U
-	image: mana_gu.png
+	image: { masked_blend(dark: "mana_gg.png", light: "mana_uu.png", mask: "mask_hybrid.png") }
+	image font size: 145
+###################################################################################### Colorless Hybrid Symbols
+symbol:
+	code: C/W
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_ww.png", mask: "mask_hybrid.png") }
 	image font size: 145
 symbol:
-	code: 1/2
-	image: mana_1_half.png
+	code: C/U
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_uu.png", mask: "mask_hybrid.png") }
+	image font size: 145
 symbol:
-	code: |1
-	image: mana_1_half.png
+	code: C/B
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_bb.png", mask: "mask_hybrid.png") }
+	image font size: 145
 symbol:
-	code: |W
-	image: mana_w_half.png
+	code: C/R
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_rr.png", mask: "mask_hybrid.png") }
+	image font size: 145
 symbol:
-	code: |U
-	image: mana_u_half.png
-symbol:
-	code: |B
-	image: mana_b_half.png
-symbol:
-	code: |R
-	image: mana_r_half.png
-symbol:
-	code: |G
-	image: mana_g_half.png
-symbol:
-	code: |S
-	image: mana_s_half.png
+	code: C/G
+	image: { masked_blend(dark: "mana_cc.png", light: "mana_gg.png", mask: "mask_hybrid.png") }
+	image font size: 145
+###################################################################################### Phyrexian Mana Symbols
 symbol:
 	code: H/W
-	image: mana_phyw.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle_w.png", mask: "mask_phyrexian.png") }
 	image font size: 117
 symbol:
 	code: H/U
-	image: mana_phyu.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle_u.png", mask: "mask_phyrexian.png") }
 	image font size: 117
 symbol:
 	code: H/B
-	image: mana_phyb.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle_b.png", mask: "mask_phyrexian.png") }
 	image font size: 117
 symbol:
 	code: H/R
-	image: mana_phyr.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle_r.png", mask: "mask_phyrexian.png") }
 	image font size: 117
 symbol:
 	code: H/G
-	image: mana_phyg.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle_g.png", mask: "mask_phyrexian.png") }
 	image font size: 117
 symbol:
 	code: H
-	image: mana_phyc.png
+	image: { masked_blend(light: "black_circle.png", dark: "mana_circle.png", mask: "mask_phyrexian.png") }
 	image font size: 117
+
+###################################################################################### Regular Mana Symbols
 symbol:
 	code: W
 	image: mana_w.png
@@ -241,14 +391,9 @@ symbol:
 symbol:
 	code: C
 	image: mana_c.png
+###################################################################################### #/C Hybrid Symbols
 symbol:
-	code: S
-	image: mana_s.png
-symbol:
-	code: I
-	image: mana_infinite.png
-symbol:
-	image: mana_nw.png
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_ww.png", mask: "mask_hybrid.png") }
 	code: ([XYZ0-9])/W
 	regex: yes
 	draw text: 1
@@ -259,11 +404,11 @@ symbol:
 	text font:
 		name: MPlantin
 		size: .6
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.5
 	image font size: 145
 symbol:
-	image: mana_nu.png
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_uu.png", mask: "mask_hybrid.png") }
 	code: ([XYZ0-9])/U
 	regex: yes
 	draw text: 1
@@ -274,11 +419,11 @@ symbol:
 	text font:
 		name: MPlantin
 		size: .6
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.5
 	image font size: 145
 symbol:
-	image: mana_nb.png
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_bb.png", mask: "mask_hybrid.png") }
 	code: ([XYZ0-9])/B
 	regex: yes
 	draw text: 1
@@ -289,11 +434,11 @@ symbol:
 	text font:
 		name: MPlantin
 		size: .6
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.5
 	image font size: 145
 symbol:
-	image: mana_nr.png
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_rr.png", mask: "mask_hybrid.png") }
 	code: ([XYZ0-9])/R
 	regex: yes
 	draw text: 1
@@ -304,11 +449,11 @@ symbol:
 	text font:
 		name: MPlantin
 		size: .6
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.5
 	image font size: 145
 symbol:
-	image: mana_ng.png
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_gg.png", mask: "mask_hybrid.png") }
 	code: ([XYZ0-9])/G
 	regex: yes
 	draw text: 1
@@ -319,9 +464,70 @@ symbol:
 	text font:
 		name: MPlantin
 		size: .6
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.5
 	image font size: 145
+symbol:
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_pp.png", mask: "mask_hybrid.png") }
+	code: ([XYZ0-9])/P
+	regex: yes
+	draw text: 1
+	text margin left:   -.30
+	text margin right:  .2
+	text margin top:    -.14
+	text margin bottom: .34
+	text font:
+		name: MPlantin
+		size: .6
+		color: black
+		max stretch: 0.5
+	image font size: 145
+symbol:
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_kk.png", mask: "mask_hybrid.png") }
+	code: ([XYZ0-9])/K
+	regex: yes
+	draw text: 1
+	text margin left:   -.30
+	text margin right:  .2
+	text margin top:    -.14
+	text margin bottom: .34
+	text font:
+		name: MPlantin
+		size: .6
+		color: black
+		max stretch: 0.5
+	image font size: 145
+symbol:
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_ss.png", mask: "mask_hybrid.png") }
+	code: ([XYZ0-9])/S
+	regex: yes
+	draw text: 1
+	text margin left:   -.30
+	text margin right:  .2
+	text margin top:    -.14
+	text margin bottom: .34
+	text font:
+		name: MPlantin
+		size: .6
+		color: black
+		max stretch: 0.5
+	image font size: 145
+symbol:
+	image: { masked_blend(dark: "mana_circle_large.png", light: "mana_cc.png", mask: "mask_hybrid.png") }
+	code: ([XYZ0-9])/C
+	regex: yes
+	draw text: 1
+	text margin left:   -.30
+	text margin right:  .2
+	text margin top:    -.14
+	text margin bottom: .34
+	text font:
+		name: MPlantin
+		size: .6
+		color: black
+		max stretch: 0.5
+	image font size: 145
+###################################################################################### Colorless XYZ Symbols
 symbol:
 	image: mana_circle.png
 	code: [XYZ]
@@ -334,7 +540,11 @@ symbol:
 	text font:
 		name: MPlantin
 		size: 1
-		color: rgb(0,0,0)
+		color: black
+symbol:
+	image: mana_infinite.png
+	code: ∞
+###################################################################################### Colorless Mana Symbols
 symbol:
 	image: mana_circle.png
 	code: [0-9]+(?!/[WUBRGSTQ2])|.
@@ -347,22 +557,15 @@ symbol:
 	text font:
 		name: MPlantin
 		size: 1
-		color: rgb(0,0,0)
+		color: black
 		max stretch: 0.57
-
-##############################################################
+#########################################################################################################
 # Insert-symbol menu
 insert symbol menu:
 	item: T
 	item: Q
-	item: chaos
-	item:
-		type: line
-	item: X
-	item: Y
-	item: Z
-	item: I
 	item: C
+	item: E
 	item:
 		type: custom
 		name: colorless
@@ -373,18 +576,10 @@ insert symbol menu:
 	item: B
 	item: R
 	item: G
+	item: C
 	item: S
 	item:
 		type: line
-	item:
-		name: half
-		item: 1/2
-		item: |W
-		item: |U
-		item: |B
-		item: |R
-		item: |G
-		item: |S
 	item:
 		name: hybrid
 		item: W/U
@@ -399,16 +594,14 @@ insert symbol menu:
 		item: B/G
 		item: R/W
 		item: G/U
+			type: line
+		item: C/W
+		item: C/U
+		item: C/B
+		item: C/R
+		item: C/G
 	item:
-		name: phyrexian
-		item: H
-		item: H/W
-		item: H/U
-		item: H/B
-		item: H/R
-		item: H/G
-	item:
-		name: hybrid 3
+		name: tri-hybrid mana
 		item: W/U/B
 		item: U/B/R
 		item: B/R/G
@@ -422,6 +615,19 @@ insert symbol menu:
 		item: R/W/U
 		item: G/U/B
 	item:
+		name: phyrexian
+		item: H
+		item: H/W
+		item: H/U
+		item: H/B
+		item: H/R
+		item: H/G
+	item:
+		type: line
+	item:
+		name: prismatic
+		item: W/U/B/R/G
+	item:
 		type: line
 	item:
 		name: number hybrids
@@ -430,3 +636,47 @@ insert symbol menu:
 		item: 2/B
 		item: 2/R
 		item: 2/G
+		item: 2/C
+	item:
+		type: line
+	item:
+		name: loyalty changes
+		item:
+			name: +N
+			item: +0 loyalty
+			item: +1 loyalty
+			item: +2 loyalty
+			item: +3 loyalty
+			item: +4 loyalty
+			item: +5 loyalty
+			item: +6 loyalty
+			item: +7 loyalty
+			item: +8 loyalty
+			item: +9 loyalty
+			item: +X loyalty
+		item:
+			name: -N
+			item: -0 loyalty
+			item: -1 loyalty
+			item: -2 loyalty
+			item: -3 loyalty
+			item: -4 loyalty
+			item: -5 loyalty
+			item: -6 loyalty
+			item: -7 loyalty
+			item: -8 loyalty
+			item: -9 loyalty
+			item: -X loyalty
+		item:
+			name: =N
+			item: 0 loyalty
+			item: 1 loyalty
+			item: 2 loyalty
+			item: 3 loyalty
+			item: 4 loyalty
+			item: 5 loyalty
+			item: 6 loyalty
+			item: 7 loyalty
+			item: 8 loyalty
+			item: 9 loyalty
+			item: X loyalty

@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 full name: Magic Old Split Cards
 short name: Old Splits
 installer group: magic/old style/split cards
 icon: card-sample.png
-position hint: 103
+position hint: 340
 
-version: 2009-07-09
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -21,6 +21,8 @@ card width: 523
 card height: 375
 card dpi: 150
 # Author: Buttock1234
+# Modified by: movezig5
+# NOTE: The colored card frames were obtained from FPM's Pre-8th Edition Split PSD and resized.
 ############################################################## Extra scripts
 init script:
 	# Use the normal tap symbol
@@ -129,8 +131,16 @@ styling field:
 	choice: diagonal T
 styling field:
 	type: choice
-	name: center text
-	description: When to center text (short text only means only on one-line cards with no flavor text)
+	name: center text 1
+	description: When to center text on card 1 (short text only means only on one-line cards with no flavor text)
+	choice: always
+	choice: short text only
+	choice: never
+	initial: never
+styling field:
+	type: choice
+	name: center text 2
+	description: When to center text on the second card (short text only means only on one-line cards with no flavor text)
 	choice: always
 	choice: short text only
 	choice: never
@@ -169,7 +179,13 @@ styling style:
 			modern:     /magic-mana-small.mse-symbol-font/mana_t.png
 			old:        /magic-mana-small.mse-symbol-font/mana_t_old.png
 			diagonal T: /magic-mana-small.mse-symbol-font/mana_t_older.png
-	center text:
+	center text 1:
+		render style: both
+		choice images:
+			always:          /magic.mse-game/icons/center-all-text.png
+			short text only: /magic.mse-game/icons/center-short-text.png
+			never:           /magic.mse-game/icons/center-no-text.png
+	center text 2:
 		render style: both
 		choice images:
 			always:          /magic.mse-game/icons/center-all-text.png
@@ -209,110 +225,111 @@ card style:
 		image: { card_background() }
 	############################# Name line
 	name:
-		left: 32
-		top : 20
+		left: 33
+		top : 22
 		right: { 237 - card_style.casting_cost.content_width }
-		height: 17
-		alignment: top shrink-overflow
+		height: 22
+		alignment: bottom shrink-overflow
 		padding bottom: 0
 		z index: 1
 		font:
 			name: MagicMedieval
-			size: 12
+			size: 15.5
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 	name 2:
-		left: 284
-		top : 20
+		left: 285
+		top : 22
 		right: { 489 - card_style.casting_cost.content_width }
-		height: 17
-		alignment: top shrink-overflow
+		height: 22
+		alignment: bottom shrink-overflow
 		padding bottom: 0
 		z index: 1
 		font:
 			name: MagicMedieval
-			size: 12
+			size: 15.5
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 	casting cost:
 		right: 244
-		top : 18.5
+		top : 21
 		width: { max(30, card_style.casting_cost.content_width) + 5 }
-		height: 16
-		alignment: bottom right
+		height: 21
+		alignment: middle right
 		symbol font:
 			name: magic-mana-small
-			size: 11
-			alignment: bottom right
+			size: 16
+			alignment: middle right
 		always symbol: true
 		z index: 2
 		padding top: 0
 	casting cost 2:
 		right: 496
-		top : 18.5
+		top : 21
 		width: { max(30, card_style.casting_cost.content_width) + 5 }
-		height: 16
-		alignment: bottom right
+		height: 21
+		alignment: middle right
 		symbol font:
 			name: magic-mana-small
-			size: 11
-			alignment: bottom right
+			size: 16
+			alignment: middle right
 		always symbol: true
 		z index: 2
 		padding top: 0
 	############################# Image
 	image:
-		left:	36
-		top:	40
-		width:	200
-		height:	162
+		left:	37
+		top:	47
+		width:	197
+		height:	130
 		z index: 1
 	image 2:
-		left:	287
-		top:	40
-		width:	200
-		height:	162
+		left:	288
+		top:	47
+		width:	197
+		height:	130
 		z index: 1
 	############################# Card type
 	type:
-		left: 32
-		top : 206
+		left: 33
+		top : 182
 		width: { 210 - max(13,card_style.rarity.content_width) }
-		height: 16
-		alignment: middle shrink-overflow
+		height: 21
+		alignment: bottom shrink-overflow
 		z index: 1
+		padding top: 0
 		font:
 			name: MPlantin
-			size: 9.5
+			size: 13
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 			separator color: rgb(128,128,128)
 	type 2:
-		left: 284
-		top : 206
+		left: 285
+		top : 182
 		width: { 210 - max(13,card_style.rarity.content_width) }
-		height: 16
+		height: 21
 		alignment: middle shrink-overflow
 		z index: 1
 		font:
 			name: MPlantin
-			size: 9.5
+			size: 13
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 			separator color: rgb(128,128,128)
 	rarity:
-		right: 241
-		top : 207
-		width: 26
-		height: 13
+		right: 242
+		top : 180
+		width: 44
+		height: 22
 		z index: 2
 		alignment: middle right
 		render style: image
@@ -340,11 +357,16 @@ card style:
 					if styling.colored_rarities
 					then symbol_variation(symbol: set.symbol, variation: "special")
 					else symbol_variation(symbol: set.symbol, variation: "common")
+			masterpiece:
+				script:
+					if styling.colored_rarities
+					then symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
+					else symbol_variation(symbol: set.masterpiece_symbol, variation: "common")
 	rarity 2:
-		right: 493
-		top : 207
-		width: 26
-		height: 13
+		right: 494
+		top : 180
+		width: 44
+		height: 22
 		z index: 2
 		alignment: middle right
 		render style: image
@@ -372,12 +394,17 @@ card style:
 					if styling.colored_rarities
 					then symbol_variation(symbol: set.symbol, variation: "special")
 					else symbol_variation(symbol: set.symbol, variation: "common")
+			masterpiece:
+				script:
+					if styling.colored_rarities
+					then symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
+					else symbol_variation(symbol: set.masterpiece_symbol, variation: "common")
 	############################# Text box
 	text:
-		left: 37
-		top : 226
-		width: 198
-		height: 99
+		left: 38
+		top : 207
+		width: 197
+		height: 109
 		font:
 			name: MPlantin
 			italic name: MPlantin-Italic
@@ -389,11 +416,11 @@ card style:
 			size: 14
 		alignment:
 			script:
-				if (styling.center_text == "short text only" and
+				if (styling.center_text_1 == "short text only" and
 				   not contains(match:"\n", card.rule_text) and
 				   card.flavor_text == "<i-flavor></i-flavor>" and
 				   card_style.text.content_lines <= 2) or
-				   styling.center_text == "always"
+				   styling.center_text_1 == "always"
 				then "middle center"
 				else "middle left"
 		z index: 2
@@ -405,10 +432,10 @@ card style:
 		line height line: 1.5
 		line height soft: 0.9
 	text 2:
-		left: 289
-		top : 226
-		width: 198
-		height: 99
+		left: 290
+		top : 207
+		width: 197
+		height: 109
 		font:
 			name: MPlantin
 			italic name: MPlantin-Italic
@@ -420,11 +447,11 @@ card style:
 			size: 14
 		alignment:
 			script:
-				if (styling.center_text == "short text only" and
+				if (styling.center_text_2 == "short text only" and
 				   not contains(match:"\n", card.rule_text) and
 				   card.flavor_text == "<i-flavor></i-flavor>" and
 				   card_style.text.content_lines <= 2) or
-				   styling.center_text == "always"
+				   styling.center_text_2 == "always"
 				then "middle center"
 				else "middle left"
 		z index: 2
@@ -437,18 +464,18 @@ card style:
 		line height soft: 0.9
 	watermark:
 		left: 87
-		top : 228
-		width: 92
-		height: 108
+		top : 205
+		width: 96
+		height: 115
 		z index: 1
 		render style: image
 		alignment: middle center
 		include file: /magic-watermarks.mse-include/watermarks-old
 	watermark 2:
 		left: 338
-		top : 228
-		width: 92
-		height: 108
+		top : 205
+		width: 96
+		height: 115
 		z index: 1
 		render style: image
 		alignment: middle center
@@ -456,14 +483,14 @@ card style:
 	############################# PT
 	pt:
 		z index: 2
-		left:	208
-		top:	331
-		width:	37
-		height:	23
+		left:	195
+		top:	324
+		width:	47
+		height:	27
 		alignment: middle right
 		font:
 			name: { styling.pt_font }
-			size: 14
+			size: 17
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
@@ -471,14 +498,14 @@ card style:
 			separator color: rgb(200,0,0)
 	pt 2:
 		z index: 2
-		left:	460
-		top:	331
-		width:	37
-		height:	23
+		left:	447
+		top:	324
+		width:	47
+		height:	27
 		alignment: middle right
 		font:
 			name: { styling.pt_font }
-			size: 14
+			size: 17
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
@@ -486,37 +513,37 @@ card style:
 			separator color: rgb(200,0,0)
 	############################# Copyright stuff
 	illustrator:
-		left: 34
-		top : 333
-		width: 205
-		height: 9
+		left: 35
+		top : 324
+		width: 203
+		height: 16
 		alignment: { if styling.left_align_artist then "middle left" else "middle center" }
 		z index: 1
 		font:
 			name: MPlantin
-			size: 9
+			size: 11
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 	illustrator 2:
-		left: 286
-		top : 333
-		width: 205
-		height: 9
+		left: 287
+		top : 324
+		width: 203
+		height: 16
 		alignment: { if styling.left_align_artist then "middle left" else "middle center" }
 		z index: 1
 		font:
 			name: MPlantin
-			size: 9
+			size: 11
 			color: rgb(255,255,255)
 			shadow color: rgb(0,0,0)
 			shadow displacement x: 1
 			shadow displacement y: 1
 	copyright line:
-		left: 34
-		top : 342
-		width: 205
+		left: 35
+		top : 338
+		width: 203
 		height: 12
 		alignment: { if styling.left_align_artist then "middle left" else "middle center" }
 		z index: 1
@@ -525,9 +552,9 @@ card style:
 			size: 6
 			color: { font_color(card.card_color) }
 	copyright line 2:
-		left: 286
-		top : 342
-		width: 205
+		left: 287
+		top : 338
+		width: 203
 		height: 12
 		alignment: { if styling.left_align_artist then "middle left" else "middle center" }
 		z index: 1

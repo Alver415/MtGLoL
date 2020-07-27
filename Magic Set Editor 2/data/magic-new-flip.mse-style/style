@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Flip Cards
 full name: Modern flip cards
 installer group: magic/new style/flip cards
 icon: card-sample.png
-position hint: 002
+position hint: 244
 
-version: 2010-12-17
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2010-04-07
@@ -294,6 +294,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 33

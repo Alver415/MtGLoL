@@ -1,12 +1,12 @@
 ﻿# Simple exporter for HTML files
-mse version: 0.3.7
+mse version: 2.0.0
 game:        magic
 short name:  Spoiler
 full name:   List of cards
 installer group: magic/Export/Spoiler (list of cards)
 icon: preview.png
 create directory: true
-version: 2008-08-07
+version: 2014-06-19
 depends on: magic.mse-game 2008-05-18
 
 ########################################################################################
@@ -152,10 +152,21 @@ script:
 		     <span class='card-number'  >{  to_html(card.card_number  ) }</span>
 		  </li>"
 	}
+	kind_of_card := { if contains(card.shape, match:"token") then ""
+		else if contains(card.shape, match:"rulestip") then ""
+		else if contains(card.shape, match:"counter") then ""
+		else if contains(card.shape, match:"emblem") then ""
+		else if contains(card.shape, match:"split") then write_card()
+		else if contains(card.shape, match:"double faced") then write_card()
+		else if card.name_2 != "" then write_card()
+		else if card.loyalty != "" then write_card()
+		else if contains(card.shape, match:"leveler") then write_card()
+		else write_card()
+		}
 	write_cards := {
 		"<ul class='cards'>{
 		  for each card in sort_list(cards, order_by: {input.card_number}) do
-		     write_card()
+		     kind_of_card()
 		}</ul>"
 	}
 	write_group := {
@@ -213,19 +224,19 @@ script:
 	  }
 	  { if options.grouping == "group by color" then
 	       # Codes as by sort_index
-	       write_group(title: "White",                  code:"A") +
-	       write_group(title: "Blue",                   code:"B") +
-	       write_group(title: "Black",                  code:"C") +
-	       write_group(title: "Red",                    code:"D") +
-	       write_group(title: "Green",                  code:"E") +
-	       write_group(title: "Multicolor",             code:"F") +
-	       write_group(title: "Hybrids",                code:"G") +
-	       write_group(title: "Multicolor split cards", code:"H") +
-	       write_group(title: "Colorless",              code:"I") +
-	       write_group(title: "Non-basic lands",        code:"K") +
-	       write_group(title: "Basic lands",            code:"L")
-	    else
-	       write_cards(cards: cards)
+	       write_group(title: "Colorless"               code:"A") +
+	       write_group(title: "White",                  code:"B") +
+	       write_group(title: "Blue",                   code:"C") +
+	       write_group(title: "Black",                  code:"D") +
+	       write_group(title: "Red",                    code:"E") +
+	       write_group(title: "Green",                  code:"F") +
+	       write_group(title: "Multicolor",             code:"G") +
+	       write_group(title: "Hybrids",                code:"H") +
+	       write_group(title: "Multicolor split cards", code:"I") +
+	       write_group(title: "Colorless",              code:"K") +
+	       write_group(title: "Non-basic lands",        code:"L") +
+	       write_group(title: "Basic lands",            code:"")
+	    else write_cards(cards: cards)
 	  }
 	  <script><!--
 	  init();

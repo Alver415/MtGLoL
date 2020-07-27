@@ -1,45 +1,40 @@
-﻿
-############################################################## Card pack types
-
-pack type:
+﻿pack type:
 	name: basic land
 	select: equal
-	filter: card.rarity == "basic land" and not is_token_card() # can be shifted
+	filter: card.rarity == "basic land" and not is_token_card() and not is_masterpiece() # can be shifted
 pack type:
 	name: common
-	filter: card.rarity == "common" and not is_token_card() and not is_shifted_card()
+	filter: card.rarity == "common" and not is_token_card() and not is_shifted_card() and not is_masterpiece() and not is_unsorted()
 pack type:
 	name: uncommon
-	filter: card.rarity == "uncommon" and not is_token_card() and not is_shifted_card()
+	filter: card.rarity == "uncommon" and not is_token_card() and not is_shifted_card() and not is_masterpiece() and not is_unsorted()
 pack type:
 	name: rare
-	filter: card.rarity == "rare" and not is_token_card() and not is_shifted_card()
+	filter: card.rarity == "rare" and not is_token_card() and not is_shifted_card() and not is_masterpiece() and not is_unsorted()
 pack type:
 	name: mythic rare
-	filter: card.rarity == "mythic rare" and not is_token_card() and not is_shifted_card()
+	filter: card.rarity == "mythic rare" and not is_masterpiece() and not is_token_card() and not is_shifted_card() and not is_unsorted()
 pack type:
 	name: special
 	filter: card.rarity == "special" and not is_token_card() # can be shifted
-
 pack type:
 	name: shifted common
-	filter: card.rarity == "common" and not is_token_card() and is_shifted_card()
+	filter: card.rarity == "common" and not is_token_card() and is_shifted_card() and not is_unsorted()
 pack type:
 	name: shifted uncommon
-	filter: card.rarity == "uncommon" and not is_token_card() and is_shifted_card()
+	filter: card.rarity == "uncommon" and not is_token_card() and is_shifted_card() and not is_unsorted()
 pack type:
 	name: shifted rare
 	filter:
 		( card.rarity == "rare" or
 		  card.rarity == "mythic rare" # We've got to put shifted mythic rares somewhere
-		) and not is_token_card() and is_shifted_card()
-
+		) and not is_token_card() and is_shifted_card() and not is_unsorted()
 pack type:
 	name: token / rulestip
 	filter: is_token_card()
-
-############################################################## shifted/special if possible
-
+pack type:
+	name: masterpiece
+	filter: is_masterpiece()
 # shifted common if they exist, otherwise a normal common
 pack type:
 	name: shifted common or else common
@@ -106,6 +101,7 @@ pack type:
 	item:
 		name: shifted rare
 		weight: 1
+
 
 ############################################################## Common proportions of cards
 
@@ -184,3 +180,21 @@ pack type:
 pack type:
 	name: additional token / rulestip
 	item: token / rulestip
+pack type:
+	name: common sometimes masterpiece
+	select: equal
+	item:
+		name: masterpiece
+		weight: 1
+	item:
+		name: common
+		weight: 35
+pack type:
+	name: common rarely masterpiece
+	select: equal
+	item:
+		name: masterpiece
+		weight: 1
+	item:
+		name: common
+		weight: 143

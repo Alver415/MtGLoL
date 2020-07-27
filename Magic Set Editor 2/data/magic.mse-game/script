@@ -5,11 +5,11 @@ include file: language
 ############################################################## Sorting mana symbols
 
 # correctly sort a mana symbol (no guild mana)
-mana_sort       := sort_text@(order: "XYZI[0123456789]HSC(WUBRG)")
+mana_sort       := sort_text@(order: "XYZI[0123456789]DHSC(WUBRG)")
 # correctly sort wedge mana
-mana_sort_wedge := sort_text@(order: "XYZI[0123456789]HSC(WBGUR)")
+mana_sort_wedge := sort_text@(order: "XYZI[0123456789]DHSC(WBGUR)")
 # correctly sort guild mana
-mana_sort_guild := sort_text@(order: "[XYZI01234567890HSCWUBRG/|]") +
+mana_sort_guild := sort_text@(order: "[XYZI01234567890DHSCWUBRG/|]") +
 		replace@(
 			# No lookbehind :(
 			#match: "(?<!/)(./.|././.|./././.|.[|])(?!/)",
@@ -18,10 +18,11 @@ mana_sort_guild := sort_text@(order: "[XYZI01234567890HSCWUBRG/|]") +
 			replace: {sort_text(order:"in_place((WUBRG)")}
 		)
 mana_has_guild := match@(match: "[/|]") # Is there guild or half mana in the input?
-mana_is_wedge := { set.wedge_mana_costs and ( number_of_items(in: sort_text(order:"<WUBRG>", card.casting_cost), filter: "<WUBRG>") == 3 ) }
+mana_is_wedge := { contains(set.mana_cost_sorting, match: "wedge") and ( number_of_items(in: sort_text(order:"<WUBRG>", card.casting_cost), filter: "<WUBRG>") == 3 ) }
 # A mana cost can contain both normal and guild mana
 mana_filter := to_upper + {
-	if mana_has_guild() then mana_sort_guild()
+	if contains(set.mana_cost_sorting, match: "unsorted") then input
+	else if mana_has_guild() then mana_sort_guild()
 	else if mana_is_wedge() then mana_sort_wedge()
 	else                     mana_sort()
 }
@@ -290,11 +291,14 @@ rarity_sort := {
 	else if card.shape == "rulestip" then "T3"
 	else if card.shape == "counter" then "T4"
 	else if card.shape == "checklist" then "T5"
+	else if is_masterpiece() then "T6"
 	else if set.sort_special_rarity == "with the rest" or card.rarity != "special" then " "
 	else "S"
 }
 set_filter := {
 	# TODO: what about rulestips?
+	if is_unsorted() then 
+		{ is_unsorted() }
 	if card.shape == "token" or card.shape == "emblem" then
 		{ card.shape == "token" or card.shape == "emblem" }
 	else if card.shape == "rulestip" then
@@ -303,12 +307,14 @@ set_filter := {
 		{ card.shape == "counter" }
 	else if card.shape == "checklist" then
 		{ card.shape == "checklist" }
-	else if set.sort_special_rarity != "separate numbering" then
-		{ card.shape != "token" and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist"}
-	else if card.rarity == "special" then
-		{ card.shape != "token" and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist" and card.rarity == "special" }
-	else
-		{ card.shape != "token" and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist" and card.rarity != "special" }
+	else if is_masterpiece() and card.shape != "token" and card.shape != "emblem" then
+    		{ is_masterpiece() and card.shape != "token" and card.shape != "emblem" }
+    	else if set.sort_special_rarity != "separate numbering" then
+    		{ not is_unsorted() and card.shape != "token" and not is_masterpiece() and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist"}
+    	else if card.rarity == "special" then
+    		{ not is_unsorted() and card.shape != "token" and not is_masterpiece() and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist" and card.rarity == "special" }
+    	else
+    		{ not is_unsorted() and card.shape != "token" and not is_masterpiece() and card.shape != "emblem" and card.shape != "rulestip" and card.shape != "counter" and card.shape != "checklist" and card.rarity != "special" }
 }
 
 card_number := {
@@ -330,10 +336,13 @@ card_count_m15 := { (if card_count() < 100 then "0" else "") + (if card_count() 
 # used by pack scripts
 is_token_card   := { card.shape == "token" or card.shape == "rulestip" or card.shape == "counter" or card.shape == "checklist" or card.shape == "emblem"}
 is_shifted_card := { contains(card.shape, match:"shifted") }
+is_masterpiece := { card.rarity == "masterpiece" }
+is_nightbreak := { card.shape == "nightbreak" }
 
 
 ############################################################## Utilities for keywords
 
+comma_count := filter_text@(match:",")
 # Replace spaces by a spacer
 separate_words := remove_tags + trim + replace@(match:" ", replace: {spacer})
 
@@ -343,10 +352,14 @@ add := "" # default is nothing
 # If the 'input' parameter is a mana costs, then adds 'add'
 for_mana_costs := format_cost := {
 	if input.separator_before == "—" and contains(input.param, match: " ") then (
-		if contains(input.param, match:",") then (
-			if match(match: "^[HSCTQXYZIWUBRG0-9/|]+,", input.param) then
+		if comma_count(input.param) == "," then (
+			if match(match: "^[DHSCTQXYZIWUBRG0-9/|]+,", input.param) then
 				"{add}<param-cost>{combined_cost(input.param)}</param-cost>"
 			else "<param-cost>{combined_cost(input.param)}</param-cost>"
+		) else if contains(input.param, match: ",") then (
+			if match(match: "^[DHSCTQXYZIWUBRG0-9/|]+,", input.param) then
+				"{add}<param-cost>{long_cost(input.param)}</param-cost>"
+			else "<param-cost>{long_nomana_cost(input.param)}</param-cost>"
 		) else
 			"<param-cost>{alternative_cost(input.param)}</param-cost>"
 	) else
@@ -355,11 +368,13 @@ for_mana_costs := format_cost := {
 
 # Convert first character to lower case
 alternative_cost := replace@(match:"^[A-Z]", replace: { to_lower() })
-
+# Convert extra costs
+long_cost := replace@(match:", [A-Z]", replace: { to_lower() } )
+long_nomana_cost := replace@(match:"[A-Z]", replace: { to_lower() })
 #
 combined_cost := replace@(match:", [A-Z]", replace: { to_lower() })+
 	replace@(match:",", replace:" and")+
-	replace@(match:"^[HSCTQXYZIWUBRG0-9/|]", in_context: "(^|[[:space:]])<match>", replace: "<sym-auto>&</sym-auto>")+
+	replace@(match:"^[DHSCTQXYZIWUBRG0-9/|]+", in_context: "(^|[[:space:]])<match>(?![a-z])", replace: "<sym-auto>&</sym-auto>")+
 	replace@(match:"^[A-Z]", replace: { to_lower() })
 
 long_dash := replace@(match:"-", replace:"—")
@@ -391,13 +406,16 @@ mana_context :=
 	 (^|[[:space:]\"(“'])		# start of a word
 	 (  <match>:			# G: something
 	 |  <match>,			# G, tap: something
+	 |  or[ ]<match>		# Add X, Y, or Z.
+	 |  <match>[ ]to		# Add X, Y, or Z to your mana pool.
+	 |  <match>[ ]was[ ]spent		# if G was spent to cast
 	 |  <match>[ ]can[ ]be[ ]pay
 	 |  (pays?|additional|costs?|the	# pay X. creatures cost 1 less. pay an additional G.
 	    |adds?|pay(ed)?[ ](with|using)
 	    )
 	    ([ ]either)?			 # pay either X or Y
-	    ([ ](<sym[^>]*>)?[HSCTQXYZIWUBRG0-9/|]+(</sym[^>]*>)?,)* # pay X, Y or Z
-	    ([ ](<sym[^>]*>)?[HSCTQXYZIWUBRG0-9/|]+(</sym[^>]*>)?[ ](and|or|and/or))* # pay X or Y
+	    ([ ](<sym[^>]*>)?[DHSCTQXYZIEWUBRG0-9/|]+(</sym[^>]*>)?,)* # pay X, Y or Z
+	    ([ ](<sym[^>]*>)?[DHSCTQXYZIEWUBRG0-9/|]+(</sym[^>]*>)?[ ](and|or|and/or))* # pay X or Y
 	    [ ]<match>
 	    ([,.)]|$				# (end of word)
 	    |[ ][^ .,]*$			# still typing...
@@ -408,6 +426,7 @@ mana_context :=
 	 |  <param-cost>[ ]*<match></param-cost>	# keyword argument that is declared as cost
 	 |  <param-cost><match>,			# keyword argument that is declared as cost
 	 ";
+
 
 # truncates the name of legends
 legend_filter := replace@(match:"(, | of | the ).*", replace: "" )
@@ -476,19 +495,19 @@ text_filter :=
 		) +
 	# step 4 : explict non mana symbols
 	replace@(
-		match: "\\][HSCTQXYZIWUBRG0-9/|]+\\[",
+		match: "\\][DHSCTQXYZIWUBRG0-9/|]+\\[",
 		replace: {"<nosym>" + mana_filter_t() + "</nosym>"} ) +
 	# step 5 : add mana & tap symbols
 	replace@(
-		match: "\\b[HSCTQXYZIWUBRG0-9/|]+\\b",
+		match: "\\b[DHSCTQXYZIWUBRG0-9/|]+\\b",
 		in_context: mana_context,
 		replace: {"<sym-auto>" + mana_filter_t() + "</sym-auto>"} ) +
-	# step 5b : add explict mana symbols
+	# step 5c : add explicit mana symbols
 	replace@(
-		match: "\\[[HSCTQXYZIWUBRG0-9/|]+\\]",
+		match: "\\[[DHSCTQXYZIWUBRG0-9/|]+\\]",
 		replace: {"<sym>" + mana_filter_t() + "</sym>"} ) +
 	# step 6 : curly quotes
-	curly_quotes +
+	(if set.curly_quotes then curly_quotes) +
 	# step 7 : italicize text in parenthesis
 	replace@(
 	 	match: "[(]([^)\n]|[(][^)\n]*[)])*[)]?",
@@ -521,7 +540,7 @@ flavor_text_filter :=
 	# step 2 : surround by <i> tags
 	{ "<i-flavor>" + input + "</i-flavor>" } +
 	# curly quotes
-	curly_quotes +
+	(if set.curly_quotes then curly_quotes) +
 	# spellcheck
 	{ if set.mark_errors
 	  then check_spelling(language:language().spellcheck_code)
@@ -596,6 +615,7 @@ all_classes := {
 # Determine a rarity code for M15 styles.
 rarity_code := {
 	if is_promo() then "P"
+	else if is_masterpiece() then "S"
 	else if contains(card.shape, match:"token") then "T"
 	else if contains(card.shape, match:"emblem") then "E"
 	else if card.rarity == "common" then "C"
@@ -609,7 +629,7 @@ rarity_code := {
 is_promo := { "false" }
 
 # Determine if the card is a rare.
-is_rare := { card.rarity == "rare" or card.rarity == "mythic rare" }
+is_rare := { card.rarity == "rare" or card.rarity == "mythic rare" or card.rarity == "masterpiece" }
 
 # Shape of cards, can be changed in style files
 card_shape := { "normal" }
@@ -653,7 +673,7 @@ has_identity_2 := { ( ( card.card_color_2 != card_color(casting_cost: card.casti
 is_half_mana    := match@(match: "1/2|[|][WUBRGS]")
 is_colored_mana := match@(match: "[WUBRG]")
 only_numbers    := filter_text@(match: "^[0123456789]+")
-cmc_split := break_text@(match: "(?ix) 1/2 | [|][WUBRG] | [0-9]+(?!/[WUBRGHSCTQ2]) | [WUBRGHS0-9](/[WUBRGHS])\{0,4} ")
+cmc_split := break_text@(match: "(?ix) 1/2 | [|][WUBRG] | [0-9]+(?!/[WUBRGDHSCTQ2]) | [WUBRGDHS0-9](/[WUBRGDHS])\{0,4} ")
 cmc := {to_number(
 	for each sym in cmc_split(to_text()) do (
 		numbers := only_numbers(sym)
@@ -693,6 +713,35 @@ primary_card_color := {
 	else if green                                     then "green"
 	else                                                   input
 }
+mainframe_stat_color := {
+	artifact := chosen(choice:"artifact") and not (chosen(choice:"white") or chosen(choice:"blue") or chosen(choice:"black") or chosen(choice:"red") or chosen(choice:"green"))
+	land     := chosen(choice:"land")
+	multi    := chosen(choice:"multicolor")
+	hybrid   := chosen(choice:"hybrid")
+	white    := chosen(choice:"white")
+	blue     := chosen(choice:"blue")
+	black    := chosen(choice:"black")
+	red      := chosen(choice:"red")
+	green    := chosen(choice:"green")
+	pink	 := chosen(choice:"pink")
+	purple	 := chosen(choice:"purple")
+	if      land                                      then "land"
+	else if multi                                     then "multicolor"
+	else if hybrid                                    then "hybrid"
+	else if artifact                                  then "artifact"
+	else if white                                     then "white"
+	else if blue                                      then "blue"
+	else if black                                     then "black"
+	else if red                                       then "red"
+	else if green                                     then "green"
+	else if pink					  then "pink"
+	else if purple					  then "purple"
+	else                                                   input
+}
+is_mainframe := { false }
+is_walker := { contains(card.super_type, match:"Planeswalker") }
+mainframe_power := { card.power }
+mainframe_toughness := { card.toughness }
 
 word_count := break_text@(match:"[^[:space:]]+") + length
 line_count := split_text@(match:"\n+",include_empty:false) + length
@@ -704,3 +753,42 @@ remove_supertype := replace@(match: "(Legendary|Basic|Snow|World|Tribal|Token)",
 remove_type := replace@(match: "(Artifact|Creature|Enchantment|Instant|Land|Planeswalker|Sorcery)", replace: "")+
 	replace@(match: "[ ]+", in_context: "^<match>", replace: "")+
 	replace@(match: "[ ]+", in_context: "<match>$", replace: "")
+node_script := { if card.shape == "double faced" then "transform day"  else "none" }
+node_script_2 := {
+	if card.mainframe_node == "transform day" then "transform night"
+	else if card.mainframe_node == "transform night" then "transform day"
+	else if card.mainframe_node == "transform moon" then "transform eldrazi"
+	else if card.mainframe_node == "transform eldrazi" then "transform moon"
+	else if card.mainframe_node == "transform sparker" then "transform aetherprint"
+	else if card.mainframe_node == "transform aetherprint" then "transform sparker"
+	else "none"	
+}
+card_new_color := {
+	if card.card_color == "white" then "w"
+	else if card.card_color == "blue" then "u"
+	else if card.card_color == "black" then "b"
+	else if card.card_color == "red" then "r"
+	else if card.card_color == "green" then "g"
+	else if contains(card.card_color, match:"artifact") then "a"
+	else if contains(card.card_color, match:"multi") or contains(card.card_color, match:"hybrid") then "m"
+	else "c"
+}
+spark_color := {
+	if card.card_color == "white" then "w"
+	else if card.card_color == "blue" then "u"
+	else if card.card_color == "black" then "b"
+	else if card.card_color == "red" then "r"
+	else if card.card_color == "green" then "g"
+	else if contains(card.card_color, match:"multi") or contains(card.card_color, match:"hybrid") then "m"
+	else ""
+}
+card_spotlight := { "/magic-mainframe-watermarks.mse-include/spotlight/" + card_new_color() + "spotlight.png" }
+
+ancestral_mana := { card.pt != "" and card.pt == "" }
+exporter_check := { "no" }
+custom_watermark_1 := { if set.custom_watermark_1 != "" then "/magic-watermarks.mse-include/" + set.custom_watermark_1 else "/magic-watermarks.mse-include/aetherprint3.png" }
+custom_watermark_2 := { if set.custom_watermark_2 != "" then "/magic-watermarks.mse-include/" + set.custom_watermark_2 else "/magic-watermarks.mse-include/aetherprint3.png" }
+custom_watermark_3 := { if set.custom_watermark_3 != "" then "/magic-watermarks.mse-include/" + set.custom_watermark_3 else "/magic-watermarks.mse-include/aetherprint3.png" }
+custom_watermark_4 := { if set.custom_watermark_4 != "" then "/magic-watermarks.mse-include/" + set.custom_watermark_4 else "/magic-watermarks.mse-include/aetherprint3.png" }
+custom_watermark_5 := { if set.custom_watermark_5 != "" then "/magic-watermarks.mse-include/" + set.custom_watermark_5 else "/magic-watermarks.mse-include/aetherprint3.png" }
+is_unsorted := {"false"}

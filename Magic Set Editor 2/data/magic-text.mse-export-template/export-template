@@ -1,0 +1,31 @@
+mse version: 0.3.8
+short name: Text
+full name: Raw list data
+position hint: 002
+icon: icon.png
+version: 2009-06-29
+installer group: magic/Export/text
+
+depends on: magic.mse-game 2008-08-08
+
+game: magic
+create directory: false
+file type: *.txt|*.txt|*.*|*.*
+
+option field:
+	type: choice
+	name: output
+	description: What data should be output?
+	choice: card names
+	choice: MSE forum
+
+script:
+	MSEcard := {"[b]"+card.name+"[/b] "+to_text(card.casting_cost)+"\n"
+			+to_text(card.type)+" ("+substring(to_text(card.rarity),end:1)+")"+"\n"
+			+to_text(card.rule_text)+"\n"
+			+to_text(if length(to_text(card.flavor_text))>0 then "[i]"+to_text(card.flavor_text)+"[/i]\n" else "")
+			+to_text(card.pt)+"\n\n"
+			}
+	write_card := {if options.output=="card names" then to_text(card.name+"\n") else MSEcard()}
+	write_cards := to_text(for each card in sort_list(cards, order by: {input.card_number}) do write_card())
+	to_string(write_cards)

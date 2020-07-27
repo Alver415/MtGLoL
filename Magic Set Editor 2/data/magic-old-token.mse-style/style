@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Tokens
 full name: Old style
 installer group: magic/old style/tokens
 icon: card-sample.png
-position hint: 107
+position hint: 304
 
-version: 2009-07-09
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -264,6 +264,11 @@ card style:
 					if styling.colored_rarities
 					then symbol_variation(symbol: set.symbol, variation: "special")
 					else symbol_variation(symbol: set.symbol, variation: "common")
+			masterpiece:
+				script:
+					if styling.colored_rarities
+					then symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
+					else symbol_variation(symbol: set.masterpiece_symbol, variation: "common")
 	############################# Text box
 	text:
 		left: 63

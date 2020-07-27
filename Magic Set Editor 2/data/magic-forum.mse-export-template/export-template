@@ -1,9 +1,9 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 short name: Forum
 full name: Spoiler Exporter
 position hint: 006
 icon: icon.png
-version: 2010-06-06
+version: 2014-01-19
 installer group: magic/Export/forum
 
 depends on:
@@ -422,8 +422,52 @@ script:
 			+(if options.include_notes and card.notes !="" then "[/spoiler]")
 		+"\n"
 		}
-	write_card := { if contains(card.shape, match:"token") or contains(card.shape, match:"rulestip") then ""
+	write_dfc := {
+		# The Name and Casting Cost
+		"\n[b]"+card.name+"[/b] "
+			+(if not options.text_costs then mtgsally_mse_forum_cost(card.casting_cost))
+			+(if options.text_costs then card.casting_cost)
+		# The Type and Rarity
+		+"\n"+card.type+(if options.color_rarities then rarity_color() else rarity_uncolor())
+		# The Rules Text
+		+(if card.rule_text != "" then "\n")
+			+(if not options.text_costs then forum_rules_filter_mtgsally_mse(remove_tags(card.rule_text)))
+			+(if options.text_costs then forum_rules_filter_plain(card.rule_text))
+		# The Flavor Text
+		+(if card.flavor_text != "<i-flavor></i-flavor>" then "\n[i]")
+			+card.flavor_text
+			+(if card.flavor_text != "<i-flavor></i-flavor>" then "[/i]")
+		# The P/T
+		+(if contains(card.type, match:"Creature") then "\n")
+			+(if contains(card.type, match:"Creature") then card.pt)
+		+"\n ---Other Side--- "
+		# The Flip Name and Casting Cost
+		+"\n[b]"+card.name_2+"[/b] "
+			+(if not options.text_costs then mtgsally_mse_forum_cost(card.casting_cost_2))
+			+(if options.text_costs then card.casting_cost_2)
+		# The Flip Rules Text
+		+(if card.rule_text_2 != "" then "\n")
+			+(if not options.text_costs then forum_rules_filter_mtgsally_mse(remove_tags(card.rule_text_2)))
+			+(if options.text_costs then forum_rules_filter_plain(card.rule_text_2))
+		# The Flip Flavor Text
+		+(if card.flavor_text_2 != "<i-flavor></i-flavor>" then "\n[i]")
+			+card.flavor_text_2
+			+(if card.flavor_text_2 != "<i-flavor></i-flavor>" then "[/i]")
+		# The Flip P/T
+		+(if contains(card.type_2, match:"Creature") then "\n")
+			+(if contains(card.type_2, match:"Creature") then card.pt_2)
+		# The Notes
+		+(if options.include_notes and card.notes !="" then "\n[spoiler]Card Notes: ")
+			+(if options.include_notes and card.notes !="" then card.notes)
+			+(if options.include_notes and card.notes !="" then "[/spoiler]")
+		+"\n"
+		}
+	write_card := { if contains(card.shape, match:"token") then ""
+		else if contains(card.shape, match:"rulestip") then ""
+		else if contains(card.shape, match:"counter") then ""
+		else if contains(card.shape, match:"emblem") then ""
 		else if contains(card.shape, match:"split") then write_split()
+		else if contains(card.shape, match:"double faced") then write_dfc()
 		else if card.name_2 != "" then write_flip()
 		else if card.loyalty != "" then write_walker()
 		else if contains(card.shape, match:"leveler") then write_leveler()

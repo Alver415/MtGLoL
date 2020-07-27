@@ -1,18 +1,21 @@
-﻿mse version: 0.3.9
+﻿mse version: 2.0.0
 game: magic
-short name: Counters
-full name: Counters style
+short name: SOM Counters
+full name: from Scars of Mirrodin
 icon: card-sample.png
-position hint: 963
-installer group: magic/counter cards
+position hint: 999
+installer group: magic/counter cards/som
 
-version: 2011-01-23
+version: 2014-06-20
 depends on:
 	package: magic.mse-game
 	version: 2010-10-09
 depends on:
 	package: magic-mana-small.mse-symbol-font
 	version: 2007-09-23
+depends on:
+	package: magic-watermarks-counter.mse-include
+	version: 2014-06-20
 
 card width: 375
 card height: 523
@@ -171,7 +174,7 @@ card style:
 		render style: image
 		alignment: middle center
 		popup style: in place
-		include file: watermarks
+		include file: /magic-watermarks-counter.mse-include/watermarks
 	############################# PT
 	############################# Card sorting / numbering
 	############################# Copyright stuff

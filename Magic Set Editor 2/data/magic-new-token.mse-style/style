@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Tokens
 full name: Modern style
 installer group: magic/new style/tokens
 icon: card-sample.png
-position hint: 007
+position hint: 204
 
-version: 2010-07-25
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -18,6 +18,9 @@ depends on:
 	version: 2007-09-23
 depends on:
 	package: magic-embossedletters.mse-symbol-font
+	version: 2007-09-23
+depends on:
+	package: magic-watermarks.mse-include
 	version: 2007-09-23
 
 card width: 375
@@ -243,6 +246,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	text:
 		left: 31
@@ -285,6 +289,15 @@ card style:
 		line height hard: 1.2
 		line height line: 1.5
 		line height soft: 0.9
+	watermark:
+		left: 150
+		top: { if text_shape() == "2" then 388 else 600 }
+		width: 69
+		height: 78
+		z index: 1
+		render style: image
+		alignment: middle center
+		include file: /magic-watermarks.mse-include/watermarks
 	############################# PT
 	pt:
 		z index: 2

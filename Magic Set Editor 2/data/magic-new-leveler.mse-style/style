@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 short name: Leveler
 full name: Post 8th Leveler Style
 icon: card-sample.png
-position hint: 006
 installer group: magic/new style/leveler cards
+position hint: 230
 
-version: 2010-04-06
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2010-04-06
@@ -82,6 +82,10 @@ set info style:
 			fill color:   rgb(255,255,255)
 			border color: rgb(0,0,0)
 ############################################################## Extra style options
+styling field:
+	type: text
+	name: level label
+	description: Should the level indicator say something other than "LEVEL"?
 styling field:
 	type: choice
 	name: artifact style
@@ -291,6 +295,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 	############### rule text 2 and 3 are in extra card fields
 	rule text:
@@ -505,28 +510,28 @@ extra card field:
 	name: lvl label 1
 	editable: false
 	save value: false
-	script: "LEVEL"
+	script: if styling.level_label == "" then "LEVEL" else styling.level_label
 # Repeat the word "LEVEL" with more shadow to give illusion of outline.
 extra card field:
 	type: text
 	name: lvl label 1 copy 1
 	editable: false
 	save value: false
-	script: "LEVEL"
+	script: if styling.level_label == "" then "LEVEL" else styling.level_label
 # Add the word "LEVEL" to the second arrow.
 extra card field:
 	type: text
 	name: lvl label 2
 	editable: false
 	save value: false
-	script: "LEVEL"
+	script: if styling.level_label == "" then "LEVEL" else styling.level_label
 # Repeat the word "LEVEL" with more shadow to give illusion of outline.
 extra card field:
 	type: text
 	name: lvl label 2 copy 1
 	editable: false
 	save value: false
-	script: "LEVEL"
+	script: if styling.level_label == "" then "LEVEL" else styling.level_label
 # Repeat the first level with more shadow to give illusion of outline.
 extra card field:
 	type: text

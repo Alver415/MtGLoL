@@ -4,9 +4,9 @@ short name: Textless
 full name: Modern style
 installer group: magic/new style/textless
 icon: card-sample.png
-position hint: 005
+position hint: 214
 
-version: 2009-07-07
+version: 2018-02-22
 depends on:
 	package: magic.mse-game
 	version: 2008-06-02
@@ -184,6 +184,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# PT
 	pt:
 		z index: 2

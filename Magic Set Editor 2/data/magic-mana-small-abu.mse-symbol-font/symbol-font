@@ -180,6 +180,30 @@ symbol:
 	code: |S
 	image: mana_s_half.png
 symbol:
+	code: H/W
+	image: mana_phy_w.png
+	image font size: 145
+symbol:
+	code: H/U
+	image: mana_phy_u.png
+	image font size: 145
+symbol:
+	code: H/B
+	image: mana_phy_b.png
+	image font size: 145
+symbol:
+	code: H/R
+	image: mana_phy_r.png
+	image font size: 145
+symbol:
+	code: H/G
+	image: mana_phy_g.png
+	image font size: 145
+symbol:
+	code: H
+	image: mana_phy_c.png
+	image font size: 145
+symbol:
 	code: W
 	image: mana_w.png
 symbol:

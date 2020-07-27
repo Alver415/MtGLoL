@@ -1,12 +1,12 @@
-﻿mse version: 0.3.8
+﻿mse version: 2.0.0
 game: magic
 full name: FPM's Flip Magic
 short name: FPM Flip
 installer group: magic/FirePenguinMaster/Flip cards
 icon: card-sample.png
-position hint: 802
+position hint: 805
 
-version: 2010-04-07
+version: 2018-02-23
 depends on:
 	package: magic.mse-game
 	version: 2010-04-07
@@ -270,6 +270,7 @@ card style:
 			rare:       script: symbol_variation(symbol: set.symbol, variation: "rare")
 			mythic rare:       script: symbol_variation(symbol: set.symbol, variation: "mythic rare")
 			special:	    script: symbol_variation(symbol: set.symbol, variation: "special")
+			masterpiece: script: symbol_variation(symbol: set.masterpiece_symbol, variation: "mythic rare")
 	############################# Text box
 #should the bottom textbox be the flipped or unflipped text?  if flipped, reverse orientations of fields.
 	text:

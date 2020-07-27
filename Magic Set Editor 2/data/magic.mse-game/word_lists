@@ -51,8 +51,8 @@ word list:
 		name: All Races
 		word:
 			name: A
+			word: Aetherborn
 			word: Angel
-			word: Anteater
 			word: Antelope
 			word: Ape
 			word: Archon
@@ -78,6 +78,7 @@ word list:
 			word: Camarid
 			word: Camel
 			word: Caribou
+			word: Carrier
 			word: Cat
 			word: Centaur
 			word: Cephalid
@@ -92,16 +93,17 @@ word list:
 			word: Dauthi
 			word: Demon
 			word: Devil
+			word: Dinosaur
 			word: Djinn
 			word: Dragon
 			word: Drake
 			word: Dreadnought
+			word: Drone
 			word: Dryad
 			word: Dwarf
 		word:
 			name: E
 			word: Efreet
-			word: Egg
 			word: Eldrazi
 			word: Elemental
 			word: Elephant
@@ -119,6 +121,7 @@ word list:
 		word:
 			name: G
 			word: Gargoyle
+			word: Germ
 			word: Giant
 			word: Gnome
 			word: Goat
@@ -135,6 +138,7 @@ word list:
 			word: Harpy
 			word: Hellion
 			word: Hippo
+			word: Hippogriff
 			word: Homarid
 			word: Homunculus
 			word: Horror
@@ -151,6 +155,7 @@ word list:
 			word: Insect
 		word:
 			name: J
+			word: Jackal
 			word: Jellyfish
 			word: Juggernaut
 		word:
@@ -163,6 +168,7 @@ word list:
 			word: Kraken
 		word:
 			name: L
+			word: Lamia
 			word: Lammasu
 			word: Leech
 			word: Leviathan
@@ -176,17 +182,21 @@ word list:
 			word: Merfolk
 			word: Metathran
 			word: Minotaur
+			word: Mole
 			word: Mongoose
+			word: Monkey
 			word: Moonfolk
 			word: Mutant
 			word: Myr
 		word:
 			name: N
+			word: Naga
 			word: Nautilus
 			word: Nephilim
 			word: Nightmare
 			word: Nightstalker
 			word: Noggle
+			word: Nymph
 		word:
 			name: O
 			word: Octopus
@@ -219,6 +229,7 @@ word list:
 			name: S
 			word:
 				name: Sa-Sl
+				word: Sable
 				word: Salamander
 				word: Sand
 				word: Saproling
@@ -226,6 +237,7 @@ word list:
 				word: Scarecrow
 				word: Scorpion
 				word: Serpent
+				word: Servo
 				word: Shade
 				word: Shapeshifter
 				word: Sheep
@@ -257,6 +269,7 @@ word list:
 			word: Thopter
 			word: Thrull
 			word: Treefolk
+			word: Trilobite
 			word: Triskelavite
 			word: Troll
 			word: Turtle
@@ -345,6 +358,7 @@ word list:
 			word: Mystic
 			word: Ninja
 			word: Nomad
+			word: Pilot
 			word: Pirate
 			word: Processor
 		word:
@@ -354,11 +368,13 @@ word list:
 			word: Rigger
 			word: Rogue
 			word: Samurai
+			word: Scion
 			word: Scout
 			word: Serf
 			word: Shaman
 			word: Skeleton
 			word: Soldier
+			word: Spawn
 			word: Spellshaper
 			word: Spirit
 			word: Survivor
@@ -406,6 +422,8 @@ word list:
 	word: Aura
 	word: Curse
 	word: Shrine
+	word: Cartouche
+	word: Saga
 
 word list:
 	name: spell
@@ -421,36 +439,89 @@ word list:
 		script: all_sub_types(match: "Planeswalker")
 		line below: true
 	word: Ajani
+	word: Angrath
+	word: Arlinn
 	word: Ashiok
+	word: Bolas
 	word: Chandra
 	word: Dack
+	word: Daretti
+	word: Domri
+	word: Dovin
 	word: Elspeth
+	word: Freylaise
 	word: Garruk
+	word: Gideon
+	word: Huatli
 	word: Jace
+	word: Karn
 	word: Kiora
+	word: Koth
 	word: Liliana
+	word: Nahiri
+	word: Narset
 	word: Nissa
+	word: Nixilis
+	word: Ral
+	word: Saheeli
+	word: Samut
+	word: Sarkhan
+	word: Sorin
+	word: Tamiyo
+	word: Teferi
+	word: Tezzeret
+	word: Tibalt
+	word: Ugin
+	word: Venser
+	word: Vraska
 	word: Xenagos
 	word:
-		name: Last Seen on Ravnica
-		word: Domri
-		word: Gideon
-		word: Ral
+		name: Last Seen on Ixalan
+		word: Angrath
+		word: Huatli
+		word: Jace
 		word: Vraska
 	word:
+		name: Last Seen on Amonkhet
+		word: Bolas
+		word: Gideon
+		word: Liliana
+		word: Nissa
+		word: Samut
+	word:
+		name: Last Seen on Kaladesh
+		word: Ajani
+		word: Chandra
+		word: Dovin
+		word: Saheeli
+		word: Tezzeret
+	word:
 		name: Last Seen on Innistrad
+		word: Arlinn
+		word: Nahiri
 		word: Sorin
 		word: Tamiyo
 		word: Tibalt
 	word:
+		name: Last Seen on Zendikar
+		word: Kiora
+		word: Nixilis
+	word:
+		name: Last Seen on Tarkir
+		word: Narset
+		word: Sarkhan
+		word: Ugin
+	word:
+		name: Last Seen on Theros
+		word: Ashiok
+		word: Elspeth
+		word: Xenagos
+	word:
+		name: Last Seen on Ravnica
+		word: Domri
+		word: Ral
+	word:
 		name: Last Seen on New Phyrexia
 		word: Karn
 		word: Koth
-		word: Tezzeret
 		word: Venser
-	word:
-		name: Last Seen on Zendikar
-		word: Sarkhan
-	word:
-		name: Last Seen on Alara
-		word: Bolas

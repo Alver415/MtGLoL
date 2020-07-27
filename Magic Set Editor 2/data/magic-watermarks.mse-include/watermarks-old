@@ -6,6 +6,7 @@ choice images:
 	mana symbol black:			/magic-watermarks.mse-include/watermark_b_old.png
 	mana symbol red:			/magic-watermarks.mse-include/watermark_r_old.png
 	mana symbol green:			/magic-watermarks.mse-include/watermark_g_old.png
+	mana symbol colorless:			/magic-watermarks.mse-include/watermark_c.png
 	mana symbol snow:			script: set_combine(combine:"shadow", input:"/magic-watermarks.mse-include/watermark_s.png")
 
 	transparent mana symbol white:		script: set_alpha(alpha: 0.4, input:"/magic-watermarks.mse-include/watermark_w_old.png")

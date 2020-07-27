@@ -126,7 +126,8 @@ keyword parameter type:
 	description: Prefix for things like "<something>walk"
 	optional: false
 #	match: [A-Z][a-z, ]*([A-Z][a-z, ]*\xEB00) # commented out because it stopped prefix param from working, version below allows all "walks", including "Dame Judi Denchwalk", doesn't trigger #in middle of sentences, and doesn't trigger in chains of keywords.
-	match: [A-Z][A-Z,a-z’ ]*
+#	match: [A-Z][A-Z,a-z’ ]* # commented out due to still not working
+	match: [^(.:;\n—]+
 	example: Forest
 keyword parameter type:
 	name: english_number
@@ -138,6 +139,11 @@ keyword parameter type:
 keyword parameter type:
 	name: nonland
 	match: ( n?o?n?l?a?n?d? ?)
+keyword parameter type:
+	name: energy
+	match: [^>]([Pp]ays?( an additional| any amount of)?|gets?( that many)?) [E]+
+	separator before is: [^>]([Pp]ays?( an additional| any amount of)?|gets?( that many)?)[ ]
+	reminder script: length(input)
 
 ############################# All Magic keywords
 # By JrEye and Neko_Asakami, Updated by Pichoro and Buttock1234
@@ -172,7 +178,7 @@ keyword:
 	keyword: Protection from
 	match: Protection from <atom-param>name</atom-param>
 	mode: expert
-	reminder: {if has_pt() then "This creature" else "This permanent"} can’t be blocked, targeted, dealt damage, or enchanted by anything {english_singular(param1)}.
+	reminder: Nothing {replace(english_singular(param1), match:"and from", replace:"or", in_context:" <match> ")} can block, target, deal damage to, or attach to {if has_pt() then "this creature" else "this permanent"}.
 keyword:
 	keyword: Regeneration
 	match: Regenerate
@@ -274,7 +280,7 @@ keyword:
 	keyword: Madness
 	match: Madness <atom-param>cost</atom-param>
 	mode: expert
-	reminder: If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.
+	reminder: If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.
 # Onslaught
 keyword:
 	keyword: Morph
@@ -305,8 +311,8 @@ keyword:
 # Scourge
 keyword:
 	keyword: Typecycling
-	match: <atom-param>prefix</atom-param>cycling <atom-param>cost</atom-param>
-	mode: expert
+	match: <atom-param>one_word</atom-param>cycling <atom-param>cost</atom-param>
+	mode: action
 	reminder: {param2}, Discard this card: Search your library for a {param1} card, reveal it, and put it into your hand. Then shuffle your library.
 keyword:
 	keyword: Storm
@@ -677,6 +683,11 @@ keyword:
 	reminder: Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.
 # Conflux
 keyword:
+	keyword: Basic landcycling
+	match: Basic landcycling <atom-param>cost</atom-param>
+	mode: expert
+	reminder: {param1}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
+keyword:
 	keyword: Domain
 	match: Domain
 	mode: pseudo
@@ -720,7 +731,7 @@ keyword:
 	keyword: Totem armor
 	match: Totem armor
 	mode: expert
-	reminder: If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.
+	reminder: If enchanted {if contains(card.text, match:"Enchant <param-name>creature</param-name>") then "creature" else "permanent"} would be destroyed, instead remove all damage from it and destroy this Aura.
 keyword:
 	keyword: Level up
 	match: Level up <atom-param>cost</atom-param>
@@ -871,7 +882,7 @@ keyword:
 keyword:
 	keyword: Monstrosity
 	match: Monstrosity <atom-param>number</atom-param>
-	mode: expert
+	mode: action
 	reminder: If this creature isn’t monstrous, put {english_number_a(param1)} +1/+1 counter(s) on it and it becomes monstrous.
 keyword:
 	keyword: Heroic
@@ -888,12 +899,18 @@ keyword:
 	match: devotion to <atom-param>action</atom-param>
 	mode: action
 	reminder: Each {color_to_mana(param1)} in the mana costs of permanents you control counts toward your devotion to {param1}.
+# Commander 2013
+keyword:
+	keyword: Tempting offer
+	match: Tempting offer
+	mode: pseudo
+	rules: Tempting offer -  [do something]. Each opponent may [do the same]. For each opponent who does, [do something again]. 
 # Born of the Gods
 keyword:
 	keyword: Tribute
 	match: Tribute <atom-param>number</atom-param>
 	mode: expert
-	reminder: As this creature enters the battlefield, an opponent of your choice may place {english_number_a(param1)} +1/+1 counter(s) on it.
+	reminder: As this creature enters the battlefield, an opponent of your choice may put {english_number_a(param1)} +1/+1 counter(s) on it.
 keyword:
 	keyword: Inspired
 	match: Inspired
@@ -952,6 +969,12 @@ keyword:
 	match: Ferocious
 	mode: pseudo
 	rules: Ferocious — [Whenever ~ attacks/When ~ spell resolves], if you control a creature with power 4 or greater, [effect].
+# Commander 2014
+keyword:
+	keyword: Lieutenant
+	match: Lieutenant
+	mode: pseudo
+	rules: Lieutenant - As long as you control your commander, [effect].
 # Fate Reforged
 keyword:
 	keyword: Bolster
@@ -1026,9 +1049,221 @@ keyword:
 	match: Converge
 	mode: pseudo
 	rules: Converge -- [effect with X], where X is the number of colors of mana spent to cast ~.
+# Commander 2015
+keyword:
+	keyword: Myriad
+	match: Myriad
+	mode: expert
+	reminder: Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. If one or more tokens are created this way, exile the tokens at end of combat.
 # Oath of the Gatewatch
 keyword:
 	keyword: Surge
 	match: Surge <atom-param>cost</atom-param>
 	mode: expert
 	reminder: You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.
+keyword:
+	keyword: Support
+	match: Support <atom-param>number</atom-param>
+	mode: action
+	reminder: Put a +1/+1 counter on {if param1.value!=1 then "each of "}up to {english_number(param1)}{if has_pt() then " other"} target creature(s).
+# Shadows over Innistrad
+keyword:
+	keyword: Investigate
+	match: Investigate
+	mode: action
+	reminder: Create a colorless Clue artifact token with "<sym>2</sym>, Sacrifice this artifact: Draw a card."
+keyword:
+	keyword: Skulk
+	match: Skulk
+	mode: expert
+	reminder: This creature can't be blocked by creatures with greater power.
+keyword:
+	keyword: Delirium
+	match: Delirium
+	mode: pseudo
+	rules: Delirium - If there are four or more card types among cards in your graveyard, [effect].
+# Eldritch Moon
+keyword:
+	keyword: Emerge
+	match: Emerge <atom-param>cost</atom-param>
+	mode: expert
+	reminder: You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.
+keyword:
+	keyword: Escalate
+	match: Escalate <atom-param>cost</atom-param>
+	mode: expert
+	reminder: Pay this cost for each mode chosen beyond the first.
+# Conspiracy: Take the Crown
+keyword:
+	keyword: Double agenda
+	match: Double agenda
+	mode: expert
+	reminder: Start the game with this conspiracy face down in the command zone and secretly name two different cards. You may turn this conspiracy face up any time and reveal the chosen names.
+keyword:
+	keyword: Goad
+	match: goad
+	mode: action
+	reminder: Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.
+keyword:
+	keyword: Melee
+	match: Melee
+	mode: expert
+	reminder: Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.
+keyword:
+	keyword: Monarch
+	match: become the monarch
+	mode: action
+	reminder: The monarch draws a card at the beginning of their end step. Whenever the monarch is dealt combat damage by a creature, its controller becomes the monarch.
+keyword:
+	keyword: Council's dilemma
+	match: Council's dilemma
+	mode: pseudo
+	rules: [May be something] starting with you, each player votes for [one thing or another].
+# Kaladesh
+keyword:
+	keyword: Crew
+	match: Crew <atom-param>number</atom-param>
+	mode: expert
+	reminder: Tap any number of untapped creatures you control with total power {param1} or greater: This permanent becomes an artifact creature until end of turn.
+keyword:
+	keyword: Fabricate
+	match: Fabricate <atom-param>number</atom-param>
+	mode: expert
+	reminder: When this permanent enters the battlefield, you may put {english_number_a(param1)} +1/+1 counter(s) on it. If you don't, create {param1} 1/1 colorless Servo artifact creature tokens.
+# Commander 2016
+keyword:
+	keyword: Partner
+	match: Partner
+	mode: expert
+	reminder: You can have two commanders if both have partner.
+keyword:
+	keyword: Undaunted
+	match: Undaunted
+	mode: expert
+	reminder: This spell costs <sym>1</sym> less to cast for each opponent.
+# Aether Revolt
+keyword:
+	keyword: Improvise
+	match: Improvise
+	mode: expert
+	reminder: Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for <sym>1</sym>.
+keyword:
+	keyword: Revolt
+	match: Revolt
+	mode: pseudo
+	rules: Revolt - [Something], if a permanent you controlled left the battlefield this turn, [effect].
+# Amonkhet
+keyword:
+	keyword: Aftermath
+	match: Aftermath
+	mode: expert
+	reminder: Cast this spell only from your graveyard, then exile it.
+keyword:
+	keyword: Embalm
+	match: Embalm <atom-param>cost</atom-param>
+	mode: expert
+	reminder: {param1}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie {separate_words(spacer: " ", card.sub_type)} with no mana cost. Embalm only as a sorcery.
+keyword:
+	keyword: Exert
+	match: exert
+	mode: action
+	reminder: An exerted {if has_pt() then "creature" else "permanent"} won't untap during your next untap step.
+#Hour of Devestation
+keyword:
+	keyword: Afflict
+	match: Afflict <atom-param>number</atom-param>
+	mode: expert
+	reminder: Whenever this creature becomes blocked, defending player loses {param1} life. 
+keyword:
+	keyword: Eternalize
+	match: Eternalize <atom-param>cost</atom-param>
+	mode: expert
+	reminder: {param1}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black{if not contains(card.sub_type, match: "Zombie") then " Zombie"}{ if separate_words(spacer: " ", card.sub_type) != "" then " " + separate_words(spacer: " ", card.sub_type) } {if not has_pt() then "creature "}with no mana cost. Eternalize only as a sorcery.
+#Commander 2017
+keyword:
+	keyword: Eminence
+	match: Eminence
+	mode: pseudo
+	rules: Eminence - As long as this creature is on the battlefield or in your command zone, [effect].
+#Ixalan
+keyword:
+	keyword: Enrage
+	match: Enrage
+	mode: pseudo
+	rules: Enrage - Whenever this creature is dealt damage, [effect].
+keyword:
+	keyword: Explore
+	match: explores
+	mode: action
+	reminder: Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.
+#Unstable
+keyword:
+	keyword: Assemble a Contraption
+	match: Assemble
+	mode: action
+	reminder: {if contains(card.rule_text, match: "ssemble a ") then "P" else "To assemble a Contraption, p"}ut the top card of your Contraption deck face up onto one of your sprockets.
+	rules: This is used when the player assembles Contraptions.
+keyword:
+	keyword: assembles a Contraption
+	match: assembles
+	mode: action
+	reminder: {if contains(card.rule_text, match: "ssemble a ") then "P" else "To assemble a Contraption, p"}ut the top card of your Contraption deck face up onto one of your sprockets.
+	rules: This is used when a permanent assembles Contraptions.
+keyword:
+	keyword: Combine
+	match: Combine
+	mode: action
+	reminder: Its power is equal to their total power, its toughness is equal to their total toughness, and it has their names, mana costs, types, text boxes, etc.
+keyword:
+	keyword: Art menace
+	match: Art menace
+	mode: expert
+	reminder: This creature can't be blocked except by creatures with two or more visible figures in their art.
+keyword:
+	keyword: Augment
+	match: Augment <atom-param>cost</atom-param>
+	mode: expert
+	reminder: {param1}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.
+keyword:
+	keyword: Blurry
+	match: Blurry
+	mode: expert
+	reminder: This creature can be blocked only if defending player was wearing glasses as it was cast.
+keyword:
+	keyword: Just a second
+	match: Just a second
+	mode: expert
+	reminder: As long as this spell is on the stack, players can't move cards on the battlefield.
+	rules: Players are also unable to cast spells and activate abilities that aren't mana abilities while this spell, even if they are able to do so without moving cards on the battlefield.
+keyword:
+	keyword: Last strike
+	match: Last strike
+	mode: expert
+	reminder: This creature deals combat damage after creatures without last strike.
+keyword:
+	keyword: Squirrellink
+	match: Squirrellink
+	mode: expert
+	reminder: Damage dealt by this creature also causes you to create that many 1/1 green Squirrel creature tokens.
+keyword:
+	keyword: Triple strike
+	match: Triple strike
+	mode: expert
+	reminder: This creature deals first-strike, regular, and last-strike combat damage.
+keyword:
+	keyword: Undeathtouch
+	match: Undeathtouch
+	mode: expert
+	reminder: If this would deal damage to a creature card, exile that creature card instead.
+#Rivals of Ixalan
+keyword:
+	keyword: Ascend
+	match: Ascend
+	mode: expert
+	reminder: If you control ten or more permanents, you get the city's blessing for the rest of the game.
+#Dominaria
+keyword:
+	keyword: Historic
+	match: historic
+	mode: action
+	reminder: Artifacts, legendaries, and Sagas are historic.
