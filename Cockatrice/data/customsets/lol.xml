@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cockatrice_carddatabase version="4">
+<cockatrice_carddatabase version="3">
 <sets>
 <set>
-<name></name>
+<name>LOL</name>
 <longname>League of Legends</longname>
 </set>
 </sets>
@@ -10,7 +10,7 @@
 
 <card>
  <name>Aftershock</name>
- <set picURL="/Aftershock.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Aftershock.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Resolve</type>
@@ -19,7 +19,7 @@
 </card>
 <card>
  <name>Arcane Comet</name>
- <set picURL="/Arcane Comet.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Arcane Comet.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Sorcery</type>
@@ -28,7 +28,7 @@
 </card>
 <card>
  <name>Baron Nashor</name>
- <set picURL="/Baron Nashor.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Baron Nashor.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>7</manacost>
  <type>Legendary Objective - Wurm Monster </type>
@@ -41,7 +41,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Conquerer</name>
- <set picURL="/Conquerer.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Conquerer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Precision</type>
@@ -50,7 +50,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Dark Harvest</name>
- <set picURL="/Dark Harvest.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Dark Harvest.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Domination</type>
@@ -59,7 +59,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Electrocution</name>
- <set picURL="/Electrocution.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Electrocution.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Domination</type>
@@ -68,7 +68,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Fleet Footwork</name>
- <set picURL="/Fleet Footwork.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Fleet Footwork.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Precision</type>
@@ -77,7 +77,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Glacial Augment</name>
- <set picURL="/Glacial Augment.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Glacial Augment.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Inspiration</type>
@@ -86,7 +86,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Grasping Undying</name>
- <set picURL="/Grasping Undying.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Grasping Undying.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Resolve</type>
@@ -95,7 +95,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Guardian</name>
- <set picURL="/Guardian.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Guardian.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Resolve</type>
@@ -104,7 +104,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Hailing Blades</name>
- <set picURL="/Hailing Blades.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Hailing Blades.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Domination</type>
@@ -113,7 +113,7 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
 </card>
 <card>
  <name>Inhibitor</name>
- <set picURL="/Inhibitor.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Inhibitor.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>5</manacost>
  <type>Objective</type>
@@ -124,7 +124,7 @@ When Inhibitor leaves the battlefield, each opponent spawns a colorless 5/5 Mons
 </card>
 <card>
  <name>Kleptomancy</name>
- <set picURL="/Kleptomancy.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Kleptomancy.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Inspiration</type>
@@ -133,7 +133,7 @@ When Inhibitor leaves the battlefield, each opponent spawns a colorless 5/5 Mons
 </card>
 <card>
  <name>Large Krug</name>
- <set picURL="/Large Krug.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Large Krug.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>4</manacost>
  <type>Creature - Golem Monster </type>
@@ -143,7 +143,7 @@ When Inhibitor leaves the battlefield, each opponent spawns a colorless 5/5 Mons
 </card>
 <card>
  <name>Lethal Tempo</name>
- <set picURL="/Lethal Tempo.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Lethal Tempo.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Precision</type>
@@ -152,7 +152,7 @@ When Inhibitor leaves the battlefield, each opponent spawns a colorless 5/5 Mons
 </card>
 <card>
  <name>The Nexus</name>
- <set picURL="/The Nexus.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Nexus.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>12</manacost>
  <type>Legendary Objective</type>
@@ -163,7 +163,7 @@ When The Nexus leaves the battlefield, you lose the game.</text>
 </card>
 <card>
  <name>Phase Rush</name>
- <set picURL="/Phase Rush.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Phase Rush.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Sorcery</type>
@@ -172,7 +172,7 @@ When The Nexus leaves the battlefield, you lose the game.</text>
 </card>
 <card>
  <name>Predator</name>
- <set picURL="/Predator.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Predator.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Domination</type>
@@ -181,7 +181,7 @@ When The Nexus leaves the battlefield, you lose the game.</text>
 </card>
 <card>
  <name>Pressed Attack</name>
- <set picURL="/Pressed Attack.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Pressed Attack.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Precision</type>
@@ -190,7 +190,7 @@ When The Nexus leaves the battlefield, you lose the game.</text>
 </card>
 <card>
  <name>Rift Herald</name>
- <set picURL="/Rift Herald.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Rift Herald.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>5</manacost>
  <type>Creature - Crab Monster </type>
@@ -201,7 +201,7 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
 </card>
 <card>
  <name>Rift Scuttler</name>
- <set picURL="/Rift Scuttler.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Rift Scuttler.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>1</manacost>
  <type>Creature - Crab Monster </type>
@@ -211,7 +211,7 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
 </card>
 <card>
  <name>Smite</name>
- <set picURL="/Smite.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Smite.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>5</manacost>
  <type>Instant</type>
@@ -220,7 +220,7 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
 </card>
 <card>
  <name>Summon Aery</name>
- <set picURL="/Summon Aery.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Summon Aery.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Sorcery</type>
@@ -229,7 +229,7 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
 </card>
 <card>
  <name>The Unsealed Spellbook</name>
- <set picURL="/The Unsealed Spellbook.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Unsealed Spellbook.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Keystone Rune - Inspiration</type>
@@ -238,7 +238,7 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
 </card>
 <card>
  <name>Accompanied Knight</name>
- <set picURL="/Accompanied Knight.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Accompanied Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>1WW</manacost>
  <type>Creature - Human Knight </type>
@@ -249,7 +249,7 @@ Knights you control have first strike as long as you control a Squire.</text>
 </card>
 <card>
  <name>Bonded Roc</name>
- <set picURL="/Bonded Roc.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Bonded Roc.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>3WW</manacost>
  <type>Creature - Vastaya Bird </type>
@@ -260,7 +260,7 @@ Whenever Bonded Roc or another Vastaya enters the battlefield under your control
 </card>
 <card>
  <name>Chroma Dancer</name>
- <set picURL="/Chroma Dancer.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Chroma Dancer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>WW</manacost>
  <type>Creature - Human Cleric </type>
@@ -271,7 +271,7 @@ When Chroma Dancer enters the battlefield choose a color. Target creature you co
 </card>
 <card>
  <name>Cloud Dragon</name>
- <set picURL="/Cloud Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Cloud Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>4WW</manacost>
  <type>Creature - Dragon Monster </type>
@@ -282,7 +282,7 @@ Whenever Cloud Dragon enters the battlefield or attacks, you may blink another t
 </card>
 <card>
  <name>Demacian Recruit</name>
- <set picURL="/Demacian Recruit.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Demacian Recruit.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>W</manacost>
  <type>Creature - Human Soldier </type>
@@ -292,7 +292,7 @@ Whenever Cloud Dragon enters the battlefield or attacks, you may blink another t
 </card>
 <card>
  <name>The Great Master Kusho</name>
- <set picURL="/The Great Master Kusho.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Great Master Kusho.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>3WW</manacost>
  <type>Legendary Creature - Human Ninja </type>
@@ -304,7 +304,7 @@ At the beginning of each upkeep, The Great Master Kusho gets shield X until end 
 </card>
 <card>
  <name>Ionian Mystic</name>
- <set picURL="/Ionian Mystic.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ionian Mystic.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>W</manacost>
  <type>Creature - Human Monk </type>
@@ -314,7 +314,7 @@ At the beginning of each upkeep, The Great Master Kusho gets shield X until end 
 </card>
 <card>
  <name>Kinkou Balance Keeper</name>
- <set picURL="/Kinkou Balance Keeper.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Kinkou Balance Keeper.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>1WW</manacost>
  <type>Creature - Human Templar </type>
@@ -324,7 +324,7 @@ At the beginning of each upkeep, The Great Master Kusho gets shield X until end 
 </card>
 <card>
  <name>Lhotlan Battle-Dancer</name>
- <set picURL="/Lhotlan Battle-Dancer.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Lhotlan Battle-Dancer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>2W</manacost>
  <type>Creature - Vastaya Bird </type>
@@ -334,7 +334,7 @@ At the beginning of each upkeep, The Great Master Kusho gets shield X until end 
 </card>
 <card>
  <name>Razorbeak</name>
- <set picURL="/Razorbeak.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Razorbeak.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>1WW</manacost>
  <type>Creature - Bird Monster </type>
@@ -346,7 +346,7 @@ At the beginning of your upkeep, spawn a 0/1 white Bird.</text>
 </card>
 <card>
  <name>Rune-Binder</name>
- <set picURL="/Rune-Binder.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Rune-Binder.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost>1WW</manacost>
  <type>Creature - Human Soldier </type>
@@ -356,7 +356,7 @@ At the beginning of your upkeep, spawn a 0/1 white Bird.</text>
 </card>
 <card>
  <name>Blue Sentinel</name>
- <set picURL="/Blue Sentinel.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Blue Sentinel.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>3UU</manacost>
  <type>Creature - Golem Monster </type>
@@ -367,7 +367,7 @@ Whenever you cast an instant or sorcery, you may draw a card. If you don’t, sc
 </card>
 <card>
  <name>Citadel Professor</name>
- <set picURL="/Citadel Professor.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Citadel Professor.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>2UU</manacost>
  <type>Creature - Human </type>
@@ -377,7 +377,7 @@ Whenever you cast an instant or sorcery, you may draw a card. If you don’t, sc
 </card>
 <card>
  <name>Fortune Finder</name>
- <set picURL="/Fortune Finder.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Fortune Finder.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>1U</manacost>
  <type>Creature - Human Rogue </type>
@@ -387,7 +387,7 @@ Whenever you cast an instant or sorcery, you may draw a card. If you don’t, sc
 </card>
 <card>
  <name>Frost Knight</name>
- <set picURL="/Frost Knight.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Frost Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>1UU</manacost>
  <type>Creature - Human Knight </type>
@@ -397,7 +397,7 @@ Whenever you cast an instant or sorcery, you may draw a card. If you don’t, sc
 </card>
 <card>
  <name>Frostbite</name>
- <set picURL="/Frostbite.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Frostbite.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>2U</manacost>
  <type>Sorcery</type>
@@ -407,7 +407,7 @@ If B was spent to cast this spell, destroy target stunned creature.</text>
 </card>
 <card>
  <name>Frozen in Thought</name>
- <set picURL="/Frozen in Thought.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Frozen in Thought.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>1U</manacost>
  <type>Instant</type>
@@ -416,7 +416,7 @@ If B was spent to cast this spell, destroy target stunned creature.</text>
 </card>
 <card>
  <name>Glacial Insight</name>
- <set picURL="/Glacial Insight.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Glacial Insight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>2UU</manacost>
  <type>Enchantment</type>
@@ -425,7 +425,7 @@ If B was spent to cast this spell, destroy target stunned creature.</text>
 </card>
 <card>
  <name>Hawkshot Archer</name>
- <set picURL="/Hawkshot Archer.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Hawkshot Archer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>2U</manacost>
  <type>Creature - Human Archer </type>
@@ -436,7 +436,7 @@ Whenever Hawkshot Archer attacks, scry 1.</text>
 </card>
 <card>
  <name>Ice-Tooth Pirhannas</name>
- <set picURL="/Ice-Tooth Pirhannas.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ice-Tooth Pirhannas.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>U</manacost>
  <type>Creature - Fish </type>
@@ -447,7 +447,7 @@ Whenever Ice-Tooth Pirhanna’s deals combat damage to a creature, stun that cre
 </card>
 <card>
  <name>Ocean Dragon</name>
- <set picURL="/Ocean Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ocean Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>4UU</manacost>
  <type>Creature - Dragon Monster </type>
@@ -458,7 +458,7 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
 </card>
 <card>
  <name>Serpant of the Scrolls</name>
- <set picURL="/Serpant of the Scrolls.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Serpant of the Scrolls.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>1U</manacost>
  <type>Creature - Vastaya Snake </type>
@@ -468,7 +468,7 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
 </card>
 <card>
  <name>Silverwing Duster</name>
- <set picURL="/Silverwing Duster.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Silverwing Duster.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>1UU</manacost>
  <type>Creature - Human Squire </type>
@@ -478,7 +478,7 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
 </card>
 <card>
  <name>Student of the Lightbringers</name>
- <set picURL="/Student of the Lightbringers.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Student of the Lightbringers.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost>U</manacost>
  <type>Creature - Human </type>
@@ -488,7 +488,7 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
 </card>
 <card>
  <name>Ancient Dragon</name>
- <set picURL="/Ancient Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ancient Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>4BB</manacost>
  <type>Creature - Dragon Monster </type>
@@ -499,7 +499,7 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
 </card>
 <card>
  <name>Dire Wildclaw</name>
- <set picURL="/Dire Wildclaw.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Dire Wildclaw.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>1B</manacost>
  <type>Creature - Wolf </type>
@@ -509,7 +509,7 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
 </card>
 <card>
  <name>Encase in True Ice</name>
- <set picURL="/Encase in True Ice.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Encase in True Ice.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>2BB</manacost>
  <type>Enchantment</type>
@@ -518,7 +518,7 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
 </card>
 <card>
  <name>Frostbite Abyssal</name>
- <set picURL="/Frostbite Abyssal.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Frostbite Abyssal.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>BB</manacost>
  <type>Creature - Human Knight </type>
@@ -528,7 +528,7 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
 </card>
 <card>
  <name>Murk Wolves</name>
- <set picURL="/Murk Wolves.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Murk Wolves.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>1B</manacost>
  <type>Creature - Wolf Monster </type>
@@ -538,7 +538,7 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
 </card>
 <card>
  <name>Putrid Giant</name>
- <set picURL="/Putrid Giant.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Putrid Giant.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>4B</manacost>
  <type>Creature - Giant Warrior </type>
@@ -550,7 +550,7 @@ When Putrid Giant deals combat damage to an opponent, that player discards a car
 </card>
 <card>
  <name>Stolen Insight</name>
- <set picURL="/Stolen Insight.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Stolen Insight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>B</manacost>
  <type>Sorcery</type>
@@ -560,7 +560,7 @@ Scry 2.</text>
 </card>
 <card>
  <name>Vilemaw</name>
- <set picURL="/Vilemaw.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Vilemaw.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>4BBBB</manacost>
  <type>Legendary Creature - Spider Monster </type>
@@ -573,7 +573,7 @@ Creatures fighting, blocking, or being blocked by Vilemaw lose first strike and 
 </card>
 <card>
  <name>Brambleback</name>
- <set picURL="/Brambleback.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Brambleback.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost>3RR</manacost>
  <type>Creature - Golem Monster </type>
@@ -583,7 +583,7 @@ Creatures fighting, blocking, or being blocked by Vilemaw lose first strike and 
 </card>
 <card>
  <name>Infernal Dragon</name>
- <set picURL="/Infernal Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Infernal Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost>4RR</manacost>
  <type>Creature - Dragon Monster </type>
@@ -594,7 +594,7 @@ As long as Infernal Dragon is attacking, other attacking creatures you control g
 </card>
 <card>
  <name>Gromp</name>
- <set picURL="/Gromp.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Gromp.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost>2GG</manacost>
  <type>Creature - Frog Monster </type>
@@ -605,7 +605,7 @@ As long as Gromp hasn’t been dealt damage it has double strike.</text>
 </card>
 <card>
  <name>Land Fisher</name>
- <set picURL="/Land Fisher.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Land Fisher.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost>1GG</manacost>
  <type>Creature - Human Monk </type>
@@ -615,7 +615,7 @@ As long as Gromp hasn’t been dealt damage it has double strike.</text>
 </card>
 <card>
  <name>Mountain Dragon</name>
- <set picURL="/Mountain Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Mountain Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost>4GG</manacost>
  <type>Creature - Dragon Monster </type>
@@ -626,7 +626,7 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
 </card>
 <card>
  <name>Ottrani Charger</name>
- <set picURL="/Ottrani Charger.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ottrani Charger.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost>2GG</manacost>
  <type>Creature - Vastaya Rhino </type>
@@ -636,7 +636,7 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
 </card>
 <card>
  <name>Strig Scout</name>
- <set picURL="/Strig Scout.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Strig Scout.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost>1G</manacost>
  <type>Creature - Vastaya Bird </type>
@@ -646,7 +646,7 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
 </card>
 <card>
  <name>Barrier</name>
- <set picURL="/Barrier.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Barrier.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>GW</manacost>
  <type>Instant - Summoner </type>
@@ -655,7 +655,7 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
 </card>
 <card>
  <name>Cleanse</name>
- <set picURL="/Cleanse.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Cleanse.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>GU</manacost>
  <type>Instant - Summoner </type>
@@ -664,7 +664,7 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
 </card>
 <card>
  <name>Elder Dragon</name>
- <set picURL="/Elder Dragon.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Elder Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>22/R2/B2/G2/U2/W</manacost>
  <type>Legendary Creature - Dragon Monster </type>
@@ -676,7 +676,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Executioner Troll</name>
- <set picURL="/Executioner Troll.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Executioner Troll.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>2UB</manacost>
  <type>Creature - Troll </type>
@@ -686,7 +686,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Exhaust</name>
- <set picURL="/Exhaust.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Exhaust.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>WB</manacost>
  <type>Instant - Summoner </type>
@@ -695,7 +695,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Flash</name>
- <set picURL="/Flash.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Flash.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>WU</manacost>
  <type>Instant - Summoner </type>
@@ -706,7 +706,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Ghost</name>
- <set picURL="/Ghost.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ghost.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>UR</manacost>
  <type>Sorcery - Summoner </type>
@@ -715,7 +715,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Iceborn Knight</name>
- <set picURL="/Iceborn Knight.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Iceborn Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>1UB</manacost>
  <type>Creature - Human Knight </type>
@@ -725,7 +725,7 @@ Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
  <name>Ignite</name>
- <set picURL="/Ignite.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ignite.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>BR</manacost>
  <type>Instant - Summoner </type>
@@ -735,7 +735,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Lissandras Story Hunters</name>
- <set picURL="/Lissandras Story Hunters.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Lissandras Story Hunters.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>1UB</manacost>
  <type>Creature - Human Advisor </type>
@@ -745,7 +745,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Marai Healer</name>
- <set picURL="/Marai Healer.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Marai Healer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>WU</manacost>
  <type>Creature - Vastaya Merfolk </type>
@@ -755,7 +755,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Promote</name>
- <set picURL="/Promote.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Promote.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>RW</manacost>
  <type>Instant - Summoner </type>
@@ -764,7 +764,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Rampaging Thunderhorn</name>
- <set picURL="/Rampaging Thunderhorn.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Rampaging Thunderhorn.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>4UB</manacost>
  <type>Creature - Elephant </type>
@@ -774,7 +774,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Revive</name>
- <set picURL="/Revive.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Revive.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>BG</manacost>
  <type>Sorcery - Summoner </type>
@@ -783,7 +783,7 @@ Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Shimon Ambush Leader</name>
- <set picURL="/Shimon Ambush Leader.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Shimon Ambush Leader.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>3RG</manacost>
  <type>Creature - Vastaya Ape </type>
@@ -795,7 +795,7 @@ Other Vastaya creatures you control have haste.</text>
 </card>
 <card>
  <name>Silverwing Rider</name>
- <set picURL="/Silverwing Rider.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Silverwing Rider.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>3WU</manacost>
  <type>Creature - Griffin Knight </type>
@@ -806,7 +806,7 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
 </card>
 <card>
  <name>Surge</name>
- <set picURL="/Surge.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Surge.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>RG</manacost>
  <type>Sorcery - Summoner </type>
@@ -815,7 +815,7 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
 </card>
 <card>
  <name>Teleport</name>
- <set picURL="/Teleport.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Teleport.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>UB</manacost>
  <type>Sorcery - Summoner </type>
@@ -824,7 +824,7 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
 </card>
 <card>
  <name>Tithe Collector</name>
- <set picURL="/Tithe Collector.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Tithe Collector.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>WWUU</manacost>
  <type>Creature - Human </type>
@@ -834,7 +834,7 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
 </card>
 <card>
  <name>Ice-Stone Squire</name>
- <set picURL="/Ice-Stone Squire.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Ice-Stone Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>U/B</manacost>
  <type>Creature  - Human Squire </type>
@@ -844,7 +844,7 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
 </card>
 <card>
  <name>Monk of Hirana</name>
- <set picURL="/Monk of Hirana.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Monk of Hirana.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
  <manacost>G/WG/W</manacost>
  <type>Creature - Human Monk </type>
@@ -855,7 +855,7 @@ When Monk of Hirana dies, you may search your library for a basic land card and 
 </card>
 <card>
  <name>Fountain Obelisk</name>
- <set picURL="/Fountain Obelisk.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Fountain Obelisk.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>8</manacost>
  <type>Artifact Creature - Turret </type>
@@ -868,7 +868,7 @@ T: Deal 5 true damage to target attacking creature.</text>
 </card>
 <card>
  <name>Inhibitor Turret</name>
- <set picURL="/Inhibitor Turret.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Inhibitor Turret.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>5</manacost>
  <type>Artifact Creature - Turret </type>
@@ -880,7 +880,7 @@ As long as Inhibitor Turret is blocking, other blocking creatures you control ge
 </card>
 <card>
  <name>Inner Turret</name>
- <set picURL="/Inner Turret.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Inner Turret.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>3</manacost>
  <type>Artifact Creature - Turret </type>
@@ -891,7 +891,7 @@ Inner Turret gets +1/+0 for each attacking creature.</text>
 </card>
 <card>
  <name>Nexus Turret</name>
- <set picURL="/Nexus Turret.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Nexus Turret.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>7</manacost>
  <type>Artifact Creature - Turret </type>
@@ -904,7 +904,7 @@ When Nexus Turret enters the battlefield, create a copy of it.</text>
 </card>
 <card>
  <name>Outer Turret</name>
- <set picURL="/Outer Turret.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Outer Turret.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost>1</manacost>
  <type>Artifact Creature - Turret </type>
@@ -914,7 +914,7 @@ When Nexus Turret enters the battlefield, create a copy of it.</text>
 </card>
 <card>
  <name>Cloud Field</name>
- <set picURL="/Cloud Field.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Cloud Field.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Land - Plains Island </type>
@@ -925,7 +925,7 @@ W/UW/U, T: Scry X, where X is the number of creatures that entered the battlefie
 </card>
 <card>
  <name>Concealing Canopy</name>
- <set picURL="/Concealing Canopy.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Concealing Canopy.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost></manacost>
  <type>Land - Forest Mountain </type>
@@ -936,7 +936,7 @@ R/GR/G, T: Creature you control have haste until end of turn.</text>
 </card>
 <card>
  <name>Conquered Terrain</name>
- <set picURL="/Conquered Terrain.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Conquered Terrain.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost></manacost>
  <type>Land - Swamp Mountain </type>
@@ -946,7 +946,7 @@ Conquered Terrain enters the battlefield tapped if you control a Plains, Island,
 </card>
 <card>
  <name>First Lands</name>
- <set picURL="/First Lands.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/First Lands.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Land - Plains Forest </type>
@@ -956,7 +956,7 @@ First Lands enters the battlefield tapped if you control an Island, Swamp, or Mo
 </card>
 <card>
  <name>Frost Barrens</name>
- <set picURL="/Frost Barrens.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Frost Barrens.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost></manacost>
  <type>Land - Island Swamp </type>
@@ -967,7 +967,7 @@ U/BU/B, T: Stun target creature that dealt combat damage to you this turn.</text
 </card>
 <card>
  <name>The Great Barrier</name>
- <set picURL="/The Great Barrier.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Great Barrier.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost></manacost>
  <type>Legendary Land</type>
@@ -976,7 +976,7 @@ U/BU/B, T: Stun target creature that dealt combat damage to you this turn.</text
 </card>
 <card>
  <name>Howling Abyss</name>
- <set picURL="/Howling Abyss.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Howling Abyss.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost></manacost>
  <type>Land - Island Swamp </type>
@@ -986,7 +986,7 @@ Howling Abyss enters the battlefield tapped if you control a Plains, Mountain, o
 </card>
 <card>
  <name>The Immortal Bastion</name>
- <set picURL="/The Immortal Bastion.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Immortal Bastion.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost></manacost>
  <type>Legendary Land</type>
@@ -995,7 +995,7 @@ Howling Abyss enters the battlefield tapped if you control a Plains, Mountain, o
 </card>
 <card>
  <name>Palace Gardens</name>
- <set picURL="/Palace Gardens.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Palace Gardens.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Land - Plains Island </type>
@@ -1005,7 +1005,7 @@ Palace Gardens enters the battlefield tapped if you control a Swamp, Mountain, o
 </card>
 <card>
  <name>Pit Mine</name>
- <set picURL="/Pit Mine.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Pit Mine.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost></manacost>
  <type>Land - Swamp Mountain </type>
@@ -1016,7 +1016,7 @@ B/RB/R, T: Target creature with a -1/-1 counter on it can’t block this turn.</
 </card>
 <card>
  <name>The Placidium of Navori</name>
- <set picURL="/The Placidium of Navori.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Placidium of Navori.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Legendary Land</type>
@@ -1025,7 +1025,7 @@ B/RB/R, T: Target creature with a -1/-1 counter on it can’t block this turn.</
 </card>
 <card>
  <name>Rivers of Grass</name>
- <set picURL="/Rivers of Grass.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Rivers of Grass.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Land - Plains Forest </type>
@@ -1036,7 +1036,7 @@ G/WG/W, T: Untap target creature you control.</text>
 </card>
 <card>
  <name>Runeterra Wilds</name>
- <set picURL="/Runeterra Wilds.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Runeterra Wilds.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost></manacost>
  <type>Land - Mountain Forest </type>
@@ -1046,7 +1046,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>The Temple of the Light Bringers</name>
- <set picURL="/The Temple of the Light Bringers.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/The Temple of the Light Bringers.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Legendary Land</type>
@@ -1055,7 +1055,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Unknown Territory</name>
- <set picURL="/Unknown Territory.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Unknown Territory.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
  <type>Land</type>
@@ -1064,7 +1064,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Plains</name>
- <set picURL="/Plains.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Plains.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
  <type>Basic Land - Plains </type>
@@ -1073,7 +1073,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Island</name>
- <set picURL="/Island.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Island.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
  <manacost></manacost>
  <type>Basic Land - Island </type>
@@ -1082,7 +1082,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Swamp</name>
- <set picURL="/Swamp.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Swamp.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost></manacost>
  <type>Basic Land - Swamp </type>
@@ -1091,7 +1091,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Mountain</name>
- <set picURL="/Mountain.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Mountain.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost></manacost>
  <type>Basic Land - Mountain </type>
@@ -1100,7 +1100,7 @@ Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, o
 </card>
 <card>
  <name>Forest</name>
- <set picURL="/Forest.full.jpg" picURLHq="" picURLSt=""></set>
+ <set picURL="/Forest.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
  <manacost></manacost>
  <type>Basic Land - Forest </type>
