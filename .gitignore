@@ -1,5 +1,4 @@
 *.bak
 
-~\$DesignDoc\.xlsx
-
-*downloaded*
+Cards/*
+Cockatrice/data/*
