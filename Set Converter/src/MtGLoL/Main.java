@@ -62,7 +62,7 @@ public class Main {
 		String baseSetString = read(baseZip.getInputStream(baseZip.getFileHeader("set")));
 		StringBuilder master = new StringBuilder(baseSetString);
 
-		int count = 1;
+		int count = 0;
 		for (File source : sources) {
 			System.out.println("Begin merge of " + source.getAbsolutePath());
 			ZipFile sourceZip = new ZipFile(source);
@@ -76,7 +76,7 @@ public class Main {
 					System.out.print("\t" + cardName);
 					String oldImage = getField("image:", block);
 					if (!StringUtils.isEmpty(oldImage)) {
-						String newImage = "image" + String.valueOf(count++);
+						String newImage = cardName.replaceAll("[^a-zA-Z]+", "") + ".png";
 						System.out.println("(" + oldImage + " -> " + newImage + ")");
 						block = block.replaceAll("image([0-9]{1,})", newImage);
 						sourceZip.extractFile(oldImage, OUTPUT_DIRECTORY, newImage);
@@ -84,6 +84,7 @@ public class Main {
 						System.out.println("");
 					}
 					master.append("card:" + block);
+					count++;
 				} else if (block.trim().contains("keyword:")) {
 					master.append("keyword:" + block);
 				}
@@ -99,9 +100,9 @@ public class Main {
 		outputZip.addFiles(new ArrayList<>(recursiveFindAll(OUTPUT_DIRECTORY)));
 		outputZip.addFile(OUTPUT_DIRECTORY + "/set");
 
+		System.out.println("Total merged cards: " + count);
 		System.out.println("Output Raw: " + OUTPUT_DIRECTORY);
 		System.out.println("Output Set: " + OUTPUT_SET);
-		System.out.println("Done.");
 	}
 
 	private static String getField(String field, String block) {
