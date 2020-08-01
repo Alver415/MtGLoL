@@ -31,6 +31,189 @@ apprentice code:
 card:
 	has styling: false
 	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 23:17:56
+	name: Cull
+	casting cost: 1
+	image: Cull.png
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+		At the beginning of your upkeep, if <atom-cardname><nospellcheck>Cull</nospellcheck></atom-cardname> is equipped to a creature, put a farm counter on it. Then, if it has three or more farm counters on it, you may sacrifice it. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:47:01
+	name: Black Cleaver
+	casting cost: 2B
+	image: BlackCleaver.png
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Equipped creature has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		<sym-auto>2/B2/B</sym-auto>: Equipped gains grievous wounds until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:46:58
+	name: Zhonya’s Hourglass
+	casting cost: 2U
+	image: ZhonyasHourglass.png
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Equipped creature has “<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.”
+		<sym-auto>2/U2/U</sym-auto>: Equipped creature phases out.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:47:05
+	name: Warmog’s Armor
+	casting cost: 2G
+	image: WarmogsArmor.png
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Equipped creature gets +0/+2.
+		<sym-auto>2/G2/G</sym-auto>: <kw-a><nospellcheck>Regenerate</nospellcheck></kw-a> equipped creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:46:56
+	name: Sword of the Divine
+	casting cost: 2W
+	image: SwordoftheDivine.png
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Equipped creature has <kw-a><nospellcheck>first strike</nospellcheck></kw-a>.
+		<sym-auto>2/W2/W</sym-auto>: Equipped creature gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:47:03
+	name: Blade of the Ruined King
+	casting cost: 2R
+	image: BladeoftheRuinedKing.png
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Equipped creature gets +2/+0.
+		<sym-auto>2/R2/R</sym-auto>: Equipped creature gains engage until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 20:47:07
+	name: Banshee’s Veil
+	casting cost: 2
+	image: BansheesVeil.png
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>4</sym-auto></param-cost></nospellcheck></kw-a>
+		Whenever an opponent casts a spell or activates an ability that targets equipped creature, counter that spell or ability and unattach <atom-cardname><nospellcheck>Banshee’s Veil</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 20:03:36
+	time modified: 2020-07-31 23:19:41
+	name: Perfectly Timed Stopwatch
+	casting cost: 0
+	image: PerfectlyTimedStopwatch.png
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+		Sacrifice <atom-cardname><nospellcheck>Perfectly Timed Stopwatch</nospellcheck></atom-cardname>: Equipped creature phases out.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 
+card:
+	has styling: false
+	notes: 
 	time created: 2020-07-28 11:31:48
 	time modified: 2020-07-30 19:04:45
 	name: Promising Squire
@@ -668,15 +851,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 22:08:01
-	time modified: 2020-07-29 22:15:26
-	name: Frostbite
-	casting cost: 2U
+	time modified: 2020-07-31 17:11:31
+	name: Lissandra’s Engagement
+	casting cost: U/BU/BU/BU/B
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
 	rule text:
-		Stun target creature an opponent controls.
-		If <sym-auto>B</sym-auto> was spent to cast this spell, destroy target stunned creature.
+		Stun up to X target creatures an opponent controls, where X is the number of <sym>U</sym> spent to cast <atom-cardname><nospellcheck>Lissandra’s Engagement</nospellcheck></atom-cardname>.
+		Destroy up to Y target creatures an opponent controls, where Y is the number of <sym>B</sym> spent to cast Frostbite.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1353,16 +1537,358 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 16:53:26
-	name: Trigarian Knight
-	casting cost: 2BR
-	image: image1
+	time modified: 2020-07-31 19:05:14
+	name: Vengeful Knight
+	casting cost: 1BR
+	image: VengefulKnight.png
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Night</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: Grievous wounds
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever a Squire you control dies, <atom-cardname><nospellcheck>Vengeful Knight</nospellcheck></atom-cardname> gets +1/+1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:53:14
+	name: Trifarion Knight
+	casting cost: BBRR
+	image: TrifarionKnight.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <kw-a><nospellcheck>First strike</nospellcheck></kw-a>, grievous wounds
 	flavor text: <i-flavor></i-flavor>
 	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 18:52:40
+	name: Armored Invaders
+	casting cost: 2BB
+	image: ArmoredInvaders.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		When <atom-cardname><nospellcheck>Armored Invaders</nospellcheck></atom-cardname> deals combat damage to an opponent, gain control of target land that player controls. That land is a Waste for as long as you control it.
+		At the beginning of your upkeep, for each land you control but don’t own, pay <sym-auto>2</sym-auto> or return that land to it’s owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:57:06
+	name: The Smithies Squire
+	casting cost: 2R
+	image: TheSmithiesSquire.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: When <atom-cardname><nospellcheck>The Smithies Squire</nospellcheck></atom-cardname> enters the battlefield, you may search your library for an equipment card. If you do shuffle you library and put that card on top of it.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:01:32
+	name: Rousing Knight
+	casting cost: 1RR
+	image: RousingKnight.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Rousing Knight</nospellcheck></atom-cardname> must attack each turn if able.
+		Squires you control have <kw-a><nospellcheck>haste</nospellcheck></kw-a> and must attack each turn if able.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
 	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:05:06
+	name: Basilisk Rider
+	casting cost: 1B/RB/R
+	image: BasiliskRider.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Basilisk</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:54:08
+	name: Noxian Arms Dealer
+	casting cost: 1B/R
+	image: NoxianArmsDealer.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: When <atom-cardname><nospellcheck>Noxian Arms Dealer</nospellcheck></atom-cardname> enters the battlefield, you may sacrifice an artifact you control. If you do, create an artifact equipment token with “<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>” and “Equip creature gets +1/+1”
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:11:37
+	name: General Lee Tai
+	casting cost: 3RR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		Whenever a creature blocks or becomes blocked by <atom-cardname><nospellcheck>General Lee Tai</nospellcheck></atom-cardname>, silence that creature and unattach all equipment from it.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:18:20
+	name: Finish the Job
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text:
+		Destroy target creature with a -1/-1 counter on it.
+		Draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:46:48
+	name: Trenches of War
+	casting cost: 3BB
+	image: TrenchesofWar.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: Whenever a creature attacks you or permanent you control, if that creature doesn’t have a -1/-1 counter on it, put a -1/-1 counter on it.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:47:49
+	name: Arms Race
+	casting cost: 4RR
+	image: ArmsRace.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: At the beginning of each players upkeep, that player may search their library for an equipment card and put it onto the battlefield under their control. If they do, that player shuffles their library.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:45:34
+	name: Improvising Explosivneer
+	casting cost: 2R
+	image: ImprovisingExplosivneer.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Goblin</word-list-enchantment> <word-list-enchantment>Engineer</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text: <sym-auto>T</sym-auto>, Sacrifice an artifact: Destroy target artifact.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:52:36
+	name: Noxian Contract
+	casting cost: BB
+	image: NoxianContract.png
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: At the beginning of the next end step, if a creature an opponent controls died this turn, draw 3 cards. Otherwise, discard a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:39:33
+	name: Castle Rats
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Rat</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever <atom-cardname><nospellcheck>Castle Rats</nospellcheck></atom-cardname> deals combat damage to an opponent, you may sacrifice it. If you do, that opponent discards a card at random.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:44:37
+	name: Trebuchet Engineer
+	casting cost: R
+	image: TrebuchetEngineer.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Engineer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: Target creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn. Sacrifice that creature at the beginning of the next end step.
+	flavor text: <i-flavor>“These rocks are too light to be worth throwing, but I’ve got an idea...”</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:01:46
+	name: Honorable Squire
+	casting cost: 1R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever a Knight you control becomes blocked by a creature an opponent controls, you may have <atom-cardname><nospellcheck>Honorable Squire</nospellcheck></atom-cardname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1400,7 +1926,7 @@ card:
 	time modified: 2020-07-29 20:27:59
 	name: Aftershock
 	casting cost: 
-	image: image2
+	image: Aftershock.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Resolve
 	rarity: rare
@@ -1460,7 +1986,7 @@ card:
 	time modified: 2020-07-29 20:40:48
 	name: Glacial Augment
 	casting cost: 
-	image: image3
+	image: GlacialAugment.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Inspiration
 	rarity: rare
@@ -1480,7 +2006,7 @@ card:
 	time modified: 2020-07-29 20:40:39
 	name: Grasping Undying
 	casting cost: 
-	image: image4
+	image: GraspingUndying.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Resolve
 	rarity: rare
@@ -1520,7 +2046,7 @@ card:
 	time modified: 2020-07-29 20:46:06
 	name: Kleptomancy
 	casting cost: 
-	image: image5
+	image: Kleptomancy.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Inspiration
 	rarity: rare
@@ -1540,7 +2066,7 @@ card:
 	time modified: 2020-07-29 20:48:44
 	name: Lethal Tempo
 	casting cost: 
-	image: image6
+	image: LethalTempo.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Precision
 	rarity: rare
@@ -1600,7 +2126,7 @@ card:
 	time modified: 2020-07-29 20:25:50
 	name: Arcane Comet
 	casting cost: 
-	image: image7
+	image: ArcaneComet.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Sorcery
 	rarity: rare
@@ -1640,7 +2166,7 @@ card:
 	time modified: 2020-07-29 20:36:06
 	name: Dark Harvest
 	casting cost: 
-	image: image8
+	image: DarkHarvest.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Domination
 	rarity: rare
@@ -1660,7 +2186,7 @@ card:
 	time modified: 2020-07-29 20:26:08
 	name: Guardian
 	casting cost: 
-	image: image9
+	image: Guardian.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Resolve
 	rarity: rare
@@ -1700,7 +2226,7 @@ card:
 	time modified: 2020-07-29 21:05:49
 	name: The Unsealed Spellbook
 	casting cost: 
-	image: image10
+	image: TheUnsealedSpellbook.png
 	super type: <word-list-type>Keystone Rune</word-list-type>
 	sub type: Inspiration
 	rarity: rare
@@ -1723,7 +2249,7 @@ card:
 	time modified: 2020-07-30 17:24:50
 	name: The Citadel of Dawn
 	casting cost: 
-	image: image11
+	image: TheCitadelofDawn.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -1743,7 +2269,7 @@ card:
 	time modified: 2020-07-30 16:35:10
 	name: First Lands
 	casting cost: 
-	image: image12
+	image: FirstLands.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
@@ -1765,7 +2291,7 @@ card:
 	time modified: 2020-07-30 16:30:06
 	name: The Immortal Bastion
 	casting cost: 
-	image: image13
+	image: TheImmortalBastion.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -1785,7 +2311,7 @@ card:
 	time modified: 2020-07-30 16:49:14
 	name: Runeterra Wilds
 	casting cost: 
-	image: image14
+	image: RuneterraWilds.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Mountain</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
@@ -1807,7 +2333,7 @@ card:
 	time modified: 2020-07-30 17:12:59
 	name: Plains
 	casting cost: 
-	image: image15
+	image: Plains.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -1828,7 +2354,7 @@ card:
 	time modified: 2020-07-30 17:13:55
 	name: Island
 	casting cost: 
-	image: image16
+	image: Island.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -1849,7 +2375,7 @@ card:
 	time modified: 2020-07-30 17:11:14
 	name: Swamp
 	casting cost: 
-	image: image17
+	image: Swamp.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -1870,7 +2396,7 @@ card:
 	time modified: 2020-07-30 17:13:09
 	name: Mountain
 	casting cost: 
-	image: image18
+	image: Mountain.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -1891,7 +2417,7 @@ card:
 	time modified: 2020-07-30 16:51:45
 	name: Emerging Landscape
 	casting cost: 
-	image: image19
+	image: EmergingLandscape.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: common
@@ -1914,7 +2440,7 @@ card:
 	time modified: 2020-07-30 16:41:56
 	name: Palace Gardens
 	casting cost: 
-	image: image20
+	image: PalaceGardens.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
@@ -1936,7 +2462,7 @@ card:
 	time modified: 2020-07-30 17:25:19
 	name: The Frostguard Citadel
 	casting cost: 
-	image: image21
+	image: TheFrostguardCitadel.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -1947,7 +2473,7 @@ card:
 	time modified: 2020-07-30 22:33:07
 	name: The Hidden City of Ixtal
 	casting cost: 
-	image: image22
+	image: TheHiddenCityofIxtal.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -1967,7 +2493,7 @@ card:
 	time modified: 2020-07-30 17:17:55
 	name: Forest
 	casting cost: 
-	image: image23
+	image: Forest.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -1988,7 +2514,7 @@ card:
 	time modified: 2020-07-30 17:26:18
 	name: The Placidium of Navori
 	casting cost: 
-	image: image24
+	image: ThePlacidiumofNavori.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -2008,7 +2534,7 @@ card:
 	time modified: 2020-07-30 16:42:42
 	name: Howling Abyss
 	casting cost: 
-	image: image25
+	image: HowlingAbyss.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
@@ -2030,7 +2556,7 @@ card:
 	time modified: 2020-07-30 16:36:40
 	name: Conquered Terrain
 	casting cost: 
-	image: image26
+	image: ConqueredTerrain.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Swamp</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
@@ -2051,7 +2577,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 16:35:52
 	name: Rivers of Grass
-	image: image27
+	image: RiversofGrass.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: uncommon
@@ -2073,7 +2599,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 22:21:53
 	name: Frost Barrens
-	image: image28
+	image: FrostBarrens.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: uncommon
@@ -2095,7 +2621,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 22:26:09
 	name: High Silvermere
-	image: image29
+	image: HighSilvermere.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: uncommon
@@ -2117,7 +2643,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 22:29:19
 	name: Pit Mine
-	image: image30
+	image: PitMine.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Swamp</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: uncommon
@@ -2139,7 +2665,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 22:23:14
 	name: Concealing Canopy
-	image: image31
+	image: ConcealingCanopy.png
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land>Forest</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: uncommon
@@ -2161,7 +2687,7 @@ card:
 	time created: 2020-07-29 00:04:24
 	time modified: 2020-07-30 22:35:24
 	name: Petricite Grove
-	image: image32
+	image: PetriciteGrove.png
 	super type: <word-list-type>Legendary Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
 	rarity: mythic rare
@@ -2183,7 +2709,7 @@ card:
 	time modified: 2020-07-30 17:10:43
 	name: Wastes
 	casting cost: 
-	image: image33
+	image: Wastes.png
 	super type: <word-list-type>Basic Land</word-list-type>
 	sub type: <word-list-land>Wastes</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
@@ -2207,7 +2733,7 @@ card:
 	time modified: 2020-07-27 23:49:54
 	name: Large Krug
 	casting cost: 4
-	image: image34
+	image: LargeKrug.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -2229,7 +2755,7 @@ card:
 	time modified: 2020-07-27 21:35:41
 	name: Rift Herald
 	casting cost: 5
-	image: image35
+	image: RiftHerald.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Crab</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2253,7 +2779,7 @@ card:
 	time modified: 2020-07-30 21:07:56
 	name: Cloud Dragon
 	casting cost: 4WW
-	image: image36
+	image: CloudDragon.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2277,7 +2803,7 @@ card:
 	time modified: 2020-07-27 23:39:59
 	name: Razorbeak
 	casting cost: 1WW
-	image: image37
+	image: Razorbeak.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Bird</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -2302,7 +2828,7 @@ card:
 	time modified: 2020-07-27 23:52:52
 	name: Blue Sentinel
 	casting cost: 3UU
-	image: image38
+	image: BlueSentinel.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2326,7 +2852,7 @@ card:
 	time modified: 2020-07-30 21:53:18
 	name: Ocean Dragon
 	casting cost: 4UU
-	image: image39
+	image: OceanDragon.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2350,7 +2876,7 @@ card:
 	time modified: 2020-07-30 21:38:57
 	name: Ancient Dragon
 	casting cost: 4BB
-	image: image40
+	image: AncientDragon.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2374,7 +2900,7 @@ card:
 	time modified: 2020-07-30 22:06:46
 	name: Murk Wolves
 	casting cost: 1B
-	image: image41
+	image: MurkWolves.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Wolf</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
@@ -2397,7 +2923,7 @@ card:
 	time modified: 2020-07-30 22:04:48
 	name: Vilemaw, Twisted Queen
 	casting cost: 4BBBB
-	image: image42
+	image: VilemawTwistedQueen.png
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spider</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -2423,7 +2949,7 @@ card:
 	time modified: 2020-07-27 23:59:31
 	name: Brambleback
 	casting cost: 3RR
-	image: image43
+	image: Brambleback.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2450,7 +2976,7 @@ card:
 	time modified: 2020-07-29 19:29:03
 	name: Infernal Dragon
 	casting cost: 4RR
-	image: image44
+	image: InfernalDragon.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2474,7 +3000,7 @@ card:
 	time modified: 2020-07-27 23:43:17
 	name: Gromp
 	casting cost: 2GG
-	image: image45
+	image: Gromp.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Frog</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -2498,7 +3024,7 @@ card:
 	time modified: 2020-07-27 21:55:48
 	name: Mountain Dragon
 	casting cost: 4GG
-	image: image46
+	image: MountainDragon.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2522,7 +3048,7 @@ card:
 	time modified: 2020-07-29 19:39:36
 	name: Elder Dragon
 	casting cost: 22/R2/B2/G2/U2/W
-	image: image47
+	image: ElderDragon.png
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -2547,7 +3073,7 @@ card:
 	time modified: 2020-07-27 22:28:12
 	name: Fountain Obelisk
 	casting cost: 8
-	image: image48
+	image: FountainObelisk.png
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -2574,7 +3100,7 @@ card:
 	time modified: 2018-10-18 22:28:46
 	name: Inhibitor Turret
 	casting cost: 5
-	image: image49
+	image: InhibitorTurret.png
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2599,7 +3125,7 @@ card:
 	time modified: 2018-10-18 22:30:06
 	name: Inner Turret
 	casting cost: 3
-	image: image50
+	image: InnerTurret.png
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -2623,7 +3149,7 @@ card:
 	time modified: 2018-10-18 22:29:30
 	name: Nexus Turret
 	casting cost: 7
-	image: image51
+	image: NexusTurret.png
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -2649,7 +3175,7 @@ card:
 	time modified: 2018-10-18 22:29:34
 	name: Outer Turret
 	casting cost: 1
-	image: image52
+	image: OuterTurret.png
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Defender</nospellcheck></kw-a>
@@ -2670,7 +3196,7 @@ card:
 	time modified: 2020-07-29 19:24:49
 	name: Rift Scuttler
 	casting cost: 1
-	image: image53
+	image: RiftScuttler.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Crab</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -2692,7 +3218,7 @@ card:
 	time modified: 2020-07-30 23:05:50
 	name: Baron Nashor
 	casting cost: 7
-	image: image54
+	image: BaronNashor.png
 	super type: <word-list-type>Legendary Objective</word-list-type>
 	sub type: Wurm Monster 
 	rarity: mythic rare
@@ -2722,7 +3248,7 @@ card:
 	time modified: 2020-07-30 22:02:32
 	name: The Nexus
 	casting cost: 12
-	image: image55
+	image: TheNexus.png
 	super type: <word-list-type>Legendary Objective</word-list-type>
 	sub type: 
 	rarity: mythic rare
@@ -2747,7 +3273,7 @@ card:
 	time modified: 2020-07-30 22:01:23
 	name: Elder Vastayashai'rei
 	casting cost: RGWU
-	image: image56
+	image: ElderVastayashairei.png
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Elder</word-list-race> <word-list-class>Vastaya</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
@@ -2773,7 +3299,7 @@ card:
 	time modified: 2020-07-30 23:15:26
 	name: Inhibitor
 	casting cost: 5
-	image: image57
+	image: Inhibitor.png
 	super type: <word-list-type>Objective</word-list-type>
 	sub type: 
 	rarity: rare
@@ -2798,7 +3324,7 @@ card:
 	time modified: 2020-07-30 23:13:44
 	name: Twisted East Altar
 	casting cost: 0
-	image: image58
+	image: TwistedEastAltar.png
 	super type: <word-list-type>Objective</word-list-type>
 	sub type: 
 	rarity: common
@@ -2823,7 +3349,7 @@ card:
 	time modified: 2020-07-30 23:13:50
 	name: Twisted West Altar
 	casting cost: 0
-	image: image59
+	image: TwistedWestAltar.png
 	super type: <word-list-type>Objective</word-list-type>
 	sub type: 
 	rarity: common
@@ -2851,7 +3377,7 @@ card:
 	time modified: 2020-07-30 22:10:15
 	name: Smite
 	casting cost: 2
-	image: image60
+	image: Smite.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2873,7 +3399,7 @@ card:
 	time modified: 2020-07-30 20:19:02
 	name: Barrier
 	casting cost: 1G/W
-	image: image61
+	image: Barrier.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2895,7 +3421,7 @@ card:
 	time modified: 2020-07-30 20:19:50
 	name: Flash
 	casting cost: 1W/U
-	image: image62
+	image: Flash.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2917,7 +3443,7 @@ card:
 	time modified: 2020-07-30 20:57:05
 	name: Ignite
 	casting cost: 1B/R
-	image: image63
+	image: Ignite.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2939,7 +3465,7 @@ card:
 	time modified: 2020-07-30 20:57:24
 	name: Surge
 	casting cost: 1R/G
-	image: image64
+	image: Surge.png
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2961,7 +3487,7 @@ card:
 	time modified: 2020-07-30 20:20:55
 	name: Teleport
 	casting cost: 1U/R
-	image: image65
+	image: Teleport.png
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -2983,7 +3509,7 @@ card:
 	time modified: 2020-07-30 20:27:49
 	name: Cleanse
 	casting cost: 1G/U
-	image: image66
+	image: Cleanse.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -3005,7 +3531,7 @@ card:
 	time modified: 2020-07-30 20:39:42
 	name: Exhaust
 	casting cost: 1W/B
-	image: image67
+	image: Exhaust.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -3027,7 +3553,7 @@ card:
 	time modified: 2020-07-30 20:58:40
 	name: Ghost
 	casting cost: 1U/B
-	image: image68
+	image: Ghost.png
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -3049,7 +3575,7 @@ card:
 	time modified: 2020-07-30 20:20:20
 	name: Promote
 	casting cost: 1R/W
-	image: image69
+	image: Promote.png
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -3071,7 +3597,7 @@ card:
 	time modified: 2020-07-30 20:49:31
 	name: Revive
 	casting cost: 1B/G
-	image: image70
+	image: Revive.png
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon

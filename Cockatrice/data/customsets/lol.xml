@@ -37,7 +37,7 @@
  <text>(This can be attacked.)
 Shroud
 +1: You can attack Baron Nashor.
-When Baron Nashor dies, each player who controls a creature that dealt combat damage to it this turn draws 4 cards and gains an emblem with “Creatures you control get +3/+3.”</text>
+When a player captures Baron Nashor, that player draws 4 cards and gains an emblem with “Creatures you control get +3/+3.”</text>
 </card>
 <card>
  <name>Conquerer</name>
@@ -119,8 +119,8 @@ When Baron Nashor dies, each player who controls a creature that dealt combat da
  <type>Objective</type>
  <tablerow>1</tablerow>
  <text>(This can be attacked.)
-Each creature your opponents control enters the battlefield tapped and with an additional -1/-1 counter.
-When Inhibitor leaves the battlefield, each opponent spawns a colorless 5/5 Monster.</text>
+Creatures your opponents control enter the battlefield tapped and with an additional -1/-1 counter on them.
+When Inhibitor is captured, each opponent spawns a colorless 5/5 Minion.</text>
 </card>
 <card>
  <name>Kleptomancy</name>
@@ -213,10 +213,11 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
  <name>Smite</name>
  <set picURL="/Smite.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
- <manacost>5</manacost>
+ <manacost>2</manacost>
  <type>Instant</type>
  <tablerow>3</tablerow>
- <text>Smite deals 4 true damage to target non-champion creature. If that creature is a Monster, exile it.</text>
+ <text>Summoner spell, split second
+Smite deals 5 true damage to target Minion or Monster.</text>
 </card>
 <card>
  <name>Summon Aery</name>
@@ -226,6 +227,28 @@ At the beginning of combat on your turn, you may destroy target Turret an oppone
  <type>Keystone Rune - Sorcery</type>
  <tablerow>3</tablerow>
  <text>Eminence — Whenever a Mage you control attacks or activates an ability for the first time each turn, you may create a 1/1 Sprite with flying and haste. Sacrifice it at end of turn.</text>
+</card>
+<card>
+ <name>Twisted East Altar</name>
+ <set picURL="/Twisted East Altar.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost>0</manacost>
+ <type>Objective</type>
+ <tablerow>1</tablerow>
+ <text>(This can be attacked.)
+At the beginning of each opponents upkeep, that player reveals a random card from their hand.
+When Twisted East Altar is captured, return it to the battlefield under that players control.</text>
+</card>
+<card>
+ <name>Twisted West Altar</name>
+ <set picURL="/Twisted West Altar.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost>0</manacost>
+ <type>Objective</type>
+ <tablerow>1</tablerow>
+ <text>(This can be attacked.)
+Your opponents play with the top card of their library revealed.
+When Twisted West Altar is captured, return it to the battlefield under that players control.</text>
 </card>
 <card>
  <name>The Unsealed Spellbook</name>
@@ -259,6 +282,15 @@ Knights you control have first strike as long as you control a Squire.</text>
 Whenever Bonded Roc or another Vastaya enters the battlefield under your control, target creature gains flying until end of turn.</text>
 </card>
 <card>
+ <name>Cast Doubt</name>
+ <set picURL="/Cast Doubt.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost>W</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Silence target creature until end of turn.</text>
+</card>
+<card>
  <name>Chroma Dancer</name>
  <set picURL="/Chroma Dancer.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
@@ -278,17 +310,17 @@ When Chroma Dancer enters the battlefield choose a color. Target creature you co
  <pt>4/4</pt>
  <tablerow>2</tablerow>
  <text>Flying, vigilance
-Whenever Cloud Dragon enters the battlefield or attacks, you may blink another target creature you control. If you do, that creature returns tapped and attacking.</text>
+2W, T: Exile target creature you control, then return that card to the battlefield under your control.</text>
 </card>
 <card>
- <name>Demacian Recruit</name>
- <set picURL="/Demacian Recruit.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Drought</name>
+ <set picURL="/Drought.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
- <manacost>W</manacost>
- <type>Creature - Human Soldier </type>
- <pt>1/1</pt>
- <tablerow>2</tablerow>
- <text>Whenever another creature enters the battlefield under your control, Demacian Recruit gets +1/+1 until end of turn.</text>
+ <manacost>1WW</manacost>
+ <type>Enchantment</type>
+ <tablerow>1</tablerow>
+ <text>Lands have “T: Add C.”
+Whenever a land is tapped for colored mana, that land doesn’t untap during it’s controllers next untap step.</text>
 </card>
 <card>
  <name>The Great Master Kusho</name>
@@ -301,6 +333,25 @@ Whenever Cloud Dragon enters the battlefield or attacks, you may blink another t
  <text>First strike, vigilance
 At the beginning of your end step, if The Great Master Kusho did not attack or block this turn, put a +1/+1 counter on it.
 At the beginning of each upkeep, The Great Master Kusho gets shield X until end of turn, where X is the number of +1/+1 counters on it.</text>
+</card>
+<card>
+ <name>Honored Knight</name>
+ <set picURL="/Honored Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost>4W</manacost>
+ <type>Creature - Human Knight </type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>Honored Knight gets +1/+1 for each Squire you control.</text>
+</card>
+<card>
+ <name>Howling Gale</name>
+ <set picURL="/Howling Gale.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost>1W</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Exile target creature. Then you may pay 1W. If you don’t, return that creature to the battlefield.</text>
 </card>
 <card>
  <name>Ionian Mystic</name>
@@ -333,6 +384,17 @@ At the beginning of each upkeep, The Great Master Kusho gets shield X until end 
  <text>Whenever Lhotlan Battle-Dancer or another Vastaya enters the battlefield under your control, Vastaya creatures you control get shield 1 until end of turn.</text>
 </card>
 <card>
+ <name>Promising Squire</name>
+ <set picURL="/Promising Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost>2W</manacost>
+ <type>Creature - Human Squire </type>
+ <pt>1/2</pt>
+ <tablerow>2</tablerow>
+ <text>Knights you control get +1/+0.
+When a Knight you control dies, choose an equipment that was attached to that creature when it died and attach it to Promising Squire. If you do, put a +1/+1 counter on Promising Squire and it becomes a Knight. (This effect does not stop at end of turn.)</text>
+</card>
+<card>
  <name>Razorbeak</name>
  <set picURL="/Razorbeak.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
@@ -353,6 +415,17 @@ At the beginning of your upkeep, spawn a 0/1 white Bird.</text>
  <pt>2/2</pt>
  <tablerow>2</tablerow>
  <text>When Rune-Binder enters the battlefield, exile target creature until Rune-Binder leaves the battlefield.</text>
+</card>
+<card>
+ <name>Sword of the Divine</name>
+ <set picURL="/Sword of the Divine.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost>2W</manacost>
+ <type>Legendary Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Equipped creature has first strike.
+2/W2/W: Equipped creature gains double strike until end of turn.</text>
 </card>
 <card>
  <name>Blue Sentinel</name>
@@ -396,16 +469,6 @@ Whenever you cast an instant or sorcery, you may draw a card. If you don’t, sc
  <text>When Frost Knight enters the battlefield, stun target creature an opponent controls.</text>
 </card>
 <card>
- <name>Frostbite</name>
- <set picURL="/Frostbite.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>U</color>
- <manacost>2U</manacost>
- <type>Sorcery</type>
- <tablerow>3</tablerow>
- <text>Stun target creature an opponent controls.
-If B was spent to cast this spell, destroy target stunned creature.</text>
-</card>
-<card>
  <name>Frozen in Thought</name>
  <set picURL="/Frozen in Thought.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
@@ -446,6 +509,15 @@ Whenever Hawkshot Archer attacks, scry 1.</text>
 Whenever Ice-Tooth Pirhanna’s deals combat damage to a creature, stun that creature.</text>
 </card>
 <card>
+ <name>Intelligence Briefing</name>
+ <set picURL="/Intelligence Briefing.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>U</color>
+ <manacost>2U</manacost>
+ <type>Enchantment</type>
+ <tablerow>1</tablerow>
+ <text>Whenever an opponent casts a noncreature spell, you may pay U. If you do, draw a card.</text>
+</card>
+<card>
  <name>Ocean Dragon</name>
  <set picURL="/Ocean Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>U</color>
@@ -454,7 +526,7 @@ Whenever Ice-Tooth Pirhanna’s deals combat damage to a creature, stun that cre
  <pt>4/4</pt>
  <tablerow>2</tablerow>
  <text>Flying, hexproof
-Creatures blocking or blocked by Ocean Dragon lose first strike and double strike.</text>
+Creatures your opponents control lose haste, first strike, and double strike and can’t have or gain those abilities.</text>
 </card>
 <card>
  <name>Serpant of the Scrolls</name>
@@ -487,6 +559,17 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
  <text>When Student of the Lightbringers enters the battlefield, silence target creature an opponent controls.</text>
 </card>
 <card>
+ <name>Zhonyas Hourglass</name>
+ <set picURL="/Zhonyas Hourglass.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>U</color>
+ <manacost>2U</manacost>
+ <type>Legendary Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Equipped creature has “T: Add C.”
+2/U2/U: Equipped creature phases out.</text>
+</card>
+<card>
  <name>Ancient Dragon</name>
  <set picURL="/Ancient Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
@@ -495,7 +578,39 @@ Creatures blocking or blocked by Ocean Dragon lose first strike and double strik
  <pt>4/4</pt>
  <tablerow>2</tablerow>
  <text>Flying, menace
-Whenever you tap a Swamp for mana, add an additional B.</text>
+4BB: Return Ancient Dragon from your graveyard to the battlefield. Activate this ability only if a Dragon died this turn.</text>
+</card>
+<card>
+ <name>Armored Invaders</name>
+ <set picURL="/Armored Invaders.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>2BB</manacost>
+ <type>Creature - Human Soldiers </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>When Armored Invaders deals combat damage to an opponent, gain control of target land that player controls. That land is a Waste for as long as you control it.
+At the beginning of your upkeep, for each land you control but don’t own, pay 2 or return that land to it’s owners control.</text>
+</card>
+<card>
+ <name>Black Cleaver</name>
+ <set picURL="/Black Cleaver.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>2B</manacost>
+ <type>Legendary Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Equipped creature has menace.
+2/B2/B: Equipped gains grievous wounds until end of turn.</text>
+</card>
+<card>
+ <name>Castle Rats</name>
+ <set picURL="/Castle Rats.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <type>Creature - Rat </type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever Castle Rats deals combat damage to an opponent, you may sacrifice it. If you do, that opponent discards a card at random.</text>
 </card>
 <card>
  <name>Dire Wildclaw</name>
@@ -517,6 +632,16 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
  <text>When Encase in True Ice enters the battlefield, exile target creature an opponent controls until Encase in True Ice leaves the battlefield. That creature enters the battlefield with an additional -1/-1 counter on it.</text>
 </card>
 <card>
+ <name>Finish the Job</name>
+ <set picURL="/Finish the Job.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>1B</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Destroy target creature with a -1/-1 counter on it.
+Draw a card.</text>
+</card>
+<card>
  <name>Frostbite Abyssal</name>
  <set picURL="/Frostbite Abyssal.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
@@ -534,7 +659,16 @@ Whenever you tap a Swamp for mana, add an additional B.</text>
  <type>Creature - Wolf Monster </type>
  <pt>2/1</pt>
  <tablerow>2</tablerow>
- <text>Menace, grievous wounds</text>
+ <text>Menace</text>
+</card>
+<card>
+ <name>Noxian Contract</name>
+ <set picURL="/Noxian Contract.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>At the beginning of the next end step, if a creature an opponent controls died this turn, draw 3 cards. Otherwise, discard a card.</text>
 </card>
 <card>
  <name>Putrid Giant</name>
@@ -559,17 +693,46 @@ When Putrid Giant deals combat damage to an opponent, that player discards a car
 Scry 2.</text>
 </card>
 <card>
- <name>Vilemaw</name>
- <set picURL="/Vilemaw.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Trenches of War</name>
+ <set picURL="/Trenches of War.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>B</color>
+ <manacost>3BB</manacost>
+ <type>Enchantment</type>
+ <tablerow>1</tablerow>
+ <text>Whenever a creature attacks you or permanent you control, if that creature doesn’t have a -1/-1 counter on it, put a -1/-1 counter on it.</text>
+</card>
+<card>
+ <name>Vilemaw Twisted Queen</name>
+ <set picURL="/Vilemaw Twisted Queen.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
  <manacost>4BBBB</manacost>
  <type>Legendary Creature - Spider Monster </type>
  <pt>4/8</pt>
  <tablerow>2</tablerow>
  <text>Reach, menace, deathtouch, shroud
-Vilemaw can block an additional creature each combat.
-Creatures fighting, blocking, or being blocked by Vilemaw lose first strike and double strike.
-4BBBB, T: Each creature your opponents control fights Vilemaw.</text>
+Vilemaw, Twisted Queen can block an additional creature each combat.
+Creatures fighting, blocking, or being blocked by Vilemaw, Twisted Queen lose first strike and double strike.
+4BBBB, T: Each creature your opponents control fights Vilemaw, Twisted Queen.</text>
+</card>
+<card>
+ <name>Arms Race</name>
+ <set picURL="/Arms Race.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>4RR</manacost>
+ <type>Enchantment</type>
+ <tablerow>1</tablerow>
+ <text>At the beginning of each players upkeep, that player may search their library for an equipment card and put it onto the battlefield under their control. If they do, that player shuffles their library.</text>
+</card>
+<card>
+ <name>Blade of the Ruined King</name>
+ <set picURL="/Blade of the Ruined King.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <type>Legendary Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Equipped creature gets +2/+0.
+2/R2/R: Equipped creature gains engage until end of turn.</text>
 </card>
 <card>
  <name>Brambleback</name>
@@ -582,6 +745,66 @@ Creatures fighting, blocking, or being blocked by Vilemaw lose first strike and 
  <text>At the beginning of your precombat main phase, target creature you control gains grievous wounds and haste until end of turn.</text>
 </card>
 <card>
+ <name>Dragon Cultist</name>
+ <set picURL="/Dragon Cultist.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <type>Creature - Human Shaman </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever a Dragon creature enters the battlefield under your control, sacrifice Dragon Cultist. If you do, put two +1/+1 counter on that creature.</text>
+</card>
+<card>
+ <name>Drive Mad</name>
+ <set picURL="/Drive Mad.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If G was spent to cast Drive Mad, that creature also gains engage until end of turn.</text>
+</card>
+<card>
+ <name>Eager Knight</name>
+ <set picURL="/Eager Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>RR</manacost>
+ <type>Creature - Human Knight </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>Haste
+Eager Knight has first strike as long as you control a Squire.</text>
+</card>
+<card>
+ <name>General Lee Tai</name>
+ <set picURL="/General Lee Tai.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>3RR</manacost>
+ <type>Legendary Creature - Human Ninja </type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>Haste
+Whenever a creature blocks or becomes blocked by General Lee Tai, silence that creature and unattach all equipment from it.</text>
+</card>
+<card>
+ <name>Honorable Squire</name>
+ <set picURL="/Honorable Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <type>Creature - Human Squire </type>
+ <pt>2/1</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever a Knight you control becomes blocked by a creature an opponent controls, you may have Honorable Squire fight that creature.</text>
+</card>
+<card>
+ <name>Improvising Explosivneer</name>
+ <set picURL="/Improvising Explosivneer.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <type>Enchantment - Goblin Engineer </type>
+ <tablerow>1</tablerow>
+ <text>T, Sacrifice an artifact: Destroy target artifact.</text>
+</card>
+<card>
  <name>Infernal Dragon</name>
  <set picURL="/Infernal Dragon.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
@@ -591,6 +814,86 @@ Creatures fighting, blocking, or being blocked by Vilemaw lose first strike and 
  <tablerow>2</tablerow>
  <text>Flying, haste
 As long as Infernal Dragon is attacking, other attacking creatures you control get +1/+0 until end of turn.</text>
+</card>
+<card>
+ <name>Rousing Knight</name>
+ <set picURL="/Rousing Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>1RR</manacost>
+ <type>Creature - Human Knight </type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text>Haste
+Rousing Knight must attack each turn if able.
+Squires you control have haste and must attack each turn if able.</text>
+</card>
+<card>
+ <name>Shimon Prankster</name>
+ <set picURL="/Shimon Prankster.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <type>Creature - Vastaya Ape </type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever Shimon Prankster or another Vastaya you control enters the battlefield, you may discard a card. If you do, draw a card.</text>
+</card>
+<card>
+ <name>Shock Awake</name>
+ <set picURL="/Shock Awake.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Deal 2 damage to any target. If a creature was dealt damage this way, untap it.</text>
+</card>
+<card>
+ <name>The Smithies Squire</name>
+ <set picURL="/The Smithies Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <type>Creature - Human Squire </type>
+ <pt>1/2</pt>
+ <tablerow>2</tablerow>
+ <text>When The Smithies Squire enters the battlefield, you may search your library for an equipment card. If you do shuffle you library and put that card on top of it.</text>
+</card>
+<card>
+ <name>Squire</name>
+ <set picURL="/Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <type>Creature - Human Squire </type>
+ <pt>1/2</pt>
+ <tablerow>2</tablerow>
+ <text>T: Target Knight you control gains haste until end of turn.</text>
+</card>
+<card>
+ <name>Trebuchet Engineer</name>
+ <set picURL="/Trebuchet Engineer.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <type>Creature - Human Engineer </type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>Reach
+R, T: Target creature you control gains flying until end of turn. Sacrifice that creature at the beginning of the next end step.</text>
+</card>
+<card>
+ <name>Blessed Gifts</name>
+ <set picURL="/Blessed Gifts.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <type>Enchantment</type>
+ <tablerow>1</tablerow>
+ <text>At the beginning of you upkeep, if you control a creature with a +1/+1 counter on it, draw a card.</text>
+</card>
+<card>
+ <name>Gift of Nature</name>
+ <set picURL="/Gift of Nature.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Put a +1/+1 counter on each creature you control without a +1/+1 counter on it.</text>
 </card>
 <card>
  <name>Gromp</name>
@@ -625,6 +928,16 @@ As long as Gromp hasn’t been dealt damage it has double strike.</text>
 Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1 counter on each creature you control.</text>
 </card>
 <card>
+ <name>Natural Consequences</name>
+ <set picURL="/Natural Consequences.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>You may cast Natural Consequences as if it had flash if it targets a permanent that entered the battlefield this turn.
+Destroy target artifact or enchantment.</text>
+</card>
+<card>
  <name>Ottrani Charger</name>
  <set picURL="/Ottrani Charger.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>G</color>
@@ -633,6 +946,27 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
  <pt>4/3</pt>
  <tablerow>2</tablerow>
  <text>Whenever Ottrani Charger or another Vastaya enters the battlefield under your control, creatures you control gain trample until end of turn.</text>
+</card>
+<card>
+ <name>Shimon Treescout</name>
+ <set picURL="/Shimon Treescout.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <type>Creature - Vastaya Ape </type>
+ <pt>1/3</pt>
+ <tablerow>2</tablerow>
+ <text>Reach
+Other Vastaya creatures you control have reach.</text>
+</card>
+<card>
+ <name>Stampede Herder</name>
+ <set picURL="/Stampede Herder.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <type>Creature - Human Druid </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever a creature you control engages, that creature gains trample until the end of turn.</text>
 </card>
 <card>
  <name>Strig Scout</name>
@@ -645,22 +979,47 @@ Whenever Mountain Dragon deals combat damage to an opponent, you may put a +1/+1
  <text>Whenever Strig Scout or another Vastaya creature enters the battlefield under your control, put a +1/+1 counter on that creature.</text>
 </card>
 <card>
- <name>Barrier</name>
- <set picURL="/Barrier.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>GW</manacost>
- <type>Instant - Summoner </type>
- <tablerow>3</tablerow>
- <text>Target creature or player gets Shield 5 until end of turn.</text>
+ <name>Warmogs Armor</name>
+ <set picURL="/Warmogs Armor.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <type>Legendary Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Equipped creature gets +0/+2.
+2/G2/G: Regenerate equipped creature.</text>
 </card>
 <card>
- <name>Cleanse</name>
- <set picURL="/Cleanse.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Barbarians Bloodlust</name>
+ <set picURL="/Barbarians Bloodlust.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
- <manacost>GU</manacost>
- <type>Instant - Summoner </type>
+ <manacost>RG</manacost>
+ <type>Sorcery</type>
  <tablerow>3</tablerow>
- <text>Cleanse target creature.</text>
+ <text>Enchant creature
+Enchanted creature is goaded and has engage.</text>
+</card>
+<card>
+ <name>Charging Thunderhorn</name>
+ <set picURL="/Charging Thunderhorn.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>4RG</manacost>
+ <type>Creature - Beast </type>
+ <pt>5/5</pt>
+ <tablerow>2</tablerow>
+ <text>Haste, engage, trample
+Charging Thunderhorn must attack each turn if able.</text>
+</card>
+<card>
+ <name>Dragon Egg Tender</name>
+ <set picURL="/Dragon Egg Tender.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>2RG</manacost>
+ <type>Creature - Human Shaman </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>2RG, T: Spawn a 0/1 Dragon Egg with defender.
+Whenever a Dragon Egg you control dies, you may play a Dragon card from your hand without paying it’s mana cost.</text>
 </card>
 <card>
  <name>Elder Dragon</name>
@@ -675,6 +1034,20 @@ This spell cost 2 less to cast for each Dragon card in your graveyard.
 Other Dragons you control get +1/+1 and have double strike.</text>
 </card>
 <card>
+ <name>Elder Vastayashairei</name>
+ <set picURL="/Elder Vastayashairei.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>RGWU</manacost>
+ <type>Creature - Elder Vastaya </type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>Flying, vigilance, first strike, trample
+W, T: Target Vastaya gets shield 1 until end of turn.
+U, T: Counter target spell that targets a Vastaya you control. That spells controller draws a card.
+R, T: Deal 1 damage to target non-Vastaya creature.
+G, T: Search your library for a Vastaya creature card then shuffle your library and put that card on top of it.</text>
+</card>
+<card>
  <name>Executioner Troll</name>
  <set picURL="/Executioner Troll.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
@@ -685,35 +1058,6 @@ Other Dragons you control get +1/+1 and have double strike.</text>
  <text>Whenever Executioner Troll deals combat damage to a tapped creature, destroy that creature.</text>
 </card>
 <card>
- <name>Exhaust</name>
- <set picURL="/Exhaust.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>WB</manacost>
- <type>Instant - Summoner </type>
- <tablerow>3</tablerow>
- <text>Target attacking or blocking creature gets -3/-3 and loses first strike and double strike until end of turn.</text>
-</card>
-<card>
- <name>Flash</name>
- <set picURL="/Flash.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>WU</manacost>
- <type>Instant - Summoner </type>
- <tablerow>3</tablerow>
- <text>Choose one —
-• Blink target creature you control.
-• Until the end of turn, the next spell you cast can be cast as if it had flash.</text>
-</card>
-<card>
- <name>Ghost</name>
- <set picURL="/Ghost.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>UR</manacost>
- <type>Sorcery - Summoner </type>
- <tablerow>3</tablerow>
- <text>Until end of turn target creature gets haste, first strike, and unblockable.</text>
-</card>
-<card>
  <name>Iceborn Knight</name>
  <set picURL="/Iceborn Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
@@ -722,16 +1066,6 @@ Other Dragons you control get +1/+1 and have double strike.</text>
  <pt>2/2</pt>
  <tablerow>2</tablerow>
  <text>Whenever Iceborn Knight deals combat damage to a creature, stun that creature.</text>
-</card>
-<card>
- <name>Ignite</name>
- <set picURL="/Ignite.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>BR</manacost>
- <type>Instant - Summoner </type>
- <tablerow>3</tablerow>
- <text>Grievous Wounds
-Deal 3 true damage to any target.</text>
 </card>
 <card>
  <name>Lissandras Story Hunters</name>
@@ -754,15 +1088,6 @@ Deal 3 true damage to any target.</text>
  <text>Whenever Marai Healer or another Vastaya enters the battlefield under your control, you gain 1 life for each Vastaya you control.</text>
 </card>
 <card>
- <name>Promote</name>
- <set picURL="/Promote.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>RW</manacost>
- <type>Instant - Summoner </type>
- <tablerow>3</tablerow>
- <text>Put a +1/+1 counter on target creature you control. That creature gains double strike until end of turn.</text>
-</card>
-<card>
  <name>Rampaging Thunderhorn</name>
  <set picURL="/Rampaging Thunderhorn.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
@@ -773,13 +1098,13 @@ Deal 3 true damage to any target.</text>
  <text>When Rampaging Thunderhorn attacks, stun it and up to one target creature an opponent controls.</text>
 </card>
 <card>
- <name>Revive</name>
- <set picURL="/Revive.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Riposte</name>
+ <set picURL="/Riposte.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
- <manacost>BG</manacost>
- <type>Sorcery - Summoner </type>
+ <manacost>WU</manacost>
+ <type>Instant</type>
  <tablerow>3</tablerow>
- <text>Put target creature card from your graveyard onto the battlefield tapped.</text>
+ <text>Counter target noncreature spell, activated ability, or triggered ability.</text>
 </card>
 <card>
  <name>Shimon Ambush Leader</name>
@@ -789,9 +1114,7 @@ Deal 3 true damage to any target.</text>
  <type>Creature - Vastaya Ape </type>
  <pt>4/3</pt>
  <tablerow>2</tablerow>
- <text>Engage
-Whenever Shimon Ambush Leader or another Vastaya enters the battlefield under your control, you may have it fight target creature an opponent controls.
-Other Vastaya creatures you control have haste.</text>
+ <text>Whenever Shimon Ambush Leader or another Vastaya enters the battlefield under your control, that creature gains haste and engage until end of turn.</text>
 </card>
 <card>
  <name>Silverwing Rider</name>
@@ -801,26 +1124,18 @@ Other Vastaya creatures you control have haste.</text>
  <type>Creature - Griffin Knight </type>
  <pt>3/3</pt>
  <tablerow>2</tablerow>
- <text>Flying, vigilance
-Spells your opponents control that target Silverwing Rider cost 2 more to cast.</text>
+ <text>Flying, vigilance</text>
 </card>
 <card>
- <name>Surge</name>
- <set picURL="/Surge.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Tempestuous Baloth</name>
+ <set picURL="/Tempestuous Baloth.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
- <manacost>RG</manacost>
- <type>Sorcery - Summoner </type>
- <tablerow>3</tablerow>
- <text>Target creature gets +3/+3 and gains engage and trample until end of turn.</text>
-</card>
-<card>
- <name>Teleport</name>
- <set picURL="/Teleport.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>M</color>
- <manacost>UB</manacost>
- <type>Sorcery - Summoner </type>
- <tablerow>3</tablerow>
- <text>Search your hand and/or library for a champion card and exile it. Put three time counters on the exiled card. If it doesn’t have suspend, it gains suspend. If you searched your library this way, shuffle it.</text>
+ <manacost>1RG</manacost>
+ <type>Creature - Beast </type>
+ <pt>6/3</pt>
+ <tablerow>2</tablerow>
+ <text>Defender, Engage
+When an opponent attacks you or a permanent you control, Tempestuous Baloth loses defender. (This effect does not wear off at end of turn.)</text>
 </card>
 <card>
  <name>Tithe Collector</name>
@@ -833,6 +1148,96 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
  <text>Whenever an opponent casts a spell, counter that spell unless they pay 1 for each spell they have cast this turn.</text>
 </card>
 <card>
+ <name>Trifarion Knight</name>
+ <set picURL="/Trifarion Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>BBRR</manacost>
+ <type>Creature - Human Knight </type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>First strike, grievous wounds</text>
+</card>
+<card>
+ <name>Vengeful Knight</name>
+ <set picURL="/Vengeful Knight.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1BR</manacost>
+ <type>Creature - Human Knight </type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever a Squire you control dies, Vengeful Knight gets +1/+1 until end of turn.</text>
+</card>
+<card>
+ <name>Whimsey</name>
+ <set picURL="/Whimsey.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1WU</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Target creature you control gains first strike until end of turn.
+Target creature an opponent controls becomes 0/2 and loses all abilities until end of turn.</text>
+</card>
+<card>
+ <name>Barrier</name>
+ <set picURL="/Barrier.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1G/W</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+You or target creature you control gets shield 5 until end of turn.</text>
+</card>
+<card>
+ <name>Basilisk Rider</name>
+ <set picURL="/Basilisk Rider.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1B/RB/R</manacost>
+ <type>Creature - Basilisk Knight </type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>Menace</text>
+</card>
+<card>
+ <name>Cleanse</name>
+ <set picURL="/Cleanse.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1G/U</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Cleanse target creature you control.</text>
+</card>
+<card>
+ <name>Exhaust</name>
+ <set picURL="/Exhaust.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1W/B</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Target creature gets -2/-2 and loses first strike and double strike until until end of turn.</text>
+</card>
+<card>
+ <name>Flash</name>
+ <set picURL="/Flash.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1W/U</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Exile target creature you control, then return that card to the battlefield under your control.</text>
+</card>
+<card>
+ <name>Ghost</name>
+ <set picURL="/Ghost.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1U/B</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Target creature you control gains hexproof until end of turn. That creature can’t be blocked this turn.</text>
+</card>
+<card>
  <name>Ice-Stone Squire</name>
  <set picURL="/Ice-Stone Squire.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>M</color>
@@ -841,6 +1246,26 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
  <pt>1/2</pt>
  <tablerow>2</tablerow>
  <text>Whenever a Knight you control deals combat damage to a creature, stun that creature.</text>
+</card>
+<card>
+ <name>Ignite</name>
+ <set picURL="/Ignite.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1B/R</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell, grievous wounds
+Deal 3 true damage to any target.</text>
+</card>
+<card>
+ <name>Lissandras Engagement</name>
+ <set picURL="/Lissandras Engagement.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>U/BU/BU/BU/B</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Stun up to X target creatures an opponent controls, where X is the number of U spent to cast Lissandra’s Engagement.
+Destroy up to Y target creatures an opponent controls, where Y is the number of B spent to cast Frostbite.</text>
 </card>
 <card>
  <name>Monk of Hirana</name>
@@ -852,6 +1277,76 @@ Spells your opponents control that target Silverwing Rider cost 2 more to cast.<
  <tablerow>2</tablerow>
  <text>T: Add C.
 When Monk of Hirana dies, you may search your library for a basic land card and put it onto the battlefield tapped.</text>
+</card>
+<card>
+ <name>Noxian Arms Dealer</name>
+ <set picURL="/Noxian Arms Dealer.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1B/R</manacost>
+ <type>Creature - Human </type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>When Noxian Arms Dealer enters the battlefield, you may sacrifice an artifact you control. If you do, create an artifact equipment token with “Equip 1” and “Equip creature gets +1/+1”</text>
+</card>
+<card>
+ <name>Promote</name>
+ <set picURL="/Promote.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1R/W</manacost>
+ <type>Instant</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Put a +1/+1 counter on target creature you control. That creature gains double strike until end of turn.</text>
+</card>
+<card>
+ <name>Revive</name>
+ <set picURL="/Revive.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1B/G</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Return target creature card from your graveyard to the battlefield tapped. That creature doesn’t untap during its controllers next untap step.</text>
+</card>
+<card>
+ <name>Surge</name>
+ <set picURL="/Surge.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1R/G</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Target creature gets +2/+2 and gains engage and trample until end of turn.</text>
+</card>
+<card>
+ <name>Teleport</name>
+ <set picURL="/Teleport.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>M</color>
+ <manacost>1U/R</manacost>
+ <type>Sorcery</type>
+ <tablerow>3</tablerow>
+ <text>Summoner spell
+Search your hand and/or library for a champion card and exile it. Put three time counters on the exiled card. If it doesn’t have suspend, it gains suspend. If you searched your library this way, shuffle it.</text>
+</card>
+<card>
+ <name>Banshees Veil</name>
+ <set picURL="/Banshees Veil.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost>2</manacost>
+ <type>Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 4
+Whenever an opponent casts a spell or activates an ability that targets equipped creature, counter that spell or ability and unattach Banshee’s Veil.</text>
+</card>
+<card>
+ <name>Cull</name>
+ <set picURL="/Cull.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost>1</manacost>
+ <type>Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 1
+At the beginning of your upkeep, if Cull is equipped to a creature, put a farm counter on it. Then, if it has three or more farm counters on it, you may sacrifice it. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.</text>
 </card>
 <card>
  <name>Fountain Obelisk</name>
@@ -913,15 +1408,23 @@ When Nexus Turret enters the battlefield, create a copy of it.</text>
  <text>Defender</text>
 </card>
 <card>
- <name>Cloud Field</name>
- <set picURL="/Cloud Field.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Perfectly Timed Stopwatch</name>
+ <set picURL="/Perfectly Timed Stopwatch.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost>0</manacost>
+ <type>Artifact - Equipment </type>
+ <tablerow>1</tablerow>
+ <text>Equip 2
+Sacrifice Perfectly Timed Stopwatch: Equipped creature phases out.</text>
+</card>
+<card>
+ <name>The Citadel of Dawn</name>
+ <set picURL="/The Citadel of Dawn.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>W</color>
  <manacost></manacost>
- <type>Land - Plains Island </type>
+ <type>Legendary Land</type>
  <tablerow>0</tablerow>
- <text>(T: Add W or U.)
-Cloud Field enters the battlefield tapped.
-W/UW/U, T: Scry X, where X is the number of creatures that entered the battlefield under your control this turn.</text>
+ <text>T, Tap two untapped creatures you control: Add WW, UU, or WU.</text>
 </card>
 <card>
  <name>Concealing Canopy</name>
@@ -932,7 +1435,7 @@ W/UW/U, T: Scry X, where X is the number of creatures that entered the battlefie
  <tablerow>0</tablerow>
  <text>(T: Add R or G.)
 Concealing Canopy enters the battlefield tapped.
-R/GR/G, T: Creature you control have haste until end of turn.</text>
+R/GR/G, T: Creature you control gain haste until end of turn.</text>
 </card>
 <card>
  <name>Conquered Terrain</name>
@@ -943,6 +1446,16 @@ R/GR/G, T: Creature you control have haste until end of turn.</text>
  <tablerow>0</tablerow>
  <text>(T: Add B or R.)
 Conquered Terrain enters the battlefield tapped if you control a Plains, Island, or Forest.</text>
+</card>
+<card>
+ <name>Emerging Landscape</name>
+ <set picURL="/Emerging Landscape.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost></manacost>
+ <type>Land</type>
+ <tablerow>0</tablerow>
+ <text>T: Add C.
+1, T, Sacrifice Emerging Landscape: Search your library for a Plains, Island, Swamp, Mountain, or Forest and put it onto the battlefield tapped. Then shuffle your library.</text>
 </card>
 <card>
  <name>First Lands</name>
@@ -963,16 +1476,27 @@ First Lands enters the battlefield tapped if you control an Island, Swamp, or Mo
  <tablerow>0</tablerow>
  <text>(T: Add U or B.)
 Frost Barrens enters the battlefield tapped.
-U/BU/B, T: Stun target creature that dealt combat damage to you this turn.</text>
+U/BU/B, T: Target creature loses haste and double strike until end of turn.</text>
 </card>
 <card>
- <name>The Great Barrier</name>
- <set picURL="/The Great Barrier.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>The Hidden City of Ixtal</name>
+ <set picURL="/The Hidden City of Ixtal.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>R</color>
  <manacost></manacost>
  <type>Legendary Land</type>
  <tablerow>0</tablerow>
- <text>T: Add RR, GG, or RG. Activate this ability only if you attacked with a creature this turn.</text>
+ <text>T: Add RR, GG, or RG. Activate this ability only if a creature you control dealt combat damage to a player this turn.</text>
+</card>
+<card>
+ <name>High Silvermere</name>
+ <set picURL="/High Silvermere.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color>W</color>
+ <manacost></manacost>
+ <type>Land - Plains Island </type>
+ <tablerow>0</tablerow>
+ <text>(T: Add W or U.)
+High Silvermere enters the battlefield tapped.
+W/UW/U, T: Draw a card, then discard a card.</text>
 </card>
 <card>
  <name>Howling Abyss</name>
@@ -1004,6 +1528,16 @@ Howling Abyss enters the battlefield tapped if you control a Plains, Mountain, o
 Palace Gardens enters the battlefield tapped if you control a Swamp, Mountain, or Forest.</text>
 </card>
 <card>
+ <name>Petricite Grove</name>
+ <set picURL="/Petricite Grove.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <color></color>
+ <manacost></manacost>
+ <type>Legendary Land</type>
+ <tablerow>0</tablerow>
+ <text>Other nonbasic lands are Wastes.
+Noncreature spells cost 1 more to cast.</text>
+</card>
+<card>
  <name>Pit Mine</name>
  <set picURL="/Pit Mine.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color>B</color>
@@ -1012,7 +1546,7 @@ Palace Gardens enters the battlefield tapped if you control a Swamp, Mountain, o
  <tablerow>0</tablerow>
  <text>(T: Add B or R.)
 Pit Mine enters the battlefield tapped.
-B/RB/R, T: Target creature with a -1/-1 counter on it can’t block this turn.</text>
+B/RB/R, T: Target creature must block this turn if able.</text>
 </card>
 <card>
  <name>The Placidium of Navori</name>
@@ -1045,22 +1579,13 @@ G/WG/W, T: Untap target creature you control.</text>
 Runeterra Wilds enters the battlefield tapped if you control a Plains, Island, or Swamp</text>
 </card>
 <card>
- <name>The Temple of the Light Bringers</name>
- <set picURL="/The Temple of the Light Bringers.full.jpg" picURLHq="" picURLSt="">LOL</set>
- <color>W</color>
- <manacost></manacost>
- <type>Legendary Land</type>
- <tablerow>0</tablerow>
- <text>T, Tap two untapped creatures  you control: Add WW, UU, or WU.</text>
-</card>
-<card>
- <name>Unknown Territory</name>
- <set picURL="/Unknown Territory.full.jpg" picURLHq="" picURLSt="">LOL</set>
+ <name>Wastes</name>
+ <set picURL="/Wastes.full.jpg" picURLHq="" picURLSt="">LOL</set>
  <color></color>
  <manacost></manacost>
- <type>Land</type>
+ <type>Basic Land - Wastes </type>
  <tablerow>0</tablerow>
- <text>T, Exile Unknown Territory: Search your library for a Plains, Island, Swamp, Mountain, or Forest and put it onto the battlefield tapped. Then shuffle your library.</text>
+ <text></text>
 </card>
 <card>
  <name>Plains</name>
