@@ -6,3 +6,4 @@ image*
 !*merge.ini
 *.jpg
 *.png
+!Cockatrice/data/pics/CUSTOM/*
