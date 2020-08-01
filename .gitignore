@@ -1,9 +1,0 @@
-*.bak
-
-Cards/*
-image*
-*.ini
-!*merge.ini
-*.jpg
-*.png
-!Cockatrice/data/pics/CUSTOM/*
