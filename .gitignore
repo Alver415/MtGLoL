@@ -1,4 +1,7 @@
 *.bak
 
 Cards/*
+image*
 *.ini
+!*merge.ini
+*/output/*.png
