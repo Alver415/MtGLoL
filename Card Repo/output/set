@@ -42,189 +42,6 @@ apprentice code:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 23:17:56
-	name: Cull
-	casting cost: 1
-	image: Cull.png
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: uncommon
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
-		At the beginning of your upkeep, if <atom-cardname><nospellcheck>Cull</nospellcheck></atom-cardname> is equipped to a creature, put a farm counter on it. Then, if it has three or more farm counters on it, you may sacrifice it. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:47:01
-	name: Black Cleaver
-	casting cost: 2B
-	image: BlackCleaver.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Equipped creature has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
-		<sym-auto>2/B2/B</sym-auto>: Equipped gains grievous wounds until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:46:58
-	name: Zhonya’s Hourglass
-	casting cost: 2U
-	image: ZhonyasHourglass.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Equipped creature has “<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.”
-		<sym-auto>2/U2/U</sym-auto>: Equipped creature phases out.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:47:05
-	name: Warmog’s Armor
-	casting cost: 2G
-	image: WarmogsArmor.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Equipped creature gets +0/+2.
-		<sym-auto>2/G2/G</sym-auto>: <kw-a><nospellcheck>Regenerate</nospellcheck></kw-a> equipped creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:46:56
-	name: Sword of the Divine
-	casting cost: 2W
-	image: SwordoftheDivine.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Equipped creature has <kw-a><nospellcheck>first strike</nospellcheck></kw-a>.
-		<sym-auto>2/W2/W</sym-auto>: Equipped creature gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:47:03
-	name: Blade of the Ruined King
-	casting cost: 2R
-	image: BladeoftheRuinedKing.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Equipped creature gets +2/+0.
-		<sym-auto>2/R2/R</sym-auto>: Equipped creature gains engage until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 20:47:07
-	name: Banshee’s Veil
-	casting cost: 2
-	image: BansheesVeil.png
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>4</sym-auto></param-cost></nospellcheck></kw-a>
-		Whenever an opponent casts a spell or activates an ability that targets equipped creature, counter that spell or ability and unattach <atom-cardname><nospellcheck>Banshee’s Veil</nospellcheck></atom-cardname>.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 20:03:36
-	time modified: 2020-07-31 23:19:41
-	name: Perfectly Timed Stopwatch
-	casting cost: 0
-	image: PerfectlyTimedStopwatch.png
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rule text:
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
-		Sacrifice <atom-cardname><nospellcheck>Perfectly Timed Stopwatch</nospellcheck></atom-cardname>: Equipped creature phases out.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
-	type: none
-apprentice code: 
-card:
-	has styling: false
-	notes: 
 	time created: 2018-10-22 14:17:54
 	time modified: 2020-08-07 18:36:25
 	name: Beast of Vol’Kah
@@ -660,13 +477,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-10-22 22:02:07
-	time modified: 2020-08-08 18:51:01
+	time modified: 2020-08-10 21:38:22
 	name: Accompanied Knight
-	casting cost: 1WW
+	casting cost: 3W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: When <atom-cardname><nospellcheck>Accompanied Knight</nospellcheck></atom-cardname> enters the battlefield, spawn a 1/1 white Squire with “Knights you control have <kw-a><nospellcheck>first strike</nospellcheck></kw-a>.”
+	rule text: When <atom-cardname><nospellcheck>Accompanied Knight</nospellcheck></atom-cardname> enters the battlefield, create a 1/1 white Squire token with “Knights you control have <kw-a><nospellcheck>first strike</nospellcheck></kw-a>.”
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -703,9 +520,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-10-22 15:01:56
-	time modified: 2020-07-28 11:43:07
+	time modified: 2020-08-10 21:02:57
 	name: Chroma Dancer
-	casting cost: WW
+	casting cost: 1W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -768,13 +585,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-07-28 23:46:51
+	time modified: 2020-08-10 21:44:53
 	name: Citadel Professor
 	casting cost: 2UU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
+	rarity: common
 	rule text: When <atom-cardname><nospellcheck>Citadel Professor</nospellcheck></atom-cardname> enters the battlefield, draw two cards.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
@@ -790,9 +607,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-08-08 18:46:54
+	time modified: 2020-08-10 17:52:49
 	name: Drought
-	casting cost: 2WW
+	casting cost: 3WW
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
@@ -814,17 +631,17 @@ card:
 	has styling: false
 	notes: Q
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-08-08 18:54:14
+	time modified: 2020-08-10 20:57:58
 	name: Silverwing Rider
-	casting cost: 3WU
+	casting cost: 1WU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Griffin</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
+	rarity: uncommon
 	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
-	power: 3
-	toughness: 3
+	power: 2
+	toughness: 2
 	card code text: 11111
 	illustrator: 1
 	copyright: 1
@@ -858,17 +675,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-08-08 18:52:43
+	time modified: 2020-08-10 21:43:49
 	name: Tithe Collector
-	casting cost: WU
+	casting cost: WWUU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever an opponent casts a spell, counter that spell unless they pay <sym>1</sym> for each other spell they have cast this turn.
+	rule text: Whenever an opponent casts a spell, counter that spell unless they pay <sym>1</sym> for each spell they have cast this turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 1
 	image 2: 
@@ -920,10 +737,7 @@ card:
 	mainframe image 2: 
 card:
 	has styling: false
-	notes:
-		Howling Gale is Janna’s tornado
-		
-		You can permanently exile a creature for 4 or flicker a creature for 2
+	notes: 
 	time created: 2020-07-30 19:05:03
 	time modified: 2020-08-08 19:04:24
 	name: Flickertrick
@@ -942,14 +756,15 @@ card:
 	mainframe image 2: 
 card:
 	has styling: false
-	notes: 
+	notes: Inspired by Lulu’s ability
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-08-08 19:02:18
+	time modified: 2020-08-10 21:30:34
 	name: Whimsey
-	casting cost: 2W/U
+	casting cost: 1W/U
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
 	rule text:
 		If <sym-auto>W</sym-auto> was spent to cast <atom-cardname><nospellcheck>Whimsey</nospellcheck></atom-cardname>, target creature you control gains shield 2 until end of turn.
 		If <sym-auto>U</sym-auto> was spent to cast <atom-cardname><nospellcheck>Whimsey</nospellcheck></atom-cardname>, target creature loses all abilities and becomes a colorless Squirrel with base power and toughness 0/1 until end of turn.
@@ -967,13 +782,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-28 11:31:48
-	time modified: 2020-08-08 18:42:32
+	time modified: 2020-08-10 17:53:27
 	name: Intelligence Briefing
 	casting cost: 1U
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: rare
+	rarity: uncommon
 	rule text: Whenever an opponent casts a noncreature spell, you may pay <sym-auto>1</sym-auto>. If you do, draw a card.
 	flavor text: <i-flavor></i-flavor>
 	power: 
@@ -1006,19 +821,407 @@ card:
 	mainframe image 2: 
 card:
 	has styling: false
-	notes:
-		Howling Gale is Janna’s tornado
-		
-		You can permanently exile a creature for 4 or flicker a creature for 2
+	notes: Instant speed conditional board clear.
 	time created: 2020-07-30 19:05:03
-	time modified: 2020-08-08 19:03:42
+	time modified: 2020-08-10 18:12:00
 	name: Howling Gale
 	casting cost: 2WU
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: rare
-	rule text: For each creature, it’s controller may pay <sym-auto>2</sym-auto> or return that creature to it’s owner’s hand.
+	rule text: For each creature, it’s controller may pay <sym-auto>2</sym-auto>. If that player doesn’t, return that creature to it’s owner’s hand.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-30 19:05:03
+	time modified: 2020-08-10 18:13:23
+	name: Dig Through Scrolls
+	casting cost: 4U
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: <kw-a><nospellcheck>Scry <param-number>3</param-number></nospellcheck></kw-a>, then draw three cards.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-30 19:05:03
+	time modified: 2020-08-10 18:12:20
+	name: Observe the Mystics
+	casting cost: U
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: <kw-a><nospellcheck>Scry <param-number>X</param-number></nospellcheck></kw-a>, where X is the number of spells your opponents have cast this turn. Then draw a card.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-30 19:05:03
+	time modified: 2020-08-10 21:04:16
+	name: Dazzle
+	casting cost: W
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Untap target creature you control. Until end of turn, that creature gets +1/+1 for each creature blocking or blocked by it. Silence those creatures until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 20:49:28
+	name: Petricite Shackles
+	casting cost: 2U
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature is silenced as long as it is tapped.
+		<sym-auto>U</sym-auto>: Tap enchanted creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 18:03:07
+	name: Petricite Cage
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Petricite Cage</nospellcheck></atom-cardname> enters the battlefield, exile target permanent until <atom-cardname><nospellcheck>Petricite Cage</nospellcheck></atom-cardname> leaves the battlefield.
+		When you control no creatures, sacrifice <atom-cardname><nospellcheck>Petricite Cage</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:13:56
+	name: Blinding Aura
+	casting cost: W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature gets +1/+1.
+		Creatures blocking or blocked by enchanted creature are silenced.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-30 19:05:03
+	time modified: 2020-08-10 21:39:17
+	name: Shut Up
+	casting cost: U
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Counter target spell unless it’s controller pays <sym>1</sym> for each spell that player has cast this turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-30 19:05:03
+	time modified: 2020-08-10 21:39:10
+	name: Countermeasures
+	casting cost: U
+	image: Countermeasures.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text: <sym-auto>1U</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Countermeasures</nospellcheck></atom-cardname>: Counter target spell, activated ability, or triggered ability.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:41:24
+	name: Nimble Refugee
+	casting cost: 1U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Merfolk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<atom-cardname><nospellcheck>Nimble Refugee</nospellcheck></atom-cardname> can’t be blocked.
+		<sym-auto>U</sym-auto>, <sym-auto>T</sym-auto>: Return <atom-cardname><nospellcheck>Nimble Refugee</nospellcheck></atom-cardname> to it’s owners hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 18:29:17
+	name: Lightbringer Knight
+	casting cost: 2U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-a><nospellcheck>Hexproof</nospellcheck></kw-a> from noncreature spells.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:30:01
+	name: Demacian Port-Scourge
+	casting cost: 5UU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Kraken</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <atom-cardname><nospellcheck>Demacian Port-Scourge</nospellcheck></atom-cardname> can’t attack unless there are seven or more noncreature cards among all graveyards.
+	flavor text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 7
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:44:10
+	name: Great Silverwing
+	casting cost: 5W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Griffin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Protection from <param-name>spells and abilities</param-name></nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:01:58
+	name: Lightbringer Clergy
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever an opponent casts a noncreature spell, you gain 2 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:01:10
+	name: Demacian Soldier
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <atom-cardname><nospellcheck>Demacian Soldier</nospellcheck></atom-cardname> gets +1/+1 as long as another creature has entered the battlefield under your control this turn.
+	flavor text: <i-flavor>When they stand together, they stand to win.</i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 11:31:48
+	time modified: 2020-08-10 21:06:04
+	name: Drowner of Magics
+	casting cost: U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Fish</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: When <atom-cardname><nospellcheck>Drowner of Magics</nospellcheck></atom-cardname> dies, counter each other triggered ability.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 1
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 15:01:56
+	time modified: 2020-08-10 21:40:33
+	name: Lightbringer Adept
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add one mana of any color.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 15:01:56
+	time modified: 2020-08-10 21:32:59
+	name: Demacian Diplomat
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: At the beginning of each opponents draw step, that player may draw an additional card. If they do, draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-08-17 20:54:29
+	time modified: 2020-08-17 21:02:19
+	name: Tariff on Talent
+	casting cost: W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever an ability on opponent controls is triggered, counter that ability unless its controller pays <sym-auto>1</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1055,12 +1258,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:22:51
-	time modified: 2020-07-29 22:27:14
+	time modified: 2020-08-10 23:15:52
 	name: Putrid Giant
 	casting cost: 4B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Giant</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Giant</word-list-race> <word-list-class>Barbarian</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
@@ -1080,17 +1283,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:22:51
-	time modified: 2020-07-29 21:55:23
+	time modified: 2020-08-10 22:09:47
 	name: Iceborn Knight
-	casting cost: 1UB
+	casting cost: UUBB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text: Whenever <atom-cardname><nospellcheck>Iceborn Knight</nospellcheck></atom-cardname> deals combat damage to a creature, stun that creature.
+	rarity: rare
+	rule text:
+		<atom-cardname><nospellcheck>Iceborn Knight</nospellcheck></atom-cardname> can’t be stunned.
+		When <atom-cardname><nospellcheck>Iceborn Knight</nospellcheck></atom-cardname> enters the battlefield, stun each creature your opponents control.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1145,14 +1350,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:22:51
-	time modified: 2020-07-29 21:46:44
-	name: Dire Wildclaw
+	time modified: 2020-08-10 22:11:17
+	name: Wildclaw Wolf
 	casting cost: 1B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: common
-	rule text: <atom-cardname><nospellcheck>Dire Wildclaw</nospellcheck></atom-cardname> gets +1/+1 for each other Wolf you control.
+	rule text: <atom-cardname><nospellcheck>Wildclaw Wolf</nospellcheck></atom-cardname> gets +1/+1 for each other Wolf you control.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
@@ -1191,15 +1396,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:22:51
-	time modified: 2020-07-29 22:45:53
-	name: Stolen Insight
+	time modified: 2020-08-10 22:35:33
+	name: Squandered Insight
 	casting cost: B
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text:
-		Target player reveals their hand. You choose a nonland card from it. That player discards that card, then draws a card.
-		<kw-a><nospellcheck>Scry <param-number>2</param-number></nospellcheck></kw-a>.
+	rule text: Target player draws a card then reveals their hand. You choose a nonland card from it. That player discards that card.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -1256,13 +1459,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:55:47
-	time modified: 2020-07-29 22:29:48
-	name: Frost Knight
-	casting cost: 1UU
+	time modified: 2020-08-10 22:08:00
+	name: Frostbite Knight
+	casting cost: 2U
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: When <atom-cardname><nospellcheck>Frost Knight</nospellcheck></atom-cardname> enters the battlefield, stun target creature an opponent controls.
+	rule text: Whenever <atom-cardname><nospellcheck>Frostbite Knight</nospellcheck></atom-cardname> deals combat damage to a creature, stun that creature.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -1277,13 +1480,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 22:08:01
-	time modified: 2020-07-29 22:26:45
+	time modified: 2020-08-10 21:57:33
 	name: Encase in True Ice
-	casting cost: 2BB
+	casting cost: 1BB
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text: When <atom-cardname><nospellcheck>Encase in True Ice</nospellcheck></atom-cardname> enters the battlefield, exile target creature an opponent controls until <atom-cardname><nospellcheck>Encase in True Ice</nospellcheck></atom-cardname> leaves the battlefield. That creature enters the battlefield with an additional -1/-1 counter on it.
+	rarity: uncommon
+	rule text:
+		When <atom-cardname><nospellcheck>Encase in True Ice</nospellcheck></atom-cardname> enters the battlefield, exile target creature or artifact an opponent controls.
+		When <atom-cardname><nospellcheck>Encase in True Ice</nospellcheck></atom-cardname> leaves the battlefield, return the exiled card to the battlefield under it’s owner’s control. If it enters the battlefield as a creature, it enters with an additional -1/-1 counter on it.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1296,14 +1502,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 22:08:01
-	time modified: 2020-08-03 12:04:19
+	time modified: 2020-08-10 21:53:38
 	name: Lissandra’s Engagement
-	casting cost: 2U/BU/B
+	casting cost: 3U/BU/B
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
-	rule text: Choose up to two target creatures an opponent controls. Destroy each stunned creature chosen this way, then stun the rest.
+	rule text: Choose up to two target creatures an opponent controls. Destroy each tapped creature chosen this way, then stun the rest.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1316,13 +1522,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 22:08:01
-	time modified: 2020-07-29 22:25:07
+	time modified: 2020-08-10 21:50:55
 	name: Glacial Insight
-	casting cost: 2UU
+	casting cost: 3UU
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text: At the beginning of your upkeep, <kw-a><nospellcheck>scry <param-number>X</param-number></nospellcheck></kw-a>, where X is the number of basic Island you control.
+	rule text: At the beginning of your upkeep, <kw-a><nospellcheck>scry <param-number>X</param-number></nospellcheck></kw-a>, where X is the number of basic lands you control.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1335,13 +1541,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:55:47
-	time modified: 2020-07-29 22:01:07
-	name: Frostbite Abyssal
+	time modified: 2020-08-10 22:02:45
+	name: Abyssal Knight
 	casting cost: BB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: You may cast <atom-cardname><nospellcheck>Frostbite Abyssal</nospellcheck></atom-cardname> from your graveyard if you sacrifice a Squire in addition to its other costs.
+	rarity: uncommon
+	rule text: You may cast <atom-cardname><nospellcheck>Abyssal Knight</nospellcheck></atom-cardname> from your graveyard if you sacrifice a Squire in addition to its other costs.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -1356,13 +1563,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-07-29 21:51:32
-	time modified: 2020-07-29 22:34:19
+	time modified: 2020-08-10 22:04:35
 	name: Frozen in Thought
 	casting cost: 1U
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Counter target spell. If that spell is countered this way, return it to it’s owners hand. That player can’t cast spells with the same name as that spell this turn.
+	rule text: Counter target spell. If that spell is countered this way, return it to it’s owners hand instead of putting in their graveyard. That player can’t cast spells with the same name as that spell this turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -1396,133 +1603,449 @@ card:
 	copyright 3: 
 	mainframe image: 
 	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:51:32
+	time modified: 2020-08-10 21:36:08
+	name: Avarosan Informant
+	casting cost: 2UB
+	image: 
+	super type: <word-list-type>Creature </word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		You may have <atom-cardname><nospellcheck>Avarosan Informant</nospellcheck></atom-cardname> enter the battlefield under an opponents control.
+		Whenever you draw a card <atom-cardname><nospellcheck>Avarosan Informant</nospellcheck></atom-cardname>s owner may draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:14:20
+	name: Rabid Wildclaw
+	casting cost: 3B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Engage
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 22:12:00
+	name: Brain Freeze
+	casting cost: 2UB
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Stun target creature. Then, that creatures controller discards a card for each creature they control that was stunned this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 22:08:01
+	time modified: 2020-08-10 22:27:58
+	name: Frozen to Terror
+	casting cost: 1UB
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text: Whenever enchanted creature attacks or blocks, if enchanted creature is stunned at end of combat, destroy it. Otherwise, stun it.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 22:08:01
+	time modified: 2020-08-10 22:42:39
+	name: Northern Winds
+	casting cost: 2BB
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		Players can’t tap creatures for mana.
+		Whenever a creature attacks you or a permanent you control, stun that creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:51:32
+	time modified: 2020-08-10 23:25:00
+	name: Flash Freeze
+	casting cost: 1U
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Stun target permanent an opponent controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:51:32
+	time modified: 2020-08-10 22:31:45
+	name: Read the Ice
+	casting cost: UB
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Look at the top five cards of your library. Put up to one in your hand and the rest in your graveyard.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:51:32
+	time modified: 2020-08-10 22:34:41
+	name: Read the Ice
+	casting cost: 2U
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: <kw-a><nospellcheck>Scry <param-number>X</param-number></nospellcheck></kw-a>, where X is the number of tapped permanents your opponents control. Then, draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:03:42
+	name: Shatter
+	casting cost: B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text:
+		You may cast <atom-cardname><nospellcheck>Shatter</nospellcheck></atom-cardname> only during an opponent’s turn before combat.
+		Destroy target tapped creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 22:08:01
+	time modified: 2020-08-10 22:26:55
+	name: Endless Blizzard
+	casting cost: 4B
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		At the beginning of your upkeep, stun target creature.
+		Whenever a creature is stunned, put a -1/-1 counter on that creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-11 18:25:54
+	name: Wildclaw Wanderer
+	casting cost: 1UB
+	image: WildclawWanderer.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Druid</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		As long as you control a Wolf creature, <atom-cardname><nospellcheck>Wildclaw Wanderer</nospellcheck></atom-cardname> has <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>.
+		Wolves you control get +1/+1.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:02:56
+	name: Condemned Vastaya
+	casting cost: 2B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Wolf</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		Whenever a Human enters the battlefield, stun that creature.
+	flavor text: <i-flavor>Still bitter about their condemnation from the Great Elder <error-spelling:en_us>Vastayashai’rei</error-spelling:en_us>, the <error-spelling:en_us>Kiilash</error-spelling:en_us> often seek their revenge on the humans that deceived them into their mortality.</i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:05:59
+	name: End with Ease
+	casting cost: 3B
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target creature. If that creature was tapped, draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 22:08:01
+	time modified: 2020-08-10 23:13:30
+	name: Narrow Pass
+	casting cost: 3U
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text: Creatures attacking you or a permanent you control get -1/-1 for each other attacking creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:15:26
+	name: Dire Wildclaw
+	casting cost: 4B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>, grievous
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:46:10
+	time modified: 2020-08-10 23:23:55
+	name: Frostguard Savant
+	casting cost: UU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever an opponent draws one or more cards, you may <kw-a><nospellcheck>scry <param-number>1</param-number></nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:46:10
+	time modified: 2020-08-10 23:21:09
+	name: Avarosan Mystic
+	casting cost: 2UUU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		Whenever a creature an opponent controls is stunned, you may draw a card.
+		<sym-auto>UUU</sym-auto>, <sym-auto>T</sym-auto>, Discard a card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-10 23:32:50
+	name: Frostguard Giant
+	casting cost: 4BBB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Giant</word-list-race> <word-list-class>Barbarian</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: When <atom-cardname><nospellcheck>Frostguard Giant</nospellcheck></atom-cardname> attacks, stun each creature with converted mana cost </sym>2<sym> or less defending player controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 21:22:51
+	time modified: 2020-08-12 09:38:09
+	name: Cryogenic Rebirth
+	casting cost: 3B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Put target creature card from a graveyard onto the battlefield under your control stunned.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 22:08:01
+	time modified: 2020-08-10 23:42:36
+	name: Frostbite
+	casting cost: 2U
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Attacking creatures get -2/-0 and lose <kw-a><nospellcheck>first strike</nospellcheck></kw-a> and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
 version control:
 	type: none
 apprentice code: 
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-28 23:57:57
-	name: Ionian Mystic
-	casting cost: W
-	image: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:27:09
+	name: Vengeful Knight
+	casting cost: 1BR
+	image: VengefulKnight.png
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <sym-auto>T</sym-auto>: Target creature or player gets shield 1 until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-29 01:06:53
-	name: Land Fisher
-	casting cost: 1GG
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
-	rule text: Whenever a land enters the battlefield under your control, put a +1/+1 counter on <atom-cardname><nospellcheck>Land Fisher</nospellcheck></atom-cardname>.
+	rule text: <atom-cardname><nospellcheck>Vengeful Knight</nospellcheck></atom-cardname> has <kw-a><nospellcheck>haste</nospellcheck></kw-a> if a Squire you control died last turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-29 21:13:19
-	name: Monk of Hirana
-	casting cost: G/WG/W
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
-		When <atom-cardname><nospellcheck>Monk of Hirana</nospellcheck></atom-cardname> dies, you may search your library for a basic land card and put it onto the battlefield tapped.
-	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:41:25
-	time modified: 2020-07-29 01:45:13
-	name: Strig Scout
-	casting cost: 1G
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: Whenever <atom-cardname><nospellcheck>Strig Scout</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creature enters the battlefield under your control, put a +1/+1 counter on that creature.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 2
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-29 01:25:44
-	name: Marai Healer
-	casting cost: WU
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Merfolk</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: Whenever <atom-cardname><nospellcheck>Marai Healer</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, you gain 1 life for each <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> you control.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 2
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-29 01:20:51
-	name: Ottrani Charger
-	casting cost: 2GG
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Rhino</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: Whenever <atom-cardname><nospellcheck>Ottrani Charger</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, creatures you control gain <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
+	power: 3
 	toughness: 3
 	card code text: 
 	copyright: 
@@ -1534,18 +2057,152 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-28 23:53:34
-	time modified: 2020-07-29 01:41:15
-	name: The Great Master Kusho
-	casting cost: 3WW
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 18:19:34
+	name: Trifarion Knight
+	casting cost: 3BR
+	image: TrifarionKnight.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <kw-a><nospellcheck>Double strike</nospellcheck></kw-a>, grievous
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:20:34
+	name: Armed Invaders
+	casting cost: 2BB
+	image: ArmedInvaders.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: When <atom-cardname><nospellcheck>Armed Invaders</nospellcheck></atom-cardname> enters the battlefield, gain control of target land an opponent controls until <atom-cardname><nospellcheck>Armed Invaders</nospellcheck></atom-cardname> attacks or leaves the battlefield. That land is a Waste and has, “At the beginning of your upkeep, pay <sym-auto>2</sym-auto> or return this land to it’s owners control.” for as long as you control it.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:57:06
+	name: The Smithies Squire
+	casting cost: 2R
+	image: TheSmithiesSquire.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: When <atom-cardname><nospellcheck>The Smithies Squire</nospellcheck></atom-cardname> enters the battlefield, you may search your library for an equipment card. If you do shuffle you library and put that card on top of it.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:01:32
+	name: Rousing Knight
+	casting cost: 1RR
+	image: RousingKnight.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Rousing Knight</nospellcheck></atom-cardname> must attack each turn if able.
+		Squires you control have <kw-a><nospellcheck>haste</nospellcheck></kw-a> and must attack each turn if able.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:28:34
+	name: Basilisk Rider
+	casting cost: 1BR
+	image: BasiliskRider.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Basilisk</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-10 23:50:34
+	name: Scrapyard Blacksmith
+	casting cost: 2B/R
+	image: ScrapyardBlacksmith.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: When <atom-cardname><nospellcheck>Scrapyard Blacksmith</nospellcheck></atom-cardname> enters the battlefield, you may sacrifice an artifact. If you do, search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:47:00
+	name: General Lee Tai
+	casting cost: 2RR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
-		At the beginning of your end step, if <atom-cardname><nospellcheck>The Great Master Kusho</nospellcheck></atom-cardname> did not attack or block this turn, put a +1/+1 counter on it.
-		At the beginning of each upkeep, <atom-cardname><nospellcheck>The Great Master Kusho</nospellcheck></atom-cardname> gets shield X until end of turn, where X is the number of +1/+1 counters on it.
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>General Lee Tai</nospellcheck></atom-cardname> deals combat damage to a creature, silence that creature and unattach all equipment from it.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -1559,18 +2216,245 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-29 01:06:20
-	time modified: 2020-07-29 01:44:54
-	name: Bonded Roc
-	casting cost: 3WW
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 10:59:01
+	name: Heel Slash
+	casting cost: B
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Remove all +1/+1 counters from target creature. Then put a -1/-1 counter on that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 13:03:53
+	name: Trenches of War
+	casting cost: 2BB
+	image: TrenchesofWar.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: Whenever a creature attacks you or permanent you control, if that creature doesn’t have a -1/-1 counter on it, put a -1/-1 counter on it.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-07-31 19:47:49
+	name: Arms Race
+	casting cost: 4RR
+	image: ArmsRace.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: At the beginning of each players upkeep, that player may search their library for an equipment card and put it onto the battlefield under their control. If they do, that player shuffles their library.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 13:02:41
+	name: Improvising Explosivneer
+	casting cost: 2R
+	image: ImprovisingExplosivneer.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Goblin</word-list-race> <word-list-class>Engineer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <sym-auto>T</sym-auto>, Sacrifice an artifact: Destroy target artifact.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-10 21:23:43
+	name: Infected Trench Rats
+	casting cost: 1B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Rat</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
 	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Bonded Roc</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, target creature gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
+		Grievous
+		When <atom-cardname><nospellcheck>Infected Trench Rats</nospellcheck></atom-cardname> dies put a -1/-1 counter on target creature an opponent controls.
 	flavor text: <i-flavor></i-flavor>
-	power: 3
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-10 23:44:32
+	name: Trebuchet Engineer
+	casting cost: R
+	image: TrebuchetEngineer.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Engineer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: Target attacking creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn. Sacrifice that creature at end of combat.
+	flavor text: <i-flavor>“These rocks are too light to be worth throwing, but I’ve got an idea...”</i-flavor>
+	power: 0
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-10 23:45:41
+	name: Foolhardy Squire
+	casting cost: 1R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever a Knight you control becomes blocked by a creature an opponent controls, you may have <atom-cardname><nospellcheck>Foolhardy Squire</nospellcheck></atom-cardname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-10 23:43:33
+	name: Noxian Soldier
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Grievous
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 13:02:20
+	name: War Party Obligations
+	casting cost: 1R
+	image: WarPartyObligations.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		Creatures have <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+		Whenever a creature enters the battlefield, that creature must attack this turn if able.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 13:15:12
+	name: Vladimir’s Tutelage
+	casting cost: 2B
+	image: VladimirsTutelage.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: At the beginning of your upkeep, reveal the top card of your library. Any player may pay 2 life. If a player does, put that card into your graveyard. Otherwise, put that card into your hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:30:08
+	name: Hunting Wildclaw
+	casting cost: 2BR
+	image: HuntingWildclaw.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		Engage
+		<atom-cardname><nospellcheck>Hunting Wildclaw</nospellcheck></atom-cardname> gets +1/+1 for each -1/-1 counter on creatures blocking or blocked by it.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
 	toughness: 2
 	card code text: 
 	copyright: 
@@ -1582,14 +2466,37 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-29 01:06:20
-	time modified: 2020-07-29 01:44:38
-	name: Lhotlan Battle-Dancer
-	casting cost: 2W
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:48:53
+	name: Frostguard Occultist
+	casting cost: 1B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: Whenever <atom-cardname><nospellcheck>Lhotlan Battle-Dancer</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creatures you control get shield 1 until end of turn.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <sym-auto>2B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice a Squire: Return target Knight card from your graveyard to your hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:48:26
+	name: Second Chance Occultist
+	casting cost: 2BB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever a Knight enters the battlefield under your control, return target Squire card from your graveyard to the battlefield tapped. That creature is a black Zombie in addition to its other colors and types.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -1603,17 +2510,396 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-29 01:45:16
-	time modified: 2020-07-29 21:16:27
-	name: Kinkou Balance Keeper
-	casting cost: 1WW
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:59:21
+	name: Snapcrag Beheamoth
+	casting cost: 6R
+	image: SnapcragBeheamoth.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Beast</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, engage
+	flavor text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 11:13:37
+	name: Soul Syphon Arrow
+	casting cost: 2B
+	image: SoulSyphonArrow.png
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		Deal 1 damage to target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 13:02:03
+	name: War Party Encampment
+	casting cost: 2R
+	image: WarPartyEncampment.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text: Sacrifice <atom-cardname><nospellcheck>War Party Encampment</nospellcheck></atom-cardname>: Creatures you control gain engage until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:57:53
+	name: Blood Pact Contract
+	casting cost: BB
+	image: BloodPactContract.png
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature you don’t control</param-name></nospellcheck></kw-a>
+		When enchanted creature dies, draw two cards.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 14:46:43
+	name: Speed
+	casting cost: R
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Target creature you control gets +1/+0 and gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:19:49
+	name: Knotwist Goblin
+	casting cost: 1R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Templar</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: Whenever a creature you control blocks alone, it gets shield 2 until end of turn.
+	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever a -1/-1 counter is put on a creature, <atom-cardname><nospellcheck>Knotwist Goblin</nospellcheck></atom-cardname> gets +1/+1 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:26:02
+	name: Celebrations of War
+	casting cost: 3R
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text:
+		<atom-cardname><nospellcheck>Celebrations of War</nospellcheck></atom-cardname> costs <sym-auto>1</sym-auto> less to cast for each attacking creature you control.
+		Exile the top three cards of your library. Until the end of your next turn, you may play those cards.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:38:28
+	name: Accidental Explosion
+	casting cost: XR
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Choose X target artifacts at random, then destroy those artifacts.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:44:33
+	name: Terraquake
+	casting cost: XRR
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text:
+		<atom-cardname><nospellcheck>Terraquake</nospellcheck></atom-cardname> deals X damage to each creature without <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
+		Destroy each artifact with converted mana cost </sym>X<sym> or less.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 18:12:50
+	name: Rain of Napalm
+	casting cost: XR
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text:
+		Grievous
+		<atom-cardname><nospellcheck>Rain of Napalm</nospellcheck></atom-cardname> deals X damage divided as you choose among any number of target creatures.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:54:12
+	name: Prophecy of the War Seekers
+	casting cost: 4R
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text:
+		At the beginning of your end step, discard your hand.
+		Whenever you attack with one or more creatures, exile that many cards from the top of your library. Until end of turn, you may play those cards.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 15:57:47
+	name: Blood Lust
+	casting cost: 1R
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature gets +1/+1 and is goaded.
+		Whenever enchanted creature dies, that creatures controller may return <atom-cardname><nospellcheck>Blood Lust</nospellcheck></atom-cardname> to the battlefield attached to target creature of their choice.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:04:41
+	name: Executioners Linup
+	casting cost: 3BBB
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Destroy up to three target creatures.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:10:22
+	name: Curse of the Occultists
+	casting cost: 1BB
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Put a -1/-1 counters on each creature you don’t control.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:13:13
+	name: Bellowing Taunt
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Until end of turn, whenever a creature an opponent controls dies, that creatures controller discards a card. If they can’t, you draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:32:42
+	name: Noxian Gambler
+	casting cost: 2R
+	image: NoxianGambler.png
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Discard a card:
+	has styling: false
+	notes: For art, I’m imagining a squire poisoning his knights blade before a battle/jousting match
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 16:43:09
+	name: Squire of the Poisoned Lance
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <sym-auto>BB</sym-auto>, <sym-auto>T</sym-auto>: Target Knight you control gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-31 16:50:45
+	time modified: 2020-08-11 18:19:09
+	name: Sadistic Plague Artist
+	casting cost: BBRR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: Whenever a creature with one or more -1/-1 counters on it dies, you may put that many -1/-1 counters on another target creature at the beginning of the next end step.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1979,15 +3265,150 @@ apprentice code:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:05:14
-	name: Vengeful Knight
-	casting cost: 1BR
-	image: VengefulKnight.png
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:32:39
+	name: Ionian Mystic
+	casting cost: W
+	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>: Target creature or player gets shield 1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-07-29 01:06:53
+	name: Land Fisher
+	casting cost: 1GG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
-	rule text: Whenever a Squire you control dies, <atom-cardname><nospellcheck>Vengeful Knight</nospellcheck></atom-cardname> gets +1/+1 until end of turn.
+	rule text: Whenever a land enters the battlefield under your control, put a +1/+1 counter on <atom-cardname><nospellcheck>Land Fisher</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 20:40:36
+	name: Monk of Hirana
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add one mana of any color.
+		When <atom-cardname><nospellcheck>Monk of Hirana</nospellcheck></atom-cardname> dies, you may search your library for a basic land card and put it onto the battlefield tapped.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 00:41:25
+	time modified: 2020-08-17 21:50:00
+	name: Strig Scout
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <atom-cardname><nospellcheck>Strig Scout</nospellcheck></atom-cardname> and other <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creatures you control enter the battlefield with an additional +1/+1 on them.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-07-29 01:25:44
+	name: Marai Healer
+	casting cost: WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Merfolk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever <atom-cardname><nospellcheck>Marai Healer</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, you gain 1 life for each <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-07-29 01:20:51
+	name: Ottrani Charger
+	casting cost: 2GG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Rhino</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever <atom-cardname><nospellcheck>Ottrani Charger</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, creatures you control gain <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-07-29 01:41:15
+	name: The Great Master Kusho
+	casting cost: 3WW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
+		At the beginning of your end step, if <atom-cardname><nospellcheck>The Great Master Kusho</nospellcheck></atom-cardname> did not attack or block this turn, put a +1/+1 counter on it.
+		At the beginning of each upkeep, <atom-cardname><nospellcheck>The Great Master Kusho</nospellcheck></atom-cardname> gets shield X until end of turn, where X is the number of +1/+1 counters on it.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -2001,17 +3422,356 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:53:14
-	name: Trifarion Knight
-	casting cost: BBRR
-	image: TrifarionKnight.png
+	time created: 2020-07-29 01:06:20
+	time modified: 2020-07-29 01:44:54
+	name: Bonded Roc
+	casting cost: 3WW
+	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text: <kw-a><nospellcheck>First strike</nospellcheck></kw-a>, grievous wounds
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Bonded Roc</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, target creature gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 4
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 01:06:20
+	time modified: 2020-07-29 01:44:38
+	name: Lhotlan Battle-Dancer
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Bird</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever <atom-cardname><nospellcheck>Lhotlan Battle-Dancer</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creatures you control get shield 1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-29 01:45:16
+	time modified: 2020-07-29 21:16:27
+	name: Kinkou Balance Keeper
+	casting cost: 1WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Templar</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever a creature you control blocks alone, it gets shield 2 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 22:13:08
+	name: Zhyun Mystic
+	casting cost: WW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>, Tap an untapped land you control: Add <sym-auto>CC</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 20:43:54
+	name: Navori Mystic
+	casting cost: 2G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever a creature you control blocks or becomes blocked, put a +1/+1 counter on that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 20:48:03
+	name: Patience Mentor
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		Other creatures you control with +1/+1 counters on them have <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>.
+		Whenever a +1/+1 counter is put on a creature you control, untap that creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:04:17
+	name: Blessing for the Front Lines
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text: Attacking and blocking creatures you control get +1/+1.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:08:22
+	name: Mystic Shield
+	casting cost: W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature has shield 3.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:14:57
+	name: Worked Agriculture
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>land</param-name></nospellcheck></kw-a>
+		Tap a creature you control: Until end of turn, if you tap enchanted land for mana, it produces twice as much of that mana instead.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:19:03
+	name: Prejuvination
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Reveal cards from the top of your library until you reveal land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 22:14:10
+	name: Focused Training
+	casting cost: 1GW
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Distribute X +1/+1 counters among creatures you control, where X is the number of creatures you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:22:05
+	name: Out Manouver
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Prevent all combat damage that would be dealt this combat. After this combat there is an additional main phase followed by an additional combat phase.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 22:14:53
+	name: Coordinated Flank
+	casting cost: W
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: <atom-cardname><nospellcheck>Coordinated Flank</nospellcheck></atom-cardname> deals damage to target attacking or blocking creature equal to the number of attacking <error-spelling:en_us:/magic.mse-game/magic-words>and/or</error-spelling:en_us:/magic.mse-game/magic-words> blocking creatures you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:42:22
+	name: Aurorae of the Placidium
+	casting cost: 3GW
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		At the beginning of your upkeep, put a +1/+1 counter on each creature you control.
+		Whenever a creature you control blocks or becomes blocked, that creature gets shield X until end of turn, where X is the number of +1/+1 counters on it.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:44:47
+	name: Placidium Blessing
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		At the beginning of your upkeep, put a +1/+1 counter on enchanted creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:48:27
+	name: Ottrani Breeder
+	casting cost: 4GG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Rhino</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever you cast a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> spell, create a 1/1 green <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creature token.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
 	toughness: 4
 	card code text: 
 	copyright: 
@@ -2023,20 +3783,108 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 18:52:40
-	name: Armored Invaders
-	casting cost: 2BB
-	image: ArmoredInvaders.png
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 21:55:05
+	name: Primal Howl
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Put a +1/+1 counter on target creature. If that creature is a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words>, put two +1/+1 counters on it instead.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 22:06:57
+	name: Return to Nature
+	casting cost: G
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Destroy target artifact or enchantment. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-17 22:09:33
+	name: Shimon Naturalist
+	casting cost: 4G
+	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Ape</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: When <atom-cardname><nospellcheck>Shimon Naturalist</nospellcheck></atom-cardname> or another <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, you may destroy target artifact or enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:21:05
+	name: Disengage
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule text: Remove any number of target attacking creatures from combat and untap them.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:29:35
+	name: Promise of a New Generation
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text:
-		When <atom-cardname><nospellcheck>Armored Invaders</nospellcheck></atom-cardname> deals combat damage to an opponent, gain control of target land that player controls. That land is a Waste for as long as you control it.
-		At the beginning of your upkeep, for each land you control but don’t own, pay <sym-auto>2</sym-auto> or return that land to it’s owners control.
+		Until end of turn, if a creature entering the battlefield causes a triggered ability of a creature you control to trigger, that ability triggers an additional time.
+		Create a 2/2 white <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> Bird creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2047,64 +3895,89 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:57:06
-	name: The Smithies Squire
-	casting cost: 2R
-	image: TheSmithiesSquire.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: When <atom-cardname><nospellcheck>The Smithies Squire</nospellcheck></atom-cardname> enters the battlefield, you may search your library for an equipment card. If you do shuffle you library and put that card on top of it.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 2
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:01:32
-	name: Rousing Knight
-	casting cost: 1RR
-	image: RousingKnight.png
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:42:19
+	name: Knight of the Placidium
+	casting cost: WW
+	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		<atom-cardname><nospellcheck>Rousing Knight</nospellcheck></atom-cardname> must attack each turn if able.
-		Squires you control have <kw-a><nospellcheck>haste</nospellcheck></kw-a> and must attack each turn if able.
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>first strike</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Knight of the Placidium</nospellcheck></atom-cardname> blocks, it loses <kw-a><nospellcheck>defender</nospellcheck></kw-a> and gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a>. <i-auto>(This effect does not end at end of turn.)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Gustcloak is a MTG reference to the ability that  removes the attacking creature from combat.
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:47:30
+	name: Gustcloak Navori
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Gustcloak Navori</nospellcheck></atom-cardname> becomes blocked, you may untap it and remove it from combat.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Gustcloak is a MTG reference to the ability that  removes the attacking creature from combat.
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:47:30
+	name: Gustcloak Navori
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Gustcloak Navori</nospellcheck></atom-cardname> becomes blocked, you may untap it and remove it from combat.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 21:56:59
+	name: Canopy Scout
+	casting cost: 1GG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vastaya</word-list-race> <word-list-class>Ape</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: Whenever <atom-cardname><nospellcheck>Canopy Scout</nospellcheck></atom-cardname> or another a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield under your control, you may reveal the top card of your library. If it’s a creature or land card, draw a card.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
-	toughness: 3
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:05:06
-	name: Basilisk Rider
-	casting cost: 1B/RB/R
-	image: BasiliskRider.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Basilisk</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	power: 2
 	toughness: 2
 	card code text: 
 	copyright: 
@@ -2116,85 +3989,17 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:54:08
-	name: Noxian Arms Dealer
-	casting cost: 1B/R
-	image: NoxianArmsDealer.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text: When <atom-cardname><nospellcheck>Noxian Arms Dealer</nospellcheck></atom-cardname> enters the battlefield, you may sacrifice an artifact you control. If you do, create an artifact equipment token with “<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>” and “Equip creature gets +1/+1”
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:11:37
-	name: General Lee Tai
-	casting cost: 3RR
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 22:05:59
+	name: Vastayan Spring
+	casting cost: 2GGWW
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever a creature blocks or becomes blocked by <atom-cardname><nospellcheck>General Lee Tai</nospellcheck></atom-cardname>, silence that creature and unattach all equipment from it.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:18:20
-	name: Finish the Job
-	casting cost: 1B
-	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: rare
-	rule text:
-		Destroy target creature with a -1/-1 counter on it.
-		Draw a card.
-	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:46:48
-	name: Trenches of War
-	casting cost: 3BB
-	image: TrenchesofWar.png
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: rare
-	rule text: Whenever a creature attacks you or permanent you control, if that creature doesn’t have a -1/-1 counter on it, put a -1/-1 counter on it.
+	rule text:
+		When <atom-cardname><nospellcheck>Vastayan Spring</nospellcheck></atom-cardname> enters the battlefield, exile target <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creature you control, then return it to the battlefield under its owner’s control.
+		If a permanent entering the battlefield causes a triggered ability of a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> you control to trigger, that ability triggers an additional time.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -2208,106 +4013,18 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:47:49
-	name: Arms Race
-	casting cost: 4RR
-	image: ArmsRace.png
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: rare
-	rule text: At the beginning of each players upkeep, that player may search their library for an equipment card and put it onto the battlefield under their control. If they do, that player shuffles their library.
-	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:45:34
-	name: Improvising Explosivneer
-	casting cost: 2R
-	image: ImprovisingExplosivneer.png
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment>Goblin</word-list-enchantment> <word-list-enchantment>Engineer</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
-	rarity: common
-	rule text: <sym-auto>T</sym-auto>, Sacrifice an artifact: Destroy target artifact.
-	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:52:36
-	name: Noxian Contract
-	casting cost: BB
-	image: NoxianContract.png
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text: At the beginning of the next end step, if a creature an opponent controls died this turn, draw 3 cards. Otherwise, discard a card.
-	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:39:33
-	name: Castle Rats
-	casting cost: B
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 22:13:00
+	name: Navori Skyspear
+	casting cost: G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Rat</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text: Whenever <atom-cardname><nospellcheck>Castle Rats</nospellcheck></atom-cardname> deals combat damage to an opponent, you may sacrifice it. If you do, that opponent discards a card at random.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:44:37
-	name: Trebuchet Engineer
-	casting cost: R
-	image: TrebuchetEngineer.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Engineer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule text:
 		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
-		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: Target creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn. Sacrifice that creature at the beginning of the next end step.
-	flavor text: <i-flavor>“These rocks are too light to be worth throwing, but I’ve got an idea...”</i-flavor>
+		<sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Navori Skyspear</nospellcheck></atom-cardname> deals damage equal to its power to target creature with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
 	card code text: 
@@ -2320,17 +4037,17 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2020-07-31 16:50:45
-	time modified: 2020-07-31 19:01:46
-	name: Honorable Squire
-	casting cost: 1R
+	time created: 2020-07-28 23:53:34
+	time modified: 2020-08-18 22:44:25
+	name: Patient Terraformationists
+	casting cost: 2G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: Whenever a Knight you control becomes blocked by a creature an opponent controls, you may have <atom-cardname><nospellcheck>Honorable Squire</nospellcheck></atom-cardname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: At the beginning of each of your main phases, if no creatures dealt combat damage last combat, you may add <sym-auto>G</sym-auto> to your mana pool.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
+	power: 0
 	toughness: 1
 	card code text: 
 	copyright: 
@@ -2472,1863 +4189,6 @@ card:
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rule text: At the beginning of your upkeep, you may remove a +1/+1 counter from target creature you control. If you do, put your choice of a <kw-a><nospellcheck>flying</nospellcheck></kw-a> counter, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> counter, or two +1/+1 counters on that creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
-	type: none
-apprentice code: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:57:05
-	name: Summon Aery
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Sorcery
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Mage you control attacks or activates an ability for the first time each turn, you may create a 1/1 Sprite with <kw-a><nospellcheck>flying</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a>. Sacrifice it at end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:27:59
-	name: Aftershock
-	casting cost: 
-	image: Aftershock.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Resolve
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — At the beginning of each end step, if a Tank you control was dealt 3 or more damage this turn, it deals 1 damage to each creature your opponents control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:37:07
-	name: Electrocution
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Domination
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — If a Fighter or Assassin you control would deal 3 or more combat damage, it deals that much damage plus 1 instead.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:39:07
-	name: Fleet Footwork
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Precision
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Marksmen you control have <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-22 12:29:12
-	time modified: 2020-07-29 20:40:48
-	name: Glacial Augment
-	casting cost: 
-	image: GlacialAugment.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Inspiration
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Support you control deals combat damage to a creature, stun that creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:40:39
-	name: Grasping Undying
-	casting cost: 
-	image: GraspingUndying.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Resolve
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Tank you control deals combat damage you gain 1 life.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:44:52
-	name: Hailing Blades
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Domination
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Fighter or Assassin you control attacks, you may have it get -X/-0 and gain <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn, where X is half its power, rounded down.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-22 12:27:20
-	time modified: 2020-07-29 20:46:06
-	name: Kleptomancy
-	casting cost: 
-	image: Kleptomancy.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Inspiration
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Support you control deals combat damage to an opponent, draw a card.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:48:44
-	name: Lethal Tempo
-	casting cost: 
-	image: LethalTempo.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Precision
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Marksman you control becomes blocked it gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:50:00
-	name: Phase Rush
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Sorcery
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — At the beginning of your end step, untap all Mages you control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:51:28
-	name: Pressed Attack
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Precision
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Marksmen you control attacks, you may put a +1/+1 counter on it.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:25:50
-	name: Arcane Comet
-	casting cost: 
-	image: ArcaneComet.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Sorcery
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever a Mage you control attacks, you may have it deal 1 damage to target creature or player.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:29:13
-	name: Conquerer
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Precision
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — If a Marksman you control would deal damage, it deals true damage instead.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:36:06
-	name: Dark Harvest
-	casting cost: 
-	image: DarkHarvest.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Domination
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Fighters and Assassins you control have “Consume: Put a +1/+1 counter on this champion.”
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:26:08
-	name: Guardian
-	casting cost: 
-	image: Guardian.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Resolve
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Tanks you control can block an additional creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 20:26:21
-	name: Predator
-	casting cost: 
-	image: 
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Domination
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Fighters and Assassins you control have engage and <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 13:22:33
-	time modified: 2020-07-29 21:05:49
-	name: The Unsealed Spellbook
-	casting cost: 
-	image: TheUnsealedSpellbook.png
-	super type: <word-list-type>Keystone Rune</word-list-type>
-	sub type: Inspiration
-	rarity: rare
-	rule text: <kw-a><i-auto><nospellcheck>Eminence</nospellcheck></i-auto></kw-a> — Whenever you cast a Support spell, you may choose an summoner card you own from outside the game, reveal that card, and put it into your command zone.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
-	type: none
-apprentice code: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:24:50
-	name: The Citadel of Dawn
-	casting cost: 
-	image: TheCitadelofDawn.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Tap two untapped creatures you control: Add <sym-auto>WW</sym-auto>, <sym-auto>UU</sym-auto>, or <sym-auto>WU</sym-auto>.
-	flavor text: <i-flavor>A palace whose majestic design is said to reflect the splendor of the ruling <error-spelling:en_us>Lightshield</error-spelling:en_us> dynasty.</i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:35:10
-	name: First Lands
-	casting cost: 
-	image: FirstLands.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>First Lands</nospellcheck></atom-cardname> enters the battlefield tapped if you control an Island, Swamp, or Mountain.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Flavor Text: Page 44
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:30:06
-	name: The Immortal Bastion
-	casting cost: 
-	image: TheImmortalBastion.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Sacrifice a creature: Add <sym-auto>BB</sym-auto>, <sym-auto>RR</sym-auto>, or <sym-auto>BR</sym-auto>. If that mana is spent on a creature spell, it gains <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
-	flavor text: <i-flavor>Even those at the peak of power must always seek new ways to challenge themselves — or they will not remain in power for long.</i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:49:14
-	name: Runeterra Wilds
-	casting cost: 
-	image: RuneterraWilds.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Mountain</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Runeterra Wilds</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Island, or Swamp
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:12:59
-	name: Plains
-	casting cost: 
-	image: Plains.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol white
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:13:55
-	name: Island
-	casting cost: 
-	image: Island.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol blue
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:11:14
-	name: Swamp
-	casting cost: 
-	image: Swamp.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol black
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:13:09
-	name: Mountain
-	casting cost: 
-	image: Mountain.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol red
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-08-03 12:10:55
-	name: Emerging Landscape
-	casting cost: 
-	image: EmergingLandscape.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: common
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
-		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Emerging Landscape</nospellcheck></atom-cardname>: Search your library for a Plains, Island, Swamp, Mountain, or Forest and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	watermark: none
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:41:56
-	name: Palace Gardens
-	casting cost: 
-	image: PalaceGardens.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Palace Gardens</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Swamp, Mountain, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:25:19
-	name: The Frostguard Citadel
-	casting cost: 
-	image: TheFrostguardCitadel.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Discard a card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 22:33:07
-	name: The Hidden City of Ixtal
-	casting cost: 
-	image: TheHiddenCityofIxtal.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>RG</sym-auto>. Activate this ability only if a creature you control dealt combat damage to a player this turn.
-	flavor text: <i-flavor>Far from prying eyes and greedy hands, the sprawling <error-spelling:en_us>arcologies</error-spelling:en_us> of <error-spelling:en_us>Ixaocan</error-spelling:en_us> remain safely hidden by the deepest rain forests.</i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:17:55
-	name: Forest
-	casting cost: 
-	image: Forest.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol green
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:26:18
-	name: The Placidium of Navori
-	casting cost: 
-	image: ThePlacidiumofNavori.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>WW</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>GW</sym-auto>. Activate this ability only if you control 5 or more creatures <error-spelling:en_us:/magic.mse-game/magic-words>and/or</error-spelling:en_us:/magic.mse-game/magic-words> lands.
-	flavor text: <i-flavor>Situated at the heart of the continent, the <error-spelling:en_us>Placidium</error-spelling:en_us> is one of <error-spelling:en_us>Ionia’s</error-spelling:en_us> most sacred places. Many have journeyed here to study at renowned schools, or meditate in its wild, magical gardens.</i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:42:42
-	name: Howling Abyss
-	casting cost: 
-	image: HowlingAbyss.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Howling Abyss</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Mountain, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 16:36:40
-	name: Conquered Terrain
-	casting cost: 
-	image: ConqueredTerrain.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Swamp</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Conquered Terrain</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Island, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-07-30 16:35:52
-	name: Rivers of Grass
-	image: RiversofGrass.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Rivers of Grass</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>G/WG/W</sym-auto>, <sym-auto>T</sym-auto>: Untap target creature you control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-07-30 22:21:53
-	name: Frost Barrens
-	image: FrostBarrens.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Frost Barrens</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>U/BU/B</sym-auto>, <sym-auto>T</sym-auto>: Target creature loses <kw-a><nospellcheck>haste</nospellcheck></kw-a> and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-07-30 22:26:09
-	name: High Silvermere
-	image: HighSilvermere.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>High Silvermere</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>W/UW/U</sym-auto>, <sym-auto>T</sym-auto>: Draw a card, then discard a card.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-07-30 22:29:19
-	name: Pit Mine
-	image: PitMine.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Swamp</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Pit Mine</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>B/RB/R</sym-auto>, <sym-auto>T</sym-auto>: Target creature must block this turn if able.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-07-30 22:23:14
-	name: Concealing Canopy
-	image: ConcealingCanopy.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Forest</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
-		<atom-cardname><nospellcheck>Concealing Canopy</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>R/GR/G</sym-auto>, <sym-auto>T</sym-auto>: Creature you control gain <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-08-03 12:09:55
-	name: Petricite Grove
-	image: PetriciteGrove.png
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: mythic rare
-	rule text: If a nonbasic land would produce colored mana, that land produces <sym>C</sym> instead of any other type and amount.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:10:43
-	name: Wastes
-	casting cost: 
-	image: Wastes.png
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Wastes</word-list-land><soft> </soft><word-list-land></word-list-land>
-	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
-	watermark: mana symbol colorless
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-08-03 11:53:07
-	name: Deteriorating Terrain
-	casting cost: 
-	image: DeterioratingTerrain.png
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: common
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
-		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Deteriorating Terrain</nospellcheck></atom-cardname>: For each player, choose up to one target nonbasic land that player controls. For each land sacrificed this way, that lands controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.
-	flavor text: <i-flavor></i-flavor>
-	watermark: none
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
-	type: none
-apprentice code: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:07:51
-	time modified: 2020-08-05 15:53:21
-	name: Large Krug
-	casting cost: 4
-	image: LargeKrug.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text: When <atom-cardname><nospellcheck>Large Krug</nospellcheck></atom-cardname> dies, spawn two colorless 1/2 Golem Monsters.
-	flavor text: <i-flavor></i-flavor>
-	power: 3
-	toughness: 2
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:50:15
-	time modified: 2020-08-05 15:15:49
-	name: Rift Herald
-	casting cost: 6
-	image: RiftHerald.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Crab</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>Rift Herald</nospellcheck></atom-cardname> enters the battlefield, you may have it <kw-a><nospellcheck>fight</nospellcheck></kw-a> target <kw-a><nospellcheck>objective</nospellcheck></kw-a>.
-		If <atom-cardname><nospellcheck>Rift Herald</nospellcheck></atom-cardname> would deal damage to an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, it deals twice that much damage instead.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 5
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 09:06:20
-	name: Cloud Dragon
-	casting cost: 4WW
-	image: CloudDragon.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>
-		<sym-auto>2W</sym-auto>, <sym-auto>T</sym-auto>: Exile target creature you control, then return that card to the battlefield under your control.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:06:18
-	time modified: 2020-08-05 15:53:37
-	name: Razorbeak
-	casting cost: 2W
-	image: Razorbeak.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Bird</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		Other Birds you control get +1/+1.
-		At the beginning of your upkeep, spawn a 0/0 white Bird with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:57:56
-	time modified: 2020-08-05 15:52:44
-	name: Blue Sentinel
-	casting cost: 3UU
-	image: BlueSentinel.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		Instant and sorcery spells you cast cost <sym-auto>1</sym-auto> less to cast.
-		Whenever you cast an instant or sorcery spell, draw a card.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 5
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 14:42:32
-	name: Ocean Dragon
-	casting cost: 4UU
-	image: OceanDragon.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>
-		Creatures your opponents control lose <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> and can’t have or gain those abilities.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 09:05:56
-	name: Ancient Dragon
-	casting cost: 4BB
-	image: AncientDragon.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>
-		At the beginning of your precombat main phase, add <sym-auto>BBB</sym-auto>.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:01:36
-	time modified: 2020-07-30 22:06:46
-	name: Murk Wolves
-	casting cost: 1B
-	image: MurkWolves.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Wolf</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:00:16
-	time modified: 2020-08-05 15:50:27
-	name: Brambleback
-	casting cost: 3RR
-	image: Brambleback.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Golem</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text: At the beginning of your precombat main phase, target creature you control gains <kw-a><nospellcheck>grievous</nospellcheck></kw-a> wounds and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	power: 5
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 09:06:12
-	name: Infernal Dragon
-	casting cost: 4RR
-	image: InfernalDragon.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
-		As long as <atom-cardname><nospellcheck>Infernal Dragon</nospellcheck></atom-cardname> is attacking, other attacking creatures you control get +1/+0 until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:03:54
-	time modified: 2020-08-03 16:21:17
-	name: Gromp
-	casting cost: 3G
-	image: Gromp.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Frog</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text:
-		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
-		As long as <atom-cardname><nospellcheck>Gromp</nospellcheck></atom-cardname> hasn’t been dealt damage it has <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 5
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 09:06:00
-	name: Mountain Dragon
-	casting cost: 4GG
-	image: MountainDragon.png
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Mountain Dragon</nospellcheck></atom-cardname> deals combat damage to an opponent, you may put a +1/+1 counter on each creature you control.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:54:17
-	time modified: 2020-08-05 09:03:30
-	name: Elder Dragon
-	casting cost: 22/R2/B2/G2/U2/W
-	image: ElderDragon.png
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>double strike</nospellcheck></kw-a>
-		This spell cost <sym-auto>2</sym-auto> less to cast for each Dragon card in your graveyard.
-		Other Dragons you control get +1/+1 and have <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
-	power: 5
-	toughness: 5
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-07-30 13:41:21
-	time modified: 2020-08-05 15:55:03
-	name: Elder Vastayashai'rei
-	casting cost: 1RGWU
-	image: ElderVastayashairei.png
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Elder</word-list-race> <word-list-class>Vastaya</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>
-		<sym-auto>W</sym-auto>: Target <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> gets <kw-a><nospellcheck>shield <param-number>1</param-number></nospellcheck></kw-a> until end of turn.
-		<sym-auto>U</sym-auto>: Counter target spell that targets a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> you control. That spells controller draws a card.
-		<sym-auto>R</sym-auto>: Deal 1 damage to target <error-spelling:en_us:/magic.mse-game/magic-words>non-Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creature.
-		<sym-auto>G</sym-auto>: Search your library for a <error-spelling:en_us:/magic.mse-game/magic-words>Vastaya</error-spelling:en_us:/magic.mse-game/magic-words> creature card then shuffle your library and put that card on top of it.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-08 18:19:16
-	name: Rift Walk
-	casting cost: U
-	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text: Target nonland permanent phases out.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-03 17:31:00
-	name: Split Push
-	casting cost: 1R
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		Creatures you control that are attacking objectives alone can’t be blocked by more than one creature.
-		Sacrifice <atom-cardname><nospellcheck>Split Push</nospellcheck></atom-cardname>: Target creature you control gains engage until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-08 14:39:12
-	name: Focused Farming
-	casting cost: 1G
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		Whenever one or more creatures you control attacks an objective, add <sym-auto>G</sym-auto>. Until end of turn, you don’t lose this mana as steps and phases end.
-		Sacrifice <atom-cardname><nospellcheck>Focused Farming</nospellcheck></atom-cardname>: Add <sym-auto>G</sym-auto>.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-03 17:07:54
-	name: Induced Raged
-	casting cost: 2B
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		Whenever you capture an objective, that objectives controller sacrifices a creature.
-		Sacrifice <atom-cardname><nospellcheck>Induced Raged</nospellcheck></atom-cardname>: Each opponent sacrifices a creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-03 17:07:52
-	name: Team Work
-	casting cost: 2W
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		Creatures you control that are attacking an objective get +1/+1 for each other creature attacking the same objective.
-		Sacrifice <atom-cardname><nospellcheck>Team Work</nospellcheck></atom-cardname>: Target creature you control gets +2/+2 until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-03 17:07:50
-	name: Controlled Play
-	casting cost: 3U
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		At the beginning of your upkeep, you may draw a card for each objective you control. If you do, discard a card.
-		Sacrifice <atom-cardname><nospellcheck>Controlled Play</nospellcheck></atom-cardname>: Shuffle the cards from your hand into your library, then draws that many cards.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-08 18:40:06
-	name: Void Vortex
-	casting cost: 2CC
-	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell>Void</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
-	rarity: rare
-	rule text: Exile each nonland permanent that is one or more colors. Return those cards to the battlefield under their owner’s controls at end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Art: Planar Bridge (ÆR)
-	time created: 2020-08-03 14:20:26
-	time modified: 2020-08-08 18:33:00
-	name: Portal from the Void
-	casting cost: 4CCC
-	image: PortalfromtheVoid.png
-	super type: <word-list-type>Legendary Artifact Enchantment</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	rarity: mythic rare
-	rule text: <sym-auto>CCCCC</sym-auto>, <sym-auto>T</sym-auto>: Search your library for a Void creature card and put it onto the battlefield. Then shuffle your library. Activate this ability only any time you could cast a sorcery.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
-	type: none
-apprentice code: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:42:51
-	time modified: 2020-08-03 15:20:49
-	name: The Nexus
-	casting cost: 12
-	image: TheNexus.png
-	super type: <word-list-type>Legendary Artifact Objective</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	rarity: mythic rare
-	rule text:
-		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
-		At the beginning of your upkeep, spawn three 1/2 Minions, three 2/1 Minions with <kw-a><nospellcheck>reach</nospellcheck></kw-a>, and one 3/3 Minion with <kw-a><nospellcheck>trample</nospellcheck></kw-a>.
-		When <atom-cardname><nospellcheck>The Nexus</nospellcheck></atom-cardname> is captured, you lose the game.
-	flavor text: <i-flavor></i-flavor>
-	power: 12
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:42:51
-	time modified: 2020-08-03 15:20:10
-	name: Inhibitor
-	casting cost: 5
-	image: Inhibitor.png
-	super type: <word-list-type>Artifact Objective</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	rarity: rare
-	rule text:
-		Creatures your opponents control enter the battlefield tapped and with an additional -1/-1 counter on them.
-		When <atom-cardname><nospellcheck>Inhibitor</nospellcheck></atom-cardname> is captured, each opponent spawns a colorless 5/5 Minion.
-	flavor text: <i-flavor></i-flavor>
-	power: 5
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:42:51
-	time modified: 2020-08-03 15:33:30
-	name: Twisted Altar
-	casting cost: 2
-	image: TwistedAltar.png
-	super type: <word-list-type>Artifact Objective</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	rarity: common
-	rule text:
-		At the beginning of your upkeep, draw a card.
-		When <atom-cardname><nospellcheck>Twisted Altar</nospellcheck></atom-cardname> is captured, return it to the battlefield under that players control.
-	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes:
-		Title ideas:<soft-line>
-		Vilemaw, Crushing Wrath (for Sharif’s sake)
-		Vilemaw, Twisted Queen
-		Vilemaw, Wretched Mother</soft-line>
-	time created: 2015-07-26 05:09:15
-	time modified: 2020-08-05 11:44:19
-	name: Vilemaw
-	casting cost: 4BBBB
-	image: Vilemaw.png
-	super type: <word-list-type>Legendary Creature Objective</word-list-type>
-	sub type: <word-list-race>Spider</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule text:
-		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>, <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>shroud</nospellcheck></kw-a>
-		<atom-cardname><nospellcheck>Vilemaw</nospellcheck></atom-cardname> can block an additional creature each combat.
-		Creatures attacking, blocking, or being blocked by <atom-cardname><nospellcheck>Vilemaw</nospellcheck></atom-cardname> lose <kw-a><nospellcheck>first strike</nospellcheck></kw-a> and <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
-		<sym-auto>4BBBB</sym-auto>, <sym-auto>T</sym-auto>: Each creature your opponents control fights <atom-cardname><nospellcheck>Vilemaw</nospellcheck></atom-cardname>.
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 8
-	card code text: 
-	copyright: 4
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:50:15
-	time modified: 2020-08-03 16:05:47
-	name: Baron Nashor
-	casting cost: 7
-	image: BaronNashor.png
-	super type: <word-list-type>Legendary Creature Objective</word-list-type>
-	sub type: <word-list-race>Wurm</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule text:
-		You can attack <atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname>.
-		<atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname> can’t attack or block.
-		When a player captures <atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname>, put three +1/+1 counters on each creature that player controls. Then that player draws 4 cards.
-	flavor text: <i-flavor></i-flavor>
-	loyalty: 4
-	loyalty cost 1: 
-	loyalty cost 2: 
-	loyalty cost 3: +1
-	power: 0
-	toughness: 21
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:50:15
-	time modified: 2020-08-05 11:06:19
-	name: Rift Scuttler
-	casting cost: 1
-	image: RiftScuttler.png
-	super type: <word-list-type>Creature Objective</word-list-type>
-	sub type: <word-list-race>Crab</word-list-race> <word-list-class>Monster</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text:
-		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>
-		Your opponents play with the top card of their library revealed.
-		When <atom-cardname><nospellcheck>Rift Scuttler</nospellcheck></atom-cardname> is captured, reveal your hand.
-	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 5
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:42:51
-	time modified: 2020-08-05 09:12:19
-	name: Outer Turret
-	casting cost: 2
-	image: OuterTurret.png
-	super type: <word-list-type>Artifact Creature Objective</word-list-type>
-	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: common
-	rule text:
-		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Outer Turret</nospellcheck></atom-cardname> blocks one or more creatures, choose one of those creatures. <atom-cardname><nospellcheck>Outer Turret</nospellcheck></atom-cardname> deals 1 damage to that creature.
-	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 4
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:44:02
-	time modified: 2020-08-05 09:14:13
-	name: Inner Turret
-	casting cost: 4
-	image: InnerTurret.png
-	super type: <word-list-type>Artifact Creature Objective</word-list-type>
-	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text:
-		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Inner Turret</nospellcheck></atom-cardname> blocks one or more creatures, choose one of those creatures. <atom-cardname><nospellcheck>Inner Turret</nospellcheck></atom-cardname> deals 1 damage to that creature.
-		At the beginning of your upkeep, remove a damage counter from <atom-cardname><nospellcheck>Inner Turret</nospellcheck></atom-cardname>.
-	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 6
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:46:34
-	time modified: 2020-08-05 09:33:13
-	name: Nexus Turrets
-	casting cost: 6
-	image: NexusTurrets.png
-	super type: <word-list-type>Artifact Creature Objective</word-list-type>
-	sub type: <word-list-race>Turret</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>
-		<atom-cardname><nospellcheck>Nexus Turrets</nospellcheck></atom-cardname> can block an additional creature each combat.
-		Whenever <atom-cardname><nospellcheck>Nexus Turrets</nospellcheck></atom-cardname> blocks one or more creatures, choose up to two of those creatures. <atom-cardname><nospellcheck>Nexus Turrets</nospellcheck></atom-cardname> deals 2 damage divided evenly among any number of the chosen creatures.
-		At beginning of your upkeep, you may remove a damage counter from <atom-cardname><nospellcheck>Nexus Turrets</nospellcheck></atom-cardname>.
-	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 8
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 04:46:34
-	time modified: 2020-08-05 10:04:19
-	name: Nexus Obelisk
-	casting cost: 8
-	image: NexusObelisk.png
-	super type: <word-list-type>Legendary Artifact</word-list-type>
-	sub type: <word-list-artifact>Turret</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: mythic rare
-	rule text:
-		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>
-		Whenever you are attacked by one ore more creatures, choose one of those creatures. Exile that creature at end of combat.
-	flavor text: <i-flavor></i-flavor>
-	watermark: none
-	power: 
-	toughness: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:22:16
-	time modified: 2020-07-30 22:10:15
-	name: Smite
-	casting cost: 2
-	image: Smite.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell, <kw-a><nospellcheck>split second</nospellcheck></kw-a>
-		Smite deals 5 true damage to target Minion or Monster.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 20:19:02
-	name: Barrier
-	casting cost: 1G/W
-	image: Barrier.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		You or target creature you control gets shield 5 until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:19:13
-	time modified: 2020-07-30 20:19:50
-	name: Flash
-	casting cost: 1W/U
-	image: Flash.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Exile target creature you control, then return that card to the battlefield under your control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:21:42
-	time modified: 2020-07-30 20:57:05
-	name: Ignite
-	casting cost: 1B/R
-	image: Ignite.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell, grievous wounds
-		Deal 3 true damage to any target.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 12:59:15
-	time modified: 2020-07-30 20:57:24
-	name: Surge
-	casting cost: 1R/G
-	image: Surge.png
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Target creature gets +2/+2 and gains engage and <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 12:59:15
-	time modified: 2020-07-30 20:20:55
-	name: Teleport
-	casting cost: 1U/R
-	image: Teleport.png
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Search your hand <error-spelling:en_us:/magic.mse-game/magic-words>and/or</error-spelling:en_us:/magic.mse-game/magic-words> library for a champion card and exile it. Put three time counters on the exiled card. If it doesn’t have suspend, it gains suspend. If you searched your library this way, shuffle it.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:17:09
-	time modified: 2020-07-30 20:27:49
-	name: Cleanse
-	casting cost: 1G/U
-	image: Cleanse.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Cleanse target creature you control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 12:59:15
-	time modified: 2020-07-30 20:39:42
-	name: Exhaust
-	casting cost: 1W/B
-	image: Exhaust.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Target creature gets -2/-2 and loses <kw-a><nospellcheck>first strike</nospellcheck></kw-a> and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-07-26 05:14:08
-	time modified: 2020-07-30 20:58:40
-	name: Ghost
-	casting cost: 1U/B
-	image: Ghost.png
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Target creature you control gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn. That creature can’t be blocked this turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-15 19:52:51
-	time modified: 2020-07-30 20:20:20
-	name: Promote
-	casting cost: 1R/W
-	image: Promote.png
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Put a +1/+1 counter on target creature you control. That creature gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-10-20 12:25:48
-	time modified: 2020-07-30 20:49:31
-	name: Revive
-	casting cost: 1B/G
-	image: Revive.png
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
-	rule text:
-		Summoner spell
-		Return target creature card from your graveyard to the battlefield tapped. That creature doesn’t untap during its controllers next untap step.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
