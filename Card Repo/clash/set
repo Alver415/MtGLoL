@@ -3283,7 +3283,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-09-03 23:07:28
-	time modified: 2020-09-26 02:03:49
+	time modified: 2020-09-26 18:48:27
 	name: Provoking Challenge
 	casting cost: 1R/G
 	image: ProvokingChallenge.png
@@ -3291,8 +3291,8 @@ card:
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text:
-		If <sym-auto>R</sym-auto> was spent to cast <atom-cardname><nospellcheck>Provoking Challenge</nospellcheck></atom-cardname>, target creature you control gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and engage until end of turn.
-		If <sym-auto>G</sym-auto> was spent to cast <atom-cardname><nospellcheck>Provoking Challenge</nospellcheck></atom-cardname>, put a +1/+1 counter on target creature.
+		If <sym-auto>R</sym-auto> was spent to cast <atom-cardname><nospellcheck>Provoking Challenge</nospellcheck></atom-cardname>, target creature gains engage until end of turn.
+		If <sym-auto>G</sym-auto> was spent to cast <atom-cardname><nospellcheck>Provoking Challenge</nospellcheck></atom-cardname>, target creature gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
