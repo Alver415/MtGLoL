@@ -1,0 +1,1567 @@
+mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	symbol: 
+	masterpiece symbol: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card: 
+	name: 74: DEMACIA - R
+	notes: 74: DEMACIA - R
+	casting cost: W
+	super type: Spell
+	rarity: rare
+card: 
+	name: 31: VOID - U
+	notes: 31: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 189: IXTAL - C
+	notes: 189: IXTAL - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 195: IXTAL - U
+	notes: 195: IXTAL - U
+	casting cost: R
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 51: DEMACIA - C
+	notes: 51: DEMACIA - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 1: VOID - C
+	notes: 1: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 240: IONIA - U
+	notes: 240: IONIA - U
+	casting cost: W
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 256: IONIA - R
+	notes: 256: IONIA - R
+	casting cost: WG
+	super type: Spell
+	rarity: rare
+card: 
+	name: 223: IONIA - U
+	notes: 223: IONIA - U
+	casting cost: G
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 138: NOXUS - C
+	notes: 138: NOXUS - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 19: VOID - C
+	notes: 19: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 160: NOXUS - M
+	notes: 160: NOXUS - M
+	casting cost: R
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 49: DEMACIA - C
+	notes: 49: DEMACIA - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 53: DEMACIA - C
+	notes: 53: DEMACIA - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 132: FRELJORD - M
+	notes: 132: FRELJORD - M
+	casting cost: B
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 238: IONIA - U
+	notes: 238: IONIA - U
+	casting cost: W
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 115: FRELJORD - R
+	notes: 115: FRELJORD - R
+	casting cost: UB
+	super type: Creature
+	rarity: rare
+card: 
+	name: 64: DEMACIA - C
+	notes: 64: DEMACIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 99: FRELJORD - U
+	notes: 99: FRELJORD - U
+	casting cost: U
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 252: IONIA - U
+	notes: 252: IONIA - U
+	casting cost: WG
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 5: VOID - C
+	notes: 5: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 112: FRELJORD - U
+	notes: 112: FRELJORD - U
+	casting cost: UB
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 219: IONIA - C
+	notes: 219: IONIA - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 209: IXTAL - U
+	notes: 209: IXTAL - U
+	casting cost: RG
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 213: IXTAL - R
+	notes: 213: IXTAL - R
+	casting cost: RG
+	super type: Creature
+	rarity: rare
+card: 
+	name: 40: VOID - R
+	notes: 40: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 28: VOID - U
+	notes: 28: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 186: IXTAL - R
+	notes: 186: IXTAL - R
+	casting cost: G
+	super type: Spell
+	rarity: rare
+card: 
+	name: 249: IONIA - C
+	notes: 249: IONIA - C
+	casting cost: WG
+	super type: Spell
+	rarity: common
+card: 
+	name: 91: FRELJORD - C
+	notes: 91: FRELJORD - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 168: NOXUS - U
+	notes: 168: NOXUS - U
+	casting cost: BR
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 98: FRELJORD - U
+	notes: 98: FRELJORD - U
+	casting cost: U
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 173: NOXUS - R
+	notes: 173: NOXUS - R
+	casting cost: BR
+	super type: Spell
+	rarity: rare
+card: 
+	name: 149: NOXUS - C
+	notes: 149: NOXUS - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 197: IXTAL - U
+	notes: 197: IXTAL - U
+	casting cost: R
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 105: FRELJORD - C
+	notes: 105: FRELJORD - C
+	casting cost: UB
+	super type: Creature
+	rarity: common
+card: 
+	name: 230: IONIA - M
+	notes: 230: IONIA - M
+	casting cost: G
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 111: FRELJORD - U
+	notes: 111: FRELJORD - U
+	casting cost: UB
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 61: DEMACIA - R
+	notes: 61: DEMACIA - R
+	casting cost: U
+	super type: Spell
+	rarity: rare
+card: 
+	name: 207: IXTAL - C
+	notes: 207: IXTAL - C
+	casting cost: RG
+	super type: Spell
+	rarity: common
+card: 
+	name: 14: VOID - C
+	notes: 14: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 202: IXTAL - M
+	notes: 202: IXTAL - M
+	casting cost: R
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 236: IONIA - C
+	notes: 236: IONIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 95: FRELJORD - C
+	notes: 95: FRELJORD - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 101: FRELJORD - R
+	notes: 101: FRELJORD - R
+	casting cost: U
+	super type: Creature
+	rarity: rare
+card: 
+	name: 161: NOXUS - C
+	notes: 161: NOXUS - C
+	casting cost: BR
+	super type: Creature
+	rarity: common
+card: 
+	name: 82: DEMACIA - C
+	notes: 82: DEMACIA - C
+	casting cost: WU
+	super type: Spell
+	rarity: common
+card: 
+	name: 52: DEMACIA - C
+	notes: 52: DEMACIA - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 16: VOID - C
+	notes: 16: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 204: IXTAL - C
+	notes: 204: IXTAL - C
+	casting cost: RG
+	super type: Creature
+	rarity: common
+card: 
+	name: 56: DEMACIA - U
+	notes: 56: DEMACIA - U
+	casting cost: U
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 155: NOXUS - U
+	notes: 155: NOXUS - U
+	casting cost: R
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 227: IONIA - R
+	notes: 227: IONIA - R
+	casting cost: G
+	super type: Creature
+	rarity: rare
+card: 
+	name: 205: IXTAL - C
+	notes: 205: IXTAL - C
+	casting cost: RG
+	super type: Creature
+	rarity: common
+card: 
+	name: 184: IXTAL - U
+	notes: 184: IXTAL - U
+	casting cost: G
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 41: VOID - R
+	notes: 41: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 201: IXTAL - R
+	notes: 201: IXTAL - R
+	casting cost: R
+	super type: Spell
+	rarity: rare
+card: 
+	name: 229: IONIA - R
+	notes: 229: IONIA - R
+	casting cost: G
+	super type: Spell
+	rarity: rare
+card: 
+	name: 70: DEMACIA - U
+	notes: 70: DEMACIA - U
+	casting cost: W
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 11: VOID - C
+	notes: 11: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 120: FRELJORD - C
+	notes: 120: FRELJORD - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 206: IXTAL - C
+	notes: 206: IXTAL - C
+	casting cost: RG
+	super type: Spell
+	rarity: common
+card: 
+	name: 54: DEMACIA - C
+	notes: 54: DEMACIA - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 156: NOXUS - U
+	notes: 156: NOXUS - U
+	casting cost: R
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 29: VOID - U
+	notes: 29: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 6: VOID - C
+	notes: 6: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 244: IONIA - M
+	notes: 244: IONIA - M
+	casting cost: W
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 152: NOXUS - C
+	notes: 152: NOXUS - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 104: FRELJORD - M
+	notes: 104: FRELJORD - M
+	casting cost: U
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 135: NOXUS - C
+	notes: 135: NOXUS - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 190: IXTAL - C
+	notes: 190: IXTAL - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 158: NOXUS - R
+	notes: 158: NOXUS - R
+	casting cost: R
+	super type: Spell
+	rarity: rare
+card: 
+	name: 172: NOXUS - R
+	notes: 172: NOXUS - R
+	casting cost: BR
+	super type: Spell
+	rarity: rare
+card: 
+	name: 60: DEMACIA - R
+	notes: 60: DEMACIA - R
+	casting cost: U
+	super type: Spell
+	rarity: rare
+card: 
+	name: 176: IXTAL - C
+	notes: 176: IXTAL - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 113: FRELJORD - U
+	notes: 113: FRELJORD - U
+	casting cost: UB
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 72: DEMACIA - U
+	notes: 72: DEMACIA - U
+	casting cost: W
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 183: IXTAL - U
+	notes: 183: IXTAL - U
+	casting cost: G
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 71: DEMACIA - U
+	notes: 71: DEMACIA - U
+	casting cost: W
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 188: IXTAL - M
+	notes: 188: IXTAL - M
+	casting cost: G
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 119: FRELJORD - C
+	notes: 119: FRELJORD - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 84: DEMACIA - U
+	notes: 84: DEMACIA - U
+	casting cost: WU
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 151: NOXUS - C
+	notes: 151: NOXUS - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 129: FRELJORD - R
+	notes: 129: FRELJORD - R
+	casting cost: B
+	super type: Creature
+	rarity: rare
+card: 
+	name: 130: FRELJORD - R
+	notes: 130: FRELJORD - R
+	casting cost: B
+	super type: Spell
+	rarity: rare
+card: 
+	name: 235: IONIA - C
+	notes: 235: IONIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 242: IONIA - R
+	notes: 242: IONIA - R
+	casting cost: W
+	super type: Spell
+	rarity: rare
+card: 
+	name: 12: VOID - C
+	notes: 12: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 170: NOXUS - U
+	notes: 170: NOXUS - U
+	casting cost: BR
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 142: NOXUS - U
+	notes: 142: NOXUS - U
+	casting cost: B
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 123: FRELJORD - C
+	notes: 123: FRELJORD - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 157: NOXUS - R
+	notes: 157: NOXUS - R
+	casting cost: R
+	super type: Creature
+	rarity: rare
+card: 
+	name: 248: IONIA - C
+	notes: 248: IONIA - C
+	casting cost: WG
+	super type: Spell
+	rarity: common
+card: 
+	name: 44: VOID - R
+	notes: 44: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 87: DEMACIA - R
+	notes: 87: DEMACIA - R
+	casting cost: WU
+	super type: Creature
+	rarity: rare
+card: 
+	name: 245: IONIA - C
+	notes: 245: IONIA - C
+	casting cost: WG
+	super type: Creature
+	rarity: common
+card: 
+	name: 30: VOID - U
+	notes: 30: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 124: FRELJORD - C
+	notes: 124: FRELJORD - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 181: IXTAL - U
+	notes: 181: IXTAL - U
+	casting cost: G
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 212: IXTAL - U
+	notes: 212: IXTAL - U
+	casting cost: RG
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 58: DEMACIA - U
+	notes: 58: DEMACIA - U
+	casting cost: U
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 35: VOID - R
+	notes: 35: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 85: DEMACIA - U
+	notes: 85: DEMACIA - U
+	casting cost: WU
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 10: VOID - C
+	notes: 10: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 175: IXTAL - C
+	notes: 175: IXTAL - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 128: FRELJORD - U
+	notes: 128: FRELJORD - U
+	casting cost: B
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 257: IONIA - R
+	notes: 257: IONIA - R
+	casting cost: WG
+	super type: Spell
+	rarity: rare
+card: 
+	name: 131: FRELJORD - R
+	notes: 131: FRELJORD - R
+	casting cost: B
+	super type: Spell
+	rarity: rare
+card: 
+	name: 150: NOXUS - C
+	notes: 150: NOXUS - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 67: DEMACIA - C
+	notes: 67: DEMACIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 69: DEMACIA - U
+	notes: 69: DEMACIA - U
+	casting cost: W
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 179: IXTAL - C
+	notes: 179: IXTAL - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 203: IXTAL - C
+	notes: 203: IXTAL - C
+	casting cost: RG
+	super type: Creature
+	rarity: common
+card: 
+	name: 22: VOID - U
+	notes: 22: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 255: IONIA - R
+	notes: 255: IONIA - R
+	casting cost: WG
+	super type: Creature
+	rarity: rare
+card: 
+	name: 92: FRELJORD - C
+	notes: 92: FRELJORD - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 0: VOID - C
+	notes: 0: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 83: DEMACIA - U
+	notes: 83: DEMACIA - U
+	casting cost: WU
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 45: VOID - R
+	notes: 45: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 59: DEMACIA - R
+	notes: 59: DEMACIA - R
+	casting cost: U
+	super type: Creature
+	rarity: rare
+card: 
+	name: 196: IXTAL - U
+	notes: 196: IXTAL - U
+	casting cost: R
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 214: IXTAL - R
+	notes: 214: IXTAL - R
+	casting cost: RG
+	super type: Spell
+	rarity: rare
+card: 
+	name: 42: VOID - R
+	notes: 42: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 226: IONIA - U
+	notes: 226: IONIA - U
+	casting cost: G
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 4: VOID - C
+	notes: 4: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 39: VOID - R
+	notes: 39: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 237: IONIA - U
+	notes: 237: IONIA - U
+	casting cost: W
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 163: NOXUS - C
+	notes: 163: NOXUS - C
+	casting cost: BR
+	super type: Creature
+	rarity: common
+card: 
+	name: 8: VOID - C
+	notes: 8: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 107: FRELJORD - C
+	notes: 107: FRELJORD - C
+	casting cost: UB
+	super type: Creature
+	rarity: common
+card: 
+	name: 164: NOXUS - C
+	notes: 164: NOXUS - C
+	casting cost: BR
+	super type: Spell
+	rarity: common
+card: 
+	name: 246: IONIA - C
+	notes: 246: IONIA - C
+	casting cost: WG
+	super type: Creature
+	rarity: common
+card: 
+	name: 109: FRELJORD - C
+	notes: 109: FRELJORD - C
+	casting cost: UB
+	super type: Spell
+	rarity: common
+card: 
+	name: 79: DEMACIA - C
+	notes: 79: DEMACIA - C
+	casting cost: WU
+	super type: Creature
+	rarity: common
+card: 
+	name: 251: IONIA - U
+	notes: 251: IONIA - U
+	casting cost: WG
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 254: IONIA - U
+	notes: 254: IONIA - U
+	casting cost: WG
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 3: VOID - C
+	notes: 3: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 193: IXTAL - C
+	notes: 193: IXTAL - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 106: FRELJORD - C
+	notes: 106: FRELJORD - C
+	casting cost: UB
+	super type: Creature
+	rarity: common
+card: 
+	name: 147: NOXUS - C
+	notes: 147: NOXUS - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 23: VOID - U
+	notes: 23: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 192: IXTAL - C
+	notes: 192: IXTAL - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 221: IONIA - C
+	notes: 221: IONIA - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 36: VOID - R
+	notes: 36: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 13: VOID - C
+	notes: 13: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 34: VOID - R
+	notes: 34: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 68: DEMACIA - C
+	notes: 68: DEMACIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 199: IXTAL - R
+	notes: 199: IXTAL - R
+	casting cost: R
+	super type: Creature
+	rarity: rare
+card: 
+	name: 171: NOXUS - R
+	notes: 171: NOXUS - R
+	casting cost: BR
+	super type: Creature
+	rarity: rare
+card: 
+	name: 21: VOID - U
+	notes: 21: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 50: DEMACIA - C
+	notes: 50: DEMACIA - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 210: IXTAL - U
+	notes: 210: IXTAL - U
+	casting cost: RG
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 231: IONIA - C
+	notes: 231: IONIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 247: IONIA - C
+	notes: 247: IONIA - C
+	casting cost: WG
+	super type: Creature
+	rarity: common
+card: 
+	name: 46: VOID - M
+	notes: 46: VOID - M
+	casting cost: C
+	super type: Creature
+	rarity: mythic
+card: 
+	name: 80: DEMACIA - C
+	notes: 80: DEMACIA - C
+	casting cost: WU
+	super type: Spell
+	rarity: common
+card: 
+	name: 18: VOID - C
+	notes: 18: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 78: DEMACIA - C
+	notes: 78: DEMACIA - C
+	casting cost: WU
+	super type: Creature
+	rarity: common
+card: 
+	name: 243: IONIA - R
+	notes: 243: IONIA - R
+	casting cost: W
+	super type: Spell
+	rarity: rare
+card: 
+	name: 250: IONIA - C
+	notes: 250: IONIA - C
+	casting cost: WG
+	super type: Spell
+	rarity: common
+card: 
+	name: 55: DEMACIA - U
+	notes: 55: DEMACIA - U
+	casting cost: U
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 224: IONIA - U
+	notes: 224: IONIA - U
+	casting cost: G
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 141: NOXUS - U
+	notes: 141: NOXUS - U
+	casting cost: B
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 116: FRELJORD - R
+	notes: 116: FRELJORD - R
+	casting cost: UB
+	super type: Spell
+	rarity: rare
+card: 
+	name: 143: NOXUS - R
+	notes: 143: NOXUS - R
+	casting cost: B
+	super type: Creature
+	rarity: rare
+card: 
+	name: 137: NOXUS - C
+	notes: 137: NOXUS - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 187: IXTAL - R
+	notes: 187: IXTAL - R
+	casting cost: G
+	super type: Spell
+	rarity: rare
+card: 
+	name: 117: FRELJORD - R
+	notes: 117: FRELJORD - R
+	casting cost: UB
+	super type: Spell
+	rarity: rare
+card: 
+	name: 77: DEMACIA - C
+	notes: 77: DEMACIA - C
+	casting cost: WU
+	super type: Creature
+	rarity: common
+card: 
+	name: 239: IONIA - U
+	notes: 239: IONIA - U
+	casting cost: W
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 66: DEMACIA - C
+	notes: 66: DEMACIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 218: IONIA - C
+	notes: 218: IONIA - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 133: NOXUS - C
+	notes: 133: NOXUS - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 216: IXTAL - M
+	notes: 216: IXTAL - M
+	casting cost: RG
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 110: FRELJORD - C
+	notes: 110: FRELJORD - C
+	casting cost: UB
+	super type: Spell
+	rarity: common
+card: 
+	name: 26: VOID - U
+	notes: 26: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 17: VOID - C
+	notes: 17: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 122: FRELJORD - C
+	notes: 122: FRELJORD - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 153: NOXUS - U
+	notes: 153: NOXUS - U
+	casting cost: R
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 7: VOID - C
+	notes: 7: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 100: FRELJORD - U
+	notes: 100: FRELJORD - U
+	casting cost: U
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 166: NOXUS - C
+	notes: 166: NOXUS - C
+	casting cost: BR
+	super type: Spell
+	rarity: common
+card: 
+	name: 215: IXTAL - R
+	notes: 215: IXTAL - R
+	casting cost: RG
+	super type: Spell
+	rarity: rare
+card: 
+	name: 145: NOXUS - R
+	notes: 145: NOXUS - R
+	casting cost: B
+	super type: Spell
+	rarity: rare
+card: 
+	name: 234: IONIA - C
+	notes: 234: IONIA - C
+	casting cost: W
+	super type: Spell
+	rarity: common
+card: 
+	name: 191: IXTAL - C
+	notes: 191: IXTAL - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 127: FRELJORD - U
+	notes: 127: FRELJORD - U
+	casting cost: B
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 73: DEMACIA - R
+	notes: 73: DEMACIA - R
+	casting cost: W
+	super type: Creature
+	rarity: rare
+card: 
+	name: 232: IONIA - C
+	notes: 232: IONIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 194: IXTAL - C
+	notes: 194: IXTAL - C
+	casting cost: R
+	super type: Spell
+	rarity: common
+card: 
+	name: 208: IXTAL - C
+	notes: 208: IXTAL - C
+	casting cost: RG
+	super type: Spell
+	rarity: common
+card: 
+	name: 96: FRELJORD - C
+	notes: 96: FRELJORD - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 47: VOID - M
+	notes: 47: VOID - M
+	casting cost: C
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 174: NOXUS - M
+	notes: 174: NOXUS - M
+	casting cost: BR
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 25: VOID - U
+	notes: 25: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 118: FRELJORD - M
+	notes: 118: FRELJORD - M
+	casting cost: UB
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 27: VOID - U
+	notes: 27: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 65: DEMACIA - C
+	notes: 65: DEMACIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 228: IONIA - R
+	notes: 228: IONIA - R
+	casting cost: G
+	super type: Spell
+	rarity: rare
+card: 
+	name: 162: NOXUS - C
+	notes: 162: NOXUS - C
+	casting cost: BR
+	super type: Creature
+	rarity: common
+card: 
+	name: 9: VOID - C
+	notes: 9: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 258: IONIA - M
+	notes: 258: IONIA - M
+	casting cost: WG
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 241: IONIA - R
+	notes: 241: IONIA - R
+	casting cost: W
+	super type: Creature
+	rarity: rare
+card: 
+	name: 165: NOXUS - C
+	notes: 165: NOXUS - C
+	casting cost: BR
+	super type: Spell
+	rarity: common
+card: 
+	name: 62: DEMACIA - M
+	notes: 62: DEMACIA - M
+	casting cost: U
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 81: DEMACIA - C
+	notes: 81: DEMACIA - C
+	casting cost: WU
+	super type: Spell
+	rarity: common
+card: 
+	name: 37: VOID - R
+	notes: 37: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 38: VOID - R
+	notes: 38: VOID - R
+	casting cost: C
+	super type: Creature
+	rarity: rare
+card: 
+	name: 182: IXTAL - U
+	notes: 182: IXTAL - U
+	casting cost: G
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 32: VOID - U
+	notes: 32: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 15: VOID - C
+	notes: 15: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 144: NOXUS - R
+	notes: 144: NOXUS - R
+	casting cost: B
+	super type: Spell
+	rarity: rare
+card: 
+	name: 103: FRELJORD - R
+	notes: 103: FRELJORD - R
+	casting cost: U
+	super type: Spell
+	rarity: rare
+card: 
+	name: 148: NOXUS - C
+	notes: 148: NOXUS - C
+	casting cost: R
+	super type: Creature
+	rarity: common
+card: 
+	name: 198: IXTAL - U
+	notes: 198: IXTAL - U
+	casting cost: R
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 2: VOID - C
+	notes: 2: VOID - C
+	casting cost: C
+	super type: Creature
+	rarity: common
+card: 
+	name: 233: IONIA - C
+	notes: 233: IONIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 86: DEMACIA - U
+	notes: 86: DEMACIA - U
+	casting cost: WU
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 89: DEMACIA - R
+	notes: 89: DEMACIA - R
+	casting cost: WU
+	super type: Spell
+	rarity: rare
+card: 
+	name: 253: IONIA - U
+	notes: 253: IONIA - U
+	casting cost: WG
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 33: VOID - U
+	notes: 33: VOID - U
+	casting cost: C
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 200: IXTAL - R
+	notes: 200: IXTAL - R
+	casting cost: R
+	super type: Spell
+	rarity: rare
+card: 
+	name: 154: NOXUS - U
+	notes: 154: NOXUS - U
+	casting cost: R
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 180: IXTAL - C
+	notes: 180: IXTAL - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 159: NOXUS - R
+	notes: 159: NOXUS - R
+	casting cost: R
+	super type: Spell
+	rarity: rare
+card: 
+	name: 222: IONIA - C
+	notes: 222: IONIA - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 169: NOXUS - U
+	notes: 169: NOXUS - U
+	casting cost: BR
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 185: IXTAL - R
+	notes: 185: IXTAL - R
+	casting cost: G
+	super type: Creature
+	rarity: rare
+card: 
+	name: 48: VOID - M
+	notes: 48: VOID - M
+	casting cost: C
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 178: IXTAL - C
+	notes: 178: IXTAL - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 217: IONIA - C
+	notes: 217: IONIA - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 139: NOXUS - U
+	notes: 139: NOXUS - U
+	casting cost: B
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 75: DEMACIA - R
+	notes: 75: DEMACIA - R
+	casting cost: W
+	super type: Spell
+	rarity: rare
+card: 
+	name: 114: FRELJORD - U
+	notes: 114: FRELJORD - U
+	casting cost: UB
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 93: FRELJORD - C
+	notes: 93: FRELJORD - C
+	casting cost: U
+	super type: Creature
+	rarity: common
+card: 
+	name: 102: FRELJORD - R
+	notes: 102: FRELJORD - R
+	casting cost: U
+	super type: Spell
+	rarity: rare
+card: 
+	name: 108: FRELJORD - C
+	notes: 108: FRELJORD - C
+	casting cost: UB
+	super type: Spell
+	rarity: common
+card: 
+	name: 20: VOID - C
+	notes: 20: VOID - C
+	casting cost: C
+	super type: Spell
+	rarity: common
+card: 
+	name: 76: DEMACIA - M
+	notes: 76: DEMACIA - M
+	casting cost: W
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 136: NOXUS - C
+	notes: 136: NOXUS - C
+	casting cost: B
+	super type: Spell
+	rarity: common
+card: 
+	name: 121: FRELJORD - C
+	notes: 121: FRELJORD - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 125: FRELJORD - U
+	notes: 125: FRELJORD - U
+	casting cost: B
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 211: IXTAL - U
+	notes: 211: IXTAL - U
+	casting cost: RG
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 43: VOID - R
+	notes: 43: VOID - R
+	casting cost: C
+	super type: Spell
+	rarity: rare
+card: 
+	name: 63: DEMACIA - C
+	notes: 63: DEMACIA - C
+	casting cost: W
+	super type: Creature
+	rarity: common
+card: 
+	name: 134: NOXUS - C
+	notes: 134: NOXUS - C
+	casting cost: B
+	super type: Creature
+	rarity: common
+card: 
+	name: 24: VOID - U
+	notes: 24: VOID - U
+	casting cost: C
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 90: DEMACIA - M
+	notes: 90: DEMACIA - M
+	casting cost: WU
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 167: NOXUS - U
+	notes: 167: NOXUS - U
+	casting cost: BR
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 225: IONIA - U
+	notes: 225: IONIA - U
+	casting cost: G
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 94: FRELJORD - C
+	notes: 94: FRELJORD - C
+	casting cost: U
+	super type: Spell
+	rarity: common
+card: 
+	name: 57: DEMACIA - U
+	notes: 57: DEMACIA - U
+	casting cost: U
+	super type: Spell
+	rarity: uncommon
+card: 
+	name: 177: IXTAL - C
+	notes: 177: IXTAL - C
+	casting cost: G
+	super type: Creature
+	rarity: common
+card: 
+	name: 97: FRELJORD - U
+	notes: 97: FRELJORD - U
+	casting cost: U
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 88: DEMACIA - R
+	notes: 88: DEMACIA - R
+	casting cost: WU
+	super type: Spell
+	rarity: rare
+card: 
+	name: 126: FRELJORD - U
+	notes: 126: FRELJORD - U
+	casting cost: B
+	super type: Creature
+	rarity: uncommon
+card: 
+	name: 220: IONIA - C
+	notes: 220: IONIA - C
+	casting cost: G
+	super type: Spell
+	rarity: common
+card: 
+	name: 146: NOXUS - M
+	notes: 146: NOXUS - M
+	casting cost: B
+	super type: Spell
+	rarity: mythic
+card: 
+	name: 140: NOXUS - U
+	notes: 140: NOXUS - U
+	casting cost: B
+	super type: Creature
+	rarity: uncommon
+version control:
+	type: none
+apprentice code: 
