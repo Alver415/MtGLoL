@@ -148,6 +148,14 @@ choice:
 	choice: three
 	choice: four
 	choice: five
+	
+choice:
+	name: lol factions
+	choice: demacia
+	choice: freljord
+	choice: noxus
+	choice: ixtal
+	choice: ionia
 choice:
 	name: set symbol
 
