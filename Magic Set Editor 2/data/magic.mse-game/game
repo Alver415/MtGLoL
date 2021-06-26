@@ -5,7 +5,7 @@ installer group: magic/game files
 icon: card-back.png
 position hint: 01
 
-version: 2016-01-11
+version: 2020-04-25
 depends on:
 	package: magic-blends.mse-include
 	version: 2014-06-25

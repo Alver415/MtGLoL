@@ -39,6 +39,9 @@ set field:
 	name: masterpiece symbol
 	description: The symbol for this sets masterpieces, click to edit
 set field:
+	type: info
+	name: Watermark links
+set field:
 	type: text
 	name: custom watermark 1
 	description: Set this image in magic-watermarks.mse-include as Custom Watermark 1
@@ -59,6 +62,26 @@ set field:
 	name: custom watermark 5
 	description: Set this image in magic-watermarks.mse-include as Custom Watermark 5
 set field:
+	type: text
+	name: custom watermark 6
+	description: Set this image in magic-watermarks.mse-include as Custom Watermark 6
+set field:
+	type: text
+	name: custom watermark 7
+	description: Set this image in magic-watermarks.mse-include as Custom Watermark 7
+set field:
+	type: text
+	name: custom watermark 8
+	description: Set this image in magic-watermarks.mse-include as Custom Watermark 8
+set field:
+	type: text
+	name: custom watermark 9
+	description: Set this image in magic-watermarks.mse-include as Custom Watermark 9
+set field:
+	type: text
+	name: custom watermark 10
+	description: Set this image in magic-watermarks.mse-include as Custom Watermark 10
+set field:
 	type: info
 	name: Defaults and Automation
 set field:
@@ -73,7 +96,7 @@ set field:
 		color: rgb(255,255,255)
 	choice:
 		name: silver
-		color: rgb(128,128,128)
+		color: rgb(200,200,200)
 	choice:
 		name: gold
 		color: rgb(200,180,0)
@@ -87,11 +110,11 @@ set field:
 	choice: action
 	choice: custom
 	choice: lower case
-	initial: old, expert, pseudo, action, custom
+	initial: old, expert, pseudo, action, custom, lower case
 	# Convert from older mse versions
 	script:
-		if value = "yes" then "old, core, expert, custom"
-		else if value = "no" then ""
+		if value == "yes" then "old, core, expert, custom, lower case"
+		else if value == "no" then ""
 		else value
 	description: For which kinds of keywords should reminder text be added by default? Note: you can enable/disable reminder text by right clicking the keyword.
 set field:
@@ -99,9 +122,17 @@ set field:
 	name: automatic card numbers
 	description: Should card numbers be shown on the cards?
 set field:
+	type: text
+	name: card number offsets
+	description: Add this number the the card numbers. Formatted as "start,total"
+set field:
 	type: boolean
 	name: automatic copyright
 	description: Should the copyright line above be shown on the cards?
+set field:
+	type: boolean
+	name: rarity codes
+	description: Show rarity codes on M15 frames?
 set field:
 	type: boolean
 	name: trim statistics
@@ -128,18 +159,16 @@ set field:
 	name: sort hybrid in pairs
 	description: Should hybrid cards be sorted according to pairs like in Shadowmoor block?
 	initial: no
-#set field:
-#	type: boolean
-#	name: wedge mana costs
-#	description: Should three color mana costs sort in wedge order like in Khans block?
-#	initial: no
 set field:
 	type: choice
 	name: mana cost sorting
-	description: Should mana costs be sorted by shard, by wedge, or unsorted?
-	choice: shard sorting
-	choice: wedge sorting
+	description: Should mana costs be sorted by Tarkir standard (WBG), Apocalypse standard (BGW), or left unsorted?
+	choice: tarkir wedge sorting
+	choice: apocalypse wedge sorting
 	choice: unsorted
+	#typo that stood for way too long
+	script:
+		if value == "apocalype wedge sorting" then "apocalypse wedge sorting" else value
 set field:
 	type: choice
 	name: card language
@@ -152,6 +181,14 @@ set field:
 	name: mark errors
 	description: Marks errors on cards, for example wording and spelling errors, non unique card names, etc.
 set field:
+	type: boolean
+	name: auto correct
+	description: Applies auto correct for a few common syntax errors.
+set field:
+	type: boolean
+	name: alias as cardname
+	description: Replaces CARDNAME with a card's alias instead of card name.
+set field:
 	type: choice
 	name: use gradient multicolor
 	choice: yes
@@ -159,7 +196,57 @@ set field:
 	choice: no
 	description: Use gradients on multicolor cards by default, you can always change it be clicking on the card border.
 	initial: only for two color cards
-
+set field:
+	type: boolean
+	name: wedge mana costs
+	description: Depreciated. Should three color mana costs sort in wedge order like in Khans block?
+	initial: no
+set field:
+	type: info
+	name: Mainframe Template Options
+set field:
+	type: text
+	name: mainframe rarity name
+	description: Use rarity symbols from magic-mainframe-extras.mse-include. Input NAME.png here, save the images as NAMEc.png, NAMEu.png, NAMEr.png, NAMEm.png, NAMEs.png, and NAMEmp.png
+set field:
+	type: boolean
+	name: use flavor bar
+	description: Enables the flavor bar on Mainframe templates.
+set field:
+	type: boolean
+	name: auto legends
+	description: Automatically apply the Legendary frame on Mainframe templates.
+set field:
+	type: text
+	name: custom index
+	description: Order of card fields for the custom index sorting
+	script: replace(value, match:"\n", replace:"")
+set field:
+	type: text
+	name: custom mana symbol name
+	description: Use mana symbols from magic-mainframe-extras.mse-include. Input NAME.png here, check help below for file instructions.
+set field:
+	type: multiple choice
+	name: mana symbol options
+	choice: enable in casting costs
+	choice: enable in text boxes
+	choice: colored mana symbols
+	choice: hybrid with colors
+set field:
+	type: choice
+	name: mana symbol help
+	choice: Click here for mana symbol help!
+	choice: In your mainframe-extrasfolder, create folders named "large" and/or "small" depending on your usage
+	choice: Large is for only mana costs, small for only text, create both if you use both
+	choice: Additionally, you can create a "future" folder for M15 Future mana costs
+	choice: Save NAME.png to the relevant folders. Remember that large symbols have dropshadows
+	choice: For the name option above, set the address of the image, minus mainframe-extras and large/small/future
+	choice: Ex: magic-mainframe-extras/cajun/large/hazard.png would use cajun/hazard.png
+	choice: Standard size is 160x160 for small, 200x200 for small hybrid and future, 165x178 for large, 205x218 for large hybrid
+	choice: If your symbol mixes with colors (such as Phyrexian mana): Save NAME_w.png, NAME_u.png, etc to those folders too.
+	choice: If your symbol hybrids with colors (like 2/W): [Note, doesn't work on M15 Future mana costs.]
+	choice: Save NAME_h.png to those folders too. See mana_bb.png and similar for how this image should look.
+	choice: Your mana symbol will now be keyed to V (and V/W, V/U, etc. for colored/hybrid symbols).
 ############################# Default style
 
 default set style:
@@ -205,8 +292,19 @@ default set style:
 			fill type: linear gradient
 			fill color 1:   rgb(224,170,247)
 			fill color 2:   rgb(58,7,80)
-			border color 1: rgb(255,255,255)
-			border color 2: rgb(255,255,255)
+			border color 1: rgb(255,  255,  255)
+			border color 2: rgb(255,  255,  255)
+##purple
+##fill color 1:   rgb(224,170,247)
+##fill color 2:   rgb(58,7,80)
+##green
+##fill color 1:   rgb(3,146,50)
+##fill color 2:   rgb(114,252,158)
+##brown
+##fill color 1:   rgb(177,150,131)
+##fill color 2:   rgb(83,67,53)
+##border color 1: rgb(0,  0,  0)
+##border color 2: rgb(0,  0,  0)
 		variation:
 			name: watermark
 			border radius: 0.10
@@ -278,3 +376,6 @@ default set style:
 		choice images:
 			English:  /magic.mse-game/icons/language-en.png
 			Français: /magic.mse-game/icons/language-fr.png
+	mana symbol options:
+		render style: checklist
+		direction: vertical

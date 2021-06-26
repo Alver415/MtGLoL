@@ -1,4 +1,8 @@
 ﻿pack type:
+	name: random
+	select: no replace
+	filter: not is_token_card()
+pack type:
 	name: basic land
 	select: equal
 	filter: card.rarity == "basic land" and not is_token_card() and not is_masterpiece() # can be shifted
@@ -164,6 +168,11 @@ pack type:
 		name: basic land or else common
 	item:
 		name: token / rulestip
+pack type:
+	name: opening hand
+	item:
+		name: random
+		amount: 7
 
 pack type:
 	name: additional land

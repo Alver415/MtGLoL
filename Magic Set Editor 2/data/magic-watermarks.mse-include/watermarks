@@ -127,6 +127,12 @@ choice images:
 	custom watermark four:    	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_4()))
 	custom watermark five:  	script: set_combine(combine:"shadow", input:set_alpha(alpha: 1.0, input:custom_watermark_5()))
 
+	lol factions demacia: 	/magic-watermarks.mse-include/factions/demacia.png
+	lol factions freljord: 	/magic-watermarks.mse-include/factions/freljord.png
+	lol factions noxus: 	/magic-watermarks.mse-include/factions/noxus.png
+	lol factions ixtal: 	/magic-watermarks.mse-include/factions/ixtal.png
+	lol factions ionia: 	/magic-watermarks.mse-include/factions/ionia.png
+
 	set symbol:
 		{ set_combine(combine:"shadow",
 		   set_alpha(

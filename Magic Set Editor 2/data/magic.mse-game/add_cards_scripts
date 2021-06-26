@@ -60,4 +60,31 @@ add cards script:
 	description: Adds a rare card of each color to the set
 	script:
 		[ new_card([casting_cost: "W",   rarity: "rare"]) , new_card([casting_cost: "U",   rarity: "rare"]) , new_card([casting_cost: "B",   rarity: "rare"]) , new_card([casting_cost: "R",   rarity: "rare"]) , new_card([casting_cost: "G",   rarity: "rare"]) ]
-
+add cards script:
+	name: &Design Skeleton Full
+	description: Basic skeleton of 19C,11U,7R,2M/color, 1U,1R/color pair, 6C,15U,8R,5M/colorless. Type "skeleton_info()" in console tab/help
+	script:	skeleton_script()
+add cards script:
+	name: &Design Skeleton Commons
+	description: Basic skeleton of 19C/color.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_commons)
+add cards script:
+	name: &Design Skeleton Unommons
+	description: Basic skeleton of 11U/color.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_uncommons, prefix:"U", rarity:"uncommon")
+add cards script:
+	name: &Design Skeleton Rares
+	description: Basic skeleton of 7R/color.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_rares, prefix:"R", rarity:"rare")
+add cards script:
+	name: &Design Skeleton Mythics
+	description: Basic skeleton of 2M/color.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_mythics, prefix:"M", rarity:"mythic rare")
+add cards script:
+	name: &Design Skeleton Gold Uncommons
+	description: Basic skeleton of 1U/color combination.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_gold_uncommons, prefix:"UM", rarity:"uncommon", letter_list:blank_list_10, mana_list:mana_list_ally+mana_list_enemy)
+add cards script:
+	name: &Design Skeleton Gold Rares
+	description: Basic skeleton of 1R/color combination.  Type "skeleton_info()" into the console tab to change the numbers.
+	script:	skeleton_runner(count:skeleton_gold_rares, prefix:"RM", rarity:"rare", letter_list:blank_list_10, mana_list:mana_list_ally+mana_list_enemy)
