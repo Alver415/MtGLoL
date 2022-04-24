@@ -4,7 +4,11 @@ Cards/*
 image*
 *.ini
 !*merge.ini
-*.jpg
-*.png
 !Cockatrice/data/pics/CUSTOM/*
 *.~lock.*
+
+**/*.jpg
+**/*.png
+
+!/Magic Set Editor/**/*.jpg
+!/Magic Set Editor/**/*.png
