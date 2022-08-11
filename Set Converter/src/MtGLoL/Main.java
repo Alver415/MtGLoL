@@ -14,6 +14,7 @@ import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import java.util.stream.Collectors;
 
+import net.lingala.zip4j.model.AbstractFileHeader;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.apache.commons.io.filefilter.RegexFileFilter;
@@ -51,7 +52,7 @@ public class Main {
 		ZipFile outputZip = new ZipFile(new File(OUTPUT_SET));
 
 		// Clear output.mse-set
-		Set<String> fileNames = outputZip.getFileHeaders().stream().map(header -> header.getFileName())
+		Set<String> fileNames = outputZip.getFileHeaders().stream().map(AbstractFileHeader::getFileName)
 				.collect(Collectors.toSet());
 		for (String fileName : fileNames) {
 			outputZip.removeFile(fileName);
@@ -69,20 +70,28 @@ public class Main {
 			ZipInputStream setStream = sourceZip.getInputStream(sourceZip.getFileHeader("set"));
 			String setString = read(setStream);
 			String[] split = setString.split("card:|keyword:");
-			for (int i = 0; i < split.length; i++) {
-				String block = split[i];
-				if (block.trim().contains("has styling:")) {
+			for (String block : split) {
+				if (block.replace(" ", "_").trim().contains("has_styling:")) {
+					String stylesheet = getField("stylesheet:", block);
 					String cardName = getField("name:", block);
-					System.out.print("\t" + cardName);
 					String oldImage = getField("image:", block);
+					String cardName2 = getField("name_2:", block);
+					String oldImage2 = getField("image_2:", block);
+					System.out.print("\t" + cardName);
 					if (!StringUtils.isEmpty(oldImage)) {
 						String newImage = cardName.replaceAll("[^a-zA-Z]+", "") + ".png";
-						System.out.println("(" + oldImage + " -> " + newImage + ")");
-						block = block.replaceAll("image([0-9]{1,})", newImage);
+						System.out.print("(" + oldImage + " -> " + newImage + ")");
+						block = block.replaceAll("image: " + oldImage, "image: " + newImage);
 						sourceZip.extractFile(oldImage, OUTPUT_DIRECTORY, newImage);
-					} else {
-						System.out.println("");
 					}
+					if ("m15-mainframe-dfc".equals(stylesheet) && !StringUtils.isEmpty(oldImage2)) {
+						String newImage2 = cardName2.replaceAll("[^a-zA-Z]+", "") + ".png";
+						System.out.print("(" + oldImage2 + " -> " + newImage2 + ")");
+						block = block.replaceAll("image_2: " + oldImage2, "image_2: " + newImage2);
+						sourceZip.extractFile(oldImage2, OUTPUT_DIRECTORY, newImage2);
+						block = block + "\r\n\talias: dfc\r\n";
+					}
+					System.out.println("");
 					master.append("card:" + block);
 					count++;
 				} else if (block.trim().contains("keyword:")) {
@@ -106,7 +115,11 @@ public class Main {
 	}
 
 	private static String getField(String field, String block) {
+		field = "\t" + field;
 		int index = block.indexOf(field);
+		if (index < 0){
+			return null;
+		}
 		String imageName = block.substring(index + field.length());
 		index = imageName.indexOf(LINE_SEPARATOR);
 		imageName = imageName.substring(0, index);

@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.google.common.collect.Sets;
+//import com.google.common.collect.Sets;
 
 import net.lingala.zip4j.ZipFile;
 
@@ -119,7 +119,7 @@ public class SkeletonGenerator {
 			Set<Set<Color>> combinations = new HashSet<>();
 			int n = 0;
 			while (++n <= faction.colors.size()) {
-				combinations.addAll(Sets.combinations(faction.colors, n));
+//				combinations.addAll(Sets.combinations(faction.colors, n));
 			}
 			for (Set<Color> combo : combinations) {
 				int countPerCombo = countPerFaction / combinations.size();
