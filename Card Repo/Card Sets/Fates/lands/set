@@ -1,14 +1,16 @@
-﻿mse version: 0.3.8
+﻿mse_version: 2.0.2
 game: magic
+game_version: 2020-04-25
 stylesheet: m15
-set info:
+stylesheet_version: 2018-02-09
+set_info:
 	title: Lands
 	symbol: symbol2.mse-symbol
-	masterpiece symbol: 
-	automatic reminder text: 
+	masterpiece_symbol: 
+	automatic_reminder_text: 
 styling:
 	magic-m15:
-		text box mana symbols: magic-mana-small.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		overlay: 
 	magic-m15-doublefaced-sparker-exporter:
 		text box mana symbols: magic-mana-small.mse-symbol-font
@@ -26,395 +28,412 @@ styling:
 		text box mana symbols: magic-mana-small.mse-symbol-font
 		overlay: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Boundary Markets (https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 19:59:45
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 19:59:45
 	name: Boundary Markets
-	casting cost: 
+	casting_cost: 
 	image: image5
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>R</sym-auto>.)</i-auto>
 		<atom-cardname><nospellcheck>Boundary Markets</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Swamp, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Riote Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Zoantha Cascade https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 19:52:25
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 19:52:25
 	name: Zoantha Cascade
-	casting cost: 
+	casting_cost: 
 	image: image3
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Mountian</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land> <word-list-land>Mountian</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>R</sym-auto>.)</i-auto>
 		<atom-cardname><nospellcheck>Zoantha Cascade</nospellcheck></atom-cardname> enters the battlefield tapped if you control an Island, Swamp, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:12:59
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:12:59
 	name: Plains
-	casting cost: 
+	casting_cost: 
 	image: image20
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol white
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:13:55
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:55
 	name: Island
-	casting cost: 
+	casting_cost: 
 	image: image22
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol blue
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:11:14
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:11:14
 	name: Swamp
-	casting cost: 
+	casting_cost: 
 	image: image19
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol black
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:13:09
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:09
 	name: Mountain
-	casting cost: 
+	casting_cost: 
 	image: image21
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol red
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Perished Lands ( https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 19:53:34
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 19:53:34
 	name: Sundered Vaults
-	casting cost: 
+	casting_cost: 
 	image: image1
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Swamp</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
 		<atom-cardname><nospellcheck>Sundered Vaults</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Island, or Mountain.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-07-30 17:17:55
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:17:55
 	name: Forest
-	casting cost: 
+	casting_cost: 
 	image: image24
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol green
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Bilgewater Bay (https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 19:56:57
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 19:56:57
 	name: Bilgewater Bay
-	casting cost: 
+	casting_cost: 
 	image: image4
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
 		<atom-cardname><nospellcheck>Bilgewater Bay</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Swamp, or Mountain.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Mount Targon — Journey Up the Mountain https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 19:53:22
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 19:53:22
 	name: Eclipsed Foothills
-	casting cost: 
+	casting_cost: 
 	image: image2
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Plains</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>B</sym-auto>.)</i-auto>
 		<atom-cardname><nospellcheck>Eclipsed Foothills</nospellcheck></atom-cardname> enters the battlefield tapped if you control an Island, Mountain, or Forest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: The Touch of the Void (https://map.leagueoflegends.com/en_US)
-	time created: 2020-07-29 00:04:24
-	time modified: 2020-09-30 20:55:46
+	time_created: 2020-07-29 00:04:24
+	time_modified: 2022-09-10 17:54:48
 	name: Portal of Icathia
 	image: image7
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>CCC</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>CCCCC</sym-auto>.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	rule_text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>CCC</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>CCCCC</sym-auto>. 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Noah Bradley
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 21:14:00
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:14:00
 	name: Wastes
-	casting cost: 
+	casting_cost: 
 	image: image16
-	super type: <word-list-type>Basic Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: basic land
-	rule text: 
-	flavor text: <i-flavor></i-flavor>
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
 	watermark: mana symbol colorless
-	card code text: 
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 20:12:57
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 20:12:57
 	name: The Valley of the Song
-	casting cost: 
+	casting_cost: 
 	image: image9
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: rare
-	rule text:
+	rule_text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>T</sym-auto>: Add one mana of any color that other lands you control can’t produce.
-	flavor text: <i-flavor></i-flavor>
+	flavor_text: <i-flavor></i-flavor>
 	watermark: none
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Once in a Lifetime (https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 20:38:47
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-09-10 17:58:36
 	name: The Summit of Mount Targon
-	casting cost: 
+	casting_cost: 
 	image: image15
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Add <sym-auto>WW</sym-auto>, <sym-auto>BB</sym-auto>, or <sym-auto>WB</sym-auto>. Activate this ability only if you control an enchanted creature.
-	flavor text: <i-flavor>Beyond the mountain’s summit, it is said that immortal godlike beings dwell in a city of gold and silver.</i-flavor>
-	card code text: 
+	rule_text:
+		<atom-cardname><nospellcheck>The Summit of Mount Targon</nospellcheck></atom-cardname> enters the battlefield tapped unless you control a legendary creature.
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>T</sym-auto>, Add <sym-auto>WW</sym-auto>, <sym-auto>BB</sym-auto>, or <sym-auto>WB</sym-auto>. Spend this mana only to cast legendary spells or activate abilities of legendary creatures.
+	flavor_text: <i-flavor>Beyond the mountain’s summit, it is said that immortal godlike beings dwell in a city of gold and silver.</i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Workshops https://map.leagueoflegends.com/en_US
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 21:04:47
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-09-10 17:57:19
 	name: Workshops of Piltover
-	casting cost: 
+	casting_cost: 
 	image: image25
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>UU</sym-auto>, <sym-auto>RR</sym-auto>, or <sym-auto>UR</sym-auto>. Spend this mana only to cast artifact spells or activate abilities of artifacts.
-	flavor text: <i-flavor>Workshops of <error-spelling:en_us>hextech</error-spelling:en_us> researchers are magnificent examples of what a wealthy patron can do for an inventor.</i-flavor>
-	card code text: 
+	rule_text:
+		<atom-cardname><nospellcheck>Workshops of Piltover</nospellcheck></atom-cardname> enters the battlefield tapped unless you control a legendary creature.
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>T</sym-auto>: Add <sym-auto>UU</sym-auto>, <sym-auto>RR</sym-auto>, or <sym-auto>UR</sym-auto>. Spend this mana only to cast legendary spells or activate abilities of legendary creatures.
+	flavor_text: <i-flavor>Workshops of <error-spelling:en_us>hextech</error-spelling:en_us> researchers are magnificent examples of what a wealthy patron can do for an inventor.</i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: https://map.leagueoflegends.com/en_US
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 21:05:14
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-09-10 18:00:45
 	name: The Great Sun Disk
-	casting cost: 
+	casting_cost: 
 	image: image28
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>WW</sym-auto>, or <sym-auto>RW</sym-auto>. Activate this ability only during combat.
-	flavor text: <i-flavor>Fashioned under the guidance of the <error-spelling:en_us>Targonians</error-spelling:en_us>, the great Sun Disc brought the favor of divine, celestial powers to <error-spelling:en_us>Shurima</error-spelling:en_us>.</i-flavor>
-	card code text: 
+	rule_text:
+		<atom-cardname><nospellcheck>The Great Sun Disk</nospellcheck></atom-cardname> enters the battlefield tapped unless you control a legendary creature.
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>WW</sym-auto>, or <sym-auto>RW</sym-auto>. Spend this mana only to cast legendary spells or activate abilities of legendary creatures.
+	flavor_text: <i-flavor>Fashioned under the guidance of the <error-spelling:en_us>Targonians</error-spelling:en_us>, the great Sun Disc brought the favor of divine, celestial powers to <error-spelling:en_us>Shurima</error-spelling:en_us>.</i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: https://map.leagueoflegends.com/en_US
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 21:04:57
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-09-10 17:58:55
 	name: The Lost City of Helia
-	casting cost: 
+	casting_cost: 
 	image: image27
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Sacrifice a creature: Add <sym-auto>BB</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>BG</sym-auto>.
-	flavor text: <i-flavor><error-spelling:en_us>Helia</error-spelling:en_us>, the capital of the Blessed Isles, was located on the coast. As a result, many parts of the city were flooded after the Ruination.</i-flavor>
-	card code text: 
+	rule_text:
+		<atom-cardname><nospellcheck>The Lost City of Helia</nospellcheck></atom-cardname> enters the battlefield tapped unless you control a legendary creature.
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>T</sym-auto>, Sacrifice a creature: Add <sym-auto>BB</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>BG</sym-auto>. Spend this mana only to cast legendary spells or activate abilities of legendary creatures.
+	flavor_text: <i-flavor><error-spelling:en_us>Helia</error-spelling:en_us>, the capital of the Blessed Isles, was located on the coast. As a result, many parts of the city were flooded after the Ruination.</i-flavor>
+	card_code_text: 
 	illustrator: Riot Games
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Boundary Markets (https://map.leagueoflegends.com/en_US)
-	time created: 2015-07-26 05:12:17
-	time modified: 2020-09-30 21:04:40
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-09-10 17:56:39
 	name: Zaun's Boundary Markets
-	casting cost: 
+	casting_cost: 
 	image: image6
-	super type: <word-list-type>Legendary Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
 	rarity: mythic rare
-	rule text: <sym-auto>T</sym-auto>, Remove a counter from a permanent you control: Add <sym-auto>GG</sym-auto>, <sym-auto>UU</sym-auto>, <sym-auto>GU</sym-auto>.
-	flavor text: <i-flavor>The levels where division between <error-spelling:en_us>Zaun</error-spelling:en_us> and <error-spelling:en_us>Piltover</error-spelling:en_us> blurs are home to thriving markets and <error-spelling:en_us>Commercia</error-spelling:en_us> Halls.</i-flavor>
-	card code text: 
+	rule_text:
+		<atom-cardname><nospellcheck>Zaun’s Boundary Markets</nospellcheck></atom-cardname> enters the battlefield tapped unless you control a legendary creature.
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>T</sym-auto>: Add <sym-auto>GG</sym-auto>, <sym-auto>UU</sym-auto>, <sym-auto>GU</sym-auto>. Spend this mana only to cast legendary spells or activate abilities of legendary creatures.
+	flavor_text: <i-flavor>The levels where division between <error-spelling:en_us>Zaun</error-spelling:en_us> and <error-spelling:en_us>Piltover</error-spelling:en_us> blurs are home to thriving markets and <error-spelling:en_us>Commercia</error-spelling:en_us> Halls.</i-flavor>
+	card_code_text: 
 	illustrator: Riot Gamess
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
 	type: none
-apprentice code: 
+apprentice_code: 
