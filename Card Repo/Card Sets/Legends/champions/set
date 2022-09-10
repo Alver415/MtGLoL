@@ -2453,7 +2453,7 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
-	notes: sd
+	notes: 
 	time_created: 2021-06-20 00:00:00
 	time_modified: 2022-09-10 01:59:54
 	name: Zoe, the Aspect of Twilight
@@ -3256,7 +3256,7 @@ card:
 	has_styling: false
 	notes: Everything he touches dies, so he can’t keep friends. But whenever he tries and they end up dying he throws a tantrum of jealousy and deals damage to everyone based on how many friends they have
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-08-28 23:34:59
+	time_modified: 2022-09-10 05:14:44
 	card_color: black
 	name: Amumu, the Sad Mummy
 	casting_cost: 1B
@@ -3267,7 +3267,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
 		<i>Cursed Touch</i> — At the beginning of your upkeep, <atom-cardname><nospellcheck>Amumu, the Sad Mummy</nospellcheck></atom-cardname> deals 1 damage to another target creature you control chosen at random.
-		<i>Tantrum</i> — Whenever a creature dealt damage by <atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> dies this turn, he deals damage to each opponent equal to the number of creatures they control.
+		<i>Tantrum</i> — Whenever a creature dealt damage by <atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> dies this turn, each opponent loses 3 life.
 	flavor_text: <i-flavor>Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin.</i-flavor>
 	power: 1
 	toughness: 3
@@ -3781,7 +3781,7 @@ card:
 		Might need to limit the trigger. Not sure how good of an effect this is. <soft-line>
 		If you have good attacks and a hand of combat cantrips, might just win the game.</soft-line>
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-18 23:00:41
+	time_modified: 2022-09-10 05:13:21
 	name: Riven, the Exile
 	casting_cost: RWB
 	image: image152
@@ -4641,7 +4641,7 @@ card:
 	has_styling: false
 	notes: "Any number of players may collectively pay" is definitely new rules text.
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-08-28 23:46:35
+	time_modified: 2022-09-10 05:22:54
 	card_color: multicolor
 	name: Aurelion Sol, The Star Forger
 	casting_cost: WUBRG
@@ -4651,8 +4651,8 @@ card:
 	sub_type: <word-list-race>Dragon</word-list-race> <word-list-class>Mage</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, <kw-a><nospellcheck>indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>
-		<i>Comet of Legend </i>— When you cast <atom-cardname><nospellcheck>Aurelion Sol, The Star Forger</nospellcheck></atom-cardname>, you may exile him with up to three time counters on him. If you do, he gains suspend.
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, armor, magic resistance
+		<i>Comet of Legend </i>— When you cast <atom-cardname><nospellcheck>Aurelion Sol, The Star Forger</nospellcheck></atom-cardname>, you may exile him with up to five time counters on him. If you do, he gains suspend.
 		<i>Starsurge</i> — Whenever a time counter is removed from <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname> while he’s exiled, look at the top five cards of your library. You may exile a nonland card from among them with time counters on it equal to the number of time counters on <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname>. If it doesn’t have suspend, it gains suspend.
 	flavor_text: <i-flavor>Desiring a return to his mastery of the cosmos, <error-spelling:en_US>Aurelion</error-spelling:en_US> Sol will drag the very stars from the sky, if he must, in order to regain his freedom</i-flavor>
 	power: 5
