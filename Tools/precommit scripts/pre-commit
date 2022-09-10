@@ -1,0 +1,3 @@
+#!/bin/sh
+C:\\Users\\Alver\\Development\\projects\\MtGLoL\\.git\\hooks\\unzip.bat
+git add .
