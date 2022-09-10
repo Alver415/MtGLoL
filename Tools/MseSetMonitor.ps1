@@ -1,3 +1,8 @@
+if ([System.Threading.Thread]::CurrentThread.ApartmentState -ne [System.Threading.ApartmentState]::MTA){ 
+    powershell.exe -MTA -File $MyInvocation.MyCommand.Path 
+    return 
+}
+
 Get-EventSubscriber -Force | Unregister-Event -Force
 Add-Type -Assembly System.IO.Compression.FileSystem
 
