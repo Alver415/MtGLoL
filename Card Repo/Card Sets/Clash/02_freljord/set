@@ -1,0 +1,856 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Freljord
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: Art: Fallowsage
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 16:10:53
+	name: Raylu Leaf Reader
+	casting_cost: 1U
+	image: image22
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Vastaya</word-list-race> <word-list-class>Merfolk</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule_text: When <atom-cardname><nospellcheck>Raylu Leaf Reader</nospellcheck></atom-cardname> or another Vastaya enters the battlefield under your control, you may draw a card. If you do, discard a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	illustrator: Paolo Parente
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Helldozer
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-19 00:25:23
+	name: Putrid Giant
+	casting_cost: 4B
+	image: image19
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Giant</word-list-race> <word-list-class>Barbarian</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		At the beginning of your upkeep, discard a card.
+		Whenever <atom-cardname><nospellcheck>Putrid Giant</nospellcheck></atom-cardname> deals combat damage to an opponent, that player discards a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 4
+	card_code_text: 
+	illustrator: Zoltan Boros & Gabor Szikszai
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Liliana's Standard Bearer
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-19 00:20:49
+	name: Iceborn Knight
+	casting_cost: UUBB
+	image: image23
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Zombie</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		Stun counters can’t be put on Zombies you control.
+		When <atom-cardname><nospellcheck>Iceborn Knight</nospellcheck></atom-cardname> enters the battlefield, tap and put a stun counter on each creature your opponents control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	illustrator:
+		 Josh Hass
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes:
+		Art: Atris, Oracle of Half-Truths
+		Flavor Test: Page 105
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-19 00:32:08
+	name: Story Hunter
+	casting_cost: 1UB
+	image: image16
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		When <atom-cardname><nospellcheck>Story Hunter</nospellcheck></atom-cardname> enters the battlefield, each player <kw-a><nospellcheck><param-mill>mills</param-mill> <param-one_word>three</param-one_word></nospellcheck></kw-a> cards.
+		<sym-auto>T</sym-auto>: Exile target card from a graveyard.
+	flavor_text: <i-flavor><error-spelling:en_us>Lissandra</error-spelling:en_us> has long sought to purge certain uncomfortable details from the oldest tales, separating the legendary past from a bleak and austere present.</i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	illustrator: Bastien L. Deharme
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Rubblebelt Recluse 
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 17:51:58
+	name: Executioner Troll
+	casting_cost: 2UB
+	image: image30
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Troll</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Whenever <atom-cardname><nospellcheck>Executioner Troll</nospellcheck></atom-cardname> deals combat damage to a tapped creature, destroy that creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	card_code_text: 
+	illustrator: Zoltan Boros
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Darkthicket Wolf 
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 17:39:06
+	name: Wildclaw Wolf
+	casting_cost: 1B
+	image: image11
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <atom-cardname><nospellcheck>Wildclaw Wolf</nospellcheck></atom-cardname> gets +1/+1 for each other Wolf you control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card_code_text: 
+	illustrator: Wayne England
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Dawnray Archer
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 16:23:21
+	name: Hawkshot Archer
+	casting_cost: 2U
+	image: image24
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Archer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Hawkshot Archer</nospellcheck></atom-cardname> attacks, <kw-a><nospellcheck>scry <param-number>1</param-number></nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
+	card_code_text: 
+	illustrator: Dan Dos Santos
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Dark Inquiry
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 12:15:40
+	name: Squandered Insight
+	casting_cost: B
+	image: image4
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Target player draws a card then reveals their hand. You choose a nonland card from it. That player discards that card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Naomi Baker
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Aggressive Mammoth
+	time_created: 2020-07-29 21:46:10
+	time_modified: 2022-08-19 00:25:57
+	name: Rampaging Thunderhorn
+	casting_cost: 4UB
+	image: image18
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Elephant</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Rampaging Thunderhorn</nospellcheck></atom-cardname> attacks, tap and put a stun counter on up to one target creature defending player controls.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card_code_text: 
+	illustrator: Filip Burburan
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Encase in Ice
+	time_created: 2020-07-29 22:08:01
+	time_modified: 2022-08-19 00:13:47
+	name: Compress in Ice
+	casting_cost: 1UB
+	image: image13
+	super_type: <word-list-type>Snow Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Compress in Ice</nospellcheck></atom-cardname> enters the battlefield, tap enchanted creature and put a stun counters on it.
+		<sym-auto>S</sym-auto>: Tap enchanted creature and put a stun counter on it. Then if it has three or more stun counters on it, destroy it.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Mathias Kollros
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: https://universe-meeps.leagueoflegends.com/v1/assets/images/eye-in-the-abyss-bg.jpg
+	time_created: 2020-07-29 22:08:01
+	time_modified: 2022-08-19 00:18:27
+	name: Glacial Insight
+	casting_cost: 1U
+	image: image25
+	super_type: <word-list-type>Snow Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		At the beginning of your upkeep, <kw-a><nospellcheck>scry <param-number>1</param-number></nospellcheck></kw-a>.
+		<sym-auto>1UU</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Glacial Insight</nospellcheck></atom-cardname>: Counter target spell.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Murderous Rider
+	time_created: 2020-07-29 21:55:47
+	time_modified: 2022-08-18 23:55:58
+	name: Abyssal Knight
+	casting_cost: BB
+	image: image32
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Zombie</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: You may cast <atom-cardname><nospellcheck>Abyssal Knight</nospellcheck></atom-cardname> from your graveyard. If you do, it enters the battlefield tapped with a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	illustrator: Josh Hass
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Flashfreeze
+	time_created: 2020-07-29 21:51:32
+	time_modified: 2022-08-19 00:16:30
+	name: Frozen in Thought
+	casting_cost: U
+	image: image9
+	super_type: <word-list-type>Snow Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Counter target spell. If that spell is countered this way, return it to its owners hand instead of putting it into its owner’s graveyard.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Brian Despain
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: https://www.artstation.com/artwork/aRZyrR
+	time_created: 2020-07-29 22:38:31
+	time_modified: 2022-08-19 00:21:39
+	name: Lokfari Piranha
+	casting_cost: U
+	image: image3
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Fish</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Lokfari Piranha</nospellcheck></atom-cardname> deals combat damage to a creature, tap that creature and put a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	illustrator: Rudy Siswanto
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Temple Thief
+	time_created: 2020-07-29 21:51:32
+	time_modified: 2022-08-18 23:49:41
+	name: Avarosan Informant
+	casting_cost: 1UB
+	image: image26
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		You may have <atom-cardname><nospellcheck>Avarosan Informant</nospellcheck></atom-cardname> enter the battlefield under the control of an opponent of your choice.
+		Whenever you draw a card, if you don’t own <atom-cardname><nospellcheck>Avarosan Informant</nospellcheck></atom-cardname>, its owner may draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	illustrator: Evyn Fong
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Fierce Witchstalker
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-28 16:38:29
+	name: Rabid Wildclaw
+	casting_cost: 2B
+	image: image17
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		Grievous, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Rabid Wildclaw</nospellcheck></atom-cardname> gets +1/+1 as long as an opponent controls a creature with a -1/-1 counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card_code_text: 
+	illustrator: Nicholas Gregory
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Windstorm
+	time_created: 2020-07-29 22:08:01
+	time_modified: 2022-08-19 00:24:33
+	name: Northern Winds
+	casting_cost: 1BB
+	image: image21
+	super_type: <word-list-type>Snow Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule_text: Whenever a creature an opponent controls becomes tapped, if it doesn’t have a stun counter on it, put a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Rob Alexander
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Abominable Treefolk
+	time_created: 2020-07-29 21:51:32
+	time_modified: 2022-08-18 23:39:00
+	name: Flash Frost
+	casting_cost: 1U
+	image: image2
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text:
+		<kw-a><nospellcheck>Split Second</nospellcheck></kw-a> <i-auto>(As long as this spell is on the stack, players can’t cast spells or activate abilities that aren’t mana abilities.)</i-auto>
+		Tap target permanent an opponent controls and put a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Jonas De Ro
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Fire // Ice
+	time_created: 2020-07-29 21:51:32
+	time_modified: 2022-08-19 00:27:51
+	name: Read the Ice
+	casting_cost: UB
+	image: image10
+	super_type: <word-list-type>Snow Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Look at the top five cards of your library. Put up to one of them into your hand and the rest into your graveyard.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Dan Scott
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 17:39:44
+	name: Wildclaw Wanderer
+	casting_cost: 1UB
+	image: image1
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Druid</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text:
+		Wolves you control get +1/+1.
+		As long as you control a Wolf creature, <atom-cardname><nospellcheck>Wildclaw Wanderer</nospellcheck></atom-cardname> has <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-28 16:22:33
+	name: Condemned Vastaya
+	casting_cost: 1BB
+	image: image12
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Vastaya</word-list-race> <word-list-class>Wolf</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		Whenever a Human creature enters the battlefield, you may have <atom-cardname><nospellcheck>Condemned Vastaya</nospellcheck></atom-cardname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	flavor_text: <i-flavor>Still bitter about their condemnation from the Great Elder <error-spelling:en_us>Vastayashai’rei</error-spelling:en_us>, the <error-spelling:en_us>Kiilash</error-spelling:en_us> often seek their revenge on the humans that lured them into mortality.</i-flavor>
+	power: 3
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Lich's Caress
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2020-09-13 17:25:48
+	name: Soul Syphon
+	casting_cost: 3BB
+	image: image27
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Destroy target creature, then return target creature card from your graveyard to your hand.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Josh Hass
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: http://tolkiengateway.net/wiki/File:Ted_Nasmith_-_The_Anger_of_the_Mountain.jpg
+	time_created: 2020-07-29 22:08:01
+	time_modified: 2022-08-19 00:24:56
+	name: Narrow Pass
+	casting_cost: 1U
+	image: image20
+	super_type: <word-list-type>Snow Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck>Enchant <param-name>land</param-name></nospellcheck></kw-a>
+		As long as enchanted land is untapped, whenever a creature attacks you or a permanent you control, that creature gets -1/-1 until end of turn for each other creature attacking you or a permanent you control.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Ted Nasmith
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Nightpack Ambusher
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-18 23:56:30
+	name: Dire Wildclaw
+	casting_cost: 4B
+	image: image29
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	card_code_text: 
+	illustrator: Dan Scott
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Caligo Skin-Witch
+	time_created: 2020-07-29 21:46:10
+	time_modified: 2022-08-19 00:14:57
+	name: Frostguard Savant
+	casting_cost: 1U
+	image: image7
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Whenever <atom-cardname><nospellcheck>Frostguard Savant</nospellcheck></atom-cardname> blocks, <kw-a><nospellcheck>scry <param-number>2</param-number></nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
+	card_code_text: 
+	illustrator: Daarken
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Zephyr Scribe
+	time_created: 2020-07-29 21:46:10
+	time_modified: 2020-09-13 18:00:51
+	name: Avarosan Mystic
+	casting_cost: 2UUU
+	image: image31
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text: <sym-auto>UU</sym-auto>, <sym-auto>T</sym-auto>: Target target instant or sorcery card in your graveyard gains flashback until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card_code_text: 
+	illustrator: Lius Lasahido
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-19 00:14:37
+	name: Frostguard Giant
+	casting_cost: 3UUBB
+	image: image28
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Giant</word-list-race> <word-list-class>Barbarian</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text: When <atom-cardname><nospellcheck>Frostguard Giant</nospellcheck></atom-cardname> attacks, tap and put a stun counter on each creature with converted mana cost </sym>2<sym> or less defending player controls. 
+	flavor_text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 5
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Lotleth Giant
+	time_created: 2020-07-29 21:22:51
+	time_modified: 2022-08-18 23:55:17
+	name: Cryogenic Rebirth
+	casting_cost: 2B
+	image: image15
+	super_type: <word-list-type>Snow Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Put target creature card from a graveyard onto the battlefield under your control tapped with a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Alex Konstad
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Permafrost Trap
+	time_created: 2020-07-29 22:08:01
+	time_modified: 2022-08-19 00:19:58
+	name: Glacial Storm
+	casting_cost: 1U
+	image: image14
+	super_type: <word-list-type>Snow Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text: Nonsnow creatures lose <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, <kw-a><nospellcheck>double strike</nospellcheck></kw-a>, and <kw-a><nospellcheck>haste</nospellcheck></kw-a> and can’t have or gain those abilities.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Howard Lyon
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Untamed Hunger
+	time_created: 2020-07-28 11:31:48
+	time_modified: 2020-09-28 16:17:14
+	name: Axiom of Fright
+	casting_cost: 1B
+	image: image6
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		When <atom-cardname><nospellcheck>Axiom of Fright</nospellcheck></atom-cardname> enters the battlefield, put a -1/-1 counter on target creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Untamed Hunger
+	copyright: 1
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes:
+		Art: House Guildmage
+		
+		Balance Reference: Agony Warp
+	time_created: 2020-09-03 23:07:28
+	time_modified: 2020-09-13 12:48:36
+	name: Crypt Secrets
+	casting_cost: 1U/B
+	image: image8
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		If <sym-auto>U</sym-auto> was spent to cast <atom-cardname><nospellcheck>Crypt Secrets</nospellcheck></atom-cardname>, target creature gets -3/-0 until end of turn.
+		If <sym-auto>B</sym-auto> was spent to cast <atom-cardname><nospellcheck>Crypt Secrets</nospellcheck></atom-cardname>, target creature gains -0/-3 until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Winona Nelson
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Viridian Claw
+	time_created: 2020-09-12 12:06:15
+	time_modified: 2020-09-13 12:15:15
+	name: Witchen Claw
+	casting_cost: 1
+	image: image5
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule_text:
+		Equipped creature gets +1/+0 and has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Marc Simonetti
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Balduvian Frostwaker
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 00:15:29
+	name: Frostshaper Occultist
+	casting_cost: 1B
+	image: image33
+	super_type: <word-list-type>Snow Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <sym-auto>2B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice a creature: Return target creature card from your graveyard to the battlefield tapped with a stun counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	illustrator: Stephen Tappin
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Gruesome Menagerie
+	time_created: 2020-09-26 02:36:22
+	time_modified: 2022-08-19 00:30:08
+	name: Shifting Graves
+	casting_cost: 3UB
+	image: image35
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text: Each player <kw-a><nospellcheck><param-mill>mills</param-mill> </sym><param-one_word>five</param-one_word></nospellcheck></kw-a> cards.<sym> Then return up to one target creature card from a graveyard to the battlefield under your control.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Yeong-Hao Han
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Psychic Rebuttal
+	time_created: 2020-07-30 19:05:03
+	time_modified: 2022-08-18 23:54:55
+	name: Confutation
+	casting_cost: 2UU
+	image: image37
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		This spell costs <sym-auto>2</sym-auto> less to cast if you were attacked this turn.
+		Counter target spell, activated ability, or triggered ability.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Todd Lockwood
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 

@@ -1,0 +1,345 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Non Creatures
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2020-08-08 18:19:16
+	name: Rift Walk
+	casting_cost: U
+	image: 
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Target nonland permanent <kw-a><nospellcheck>phases out</nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Reworded objective that doesn’t care about power or mana value.
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-07-02 00:15:20
+	name: Split Push Strat
+	casting_cost: 1R
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		At the beginning of combat on your turn, up to one target creature you control gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
+		Sacrifice <atom-cardname><nospellcheck>Split Push Strat</nospellcheck></atom-cardname>: Target creature you control gains engage until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-07-02 00:02:09
+	name: Focused Farming
+	casting_cost: 1G
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		At the beginning of your post combat main phase, if you didn’t attack with a creature this turn, add <sym-auto>G</sym-auto>.
+		Sacrifice <atom-cardname><nospellcheck>Focused Farming</nospellcheck></atom-cardname>: Add <sym-auto>G</sym-auto>.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-07-02 00:02:37
+	name: Induced Inting
+	casting_cost: 1B
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		Whenever you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, that <kw-a><nospellcheck>objective</nospellcheck></kw-a>’s controller sacrifices a creature.
+		Sacrifice <atom-cardname><nospellcheck>Induced Inting</nospellcheck></atom-cardname>: Each player sacrifices a creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-07-02 00:21:49
+	name: Team Work
+	casting_cost: 3W
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		Spells you cast have <kw-a><nospellcheck>convoke</nospellcheck></kw-a>.
+		Sacrifice <atom-cardname><nospellcheck>Team Work</nospellcheck></atom-cardname>: Target creature you control gets +3/+3 until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-06-26 12:41:11
+	name: Controlled Play
+	casting_cost: 1U
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule_text: Whenever <atom-cardname><nospellcheck>Controlled Play</nospellcheck></atom-cardname> enters the battlefield or you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2020-08-08 18:40:06
+	name: Void Vortex
+	casting_cost: 2CC
+	image: 
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell>Void</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
+	rarity: rare
+	rule_text: Exile each nonland permanent that is one or more colors. Return those cards to the battlefield under their owner’s controls at end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Planar Bridge (ÆR)
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-06-26 12:40:37
+	name: Portal from the Void
+	casting_cost: 7
+	image: image1
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: mythic rare
+	rule_text: <sym-auto>CCCCC</sym-auto>, <sym-auto>T</sym-auto>: Search your library for a Void creature card and put it onto the battlefield. Then shuffle your library. Activate this ability only any time you could cast a sorcery.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Planar Bridge (ÆR)
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2021-08-02 20:24:20
+	name: Go Fish
+	casting_cost: 2U
+	image: 
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: mythic rare
+	rule_text: Choose a nonland card name. Target opponent reveals their hand. If they reveal a card with the chosen name, you may have them discard that card. If you do, copy that card and cast the copy without paying it’s mana cost. Otherwise, draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2022-06-26 10:57:38
+	time_modified: 2022-06-26 12:15:57
+	name: Expanding Territory
+	casting_cost: 2G
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rule_text: Whenever <atom-cardname><nospellcheck>Expanding Territory</nospellcheck></atom-cardname> enters the battlefield or you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2022-06-26 10:57:38
+	time_modified: 2022-06-26 12:42:23
+	name: Play for Objectives
+	casting_cost: W
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rule_text: Whenever <atom-cardname><nospellcheck>Play for Objectives</nospellcheck></atom-cardname> enters the battlefield or you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, put a +1/+1 counter on target creature you control.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-06-26 12:33:02
+	name: Macrogame Foresight
+	casting_cost: U
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		At the beginning of your upkeep, you may <kw-a><nospellcheck>scry <param-number>X</param-number></nospellcheck></kw-a>, where X is the number of objectives you control. 
+		Sacrifice <atom-cardname><nospellcheck>Macrogame Foresight</nospellcheck></atom-cardname>: Shuffle the cards from your hand into your library, then draws that many cards and discard a card.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-06-26 12:43:10
+	name: Two for One
+	casting_cost: 3B
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule_text: Whenever <atom-cardname><nospellcheck>Two for One</nospellcheck></atom-cardname> enters the battlefield or you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, destroy up to one target creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-08-03 14:20:26
+	time_modified: 2022-06-26 12:41:07
+	name: Bounty Hunting
+	casting_cost: 1R
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule_text: Whenever <atom-cardname><nospellcheck>Bounty Hunting</nospellcheck></atom-cardname> enters the battlefield or you capture an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, create a <kw-a><nospellcheck>Gold toke<param-*s>n</param-*s></nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+keyword:
+	keyword: Objective
+	match: Objective
+	reminder: Whenever a player attacks with one or more {if is_creature(card.type) then "other "}creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power {card.cmc} or greater from combat. If they do, exile this and that player captures it.
+	rules: 
+	mode: custom
+version_control:
+	type: none
+apprentice_code: 

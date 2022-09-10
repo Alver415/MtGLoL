@@ -1,0 +1,841 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Neutral Creatures
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-COTWC-m15doublefaced:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-COTWC-m15doublefacedsparker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-COTWC-m15planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-commander:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-sacrificer:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-sparker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-future-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-dfc:
+		dfc_type: transforming
+		back_style: normal
+		other_options: use hovering pt, use holofoil stamps, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-tokens:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker-clear:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-split-fusable:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-doublefaced:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-windy-ultima:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:07:51
+	time_modified: 2022-07-01 11:09:33
+	name: Ancient Krug
+	casting_cost: 8
+	image: image2
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<atom-cardname><nospellcheck>Ancient Krug</nospellcheck></atom-cardname> costs <sym-auto>1</sym-auto> less to cast for each basic land type among basic lands you control.
+		When <atom-cardname><nospellcheck>Ancient Krug</nospellcheck></atom-cardname> dies, spawn two colorless 2/4 Golems named Medium Krug with “When this creature dies, spawn two colorless 1/2 Golems named Mini Krug.”
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 8
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:06:18
+	time_modified: 2022-07-01 10:49:27
+	name: Crimson Raptor
+	casting_cost: 3W
+	image: image8
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Bird</word-list-race> <word-list-class>Dinosaur</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: When <atom-cardname><nospellcheck>Crimson Raptor</nospellcheck></atom-cardname> enters the battlefield, spawn two 1/1 white Bird Dinosaurs named Raptor.
+	flavor_text: <i-flavor>While incapable of flight, they have large strong back legs and large front teeth used for hunting. </i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:57:56
+	time_modified: 2022-07-01 10:58:23
+	name: Blue Sentinel
+	casting_cost: 4U
+	image: image6
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text:
+		Whenever you cast your second spell each turn, you may draw a card.
+		<atom-cardname><nospellcheck>Blue Sentinel</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: blue
+	name_2: Crest of Insight
+	casting_cost_2: 
+	image_2: image_21
+	super_type_2: <word-list-type>Enchantment</word-list-type>
+	sub_type_2: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature has “Whenever you cast your second spell each turn, you may draw a card.”
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:01:36
+	time_modified: 2022-07-01 10:51:54
+	name: Murk Wolves
+	casting_cost: B
+	image: image9
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		<kw-a><nospellcheck>Kicker <param-cost><sym-auto>B</sym-auto></param-cost></nospellcheck></kw-a>
+		If <atom-cardname><nospellcheck>Murk Wolves</nospellcheck></atom-cardname> was kicked, it enters the battlefield with a <kw-a><nospellcheck>menace</nospellcheck></kw-a> counter on it and it’s a mutant in addition to its other types.
+	flavor_text: <i-flavor>Some murk wolves are born with two heads. </i-flavor>
+	power: 2
+	toughness: 1
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:00:16
+	time_modified: 2022-07-01 10:58:29
+	name: Red Brambleback
+	casting_cost: 4R
+	image: image11
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text:
+		Whenever <atom-cardname><nospellcheck>Red Brambleback</nospellcheck></atom-cardname> attacks, it deals 1 damage to target creature defending player controls. That creature must block this turn if able.
+		<atom-cardname><nospellcheck>Red Brambleback</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: red
+	name_2: Crest of Cinders
+	casting_cost_2: 
+	image_2: image_22
+	super_type_2: <word-list-type>Enchantment</word-list-type>
+	sub_type_2: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Whenever enchanted creature attacks, it deals 1 damage to target creature defending player controls. That creature must block this turn if able.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:03:54
+	time_modified: 2022-07-01 10:56:03
+	name: Gromp
+	casting_cost: 2G
+	image: image13
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Frog</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>, armor
+		When <atom-cardname><nospellcheck>Gromp</nospellcheck></atom-cardname> d
+	flavor_text: <i-flavor>Likes to eat small insects, mushrooms, and people.</i-flavor>
+	power: 2
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Needs token variant
+	time_created: 2015-07-26 05:07:51
+	time_modified: 2022-06-26 23:01:38
+	name: Mini Krug
+	casting_cost: 2
+	image: image1
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: 
+	flavor_text: <i-flavor>Despite its rock like appearance, its behavior is very much of an animal reminiscent of a bear, wolf, or a beetle. </i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Needs token variant
+	time_created: 2015-07-26 05:07:51
+	time_modified: 2022-06-26 23:04:12
+	name: Medium Krug
+	casting_cost: 4
+	image: image10
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: When <atom-cardname><nospellcheck>Medium Krug</nospellcheck></atom-cardname> dies, spawn two colorless 1/2 Golems named Mini Krug.
+	flavor_text: <i-flavor>A magical fusion of flora, fauna, and rock native to Valoran. Larger forms of this creature are called Ancient Krugs.</i-flavor>
+	power: 2
+	toughness: 4
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes:
+		Need to make the template match devoid
+		Fading 3 means whoever captures it has 2 combat phases with the buff
+		Second side quote was made by Alver and it sucks... (Could be really cool to pay Rachel/Sharif to write some of these)
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:17:34
+	name: Baron Nashor
+	casting_cost: 5C/WC/UC/BC/RC/G
+	image: image18
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wurm</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Devoid</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Affinity for <param-name>cards your opponents own in exile</param-name></nospellcheck></kw-a>.
+		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor>Legends speak of a Scourge that lurks at the furthest reaches of the Celestial Realm.</i-flavor>
+	power: 7
+	toughness: 9
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: multicolor
+	name_2: Hand of Baron
+	casting_cost_2: 
+	image_2: image_28
+	super_type_2: <word-list-type>Legendary Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Void</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	indicator_2: multicolor
+	rule_text_2:
+		<kw-a><nospellcheck>Vanishing <param-number>3</param-number></nospellcheck></kw-a>
+		Creatures you control get +1/+1 and have <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>, and <kw-a><nospellcheck>trample</nospellcheck></kw-a>.
+		As long as it’s your turn, each nonland permanent your opponents control is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>.
+	flavor_text_2: <i-flavor>Its determination to consume all life on Runeterra does not fade upon it’s death, but rather seeps into those who thought they had killed it.</i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: Seccond side art is Lee Sin Skin
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:17:29
+	name: The Elder Dragon
+	casting_cost: 5WUBRG
+	image: image16
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Elder</word-list-race> <word-list-class>Dragon</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		For each Dragon you control, <atom-legname><nospellcheck>The Elder Dragon</nospellcheck></atom-legname> costs <sym-auto>C</sym-auto> less or one less mana of that Dragon’s color to cast.
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>, <kw-a><nospellcheck>double strike</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>The Elder Dragon</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: multicolor
+	name_2: Aspect of the Dragon
+	casting_cost_2: 
+	image_2: image_211
+	super_type_2: <word-list-type>Legendary Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	indicator_2: multicolor
+	rule_text_2:
+		<kw-a><nospellcheck>Vanishing <param-number>3</param-number></nospellcheck></kw-a>
+		Creatures you control get +1/+1 for each Dragon you control and have <kw-a><nospellcheck>flying</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>, and <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: Ability represents out of combat move speed
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:01:17
+	name: Cloud Drake
+	casting_cost: 5W
+	image: image19
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>double strike</nospellcheck></kw-a>
+		At the end beginning of each opponent’s end step, if that player did not attack you this turn, you may exile <atom-cardname><nospellcheck>Cloud Drake</nospellcheck></atom-cardname> and return it to the battlefield under your control.
+		<atom-cardname><nospellcheck>Cloud Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: white
+	name_2: Cloudbringer’s Grace
+	casting_cost_2: 
+	image_2: image20
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
+		At the end beginning of each opponent’s end step, if that player did not attack you this turn, you may exile any number of target creatures you control and return them to the battlefield under your control.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-08-18 23:33:43
+	name: Ocean Drake
+	casting_cost: 5U
+	image: image21
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, magic resistance
+		Whenever <atom-cardname><nospellcheck>Ocean Drake</nospellcheck></atom-cardname> deals damage to a creature an opponent controls, tap that creature and put a <kw-a><nospellcheck>stun</nospellcheck></kw-a> counter on it. You gain 1 life.
+		<atom-cardname><nospellcheck>Ocean Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: blue
+	name_2: Oceanic Will
+	casting_cost_2: 
+	image_2: image22
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a> 
+		Whenever a creature you control deals damage to a creature an opponent controls, tap that creature and put a <kw-a><nospellcheck>stun</nospellcheck></kw-a> counter on it. You gain 1 life.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 10:48:07
+	name: Rift Dragon
+	casting_cost: 4RW
+	image: image15
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Rift Dragon</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>, When a player captures <atom-cardname><nospellcheck>Rift Dragon</nospellcheck></atom-cardname>, for each creature that player controls they may put a +1/+1 counter on that creature or they create a <kw-a><nospellcheck>Gold toke<param-*s>n</param-*s></nospellcheck></kw-a>.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: 
+	casting_cost_2: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	rule_text_2: 
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:01:37
+	name: Infernal Drake
+	casting_cost: 5R
+	image: image27
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		If <atom-cardname><nospellcheck>Infernal Drake</nospellcheck></atom-cardname> would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+		<atom-cardname><nospellcheck>Infernal Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: red
+	name_2: Infernal Might
+	casting_cost_2: 
+	image_2: image28
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
+		If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: Rules Templating: https://scryfall.com/card/cm2/9/gisela-blade-of-goldnight
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:12:54
+	name: Mountain Drake
+	casting_cost: 5G
+	image: image29
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>
+		If a source would deal damage to <atom-cardname><nospellcheck>Mountain Drake</nospellcheck></atom-cardname>, prevent half that damage, rounded up.
+		<atom-cardname><nospellcheck>Mountain Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: green
+	name_2: Mountainous Vigor
+	casting_cost_2: 
+	image_2: image30
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
+		If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:01:33
+	name: Hextech Drake
+	casting_cost: 6
+	image: image31
+	super_type: <word-list-type>Artifact Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>prowess</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Hextech Drake</nospellcheck></atom-cardname> attacks, it deals X damage divided as you choose among up to three target creatures defending player controls, where X is the number of noncreature spells you’ve cast this turn.
+		<atom-cardname><nospellcheck>Hextech Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: Hextech Prowess
+	casting_cost_2: 
+	image_2: image32
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
+		Whenever a creature you control attacks, it deals X damage divided as you choose among up to three target creatures defending player controls, where X is the number of noncreature spells you’ve cast this turn.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-tokens
+	stylesheet_version: 2020-05-10
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:06:18
+	time_modified: 2022-07-01 10:49:38
+	card_color: white
+	name: Raptor
+	casting_cost: 
+	image: image7
+	super_type: <word-list-type>Token Creature</word-list-type>
+	sub_type: <word-list-race>Bird</word-list-race> <word-list-class>Dinosaur</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes:
+		Mechanic is a play on Elise’s storyline. Vilemaw corrupts people to become Spiders that obey her order.
+		Memory probles with changing types to Spiders, then relying on that for a mechanic later
+	time_created: 2015-07-26 05:09:15
+	time_modified: 2022-07-01 11:17:40
+	name: Vilemaw, Spider God
+	casting_cost: 4BBGG
+	image: image5
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Spider</word-list-race> <word-list-class>God</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>, <kw-a><nospellcheck>hexproof</nospellcheck></kw-a>
+		Whenever a creature dealt damage by a Spider you control dies this turn, you may return that creature to the battlefield under your control. If you do, that creature is a Spider in addition to its other types.
+		<atom-cardname><nospellcheck>Vilemaw, Spider God</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor>It has great physical strength as well as magical, being able to transfigure willing humans into its servants... </i-flavor>
+	power: 4
+	toughness: 8
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 4
+	card_color_2: black, green, multicolor, horizontal
+	name_2: Crest of the Crushing Wraith
+	casting_cost_2: 
+	image_2: image_24
+	super_type_2: <word-list-type>Legendary Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Spider</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Vanishing <param-number>3</param-number></nospellcheck></kw-a>
+		All Spider creatures are goaded and get +1/+1 for each fade counter on <atom-cardname><nospellcheck>Crest of the Crushing Wraith</nospellcheck></atom-cardname>.
+		You and permanents you control have <kw-a><nospellcheck>protection from <param-name>Spiders</param-name></nospellcheck></kw-a>.
+	flavor_text_2: <i-flavor>... and uses them to gather fresh food.</i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:50:15
+	time_modified: 2022-07-01 11:38:18
+	name: Rift Scuttler
+	casting_cost: 2
+	image: image3
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Crab</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, armor
+		<atom-cardname><nospellcheck>Rift Scuttler</nospellcheck></atom-cardname> is an <kw-1><nospellcheck>objective</nospellcheck>. When a player captures <atom-cardname><nospellcheck>Rift Scuttler</nospellcheck></atom-cardname>, that player may return it to the battlefield transformed under their control.<atom-reminder-custom> <i-auto>(Whenever a player attacks with one or more other creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power  or greater from combat. If they do, exile this and that player captures it.)</i-auto></atom-reminder-custom></kw-1>
+	flavor_text: <i-flavor>They sometimes bury themselves into the muck of the river to avoid predators and are known to either avoid or flee from dangers.</i-flavor>
+	power: 0
+	toughness: 2
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: Speed Shrine
+	image_2: image_25
+	super_type_2: <word-list-type>Enchantment</word-list-type>
+	sub_type_2: <word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		You may cast spells as though they had <kw-a><nospellcheck>flash</nospellcheck></kw-a> if you pay <sym-auto>2</sym-auto> more to cast them.
+		At the beginning of your upkeep, transform <atom-cardname><nospellcheck>Speed Shrine</nospellcheck></atom-cardname>.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes:
+		Note that capturing an objective EXILES it, so it doesn’t die and the first ability won’t trigger.
+		
+		Consider changing to Persist or Undying
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 11:01:28
+	name: Chemtech Drake
+	casting_cost: 5B
+	image: image12
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>Chemtech Drake</nospellcheck></atom-cardname> dies, if it didn’t have <kw-a><nospellcheck>decayed</nospellcheck></kw-a>, return it to the battlefield under your control. It’s a black Zombie in addition to its other colors and types and it gains <kw-a><nospellcheck>decayed</nospellcheck></kw-a>.
+		<atom-cardname><nospellcheck>Chemtech Drake</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	card_color_2: black
+	name_2: Chemtech Blight
+	casting_cost_2: 
+	image_2: image14
+	super_type_2: <word-list-type>Tribal Enchantment</word-list-type>
+	sub_type_2: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>
+		Whenever a creature you control dies, if it didn’t have <kw-a><nospellcheck>decayed</nospellcheck></kw-a>, you may return it to the battlefield under your control. It’s a black Zombie in addition to its other colors and types and it gains <kw-a><nospellcheck>decayed</nospellcheck></kw-a>.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:54:17
+	time_modified: 2022-07-01 10:46:11
+	name: Ebonmaw, the Terror of Zaun
+	casting_cost: 3UB
+	image: image23
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Ebonmaw, the Terror of Zaun</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, each other player loses 3 life unless they sacrifice a nonland permanent or discard a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: 
+	casting_cost_2: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	rule_text_2: 
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:50:15
+	time_modified: 2022-07-01 10:59:44
+	name: Rift Herald
+	casting_cost: 4C
+	image: image24
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Crab</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<i>Charge</i> — When <atom-cardname><nospellcheck>Rift Herald</nospellcheck></atom-cardname> enters the battlefield from exile, you may destroy target nonland permanent with mana value 3 or less.
+		<atom-cardname><nospellcheck>Rift Herald</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefied transformed under their control.
+	flavor_text: <i-flavor>Unlike the scuttle crab that it consumed, it is bipedal, with sharp claws for arms and a long barbed tail. Its body emanates a purple glow common among voidborn.</i-flavor>
+	power: 3
+	toughness: 5
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: Eye of the Herald
+	casting_cost_2: 3
+	image_2: image_27
+	super_type_2: <word-list-type>Artifact</word-list-type>
+	sub_type_2: <word-list-artifact></word-list-artifact>
+	indicator_2: artifact
+	rule_text_2:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>. 
+		<sym-auto>4C</sym-auto>: Exile <atom-cardname><nospellcheck>Eye of the Herald</nospellcheck></atom-cardname> and return it to the battlefield transformed. Activate only as a sorcery.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+keyword:
+	keyword: Objective
+	match: Objective
+	reminder: Whenever a player attacks with one or more {if is_creature(card.type) then "other "}creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power {card.cmc} or greater from combat. If they do, exile this and that player captures it.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Shield
+	match: Shield <atom-param>number</atom-param>
+	reminder: Prevent the first {english_number(param1)} damage that would be dealt to shielded permanent or player each turn.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Stun
+	match: Stun
+	reminder: When a permanent becomes stunned, tap it and remove it from combat. It doesn’t untap during it’s controllers next untap step.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Silence
+	match: Silence
+	reminder: When a permanent becomes silenced, it loses all abilities until end of turn.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Grievous
+	match: Grievous
+	reminder: Whenever this deals damage to a creature, put a -1/-1 counter on that creature.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Engage
+	match: Engage
+	reminder: Whenever this creature attacks, you may have target creature defending player controls block it if able.
+	rules: 
+	mode: custom
+version_control:
+	type: none
+apprentice_code: 

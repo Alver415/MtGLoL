@@ -1,0 +1,179 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	title: Targon
+	symbol: symbol2.mse-symbol
+	masterpiece symbol: 
+	automatic reminder text: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-08-03 17:41:46
+	time modified: 2020-09-26 21:01:13
+	name: Gift of Promise
+	casting cost: W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Whenever enchanted creature deals combat damage, put a +1/+1 counter on it.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-08-03 17:41:46
+	time modified: 2020-10-04 17:12:30
+	name: Dire Consequences
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Whenever enchanted creatures controller is dealt combat damage, destroy it.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-26 16:01:10
+	time modified: 2020-09-26 16:16:35
+	name: Selection of the Strong
+	casting cost: 2WB
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Each player chooses a creature they control, then sacrifices the rest.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-26 17:08:21
+	time modified: 2020-09-26 17:12:30
+	name: Prophet of Constellations
+	casting cost: WWBB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: If a creature you control dealing combat damage causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Rise to Glory
+	time created: 2020-09-26 16:52:43
+	time modified: 2020-10-04 17:43:32
+	name: Shining Light
+	casting cost: 1W/B
+	image: image1
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		If <sym-auto>W</sym-auto> was spent to cast <atom-cardname><nospellcheck>Shining Light</nospellcheck></atom-cardname>, until end of turn, target creature you control can’t be blocked by more than one creature.
+		If <sym-auto>B</sym-auto> was spent to cast <atom-cardname><nospellcheck>Shining Light</nospellcheck></atom-cardname>, target creature gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Howard Lyon
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-27 01:44:54
+	time modified: 2020-09-27 01:56:25
+	name: Proximity of the Peak
+	casting cost: WB
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text:
+		Creatures you control get +1/+1 until end of turn.
+		Creatures your opponents control get -1/-1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-10-04 17:27:25
+	time modified: 2020-10-04 17:41:37
+	name: Moonsilver Crescent
+	casting cost: 2
+	image: image3
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		Equipped creature gets +2/+1.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 

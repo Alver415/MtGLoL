@@ -1,0 +1,541 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15
+stylesheet_version: 2018-02-09
+set_info:
+	title: Lands
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:41
+	name: The Citadel of Dawn
+	casting_cost: 
+	image: image2
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>, Tap two untapped creatures you control: Add <sym-auto>WW</sym-auto>, <sym-auto>UU</sym-auto>, or <sym-auto>WU</sym-auto>.
+	flavor_text: <i-flavor>A palace whose majestic design is said to reflect the splendor of the ruling <error-spelling:en_us>Lightshield</error-spelling:en_us> dynasty.</i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:55
+	name: First Lands
+	casting_cost: 
+	image: image8
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
+		<atom-cardname><nospellcheck>First Lands</nospellcheck></atom-cardname> enters the battlefield tapped if you control an Island, Swamp, or Mountain.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Flavor Text: Page 44
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:37
+	name: The Immortal Bastion
+	casting_cost: 
+	image: image3
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>: Add <sym-auto>BB</sym-auto>, <sym-auto>RR</sym-auto>, or <sym-auto>BR</sym-auto>. Activate this ability only if a creature died this turn.
+	flavor_text: <i-flavor>Even those at the peak of power must always seek new ways to challenge themselves — or they will not remain in power for long.</i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-altered
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 16:49:14
+	name: Runeterra Wilds
+	casting_cost: 
+	image: image17
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Mountain</word-list-land> <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto>.)</i-auto>
+		<atom-cardname><nospellcheck>Runeterra Wilds</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Island, or Swamp
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:12:59
+	name: Plains
+	casting_cost: 
+	image: image20
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol white
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:55
+	name: Island
+	casting_cost: 
+	image: image22
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol blue
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:11:14
+	name: Swamp
+	casting_cost: 
+	image: image19
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol black
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:09
+	name: Mountain
+	casting_cost: 
+	image: image21
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol red
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:16:12
+	name: Emerging Steppe
+	casting_cost: 
+	image: image18
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule_text: <sym-auto>T</sym-auto>, Pay 1 life, Exile <atom-cardname><nospellcheck>Emerging Steppe</nospellcheck></atom-cardname>: Search your library for a Plains card and put it onto the battlefield. Then shuffle your library.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:51
+	name: Palace Gardens
+	casting_cost: 
+	image: image12
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land> <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto>.)</i-auto>
+		<atom-cardname><nospellcheck>Palace Gardens</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Swamp, Mountain, or Forest.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:45
+	name: The Frostguard Citadel
+	casting_cost: 
+	image: image1
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>, Exile a card from your graveyard: Add <sym-auto>UU</sym-auto>, <sym-auto>BB</sym-auto>, or <sym-auto>UB</sym-auto>.
+	flavor_text: <i-flavor><error-spelling:en_us>Lissandra</error-spelling:en_us> spends most of her waking hours in the deepest halls of the <error-spelling:en_us>Frostguard</error-spelling:en_us> Citadel. It is from here that she delivers her chilling sermons and passes judgment on the fate of heretics among the tribes.</i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:39
+	name: The Hidden City of Ixtal
+	casting_cost: 
+	image: image4
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>RG</sym-auto>. Activate this ability only if a creature you control dealt combat damage to a player this turn.
+	flavor_text: <i-flavor>Far from prying eyes and greedy hands, the sprawling <error-spelling:en_us>arcologies</error-spelling:en_us> of <error-spelling:en_us>Ixaocan</error-spelling:en_us> remain safely hidden by the deepest rain forests.</i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:17:55
+	name: Forest
+	casting_cost: 
+	image: image24
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol green
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:34
+	name: The Placidium of Navori
+	casting_cost: 
+	image: image7
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text: <sym-auto>T</sym-auto>: Add <sym-auto>WW</sym-auto>, <sym-auto>GG</sym-auto>, or <sym-auto>GW</sym-auto>. Activate this ability only if you control 5 or more creatures and/or lands.
+	flavor_text: <i-flavor>Situated at the heart of the continent, the <error-spelling:en_us>Placidium</error-spelling:en_us> is one of <error-spelling:en_us>Ionia’s</error-spelling:en_us> most sacred places. Many have journeyed here to study at renowned schools, or meditate in its wild, magical gardens.</i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:09:07
+	name: Howling Abyss
+	casting_cost: 
+	image: image13
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto>.)</i-auto>
+		<atom-cardname><nospellcheck>Howling Abyss</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Mountain, or Forest.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:08:49
+	name: Conquered Terrain
+	casting_cost: 
+	image: image10
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<i-auto>(<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto>.)</i-auto>
+		<atom-cardname><nospellcheck>Conquered Terrain</nospellcheck></atom-cardname> enters the battlefield tapped if you control a Plains, Island, or Forest.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-29 00:04:24
+	time_modified: 2022-08-19 02:53:41
+	name: Petricite Grove
+	image: image14
+	super_type: <word-list-type>Legendary Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Cumulative upkeep <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		Discard a card: Remove an age counter from <atom-cardname><nospellcheck>Petricite Grove</nospellcheck></atom-cardname>.
+		If a nonbasic land would produce colored mana, that land produces <sym>C</sym> instead of any other type and amount.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:13:56
+	name: Wastes
+	casting_cost: 
+	image: image16
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol colorless
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-12 13:17:10
+	name: Deteriorating Terrain
+	casting_cost: 
+	image: image15
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: rare
+	rule_text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Deteriorating Terrain</nospellcheck></atom-cardname>: Destroy target nonbasic land.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:15:57
+	name: Emerging Ridge
+	casting_cost: 
+	image: image5
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule_text: <sym-auto>T</sym-auto>, Pay 1 life, Exile <atom-cardname><nospellcheck>Emerging Ridge</nospellcheck></atom-cardname>: Search your library for a Mountain card and put it onto the battlefield. Then shuffle your library.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:15:37
+	name: Emerging Bog
+	casting_cost: 
+	image: image6
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule_text: <sym-auto>T</sym-auto>, Pay 1 life, Exile <atom-cardname><nospellcheck>Emerging Bog</nospellcheck></atom-cardname>: Search your library for a Swamp card and put it onto the battlefield. Then shuffle your library.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:15:46
+	name: Emerging Isle
+	casting_cost: 
+	image: image9
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule_text: <sym-auto>T</sym-auto>, Pay 1 life, Exile <atom-cardname><nospellcheck>Emerging Isle</nospellcheck></atom-cardname>: Search your library for an Island card and put it onto the battlefield. Then shuffle your library.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:14:40
+	name: Emerging Thicket
+	casting_cost: 
+	image: image11
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule_text: <sym-auto>T</sym-auto>, Pay 1 life, Exile <atom-cardname><nospellcheck>Emerging Thicket</nospellcheck></atom-cardname>: Search your library for a Forest card and put it onto the battlefield. Then shuffle your library.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 

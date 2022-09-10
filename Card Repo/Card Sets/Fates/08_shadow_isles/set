@@ -1,0 +1,166 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	title: Shadow Isles
+	symbol: symbol2.mse-symbol
+	masterpiece symbol: 
+	automatic reminder text: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: Art: Assassin's Trophy
+	time created: 2020-09-26 16:36:21
+	time modified: 2020-09-26 21:20:26
+	name: Mark of Decay
+	casting cost: 1BG
+	image: image2
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Destroy target nonland permanent at the beginning of your next upkeep.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Seb McKinnon
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Arachnus Spinner
+	time created: 2020-09-26 17:08:21
+	time modified: 2020-10-04 20:24:55
+	name: Tortured Spirits
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever a non-Spirit creature you control dies, you may return <atom-cardname><nospellcheck>Tortured Spirits</nospellcheck></atom-cardname> from your graveyard to the battlefield.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	illustrator: Karl Kopinski
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Carrion Call
+	time created: 2020-09-26 16:52:43
+	time modified: 2020-09-27 00:01:01
+	name: Scavanging Swarm
+	casting cost: 1B/G
+	image: image1
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		If <sym-auto>B</sym-auto> was spent to cast <atom-cardname><nospellcheck>Scavanging Swarm</nospellcheck></atom-cardname>, until end of turn, when target creature dies, return it to the battlefield tapped under its owner’s control.
+		If <sym-auto>G</sym-auto> was spent to cast <atom-cardname><nospellcheck>Scavanging Swarm</nospellcheck></atom-cardname>, create a 1/2 green Spider creature token with <kw-a><nospellcheck>reach</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Adrian Smith
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Arachnus Spinner
+	time created: 2020-09-26 17:08:21
+	time modified: 2020-09-26 21:40:25
+	name: Nesting Arachnoid
+	casting cost: BBGG
+	image: image4
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Spider</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
+		At the beginning of each upkeep, create a 1/2 black Spider creature token with <kw-a><nospellcheck>reach</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 4
+	card code text: 
+	illustrator: Karl Kopinski
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Arachnus Spinner
+	time created: 2020-09-26 17:08:21
+	time modified: 2020-10-04 20:28:59
+	name: Mist Walker
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Ghoul</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		As an additional cost to cast <atom-cardname><nospellcheck>Mist Walker</nospellcheck></atom-cardname>, exile a creature card from a graveyard.
+		You may cast <atom-cardname><nospellcheck>Mist Walker</nospellcheck></atom-cardname> from your graveyard.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	illustrator: Karl Kopinski
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-10-04 20:29:09
+	time modified: 2020-10-04 20:34:16
+	name: Lifesteal
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Creature tokens you control gain <kw-a><nospellcheck>lifelink</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 
