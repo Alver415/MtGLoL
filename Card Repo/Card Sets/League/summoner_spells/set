@@ -1,0 +1,283 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Summoner Spells
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:22:16
+	time_modified: 2022-06-05 12:25:02
+	name: Smite
+	casting_cost: 2
+	image: image5
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		<atom-cardname><nospellcheck>Smite</nospellcheck></atom-cardname> deals 1 damage to target creature. If it’s a Monster, <atom-cardname><nospellcheck>Smite</nospellcheck></atom-cardname> deals 5 damage to it instead. Otherwise, choose one —
+		- <i>Chilling</i> — Tap that creature.
+		- <i>Challenging</i> — <kw-a><nospellcheck>Goad</nospellcheck></kw-a> that creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2022-06-05 12:19:18
+	name: Barrier
+	casting_cost: 1G/W
+	image: image4
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		<margin:0:0:5>Choose one —</margin:0:0:5>
+		<li><bullet>• </bullet>Put a shield counter on target creature.
+		</li><li><bullet>• </bullet>Prevent all damage that would be dealt to target creature or player this turn.</li>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:19:13
+	time_modified: 2022-06-05 11:45:01
+	name: Flash
+	casting_cost: 1W/U
+	image: image14
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell, <kw-a><nospellcheck>split second</nospellcheck></kw-a>
+		Exile target creature you control, then return that card to the battlefield under your control.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:21:42
+	time_modified: 2022-06-05 12:21:04
+	name: Ignite
+	casting_cost: 1B/R
+	image: image3
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Grievous
+		<atom-cardname><nospellcheck>Ignite</nospellcheck></atom-cardname> deals 2 damage to any target.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 12:59:15
+	time_modified: 2022-06-05 12:07:07
+	name: Surge
+	casting_cost: 1R/G
+	image: image18
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Target creature gets +2/+2 and gains <kw-a><nospellcheck>haste</nospellcheck></kw-a>, engage, and <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 12:59:15
+	time_modified: 2022-06-05 12:00:01
+	name: Teleport
+	casting_cost: 1U/R
+	image: image19
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Search your command zone, hand, and/or library for a creature card with mana value equal to or less than the number of lands you control and exile it. Put two time counters on the exiled card. If it doesn’t have suspend, it gains suspend. If you searched your library this way, shuffle it.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:17:09
+	time_modified: 2022-06-05 12:13:19
+	name: Cleanse
+	casting_cost: 1G/U
+	image: image2
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Choose target creature. Counter each spell, activated ability, and/or triggered ability that targets that creature. Then remove any number of counters from that creature and destroy and number of target permanents attached to that creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 12:59:15
+	time_modified: 2022-06-05 12:14:41
+	name: Exhaust
+	casting_cost: 1W/B
+	image: image13
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Target creature gets -2/-2 and loses <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:14:08
+	time_modified: 2022-06-05 12:05:42
+	name: Ghost
+	casting_cost: 1U/B
+	image: image15
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Target creature you control gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn. That creature can’t be blocked this turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2018-10-15 19:52:51
+	time_modified: 2022-06-05 12:04:49
+	name: Promote
+	casting_cost: 1R/W
+	image: image16
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Put a +1/+1 counter and a <kw-a><nospellcheck>double strike</nospellcheck></kw-a> counter on target creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2018-10-20 12:25:48
+	time_modified: 2022-06-05 12:10:08
+	name: Revive
+	casting_cost: 1B/G
+	image: image17
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		Summoner spell
+		Return target creature card with mana value equal to or less than the number of lands you control from your graveyard to the battlefield tapped. That creature doesn’t untap during its controllers next untap step.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 

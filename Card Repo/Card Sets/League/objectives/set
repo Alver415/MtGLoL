@@ -1,0 +1,304 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Objectives
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-COTWC-m15doublefaced:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-COTWC-m15doublefacedsparker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-COTWC-m15planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-adventure:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-commander:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-sacrificer:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-borderable-sparker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-future-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-dfc:
+		d20_dividers: d20 mode
+		d20_dividers_back: d20 mode
+		other_options: use holofoil stamps, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-planeswalker-clear:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-doublefaced:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-windy-ultima:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:42:51
+	time_modified: 2022-07-01 11:35:28
+	name: The Nexus
+	casting_cost: 10
+	image: image24
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>shroud</nospellcheck></kw-a>
+		At the end of your turn, spawn three 1/2 Minions, three 2/1 Minions with <kw-a><nospellcheck>reach</nospellcheck></kw-a>, and one 3/3 Minion with <kw-a><nospellcheck>trample</nospellcheck></kw-a>.
+		<atom-cardname><nospellcheck>The Nexus</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player creates 50 <kw-a><nospellcheck>Gold toke<param-*s>ns</param-*s></nospellcheck></kw-a>. Then you lose the game.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	stylesheet: m15-mainframe-dfc
+	stylesheet_version: 2020-09-04
+	has_styling: false
+	notes: Needs Super Minion Tokens
+	time_created: 2015-07-26 04:42:51
+	time_modified: 2022-07-01 11:34:06
+	name: Minion Inhibitor
+	casting_cost: 4
+	image: image25
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Nonlegendary creature spells your opponents cast cost <sym-auto>2</sym-auto> more to cast.
+		<atom-cardname><nospellcheck>Minion Inhibitor</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield transformed under their control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: Super Minion Schematics
+	casting_cost_2: 
+	image_2: image_22
+	super_type_2: <word-list-type>Enchantment</word-list-type>
+	sub_type_2: <word-list-enchantment></word-list-enchantment>
+	rule_text_2:
+		<kw-a><nospellcheck>Vanishing <param-number>3</param-number></nospellcheck></kw-a>
+		At the beginning of combat on your turn, spawn a 4/4 colorless Minion named Super Minion that’s tapped and attacking.
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:46:34
+	time_modified: 2022-06-30 18:23:06
+	name: Nexus Obelisk
+	casting_cost: 8
+	image: image31
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>shroud</nospellcheck></kw-a>
+		Whenever one or more creatures an opponent controls deals combat damage to you or a permanent you control, exile up to one of those creatures.
+	flavor_text: <i-flavor></i-flavor>
+	watermark: none
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:42:51
+	time_modified: 2022-07-01 11:37:19
+	name: Twisted Altar
+	casting_cost: 1
+	image: image2
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: common
+	rule_text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<atom-cardname><nospellcheck>Twisted Altar</nospellcheck></atom-cardname> is an <kw-1><nospellcheck>objective</nospellcheck>. When a player captures it, that player may return it to the battlefield under their control.<atom-reminder-custom> <i-auto>(Whenever a player attacks with one or more creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power 1 or greater from combat. If they do, exile this and that player captures it.)</i-auto></atom-reminder-custom></kw-1>
+	flavor_text: <i-flavor>The face that the East Altar is remembering is most likely the spirit from the West Altar, his wife.</i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: Captured Altar
+	image_2: image3
+	super_type_2: <word-list-type>Artifact</word-list-type>
+	sub_type_2: <word-list-artifact></word-list-artifact>
+	rule_text_2:
+		<sym-auto>T</sym-auto>: Add <sym-auto>CC</sym-auto> or one mana of any color.
+		<kw-a><nospellcheck>Fading <param-number>2</param-number></nospellcheck></kw-a>
+		When the last time counter is removed from <atom-cardname><nospellcheck>Captured Altar</nospellcheck></atom-cardname>, return it to the battlefield under its owner’s control.
+	flavor_text_2: <i-flavor>The two spirits that appear when an altar is captured are husband and wife. They died there thousands of years ago.</i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:42:51
+	time_modified: 2022-07-01 11:29:57
+	name: Control Point
+	casting_cost: 3
+	image: image5
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule_text:
+		<atom-cardname><nospellcheck>Control Point</nospellcheck></atom-cardname> is an <kw-a><nospellcheck>objective</nospellcheck></kw-a>. When a player captures it, that player may return it to the battlefield under their control.
+		<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Control Point</nospellcheck></atom-cardname> deals 1 damage to target creature attacking you or a permanent you control.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add two mana in any combination of colors.
+		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: Target creature attacks or blocks this turn if able.
+		<sym-auto>3</sym-auto>, <sym-auto>T</sym-auto>: Spawn a 1/2 Minion or a 2/1 Minion with <kw-a><nospellcheck>reach</nospellcheck></kw-a>.
+		<sym-auto>4</sym-auto>, <sym-auto>T</sym-auto>: Draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	card_code_text_2: 
+	copyright: 
+	name_2: 
+	image_2: image_21
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	rule_text_2: 
+	flavor_text_2: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 04:44:02
+	time_modified: 2022-07-01 11:37:04
+	name: Turret
+	casting_cost: 2
+	image: image1
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: common
+	rule_text:
+		<sym-auto>T</sym-auto>: Turret deals 1 damage to target creature attacking you or a permanent you control.
+		<atom-cardname><nospellcheck>Turret</nospellcheck></atom-cardname> is an <kw-1><nospellcheck>objective</nospellcheck>. When a player captures it, that player may draw a card or create a 2 <kw-a><nospellcheck>Gold toke<param-*s>ns</param-*s></nospellcheck></kw-a>.<atom-reminder-custom> <i-auto>(Whenever a player attacks with one or more creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power 2 or greater from combat. If they do, exile this and that player captures it.)</i-auto></atom-reminder-custom></kw-1>
+		A deck can have any number of cards named Turret.
+	flavor_text: <i-flavor></i-auto></atom-reminder-custom></kw-1></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+keyword:
+	keyword: Shield
+	match: Shield <atom-param>number</atom-param>
+	reminder: Prevent the first {english_number(param1)} damage that would be dealt to shielded permanent or player each turn.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Stun
+	match: Stun
+	reminder: When a permanent becomes stunned, tap it and remove it from combat. It doesn’t untap during it’s controllers next untap step.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Silence
+	match: Silence
+	reminder: When a permanent becomes silenced, it loses all abilities until end of turn.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Grievous
+	match: Grievous
+	reminder: Whenever this deals damage to a creature, put a -1/-1 counter on that creature.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Engage
+	match: Engage
+	reminder: Whenever this creature attacks, you may have target creature defending player controls block it if able.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Objective
+	match: Objective
+	reminder: Whenever a player attacks with one or more {if is_creature(card.type) then "other "}creatures and those creatures aren’t blocked, that player may remove any number of those creatures with total power {card.cmc} or greater from combat. If they do, exile this and that player captures it.
+	rules: 
+	mode: custom
+version_control:
+	type: none
+apprentice_code: 

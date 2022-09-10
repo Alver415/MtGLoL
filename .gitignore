@@ -12,3 +12,4 @@ image*
 
 !/Magic Set Editor/**/*.jpg
 !/Magic Set Editor/**/*.png
+*.log

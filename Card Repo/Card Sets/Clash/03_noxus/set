@@ -1,0 +1,985 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15
+stylesheet_version: 2018-02-09
+set_info:
+	title: Noxus
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		chop bottom: 13
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:39:23
+	name: Vengeful Knight
+	casting_cost: 1BR
+	image: image1
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Whenever another creature you control dies, choose a kind of counter from among <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>, and +1/+1. Put a counter of that kind on <atom-cardname><nospellcheck>Vengeful Knight</nospellcheck></atom-cardname>.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Adriana, Captain of the Guard
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 20:43:59
+	name: Trifarion Knight
+	casting_cost: 3BR
+	image: image42
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: <kw-a><nospellcheck>Double strike</nospellcheck></kw-a>, grievous
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	illustrator: Chris Rallis
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 01:27:34
+	name: Armed Invaders
+	casting_cost: 3BB
+	image: image3
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text: When Armed Invaders enters the battlefield, gain control of target land an opponent controls until Armed Invaders leaves the battlefield or attacks.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:33:55
+	name: The Smithy’s Squire
+	casting_cost: 2R
+	image: image9
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Squire</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: When <atom-cardname><nospellcheck>The Smithy’s Squire</nospellcheck></atom-cardname> enters the battlefield, you may search your library for an equipment card. If you do shuffle you library and put that card on top of it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 13:18:04
+	name: Frontline Leader
+	casting_cost: 1RR
+	image: image5
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <atom-cardname><nospellcheck>Frontline Leader</nospellcheck></atom-cardname> must attack each turn if able.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: https://img.rankedboost.com/wp-content/plugins/legends-of-runeterra/assets/unit-and-champion-artwork/01NX008-full.png
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 18:12:14
+	name: Basilisk Rider
+	casting_cost: 1BR
+	image: image22
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Basilisk</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:31:26
+	name: Scrapyard Blacksmith
+	casting_cost: 2R
+	image: image12
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text: When <atom-cardname><nospellcheck>Scrapyard Blacksmith</nospellcheck></atom-cardname> enters the battlefield, you may sacrifice an artifact. If you do, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Ronin Houndmaster
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 13:16:38
+	name: General Lee Tai
+	casting_cost: 2RR
+	image: image39
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>General Lee Tai</nospellcheck></atom-cardname> deals combat damage to a creature, silence that creature and unattach all equipment from it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	illustrator: Edward P. Beard, Jr.
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Lose Hope
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 18:34:57
+	name: Heel Slash
+	casting_cost: B
+	image: image24
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Remove all +1/+1 counters from target creature, then put a -1/-1 counter on that creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Matt Cavotta
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-08-11 13:03:53
+	name: Trenches of War
+	casting_cost: 2BB
+	image: image7
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule_text: Whenever a creature attacks you or permanent you control, if that creature doesn’t have a -1/-1 counter on it, put a -1/-1 counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 01:40:16
+	name: Arms Race
+	casting_cost: 2RR
+	image: image8
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule_text: <sym-auto>2</sym-auto>: Search target player’s library for an equipment card and put it onto the battlefield under your control. Then that player shuffles. Any player may activate this ability.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:01:39
+	name: Improvising Explosioneer
+	casting_cost: 2R
+	image: image6
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Goblin</word-list-race> <word-list-class>Engineer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice an artifact: Destroy target artifact.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Typhoid Rats
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 19:47:43
+	name: Infected Trench Rats
+	casting_cost: 1B
+	image: image34
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Rat</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		Grievous
+		When <atom-cardname><nospellcheck>Infected Trench Rats</nospellcheck></atom-cardname> dies put a -1/-1 counter on target creature an opponent controls.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	illustrator:
+		 Dave Kendall
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Goblin Artillery
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:34:37
+	name: Trebuchet Engineer
+	casting_cost: 1R
+	image: image16
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Goblin</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: Target attacking creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn. Sacrifice that creature at end of combat.
+	flavor_text: <i-flavor>“These rocks are too light to be worth throwing, but I’ve got an idea...”</i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	illustrator: Alex Horley-Orlandelli
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Embereth Skyblazer
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 19:11:11
+	name: Loyal Squire
+	casting_cost: R
+	image: image33
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Whenever a creature you control becomes blocked by a creature an opponent controls, you may have <atom-cardname><nospellcheck>Loyal Squire</nospellcheck></atom-cardname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	illustrator: Daarken
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: General's Enforcer 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-26 03:28:32
+	name: Noxian Soldier
+	casting_cost: B
+	image: image25
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldiers</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Grievous
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	illustrator: Wisnu Tan
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:45:57
+	name: Hemomancer’s Tutelage
+	casting_cost: 2B
+	image: image19
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule_text: At the beginning of your upkeep, repeat the following process for each opponent in turn order. Reveal the top card of their library. That player may pay life equal to that card’s mana value. If they do, put that card into their graveyard. Otherwise, you may cast that card for as long as it remains exiled and you may spend mana as though it were any color to cast it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-08-11 11:30:08
+	name: Hunting Wildclaw
+	casting_cost: 2BR
+	image: image15
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text:
+		Engage
+		<atom-cardname><nospellcheck>Hunting Wildclaw</nospellcheck></atom-cardname> gets +1/+1 for each -1/-1 counter on creatures blocking or blocked by it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-08-11 11:13:37
+	name: Soul Syphon Arrow
+	casting_cost: 2B
+	image: image13
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		Deal 1 damage to target creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Barrow Witches
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 16:23:43
+	name: Coven Encampment
+	casting_cost: B
+	image: image11
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		At the beginning of combat on your turn, you may sacrifice a creature. If you do, put a -1/-1 counter on target creature.
+		<sym-auto>1B</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Coven Encampment</nospellcheck></atom-cardname>: Destroy target creature with a -1/-1 counter on it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Alex Brock
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 19:04:05
+	name: Blood Pact Covenant
+	casting_cost: BB
+	image: image20
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck>Enchant <param-name>creature you don’t control</param-name></nospellcheck></kw-a>
+		<kw-a><nospellcheck>Cumulative upkeep—<param-cost>Pay 1 life</param-cost>.</nospellcheck></kw-a>
+		When enchanted creature dies, draw two cards.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Lose Calm
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 18:55:00
+	name: Alacrity
+	casting_cost: R
+	image: image29
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Target creature you control gets +1/+0 and gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Jason A. Engle
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Bloodstone Goblin
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 18:16:21
+	name: Knotwist Goblin
+	casting_cost: 1R
+	image: image4
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: Whenever a -1/-1 counter is put on a creature, <atom-cardname><nospellcheck>Knotwist Goblin</nospellcheck></atom-cardname> gets +1/+1 until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	illustrator: Magali Villeneuve
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Irreverent Revelers
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 20:24:15
+	name: Celebrations of War
+	casting_cost: 3R
+	image: image38
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text:
+		<atom-cardname><nospellcheck>Celebrations of War</nospellcheck></atom-cardname> costs <sym-auto>1</sym-auto> less to cast for each attacking creature you control.
+		Exile the top three cards of your library. Until the end of your next turn, you may play those cards.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Milivoj Ćeran
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Grenzo's Rebuttal 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:32:51
+	name: Targeted Explosion
+	casting_cost: 2R
+	image: image23
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text:
+		Choose one —
+		<li><bullet>• </bullet><atom-cardname><nospellcheck>Targeted Explosion</nospellcheck></atom-cardname> deals 3 damage to any target.
+		</li><li><bullet>• </bullet>Destroy target artifact.
+		</li><li><bullet>• </bullet>Destroy target nonbasic land.</li>
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Dave Kendall
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Magnetic Mine
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 20:04:37
+	name: Electro-Magnetic Pulse
+	casting_cost: XR
+	image: image36
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Destroy each artifact with converted mana cost </sym>X<sym> or less.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: David Rapoza
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Arrow Storm
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 16:50:46
+	name: Rain of Flames
+	casting_cost: XRR
+	image: image27
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule_text:
+		Grievous
+		<atom-cardname><nospellcheck>Rain of Flames</nospellcheck></atom-cardname> deals X damage to each player and each permanent.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Steve Prescott
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Wild Evocation 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 13:21:38
+	name: Prophecy of the War Seekers
+	casting_cost: 4R
+	image: image41
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule_text: Whenever you attack with one or more creatures, exile that many cards from the top of your library. Until end of turn you may play those cards.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Chippy
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Public Execution 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 18:57:21
+	name: Executioners Linup
+	casting_cost: 3BBB
+	image: image30
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text: Destroy up to three target creatures.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Anthony Palumbo
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Bile Blight 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 16:29:38
+	name: Occultists Curse
+	casting_cost: 2B
+	image: image37
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Put a -1/-1 counter on each creature you don’t control.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator:
+		 Vincent Proce
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Deathbellow Raider
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-13 19:00:20
+	name: Bellowing Taunt
+	casting_cost: 1B
+	image: image32
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: common
+	rule_text: Until end of turn, whenever a creature an opponent controls dies, that creatures controller discards a card. If they can’t, you draw a card.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Wayne Reynolds
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Hired Poisoner
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-28 16:33:08
+	name: Venom Vial Squire
+	casting_cost: 1B
+	image: image35
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule_text: <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Discard a card: Target attacking creature you control gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	illustrator: Joe Slucher
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Sadistic Hypnotist
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2020-09-26 04:23:46
+	name: Sadistic Plague Artist
+	casting_cost: BBRR
+	image: image40
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Witch</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text:
+		Grievous
+		<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Sadistic Plague Artist</nospellcheck></atom-cardname> deals 1 damage to target creature.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card_code_text: 
+	illustrator: Paolo Parente
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Fireborn Knight
+	time_created: 2020-07-29 01:26:01
+	time_modified: 2020-09-13 19:06:42
+	name: Eager Knight
+	casting_cost: RR
+	image: image28
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: basic land
+	rule_text:
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Eager Knight</nospellcheck></atom-cardname> attacks each turn if able.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	illustrator: Ben Maier
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Path of Mettle
+	time_created: 2020-07-29 01:26:01
+	time_modified: 2020-09-13 18:39:22
+	name: Quickfoot Squire
+	casting_cost: 1R
+	image: image26
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: basic land
+	rule_text: <sym-auto>T</sym-auto>: Target creature you control gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card_code_text: 
+	illustrator:
+		 Victor Adame Minguez
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Goblin War Paint
+	time_created: 2020-07-30 13:32:06
+	time_modified: 2020-09-26 01:54:51
+	name: Axiom of Rage
+	casting_cost: 1R
+	image: image31
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature gets +1/+1 and has engage.
+		When <atom-cardname><nospellcheck>Axiom of Rage</nospellcheck></atom-cardname> enters the battlefield, enchanted creature gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Austin Hsu
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Twinstrike
+	time_created: 2020-09-03 23:07:28
+	time_modified: 2020-09-13 19:59:00
+	name: Prepared Strike
+	casting_cost: 1B/R
+	image: image14
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text:
+		If <sym-auto>B</sym-auto> was spent to cast <atom-cardname><nospellcheck>Prepared Strike</nospellcheck></atom-cardname>, target creature you control gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn
+		If <sym-auto>R</sym-auto> was spent to cast <atom-cardname><nospellcheck>Prepared Strike</nospellcheck></atom-cardname>, target creature gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Christopher Rush
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: No-Dachi
+	time_created: 2020-09-12 12:15:41
+	time_modified: 2020-09-26 02:05:15
+	name: Pro-Dachi
+	casting_cost: 2
+	image: image10
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule_text:
+		Equipped creature gets +2/-2 and has <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>3</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	illustrator: Christopher Rush
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: Demonic Collusion
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 01:57:03
+	name: Butchered Thoughts
+	casting_cost: 2BR
+	image: image17
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text: Target player discards two cards at random. That player loses 2 life for each nonland card discarded this way.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Jim Nelson
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 16:50:45
+	time_modified: 2022-08-19 02:27:35
+	name: Noxian Gambler
+	casting_cost: 2R
+	image: image2
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text:
+		If a player would draw a card, they may flip a coin instead. If they win the flip, they draw two cards.
+		Whenever a player wins a coin flip, they create a <kw-a><nospellcheck>treasure toke<param-*s>n</param-*s></nospellcheck></kw-a>.
+		Whenever a player loses a coin flip, they they discard a card or lose 3 life.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 

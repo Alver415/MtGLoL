@@ -1,0 +1,1 @@
+FOR /R %%I IN (*mse-set) DO (7z.exe x "%%I" -aoa -o"%%~dpI\\*" set |"C:\\windows\\system32\\find.exe" "Everything is Ok" >SUCCESS.TXT ||ECHO.%I : EXTRACT FAIL - ARCHIVE NOT DELETED >>ERROR.TXT)

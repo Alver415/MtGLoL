@@ -1,0 +1,374 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15
+stylesheet_version: 2018-02-09
+set_info:
+	title: Equipment
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-dfc:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2022-07-02 08:31:10
+	name: Cull
+	casting_cost: 1
+	image: image1
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule_text:
+		<kw-a><nospellcheck>Vanishing <param-number>10</param-number></nospellcheck></kw-a>
+		Whenever a creature card is put into a graveyard from anywhere, remove a time counter from <atom-legname><nospellcheck>Cull</nospellcheck></atom-legname>.
+		When the last time counter is removed from <atom-cardname><nospellcheck>Cull</nospellcheck></atom-cardname>, create three <kw-a><nospellcheck>Gold toke<param-*s>ns</param-*s></nospellcheck></kw-a> and draw three cards.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 00:06:18
+	name: Black Cleaver
+	casting_cost: 2B
+	image: image3
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		<sym-auto>2/B2/B</sym-auto>: Equipped gains grievous until end of turn.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 00:11:06
+	name: Zhonya’s Hourglass
+	casting_cost: 2U
+	image: image7
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Activated abilities of equipped creature cost <sym-auto>1</sym-auto> less to activate.
+		<sym-auto>2/U2/U</sym-auto>: Equipped creature <kw-a><nospellcheck>phases out</nospellcheck></kw-a>.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 00:07:18
+	name: Warmog’s Armor
+	casting_cost: 2G
+	image: image6
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature gets +0/+2.
+		<sym-auto>2/G2/G</sym-auto>: You gain life equal to equipped creature’s toughness.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 00:06:51
+	name: Sword of the Divine
+	casting_cost: 2W
+	image: image5
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature has <kw-a><nospellcheck>first strike</nospellcheck></kw-a>.
+		<sym-auto>2/W2/W</sym-auto>: Equipped creature gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 18:52:31
+	name: Youmuu’s Ghostblade
+	casting_cost: 2R
+	image: image12
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature gets +2/+0.
+		<sym-auto>2/R2/R</sym-auto>: Equipped creature gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and engage until end of turn.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2022-07-02 08:31:53
+	name: Banshee’s Veil
+	casting_cost: 2
+	image: image8
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Whenever equipped creature becomes the target of a spell or ability an opponent controls for the first time each turn, counter that spell or ability.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2022-07-02 08:40:57
+	name: Perfectly Timed Stopwatch
+	casting_cost: 2
+	image: image2
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule_text:
+		If <atom-cardname><nospellcheck>Perfectly Timed Stopwatch</nospellcheck></atom-cardname> is in your opening hand, you may begin the game with it on the battlefield.
+		Sacrifice <atom-cardname><nospellcheck>Perfectly Timed Stopwatch</nospellcheck></atom-cardname>: Equipped creature <kw-a><nospellcheck>phases out</nospellcheck></kw-a>.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>0</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2020-07-31 20:03:36
+	time_modified: 2021-08-12 00:10:01
+	name: Guinsoo’s Rageblade
+	casting_cost: 2RR
+	image: image9
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: mythic rare
+	rule_text:
+		Equipped creature has <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
+		If equipped creature dealing combat damage would trigger an ability of a permanent you control, that ability triggers an additional time.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2R</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Referenced directly on the card for Viego
+	time_created: 2021-07-12 04:13:06
+	time_modified: 2021-08-15 11:38:44
+	name: Blade of the Ruined King
+	casting_cost: 2
+	image: image11
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		If equipped creature would deal combat damage, it deals that much damage twice instead.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>4</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-07-12 02:07:15
+	time_modified: 2022-07-02 08:33:20
+	name: Calibrum, the Sniper Rifle
+	casting_cost: 1R
+	image: image4
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact> <word-list-artifact>Moonstone</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature has “<sym-auto>T</sym-auto>: This creature deals damage equal to half its power rounded up to any target.”
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2R</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-07-12 02:07:15
+	time_modified: 2021-08-21 15:10:53
+	name: Crescendum, the Chakram
+	casting_cost: 1B
+	image: image10
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact> <word-list-artifact>Moonstone</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		If equipped creature would deal damage, it deals 1 damage twice that many times instead.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2B</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-07-12 02:07:15
+	time_modified: 2022-08-18 23:32:23
+	name: Gravitum, the Gravity Cannon
+	casting_cost: 1U
+	image: image13
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact> <word-list-artifact>Moonstone</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Whenever equipped creature deals damage to a creature, tap that creature and put a stun counter on it.
+		Whenever equipped creature deals damage to a player, tap up to one target nonland permanent that player controls.
+		<kw-a><nospellcheck>Equip <param-cost><sym>2U</sym></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-07-12 02:07:15
+	time_modified: 2021-08-21 15:11:01
+	name: Infernum, the Flamethrower
+	casting_cost: 1G
+	image: image14
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact> <word-list-artifact>Moonstone</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		If equipped creature would deal damage to a creature, it deals that much damage to that creature and its controller instead.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2G</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-07-12 02:07:15
+	time_modified: 2022-05-08 16:20:38
+	name: Severum, the Scythe Pistol
+	casting_cost: 1W
+	image: image15
+	super_type: <word-list-type>Legendary Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact> <word-list-artifact>Moonstone</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule_text:
+		Equipped creature has <kw-a><nospellcheck>double strike</nospellcheck></kw-a>.
+		Damage dealt by equipped creature causes you to gain 2 life and can’t be prevented.
+		<kw-a><nospellcheck>Equip <param-cost><sym>2W</sym></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
+	type: none
+apprentice_code: 

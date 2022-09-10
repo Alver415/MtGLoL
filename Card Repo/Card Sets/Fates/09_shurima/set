@@ -1,0 +1,419 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	title: Shurima
+	symbol: symbol2.mse-symbol
+	masterpiece symbol: 
+	automatic reminder text: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-08-03 17:53:16
+	time modified: 2020-10-04 19:41:51
+	name: The Great Sun Disk
+	casting cost: 2RW
+	image: image12
+	super type: <word-list-type>Legendary Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	rule text: At the beginning of combat on your turn, target creature you control gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Resolute Strike
+	time created: 2020-09-26 16:51:11
+	time modified: 2020-10-04 19:18:30
+	name: Flash of Steel
+	casting cost: RW
+	image: image4
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Search your library for an equipment card, put that card onto the battlefield attached to target creature you control, then shuffle your library. Exile that equipment at the end of the next combat step.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Zezhou Chen
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Garrison Sergeant
+	time created: 2020-09-26 17:08:21
+	time modified: 2020-10-04 18:23:58
+	name: Sergeant of Arms
+	casting cost: RRWW
+	image: image6
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: Whenever an Equipment enters the battlefield under your control, create a 1/1 colorless Sand creature token, then attach that equipment to it.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	illustrator: Gabor Szikszai
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Magnetic Theft 
+	time created: 2020-09-26 16:52:43
+	time modified: 2020-09-27 00:07:20
+	name: Ready for War
+	casting cost: 1R/W
+	image: image2
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		If <sym-auto>R</sym-auto> was spent to cast <atom-cardname><nospellcheck>Ready for War</nospellcheck></atom-cardname>, attach target aura or equipment you control to target creature you control.
+		If <sym-auto>W</sym-auto> was spent to cast <atom-cardname><nospellcheck>Ready for War</nospellcheck></atom-cardname>, target creature you control gains <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Dave Dorman
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Fencing Ace
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 18:23:41
+	name: Weapons Expert
+	casting cost: 2WW
+	image: image7
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: You may cast equipment spells and activate equip abilities any time you could cast an instant.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card code text: 
+	illustrator: David Rapoza
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Leonin Bola
+	time created: 2020-10-04 17:49:56
+	time modified: 2020-10-04 19:25:42
+	name: Singing Bola
+	casting cost: 1
+	image: image1
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: common
+	rule text:
+		Equipped creature has vigilance and “<sym-auto>T</sym-auto>, Unattach <atom-cardname><nospellcheck>Singing Bola</nospellcheck></atom-cardname>: Tap target creature.”
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Christopher Moeller
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-10-04 17:49:56
+	time modified: 2020-10-04 18:13:37
+	name: Staff of Office
+	casting cost: 3
+	image: image3
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		Whenever equipped creature attacks, create a 1/1 colorless Sand creature token that’s tapped and attacking.
+		Equipped creature gets +1/+1 for each Sand creature you control.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Auriok Edgewright
+	time created: 2020-10-04 17:49:56
+	time modified: 2020-10-04 18:21:36
+	name: Twin Forged Blades
+	casting cost: 2
+	image: image5
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule text:
+		Equipped creature gets -1/+1 and has double strike.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Mike Bierek
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Relentless Assault
+	time created: 2020-09-26 16:51:11
+	time modified: 2020-10-04 19:40:09
+	name: Second Wave
+	casting cost: 2RW
+	image: image10
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Greg Hildebrandt
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Helm of the Gods
+	time created: 2020-10-04 17:49:56
+	time modified: 2020-10-04 19:21:44
+	name: Helm of the Chosen
+	casting cost: 2
+	image: image8
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule text:
+		Equipped creature gets +2/+2 and can’t be dealt damage.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>4</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Anthony Palumbo
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 19:43:13
+	name: Shuriman Infantry
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <atom-cardname><nospellcheck>Shuriman Infantry</nospellcheck></atom-cardname> gets +1/+1 as long as it’s equipped.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	illustrator: David Rapoza
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 19:46:17
+	name: Desert Marauder
+	casting cost: 1R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <sym-auto>T</sym-auto>, Sacrifice an equipment attached to <atom-cardname><nospellcheck>Desert Marauder</nospellcheck></atom-cardname>: <atom-cardname><nospellcheck>Desert Marauder</nospellcheck></atom-cardname> deals damage equal to the sacrificed equipment’s converted mana cost to any target.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	illustrator: David Rapoza
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 19:56:11
+	name: Skallashi
+	casting cost: 3W
+	image: image15
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: common
+	rule text: <kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 4
+	card code text: 
+	illustrator: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: https://map.leagueoflegends.com/en_US
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 19:56:29
+	name: Great Dormun
+	casting cost: 4W
+	image: image13
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Beast</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Great Dormun</nospellcheck></atom-cardname> enters the battlefield, create two 1/1 colorless Sand creature tokens.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	card code text: 
+	illustrator: Riot Games
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Bazaar Trader 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 19:59:11
+	name: Frivolous Trader
+	casting cost: 2R
+	image: image9
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: When <atom-cardname><nospellcheck>Frivolous Trader</nospellcheck></atom-cardname> enters the battlefield, you may sacrifice an equipment you control. If you do, reveal cards from the top of your library until your reveal an equipment cart, put that card onto the battlefield, then put the revealed cards on the bottom of your library in a random order.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	illustrator: Matt Cavotta
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Bazaar Trader 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 20:12:58
+	name: Glory Hunter
+	casting cost: 5R
+	image: image11
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Glory Hunter</nospellcheck></atom-cardname> attacks, you may have it <kw-a><nospellcheck>fight</nospellcheck></kw-a> target creature an opponent controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	illustrator: Matt Cavotta
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Art: Bazaar Trader 
+	time created: 2020-09-27 00:51:08
+	time modified: 2020-10-04 20:06:18
+	name: Supply Line Marauder
+	casting cost: 2R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Supply Line Marauder</nospellcheck></atom-cardname> attacks, tap each land defending player controls.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	illustrator: Matt Cavotta
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 

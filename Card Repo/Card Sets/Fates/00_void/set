@@ -1,0 +1,459 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	title: The Void
+	symbol: symbol2.mse-symbol
+	masterpiece symbol: 
+	automatic reminder text: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced-sparker-exporter:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-keyword:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mined:
+		text box mana symbols: magic-mana-small-mined.mse-symbol-font
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-flip:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:17:54
+	time modified: 2020-08-07 18:36:25
+	name: Beast of Vol’Kah
+	casting cost: 4CCC
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <atom-cardname><nospellcheck>Beast of Vol’Kah</nospellcheck></atom-cardname> costs <sym-auto>C</sym-auto> less to cast for each Void creature you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 5
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-28 22:03:08
+	time modified: 2020-08-07 18:12:04
+	name: Heinous Voidling
+	casting cost: R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		Consume
+		<sym-auto>C</sym-auto>: <atom-cardname><nospellcheck>Heinous Voidling</nospellcheck></atom-cardname> gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-07 18:34:39
+	name: Scavanger Goliath
+	casting cost: 4C
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		Engage, consume
+		Whenever <atom-cardname><nospellcheck>Scavanger Goliath</nospellcheck></atom-cardname> consumes, you may put a +1/+1 counter on <atom-cardname><nospellcheck>Scavanger Goliath</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:20:10
+	time modified: 2020-09-26 17:56:03
+	name: Prohpet of the Void
+	casting cost: CCCC
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		When <atom-cardname><nospellcheck>Prohpet of the Void</nospellcheck></atom-cardname> enters the battlefield you may search your library for a Void card, exile that card, then shuffle your library.
+		<sym-auto>2C</sym-auto>, <sym-auto>T</sym-auto>: Put a card you own from exile into your hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 5
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:17:54
+	time modified: 2020-08-07 18:22:28
+	name: Ravenous Voidling
+	casting cost: G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		Consume
+		Whenever <atom-cardname><nospellcheck>Ravenous Voidling</nospellcheck></atom-cardname> consumes, reveal the top card of your library. If it’s a land card, put it onto the battlefield tapped. Otherwise, exile it and put a +1/+1 counter on <atom-cardname><nospellcheck>Ravenous Voidling</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 13:18:26
+	time modified: 2020-08-08 02:25:08
+	name: Infectious Critter
+	casting cost: 2C
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Drone</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Exile <atom-cardname><nospellcheck>Infectious Critter</nospellcheck></atom-cardname>: Put a -1/-1 counter on target creature and that creatures controller loses 2 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-28 22:24:35
+	time modified: 2020-08-08 02:11:50
+	name: Learned Imitator
+	casting cost: 2CC
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		Consume
+		<atom-cardname><nospellcheck>Learned Imitator</nospellcheck></atom-cardname> has all abilities of all cards exiled with it.
+		<sym-auto>U</sym-auto>, Return a card exiled with <atom-cardname><nospellcheck>Learned Imitator</nospellcheck></atom-cardname> to its owner’s hand. <atom-cardname><nospellcheck>Learned Imitator</nospellcheck></atom-cardname> gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-28 22:07:07
+	time modified: 2020-08-08 02:21:37
+	name: Abyssal Banisher
+	casting cost: 1C
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Priest</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: When <atom-cardname><nospellcheck>Abyssal Banisher</nospellcheck></atom-cardname> enters the battlefield you may pay <sym-auto>W</sym-auto>. If you do, then exile target creature until <atom-cardname><nospellcheck>Abyssal Banisher</nospellcheck></atom-cardname> leaves the battlefield.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-08 02:26:49
+	name: Ambassador to Icathia
+	casting cost: 3CCC
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text: You may cast Void cards you own from exile if you pay <sym-auto>CCC</sym-auto> more to cast them.
+	flavor text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 7
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-08 02:17:10
+	name: Hoarder of Mystics
+	casting cost: 2C
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>2GG</sym-auto>. If you do, exile target artifact or enchantment you don’t control for as long as you control <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname>. Then return each other card exiled with Mystics Hoarder to the battlefield under their owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-07 18:35:09
+	name: Abyssal Voidling
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: <kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, consume
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-07 18:35:07
+	name: Flickertrick Voidling
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: When <atom-cardname><nospellcheck>Flickertrick Voidling</nospellcheck></atom-cardname> enters the battlefield, exile another target creature you control then return that card to the battlefield tapped under its owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-08 02:20:27
+	name: Portal Voidling
+	casting cost: U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text: Whenever <atom-cardname><nospellcheck>Portal Voidling</nospellcheck></atom-cardname> enters the battlefield, look at the top 3 cards of your library. Exile up to one and put the rest on top of your library in any order.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-07 18:36:00
+	name: Sadistic Hurler
+	casting cost: 4C
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		Consume
+		<sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>, Exile a Void card from your hand: <atom-cardname><nospellcheck>Sadistic Hurler</nospellcheck></atom-cardname> deals 3 damage to any target.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-09-26 19:44:45
+	name: Pull From The Beyond
+	casting cost: 1C
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell>Void</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Choose target face-up exiled card. Until end of turn, you may cast that card and you may spend mana as though it were mana of any type to cast that spell.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2020-08-07 18:27:53
+	time modified: 2020-08-07 18:36:22
+	name: Feasts of the Fallen
+	casting cost: 1C
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text: Creatures have consume.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-09-26 17:55:18
+	name: Extricate
+	casting cost: 3CC
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell>Void</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Exile target permanent.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2020-08-08 02:42:39
+	name: Secret Portal
+	casting cost: C
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		The next creature card you cast this turn can be cast as though it had <kw-a><nospellcheck>flash</nospellcheck></kw-a>. If a creature spell is cast this way, that creature enters the battlefield phased out.
+		Draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-10-22 14:11:31
+	time modified: 2021-07-17 23:20:26
+	name: Extinguish
+	casting cost: CUU
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Exile target spell, activated ability, or triggered ability.
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 
