@@ -31,10 +31,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:17:54
-	time_modified: 2020-08-07 18:36:25
+	time_modified: 2022-09-12 16:29:07
 	name: Beast of Vol’Kah
 	casting_cost: 4CCC
-	image: 
+	image: image1
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -53,16 +53,16 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-28 22:03:08
-	time_modified: 2022-09-11 01:01:08
-	name: Heinous Voidling
+	time_modified: 2022-09-12 17:07:52
+	name: Rabid Voidling
 	casting_cost: R
-	image: 
+	image: image8
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule_text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Heinous Voidling</nospellcheck></atom-cardname> attacks, you may pay <sym-auto>C</sym-auto>. If you do, exile a card at random from your hand and the bottom card of your library. Until the end of your next turn, you may play those cards.
+		Whenever <atom-cardname><nospellcheck>Rabid Voidling</nospellcheck></atom-cardname> attacks, you may pay <sym-auto>C</sym-auto>. If you do, exile a card at random from your hand and the bottom card of your library. Until the end of your next turn, you may play those cards.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 1
@@ -77,10 +77,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2020-08-07 18:34:39
+	time_modified: 2022-09-12 16:29:41
 	name: Scavanger Goliath
 	casting_cost: 4C
-	image: 
+	image: image4
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule_text:
@@ -100,10 +100,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:20:10
-	time_modified: 2022-09-11 00:06:38
+	time_modified: 2022-09-12 17:17:02
 	name: Prophet of the Void
 	casting_cost: CCCC
-	image: 
+	image: image18
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -124,10 +124,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:17:54
-	time_modified: 2022-09-11 01:16:47
+	time_modified: 2022-09-12 16:35:19
 	name: Mycelial Voidling
 	casting_cost: G
-	image: 
+	image: image5
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Fungus</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule_text:
@@ -147,10 +147,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 13:18:26
-	time_modified: 2020-08-08 02:25:08
+	time_modified: 2022-09-12 17:12:19
 	name: Infectious Critter
 	casting_cost: 2C
-	image: 
+	image: image10
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Drone</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -169,10 +169,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-28 22:24:35
-	time_modified: 2020-08-08 02:11:50
+	time_modified: 2022-09-12 17:15:54
 	name: Learned Imitator
 	casting_cost: 2CC
-	image: 
+	image: image17
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -194,10 +194,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-28 22:07:07
-	time_modified: 2022-09-11 01:19:43
+	time_modified: 2022-09-12 17:08:36
 	name: Abyssal Banisher
 	casting_cost: 1C
-	image: 
+	image: image11
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Priest</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -216,10 +216,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 00:10:06
+	time_modified: 2022-09-12 16:29:27
 	name: Ambassador to Icathia
 	casting_cost: 3CCC
-	image: 
+	image: image2
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -238,14 +238,14 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2020-08-08 02:17:10
+	time_modified: 2022-09-12 17:11:51
 	name: Hoarder of Mystics
 	casting_cost: 2C
-	image: 
+	image: image15
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule_text: At the beginning of your upkeep you may pay <sym-auto>2GG</sym-auto>. If you do, exile target artifact or enchantment you don’t control for as long as you control <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname>. Then return each other card exiled with Mystics Hoarder to the battlefield under their owners control.
+	rule_text: At the beginning of your upkeep you may pay <sym-auto>1G</sym-auto>. If you do, exile target artifact or enchantment you don’t control for as long as you control <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname>. Then return each other card exiled with Mystics Hoarder to the battlefield under their owners control.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -260,10 +260,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 01:07:58
+	time_modified: 2022-09-12 17:02:02
 	name: Abyssal Voidling
 	casting_cost: B
-	image: 
+	image: image6
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -284,10 +284,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 01:10:55
+	time_modified: 2022-09-12 17:22:19
 	name: Flickertrick Voidling
 	casting_cost: W
-	image: 
+	image: image20
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -308,10 +308,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 01:18:12
+	time_modified: 2022-09-12 17:22:40
 	name: Evaporator Voidling
 	casting_cost: U
-	image: 
+	image: image21
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Elemental</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -332,10 +332,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2020-08-07 18:36:00
+	time_modified: 2022-09-12 17:17:29
 	name: Sadistic Hurler
 	casting_cost: 4C
-	image: 
+	image: image19
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
@@ -356,10 +356,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 00:05:38
+	time_modified: 2022-09-12 17:10:58
 	name: Pull From The Beyond
 	casting_cost: 1C
-	image: 
+	image: image14
 	super_type: <word-list-type>Tribal Instant</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -378,10 +378,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2020-08-07 18:27:53
-	time_modified: 2022-09-11 01:27:11
+	time_modified: 2022-09-12 17:09:07
 	name: Feasts of the Fallen
 	casting_cost: 1C
-	image: 
+	image: image12
 	super_type: <word-list-type>Enchantment</word-list-type>
 	sub_type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
@@ -398,32 +398,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2020-09-26 17:55:18
-	name: Extricate
-	casting_cost: 3CC
-	image: 
-	super_type: <word-list-type>Instant</word-list-type>
-	sub_type: <word-list-spell>Void</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
-	rarity: rare
-	rule_text: Exile target permanent.
-	flavor_text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
-	card_code_text: 
-	copyright: 
-	image_2: 
-	copyright_2: 
-	copyright_3: 
-	mainframe_image: 
-	mainframe_image_2: 
-card:
-	has_styling: false
-	notes: 
-	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-10 23:53:09
-	name: Secret Portal
+	time_modified: 2022-09-12 17:10:45
+	name: Enter from Nothing
 	casting_cost: C
-	image: 
+	image: image13
 	super_type: <word-list-type>Instant</word-list-type>
 	sub_type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -444,10 +422,10 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 01:51:32
-	name: Into the Hole
+	time_modified: 2022-09-12 17:13:03
+	name: True Nihility
 	casting_cost: CUU
-	image: 
+	image: image16
 	super_type: <word-list-type>Instant</word-list-type>
 	sub_type: <word-list-spell></word-list-spell>
 	rarity: uncommon
@@ -466,22 +444,47 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
+	notes: 
+	time_created: 2018-10-22 14:17:54
+	time_modified: 2022-09-12 12:03:27
+	name: Void Flux Oscillator
+	casting_cost: 2
+	image: image3
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule_text:
+		<sym-auto>C</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>CC</sym-auto>.
+		<sym-auto>2</sym-auto>: Add one mana of any color.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	illustrator: Midjourney
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
 	notes: Exile anything from anywhere.
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-11 02:09:39
-	name: Cease to Exist
-	casting_cost: C/WC/UC/BC/RC/G
-	image: 
-	super_type: <word-list-type>Instant</word-list-type>
-	sub_type: <word-list-spell></word-list-spell>
+	time_modified: 2022-09-12 17:44:40
+	name: Call of the Void
+	casting_cost: CCCCC
+	image: image9
+	super_type: <word-list-type>Tribal Instant</word-list-type>
+	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-spell></word-list-spell>
 	rarity: mythic rare
 	rule_text:
-		Choose any number —
-		<li><bullet>• </bullet>Exile target permanent.
-		</li><li><bullet>• </bullet>Exile target spell, activated ability, or triggered ability.
-		</li><li><bullet>• </bullet>Exile target card from a graveyard.
-		</li><li><bullet>• </bullet>Look at target players hand. Exile a card from it.
-		</li><li><bullet>• </bullet>Search target player’s library for a card and exile it.</li>
+		For each opponent, choose one —
+		<li><bullet>• </bullet>Exile target permanent that player controls.
+		</li><li><bullet>• </bullet>Exile target spell, activated ability, or triggered ability that player controls.
+		</li><li><bullet>• </bullet>Look at that players hand. You may exile a card from it.
+		</li><li><bullet>• </bullet>Search that player’s library for a card and exile it.
+		</li><li><bullet>• </bullet>Exile target card from that player’s graveyard.</li>
 	flavor_text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
