@@ -1,8 +1,8 @@
 ﻿mse_version: 2.0.2
 game: magic
 game_version: 2020-04-25
-stylesheet: m15
-stylesheet_version: 2018-02-09
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
 set_info:
 	title: The Void
 	symbol: symbol2.mse-symbol
@@ -14,6 +14,7 @@ styling:
 		overlay: 
 	magic-m15-altered:
 		frames: 
+		other_options: auto nyx crowns
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		level_mana_symbols: magic-mana-large.mse-symbol-font
 		overlay: 
@@ -36,17 +37,17 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:17:54
-	time_modified: 2022-09-12 16:29:07
-	name: Beast of Vol’Kah
-	casting_cost: 4CCC
+	time_modified: 2022-09-16 01:42:06
+	name: Goliath of Vol’Kah
+	casting_cost: 4CCCC
 	image: image1
 	super_type: <word-list-type>Creature</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Beast</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
-	rule_text: <atom-cardname><nospellcheck>Beast of Vol’Kah</nospellcheck></atom-cardname> costs <sym-auto>C</sym-auto> less to cast for each Void creature you control.
+	rule_text: <atom-cardname><nospellcheck>Goliath of Vol’Kah</nospellcheck></atom-cardname> costs <sym-auto>C</sym-auto> less to cast for each Void creature you control.
 	flavor_text: <i-flavor></i-flavor>
-	power: 6
-	toughness: 5
+	power: 7
+	toughness: 6
 	card_code_text: 
 	copyright: 
 	image_2: 
@@ -58,18 +59,18 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-28 22:03:08
-	time_modified: 2022-09-15 16:12:54
+	time_modified: 2022-09-16 01:30:20
 	name: Rabid Voidling
-	casting_cost: R
+	casting_cost: C/RC/R
 	image: image8
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule_text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Rabid Voidling</nospellcheck></atom-cardname> attacks, you may pay <sym-auto>C</sym-auto>. If you do, exile a card at random from your hand and the bottom card of your library. Until the end of your next turn, you may play those cards.
+		Whenever <atom-cardname><nospellcheck>Rabid Voidling</nospellcheck></atom-cardname> attacks, you may exile a card at random from your hand and the top card of your library. Until the end of your next turn, you may play those cards.
 	flavor_text: <i-flavor></i-flavor>
-	power: 1
+	power: 2
 	toughness: 1
 	card_code_text: 
 	copyright: 
@@ -82,17 +83,17 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 16:29:41
-	name: Scavanger Goliath
-	casting_cost: 4C
+	time_modified: 2022-09-16 01:41:54
+	name: Hunter Behemoth
+	casting_cost: 3C
 	image: image4
 	super_type: <word-list-type>Creature</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Beast</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule_text:
-		Engage, consume
-		Whenever <atom-cardname><nospellcheck>Scavanger Goliath</nospellcheck></atom-cardname> consumes, you may put a +1/+1 counter on <atom-cardname><nospellcheck>Scavanger Goliath</nospellcheck></atom-cardname>.
+		Engage
+		Whenever a creature dealt damage by <atom-cardname><nospellcheck>Hunter Behemoth</nospellcheck></atom-cardname> dies this turn, exile that creature and put a +1/+1 counter on <atom-cardname><nospellcheck>Hunter Behemoth</nospellcheck></atom-cardname>. 
 	flavor_text: <i-flavor></i-flavor>
-	power: 4
+	power: 2
 	toughness: 3
 	card_code_text: 
 	copyright: 
@@ -105,7 +106,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:20:10
-	time_modified: 2022-09-15 15:26:55
+	time_modified: 2022-09-16 00:05:02
 	name: Prophet of the Void
 	casting_cost: CCCC
 	image: image10
@@ -114,7 +115,7 @@ card:
 	rarity: rare
 	rule_text:
 		When <atom-cardname><nospellcheck>Prophet of the Void</nospellcheck></atom-cardname> enters the battlefield you may search your library for a Void card, exile that card, then shuffle.
-		<sym-auto>2C</sym-auto>, <sym-auto>T</sym-auto>: Put target card you own from exile into your hand.
+		<sym-auto>1C</sym-auto>, <sym-auto>T</sym-auto>: Put target card you own from exile into your hand.
 	flavor_text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 5
@@ -129,18 +130,18 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:17:54
-	time_modified: 2022-09-12 16:35:19
+	time_modified: 2022-09-16 01:33:28
 	name: Mycelial Voidling
-	casting_cost: G
+	casting_cost: C/GC/G
 	image: image5
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Fungus</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule_text:
 		<kw-a><nospellcheck>Hexproof</nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>Mycelial Voidling</nospellcheck></atom-cardname> dies, you may pay <sym-auto>C</sym-auto>. If you do, put target land you own from exile onto the battlefield under your control.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>CC</sym-auto>.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
-	toughness: 1
+	toughness: 2
 	card_code_text: 
 	copyright: 
 	image_2: 
@@ -152,7 +153,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 13:18:26
-	time_modified: 2022-09-15 16:04:51
+	time_modified: 2022-09-16 01:37:59
 	name: Haunt of Kal’Voh
 	casting_cost: 2C/B
 	image: image6
@@ -161,10 +162,10 @@ card:
 	rarity: uncommon
 	rule_text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Pay 1 life: Put a -1/-1 counter on target creature. If that creature would die this turn, exile it instead.
+		<sym-auto>1B</sym-auto>, <sym-auto>T</sym-auto>, Pay 1 life: Put a -1/-1 counter on target creature. If that creature would die this turn, exile it instead.
 	flavor_text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 2
+	power: 2
+	toughness: 3
 	card_code_text: 
 	copyright: 
 	image_2: 
@@ -176,9 +177,9 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-28 22:24:35
-	time_modified: 2022-09-15 15:52:17
+	time_modified: 2022-09-16 01:37:48
 	name: Inquisitive Imitator
-	casting_cost: 2C/UC/U
+	casting_cost: 2C/U
 	image: image17
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Shapeshifter</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -186,28 +187,6 @@ card:
 	rule_text: <sym-auto>1U</sym-auto>: <atom-cardname><nospellcheck>Inquisitive Imitator</nospellcheck></atom-cardname> becomes a copy of target face-up creature card an opponent owns in exile except it’s a Void in addition to its other types and it has this ability.
 	flavor_text: <i-flavor></i-flavor>
 	power: 3
-	toughness: 4
-	card_code_text: 
-	copyright: 
-	image_2: 
-	copyright_2: 
-	copyright_3: 
-	mainframe_image: 
-	mainframe_image_2: 
-card:
-	has_styling: false
-	notes: 
-	time_created: 2018-10-28 22:07:07
-	time_modified: 2022-09-15 16:07:56
-	name: Abyssal Banisher
-	casting_cost: 1C/W
-	image: image22
-	super_type: <word-list-type>Creature</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Priest</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule_text: When <atom-cardname><nospellcheck>Abyssal Banisher</nospellcheck></atom-cardname> enters the battlefield you may pay <sym-auto>W</sym-auto>. If you do, exile another target creature until <atom-cardname><nospellcheck>Abyssal Banisher</nospellcheck></atom-cardname> leaves the battlefield.
-	flavor_text: <i-flavor></i-flavor>
-	power: 1
 	toughness: 2
 	card_code_text: 
 	copyright: 
@@ -219,15 +198,39 @@ card:
 card:
 	has_styling: false
 	notes: 
+	time_created: 2018-10-28 22:07:07
+	time_modified: 2022-09-16 01:38:12
+	name: Soul Salvager
+	casting_cost: 2C/W
+	image: image22
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Priest</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: <sym-auto>1W</sym-auto>: Exile target creature card from a graveyard. You gain life equal to that card’s mana value.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 16:29:27
+	time_modified: 2022-09-15 23:54:45
 	name: Ambassador to Icathia
 	casting_cost: 3CCC
 	image: image2
 	super_type: <word-list-type>Creature</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule_text: You may cast Void spells from exile if you pay <sym-auto>CCC</sym-auto> more to cast them.
+	rule_text:
+		Void spells you cast have <kw-a><nospellcheck>convoke</nospellcheck></kw-a>.
+		You may cast Void spells from exile if you pay <sym-auto>CCC</sym-auto> more to cast them.
 	flavor_text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 7
@@ -242,14 +245,14 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-15 16:00:39
+	time_modified: 2022-09-16 01:37:55
 	name: Hoarder of Mystics
-	casting_cost: 1C/GC/G
+	casting_cost: 2C/G
 	image: image15
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule_text: At the beginning of your upkeep you may pay <sym-auto>1G</sym-auto>. If you do, exile target artifact or enchantment you don’t control for as long as you control <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname>. Then return each other card exiled with <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname> to the battlefield under their owners control.
+	rule_text: At the beginning of your upkeep you may pay <sym-auto>1G</sym-auto>. If you do, exile target artifact or enchantment for as long as you control <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname>. Then return each other card exiled with <atom-cardname><nospellcheck>Hoarder of Mystics</nospellcheck></atom-cardname> to the battlefield under their owners control.
 	flavor_text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -266,19 +269,19 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-15 16:11:03
+	time_modified: 2022-09-16 01:29:57
 	card_color: black
-	name: Abyssal Voidling
-	casting_cost: B
+	name: Menacing Voidling
+	casting_cost: C/BC/B
 	image: image11
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule_text:
-		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>Abyssal Voidling</nospellcheck></atom-cardname> enters the battlefield, you may pay <sym-auto>C</sym-auto>. If you do, target player exiles a card from their hand.
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		Sacrifice <atom-cardname><nospellcheck>Menacing Voidling</nospellcheck></atom-cardname>: Target player exiles a card from their hand.
 	flavor_text: <i-flavor></i-flavor>
-	power: 1
+	power: 2
 	toughness: 1
 	card_code_text: 
 	copyright: 
@@ -291,16 +294,16 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 17:22:19
+	time_modified: 2022-09-16 01:36:40
 	name: Flickertrick Voidling
-	casting_cost: W
+	casting_cost: C/WC/W
 	image: image20
 	super_type: <word-list-type>Creature</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule_text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		<sym-auto>C</sym-auto>, Exile <atom-cardname><nospellcheck>Flickertrick Voidling</nospellcheck></atom-cardname>: Exile target creature you control, then return it to the battlefield tapped at the beginning of the next end step.
+		Sacrifice <atom-cardname><nospellcheck>Flickertrick Voidling</nospellcheck></atom-cardname>: Exile target creature, then return it to the battlefield at the beginning of the next end step.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 2
@@ -315,19 +318,19 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 17:22:40
+	time_modified: 2022-09-16 01:23:20
 	name: Evaporator Voidling
-	casting_cost: U
+	casting_cost: C/UC/U
 	image: image21
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Elemental</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule_text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<sym-auto>C</sym-auto>, <sym-auto>T</sym-auto>: Exile the bottom card of target player’s library. If that card’s mana value is equal to the number of cards in your hand, draw a card.
+		Whenever <atom-cardname><nospellcheck>Evaporator Voidling</nospellcheck></atom-cardname> deals combat damage to an opponent, exile the top card of that player’s library. If an instant or sorcery card was exiled this way, draw a card.
 	flavor_text: <i-flavor></i-flavor>
 	power: 1
-	toughness: 1
+	toughness: 2
 	card_code_text: 
 	copyright: 
 	image_2: 
@@ -339,16 +342,14 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-15 16:06:42
+	time_modified: 2022-09-16 01:38:34
 	name: Bolt Hurler
-	casting_cost: 2C/RC/R
+	casting_cost: 3C/R
 	image: image18
 	super_type: <word-list-type>Creature</word-list-type>
 	sub_type: <word-list-race>Void</word-list-race> <word-list-class>Hound</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule_text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Bolt Hurler</nospellcheck></atom-cardname> attacks, you may pay <sym-auto>1R</sym-auto> and exile a card from your han. If you do, <atom-cardname><nospellcheck>Bolt Hurler</nospellcheck></atom-cardname> deals 3 damage to any target.
+	rule_text: Whenever <atom-cardname><nospellcheck>Bolt Hurler</nospellcheck></atom-cardname> attacks, you may pay <sym-auto>1C/R</sym-auto> and exile a card from your hand. If you do, <atom-cardname><nospellcheck>Bolt Hurler</nospellcheck></atom-cardname> deals 3 damage to any target.
 	flavor_text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 3
@@ -363,14 +364,14 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 17:10:58
+	time_modified: 2022-09-16 01:17:38
 	name: Pull From The Beyond
-	casting_cost: 1C
+	casting_cost: CC
 	image: image14
-	super_type: <word-list-type>Tribal Instant</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-spell></word-list-spell>
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
 	rarity: uncommon
-	rule_text: Choose a face-up exiled card. Until end of turn, you may cast that card and you may spend mana as though it were mana of any type to cast that spell.
+	rule_text: Choose a face-up exiled card. Until end of turn, you may cast that card and you may spend colorless mana as though it were mana of any type to cast that spell.
 	flavor_text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -383,16 +384,20 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
-	notes: 
+	notes: These effects should be less normal and more weird/voidy
 	time_created: 2020-08-07 18:27:53
-	time_modified: 2022-09-12 17:09:07
-	name: Feasts of the Fallen
+	time_modified: 2022-09-16 01:35:23
+	name: Feast of the Fallen
 	casting_cost: 1C
 	image: image12
 	super_type: <word-list-type>Enchantment</word-list-type>
 	sub_type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
-	rule_text: If a creature dealt damage by a Void source this turn would die, exile it instead. If you do, you gain 1 life.
+	rule_text:
+		<sym-auto>C</sym-auto>: Exile target creature card from a graveyard. If you do, choose one —
+		<li><bullet>• </bullet>You gain 3 life.
+		</li><li><bullet>• </bullet><kw-a><nospellcheck>Scry <param-number>2</param-number></nospellcheck></kw-a>.
+		</li><li><bullet>• </bullet>Spawn a 1/1 colorless Void.</li>
 	flavor_text: <i-flavor></i-flavor>
 	card_code_text: 
 	copyright: 
@@ -405,9 +410,9 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 17:13:03
-	name: True Nihility
-	casting_cost: CUU
+	time_modified: 2022-09-16 00:12:33
+	name: Never Real
+	casting_cost: CC/UU
 	image: image16
 	super_type: <word-list-type>Instant</word-list-type>
 	sub_type: <word-list-spell></word-list-spell>
@@ -454,15 +459,15 @@ card:
 	has_styling: false
 	notes: Exile anything from anywhere.
 	time_created: 2018-10-22 14:11:31
-	time_modified: 2022-09-12 17:44:40
-	name: Call of the Void
-	casting_cost: CCCCC
+	time_modified: 2022-09-16 00:45:12
+	name: Unreal Ultimatum
+	casting_cost: CCCCCCC
 	image: image9
-	super_type: <word-list-type>Tribal Instant</word-list-type>
-	sub_type: <word-list-race>Void</word-list-race><soft> </soft><word-list-spell></word-list-spell>
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
 	rarity: mythic rare
 	rule_text:
-		For each opponent, choose one —
+		For each opponent, choose any number—
 		<li><bullet>• </bullet>Exile target permanent that player controls.
 		</li><li><bullet>• </bullet>Exile target spell, activated ability, or triggered ability that player controls.
 		</li><li><bullet>• </bullet>Look at that players hand. You may exile a card from it.

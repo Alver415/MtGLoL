@@ -1,14 +1,20 @@
-﻿mse version: 0.3.8
+﻿mse_version: 2.0.2
 game: magic
-stylesheet: m15
-set info:
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
 	title: Targon
 	symbol: symbol2.mse-symbol
-	masterpiece symbol: 
-	automatic reminder text: 
+	masterpiece_symbol: 
+	automatic_reminder_text: 
 styling:
 	magic-m15:
-		text box mana symbols: magic-mana-small.mse-symbol-font
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
 		overlay: 
 	magic-m15-doublefaced-sparker-exporter:
 		text box mana symbols: magic-mana-small.mse-symbol-font
@@ -26,154 +32,154 @@ styling:
 		text box mana symbols: magic-mana-small.mse-symbol-font
 		overlay: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-08-03 17:41:46
-	time modified: 2020-09-26 21:01:13
+	time_created: 2020-08-03 17:41:46
+	time_modified: 2020-09-26 21:01:13
 	name: Gift of Promise
-	casting cost: W
+	casting_cost: W
 	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text:
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rule_text:
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
 		Whenever enchanted creature deals combat damage, put a +1/+1 counter on it.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-08-03 17:41:46
-	time modified: 2020-10-04 17:12:30
+	time_created: 2020-08-03 17:41:46
+	time_modified: 2020-10-04 17:12:30
 	name: Dire Consequences
-	casting cost: 1B
+	casting_cost: 1B
 	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text:
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rule_text:
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
 		Whenever enchanted creatures controller is dealt combat damage, destroy it.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-09-26 16:01:10
-	time modified: 2020-09-26 16:16:35
-	name: Selection of the Strong
-	casting cost: 2WB
+	time_created: 2020-09-26 16:01:10
+	time_modified: 2022-09-16 01:49:32
+	name: Select the Strongest
+	casting_cost: 2WB
 	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
 	rarity: uncommon
-	rule text: Each player chooses a creature they control, then sacrifices the rest.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	rule_text: Each player chooses a creature they control, then sacrifices the rest.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-09-26 17:08:21
-	time modified: 2020-09-26 17:12:30
+	time_created: 2020-09-26 17:08:21
+	time_modified: 2022-09-16 01:53:44
 	name: Prophet of Constellations
-	casting cost: WWBB
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	casting_cost: WWBB
+	image: image4
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: If a creature you control dealing combat damage causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
-	flavor text: <i-flavor></i-flavor>
+	rule_text: If a creature you control dealing combat damage causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+	flavor_text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
-	card code text: 
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: Art: Rise to Glory
-	time created: 2020-09-26 16:52:43
-	time modified: 2020-10-04 17:43:32
+	time_created: 2020-09-26 16:52:43
+	time_modified: 2020-10-04 17:43:32
 	name: Shining Light
-	casting cost: 1W/B
+	casting_cost: 1W/B
 	image: image1
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
 	rarity: uncommon
-	rule text:
+	rule_text:
 		If <sym-auto>W</sym-auto> was spent to cast <atom-cardname><nospellcheck>Shining Light</nospellcheck></atom-cardname>, until end of turn, target creature you control can’t be blocked by more than one creature.
 		If <sym-auto>B</sym-auto> was spent to cast <atom-cardname><nospellcheck>Shining Light</nospellcheck></atom-cardname>, target creature gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	illustrator: Howard Lyon
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-09-27 01:44:54
-	time modified: 2020-09-27 01:56:25
-	name: Proximity of the Peak
-	casting cost: WB
+	time_created: 2020-09-27 01:44:54
+	time_modified: 2022-09-16 01:48:08
+	name: Celestial Favor
+	casting_cost: WB
 	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text:
+	super_type: <word-list-type>Sorcery</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text:
 		Creatures you control get +1/+1 until end of turn.
 		Creatures your opponents control get -1/-1 until end of turn.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
 card:
-	has styling: false
+	has_styling: false
 	notes: 
-	time created: 2020-10-04 17:27:25
-	time modified: 2020-10-04 17:41:37
+	time_created: 2020-10-04 17:27:25
+	time_modified: 2020-10-04 17:41:37
 	name: Moonsilver Crescent
-	casting cost: 2
+	casting_cost: 2
 	image: image3
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rule text:
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule_text:
 		Equipped creature gets +2/+1.
 		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
 	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-version control:
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+version_control:
 	type: none
-apprentice code: 
+apprentice_code: 
