@@ -43,7 +43,7 @@ card:
 	has_styling: false
 	notes: Design inspired by Elbrus, the Binding Blade
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-06-04 15:50:41
+	time_modified: 2022-11-27 12:03:17
 	card_color: black, artifact, horizontal
 	name: The Darkin Blade
 	casting_cost: 2BB
@@ -165,7 +165,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<i>Arise</i> — At the beginning of each combat, spawn X 1/1 red and white Sand Soldiers with <kw-a><nospellcheck>haste</nospellcheck></kw-a>, where X is <atom-legname><nospellcheck>Azir</nospellcheck></atom-legname>’s power. Exile those tokens at end of combat.
-	flavor_text: <i-flavor>With his buried city risen from the sand, <error-spelling:en_US>Azir</error-spelling:en_US> seeks to restore <error-spelling:en_US>Shurima</error-spelling:en_US> to its former glory.</i-flavor>
+	flavor_text: <i-flavor>With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory.</i-flavor>
 	power: 4
 	toughness: 3
 	card_code_text: 
@@ -191,7 +191,7 @@ card:
 		Whenever you cast an artifact spell, put a charge counter on <atom-cardname><nospellcheck>Blitzcrank, the Great Steam Golem</nospellcheck></atom-cardname>.
 		<atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname> gets +1/+1 for each charge counter on it.
 		Static Field — <sym-auto>XUR</sym-auto>, <sym-auto>T</sym-auto>, Remove X charge counters from <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname>: Counter each spell, activated ability, and triggered ability. For each spell and ability countered this way, <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname> deals X damage to that spell or ability’s controller.
-	flavor_text: <i-flavor>A behemoth of burnished metal, steam, and crackling electricity, <error-spelling:en_US>Blitzcrank</error-spelling:en_US> walks the streets of <error-spelling:en_US>Zaun</error-spelling:en_US> in a tireless effort to improve the <error-spelling:en_US>undercity</error-spelling:en_US> and give aid to those in need.</i-flavor>
+	flavor_text: <i-flavor>A behemoth of burnished metal, steam, and crackling electricity, Blitzcrank walks the streets of Zaun in a tireless effort to improve the undercity and give aid to those in need.</i-flavor>
 	power: 2
 	toughness: 3
 	card_code_text: 
@@ -265,7 +265,7 @@ card:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<i>Hextech Munitions — </i>Damage dealt by <atom-cardname><nospellcheck>Corki, the Daring Bombardier</nospellcheck></atom-cardname> can’t be prevented.
 		<i>Missile Barrage</i> — Whenever you cast an artifact spell, <atom-legname><nospellcheck>Corki</nospellcheck></atom-legname> deals 1 damage to any target. If this is the third time this ability has resolved this turn, he deals 3 damage instead.
-	flavor_text: <i-flavor>“That just goes to show you you’re <error-spelling:en_US>nothin’</error-spelling:en_US> but a Whiskey Delta!”</i-flavor>
+	flavor_text: <i-flavor>“That just goes to show you you’re nothin’ but a Whiskey Delta!”</i-flavor>
 	power: 1
 	toughness: 1
 	card_code_text: 
@@ -457,7 +457,7 @@ card:
 		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
 		<i>Duelist’s Dance</i> — At the beginning of each combat on your turn, choose an opponent at random that hasn’t been chosen this turn. Whenever <atom-cardname><nospellcheck>Fiora, the Grand Duelist</nospellcheck></atom-cardname> deals combat damage to that player this combat phases, untap her. After this phase, there is an additional combat phase.
 		<i>Riposte</i> — <sym-auto>W</sym-auto>: Counter each spell and ability that targets <atom-legname><nospellcheck>Fiora</nospellcheck></atom-legname>. Activate only once each turn.
-	flavor_text: <i-flavor>The most feared duelist in all <error-spelling:en_US>Valoran</error-spelling:en_US>, <error-spelling:en_US>Fiora</error-spelling:en_US> is as renowned for her brusque manner and political cunning as she is for the speed of her rapier. </i-flavor>
+	flavor_text: <i-flavor>The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and political cunning as she is for the speed of her rapier. </i-flavor>
 	power: 3
 	toughness: 2
 	card_code_text: 
@@ -535,7 +535,7 @@ card:
 	rule_text:
 		<i>Parrrley</i> — <sym-auto>2R</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Gangplank, the Saltwater Scourge</nospellcheck></atom-cardname> deals damage equal to his power to target creature. When that creature dies this turn, create a <kw-a><nospellcheck>Treasure toke<param-*s>n</param-*s></nospellcheck></kw-a>.
 		<i>Cannon Barrage</i> — <sym-auto>4RWB</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice five <kw-a><nospellcheck>Treasure toke<param-*s>ns</param-*s></nospellcheck></kw-a>: You get an emblem with “At the beginning of each upkeep, this deals 1 damage to each permanent your opponents control and each opponent.”
-	flavor_text: <i-flavor>Gangplank would see <error-spelling:en_US>Bilgewater</error-spelling:en_US> bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost.</i-flavor>
+	flavor_text: <i-flavor>Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost.</i-flavor>
 	power: 1
 	toughness: 2
 	card_code_text: 
@@ -561,7 +561,7 @@ card:
 		Armor, magic resistance
 		<i>Perseverance</i> — At the beginning of each end step, if you didn’t lose life this turn, you gain 1 life.
 		<i>Decisive Strike</i> — Whenever <atom-cardname><nospellcheck>Garen, The Might of Demacia</nospellcheck></atom-cardname> attacks, you may silence target creature defending player controls until your next turn.
-	flavor_text: <i-flavor>“My heart and sword always for <error-spelling:en_US>Demacia</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“My heart and sword always for Demacia.”</i-flavor>
 	watermark: none
 	power: 5
 	toughness: 5
@@ -598,7 +598,7 @@ card:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
 		<i>Rage Gene</i> — Whenever <atom-cardname><nospellcheck>Gnar, the Missing Link</nospellcheck></atom-cardname> deals damage, put a rage counter on it. Then if it has three or more rage counters on it, transform it.
 		<i>Boomerang Throw</i> — <sym-auto>RG</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Gnar</nospellcheck></atom-legname> deals 1 damage to target creature an opponent controls. If that creature has <kw-a><nospellcheck>flying</nospellcheck></kw-a>, it deals 2 damage instead.
-	flavor_text: <i-flavor>Delighted by danger, <error-spelling:en_US>Gnar</error-spelling:en_US> flings whatever he can at his enemies, be it his <error-spelling:en_US>bonetooth</error-spelling:en_US> boomerang...</i-flavor>
+	flavor_text: <i-flavor>Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang...</i-flavor>
 	power: 2
 	toughness: 1
 	card_code_text: 
@@ -663,7 +663,7 @@ card:
 	rule_text:
 		<sym-auto>2</sym-auto>: Put a bounty counter on another target permanent. Any player may activate this ability, but only once each turn and only as a sorcery.
 		Whenever a permanent with a bounty counter on it leaves the battlefield, create two <kw-a><nospellcheck>Gold toke<param-*s>ns</param-*s></nospellcheck></kw-a> and draw a card.
-	flavor_text: <i-flavor>“Dead man <error-spelling:en_US>walkin’</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“Dead man walkin’.”</i-flavor>
 	power: 3
 	toughness: 3
 	card_code_text: 
@@ -765,7 +765,7 @@ card:
 		<i>Prophet of an Elder God</i> — At the beginning of each upkeep, spawn a 0/0 blue Tentacle with <kw-a><nospellcheck>defender</nospellcheck></kw-a>.
 		Krakens, Leviathans, Octopuses, Serpents, and Tentacles you control get +1/+1.
 		<i>Leap of Faith</i> — <sym-auto>4GGG</sym-auto>, <sym-auto>T</sym-auto>: Until end of turn, Tentacles you control get +2/+2, gain <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>, and lose <kw-a><nospellcheck>defender</nospellcheck></kw-a>.
-	flavor_text: <i-flavor>All who challenge the ‘Truth Bearer of <error-spelling:en_US>Nagakabouros’</error-spelling:en_US> soon discover <error-spelling:en_US>Illaoi</error-spelling:en_US> never battles alone - the god of the Serpent Isles fights by her side.</i-flavor>
+	flavor_text: <i-flavor>All who challenge the ‘Truth Bearer of Nagakabouros’ soon discover Illaoi never battles alone - the god of the Serpent Isles fights by her side.</i-flavor>
 	power: 4
 	toughness: 4
 	card_code_text: 
@@ -790,7 +790,7 @@ card:
 	rule_text:
 		<i>Friend of the Forest</i> — Non-Human creatures you control have armor and <kw-a><nospellcheck>hexproo<param-name>f</param-name> from <param-name>spells and abilities with <sym-auto>U</sym-auto>, <sym-auto>B</sym-auto>, and/or <sym>R</sym> in their costs</param-name></nospellcheck></kw-a>.
 		<i>Daisy</i> — When <atom-cardname><nospellcheck>Ivern, the Green Father</nospellcheck></atom-cardname> enters the battlefield and at the beginning of your upkeep, if you don’t control a creature named Daisy, you may spawn Daisy, a legendary 4/5 colorless Golem with <kw-a><nospellcheck>trample</nospellcheck></kw-a>.
-	flavor_text: <i-flavor>“I am never lost in the wilderness... <error-spelling:en_US>hehe</error-spelling:en_US>, only in conversations.”</i-flavor>
+	flavor_text: <i-flavor>“I am never lost in the wilderness... hehe, only in conversations.”</i-flavor>
 	power: 2
 	toughness: 3
 	card_code_text: 
@@ -839,7 +839,7 @@ card:
 	rule_text:
 		When Jarvan </sym>IV<sym>, the Exemplar of Demacia enters the battlefield, you <kw-a><nospellcheck>become the monarch</nospellcheck></kw-a>.
 		<i>Demacian Standard</i> — As long as you’re the monarch, creatures you control get +2/+2.
-	flavor_text: <i-flavor>An exceptional warrior in his own right, <error-spelling:en_US>Jarvan</error-spelling:en_US> also inspires his troops with fearsome courage and selfless determination.</i-flavor>
+	flavor_text: <i-flavor>An exceptional warrior in his own right, Jarvan also inspires his troops with fearsome courage and selfless determination.</i-flavor>
 	power: 3
 	toughness: 3
 	card_code_text: 
@@ -959,7 +959,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Protection from <param-name>Void and from colorless</param-name></nospellcheck></kw-a>
 		<i>Force Pulse</i> — Whenever a player casts a spell, if it’s not their turn, put a +1/+1 counter on <atom-cardname><nospellcheck>Kassadin, the Void Walker</nospellcheck></atom-cardname>.
-	flavor_text: <i-flavor>Disguised in the robes of a pilgrim, more than a decade since he had last set foot anywhere near that desolate land, <error-spelling:en_US>Kassadin</error-spelling:en_US> made his way into <error-spelling:en_US>Icathia</error-spelling:en_US>. He would go where no man was ever meant to walk.</i-flavor>
+	flavor_text: <i-flavor>Disguised in the robes of a pilgrim, more than a decade since he had last set foot anywhere near that desolate land, Kassadin made his way into Icathia. He would go where no man was ever meant to walk.</i-flavor>
 	power: 2
 	toughness: 2
 	card_code_text: 
@@ -981,7 +981,7 @@ card:
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Slayer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text: <i>Death Lotus </i>— When <atom-cardname><nospellcheck>Katarina, the Sinister Blade</nospellcheck></atom-cardname> enters the battlefield, she deals 1 damage to each other creature and each other player. Whenever a creature dealt damage by <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> dies this turn, you may repeat this process.
-	flavor_text: <i-flavor>Her fiery ambition has driven her to pursue heavily guarded targets, even at the risk of endangering her allies—but no matter the mission, <error-spelling:en_US>Katarina</error-spelling:en_US> will not hesitate to execute her duty amid a whirlwind of serrated daggers.</i-flavor>
+	flavor_text: <i-flavor>Her fiery ambition has driven her to pursue heavily guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.</i-flavor>
 	power: 3
 	toughness: 3
 	card_code_text: 
@@ -1300,7 +1300,7 @@ card:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>
 		<i>Siphoning Strike</i> — Whenever a creature dealt damage by <atom-cardname><nospellcheck>Nasus, the Curator of the Sands</nospellcheck></atom-cardname> dies this turn, put a +1/+1 counter on <atom-legname><nospellcheck>Nasus</nospellcheck></atom-legname>.
 		<i><kw-a><nospellcheck>Wither</i></nospellcheck></kw-a> — <sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Target creature gets -2/-0 and loses <kw-a><nospellcheck>haste</nospellcheck></kw-a>, <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, and <kw-a><nospellcheck>double strike</nospellcheck></kw-a> end of turn. That creature blocks this turn if able.
-	flavor_text: <i-flavor>Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of <error-spelling:en_US>Shurima</error-spelling:en_US> to greatness for many centuries. </i-flavor>
+	flavor_text: <i-flavor>Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of Shurima to greatness for many centuries. </i-flavor>
 	power: 3
 	toughness: 4
 	card_code_text: 
@@ -1324,7 +1324,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Changeling</nospellcheck></kw-a>
 		<i>Inherent Glamour</i> — At the beginning of your upkeep, until your next turn, you may have <atom-cardname><nospellcheck>Neeko, the Curious Chameleon</nospellcheck></atom-cardname> become a copy of another target creature you control, except she’s </sym>2/2<sym>, her name is <atom-cardname><nospellcheck>Neeko, the Curious Chameleon</nospellcheck></atom-cardname>, and she has <kw-a><nospellcheck>changeling</nospellcheck></kw-a>.
-	flavor_text: <i-flavor>“No one suspects <error-spelling:en_US>Neeko</error-spelling:en_US> to not be <error-spelling:en_US>Neeko</error-spelling:en_US> and to be not <error-spelling:en_US>Neeko</error-spelling:en_US> instead.”</i-flavor>
+	flavor_text: <i-flavor>“No one suspects Neeko to not be Neeko and to be not Neeko instead.”</i-flavor>
 	power: 2
 	toughness: 2
 	card_code_text: 
@@ -1594,7 +1594,7 @@ card:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>, armor
 		<i>Frenzying Taunt</i> — All creatures able to block <atom-cardname><nospellcheck>Rammus, the Armordillo</nospellcheck></atom-cardname> do so.
 		<i>Defensive Ball Curl</i> — Whenever a creature deals combat damage to <atom-legname><nospellcheck>Rammus</nospellcheck></atom-legname>, that creature deals 1 damage to itself and its controller.
-	flavor_text: <i-flavor>“<error-spelling:en_US>Ok</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“Ok.”</i-flavor>
 	power: 2
 	toughness: 6
 	card_code_text: 
@@ -1644,7 +1644,7 @@ card:
 		<i>Junkyard Titan</i> — If an artifact card would be put into your graveyard from anywhere, you may exile it. If you do and it’s an Equipment card, return it to the battlefield attached to <atom-cardname><nospellcheck>Rumble, the Mechanized Menace</nospellcheck></atom-cardname>.
 		<atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has all activated abilities of artifacts exiled with him.
 		<i>Flamespitter</i> — <sym-auto>2RR</sym-auto>, Discard or sacrifice an artifact card: <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> gets +2/+0 until end of turn.
-	flavor_text: <i-flavor>“Time for a <error-spelling:en_US>Bandle</error-spelling:en_US> City <error-spelling:en_US>beatdown</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“Time for a Bandle City beatdown.”</i-flavor>
 	power: 1
 	toughness: 2
 	card_code_text: 
@@ -1771,7 +1771,7 @@ card:
 		<i>Stand United</i> — When you cast <atom-cardname><nospellcheck>Shen, the Eye of Twilight</nospellcheck></atom-cardname>, put a shield counter on up to one target creature you control.
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>, armor, magic resistance
 		<i>Spirit’s Refuge</i> — Prevent all combat damage dealt by creatures blocked by <atom-legname><nospellcheck>Shen</nospellcheck></atom-legname>.
-	flavor_text: <i-flavor>“A demonstration of superior <error-spelling:en_US>judgement</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“A demonstration of superior judgement.”</i-flavor>
 	power: 1
 	toughness: 3
 	card_code_text: 
@@ -2236,7 +2236,7 @@ card:
 	rule_text:
 		<i>Lightning Claws</i> — Whenever <atom-legname><nospellcheck>Volibear</nospellcheck></atom-legname> deals combat damage to a blocking creature, it deals 1 damages to each other blocking creature.
 		<i>Stormbringer</i> — Artifacts lose all abilities and can’t have or gain abilities. Artifact creatures can’t attack or block.
-	flavor_text: <i-flavor>“They call me <error-spelling:en_US>Valhir</error-spelling:en_US>. The <error-spelling:en_US>Volibear</error-spelling:en_US>. <error-spelling:en_US>Greatstorm</error-spelling:en_US>. My true name is mine alone.”</i-flavor>
+	flavor_text: <i-flavor>“They call me Valhir. The Volibear. Greatstorm. My true name is mine alone.”</i-flavor>
 	power: 2
 	toughness: 2
 	card_code_text: 
@@ -2565,7 +2565,7 @@ card:
 		<i>Frost Armor</i> — <kw-a><nospellcheck>Protection from <param-name>creatures with stun counters on them</param-name></nospellcheck></kw-a>.<i>
 		Permafrost</i> — Whenever a creature attacks you or a permanent you control, tap it and put a stun counter on it.
 		<i>Icebreaker</i> — Whenever <atom-cardname><nospellcheck>Sejuani, Fury of the North</nospellcheck></atom-cardname> deals combat damage to a creature with a stun counter on it, destroy that creature.
-	flavor_text: <i-flavor>The brutal, unforgiving <error-spelling:en_US>Iceborn</error-spelling:en_US> <error-spelling:en_US>warmother</error-spelling:en_US> of the Winter’s Claw, one of the most feared tribes of the <error-spelling:en_US>Freljord</error-spelling:en_US>.</i-flavor>
+	flavor_text: <i-flavor>The brutal, unforgiving Iceborn warmother of the Winter’s Claw, one of the most feared tribes of the Freljord.</i-flavor>
 	power: 4
 	toughness: 4
 	card_code_text: 
@@ -2594,7 +2594,7 @@ card:
 		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>
 		<i><kw-a><nospellcheck>Undying</nospellcheck></kw-a> Rage</i> — As long as <atom-cardname><nospellcheck>Tryndamere, the Barbarian King</nospellcheck></atom-cardname> is attacking, he has <kw-a><nospellcheck>indestructible</nospellcheck></kw-a>.
 		<i>Blood Lust</i> — At end of combat, if <atom-legname><nospellcheck>Tryndamere</nospellcheck></atom-legname> dealt combat damage to an opponent this combat, <kw-a><nospellcheck>regenerate</nospellcheck></kw-a> him.
-	flavor_text: <i-flavor>“<error-spelling:en_US>This’ll</error-spelling:en_US> be a slaughter.”</i-flavor>
+	flavor_text: <i-flavor>“This’ll be a slaughter.”</i-flavor>
 	power: 7
 	toughness: 1
 	card_code_text: 
@@ -2723,7 +2723,7 @@ card:
 	rule_text:
 		When <atom-cardname><nospellcheck>Mordekaiser, the Iron Revenant</nospellcheck></atom-cardname> enters the battlefield, choose yourself and an opponent.
 		<i>Realm of Death</i> — As long as there are at least two chosen players, chosen players have <kw-a><nospellcheck>protection from <param-name>non-chosen players and non-chosen players have <kw-a>protection from chosen players</param-name></nospellcheck></kw-a>.
-	flavor_text: <i-flavor>“In the world beyond, blackened <error-spelling:en_US>ichor</error-spelling:en_US> filled a crumbling sky, as souls withered to nothing. But I refused to fade.”</i-flavor>
+	flavor_text: <i-flavor>“In the world beyond, blackened ichor filled a crumbling sky, as souls withered to nothing. But I refused to fade.”</i-flavor>
 	power: 7
 	toughness: 9
 	card_code_text: 
@@ -2778,7 +2778,7 @@ card:
 		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, grievous
 		<i>League of Draven</i> — Whenever a creature dealt damage by <atom-cardname><nospellcheck>Draven, the Glorious Executioner</nospellcheck></atom-cardname> this turn dies, draw a card and create a <kw-a><nospellcheck>Gold toke<param-*s>n</param-*s></nospellcheck></kw-a>.
 		<i>Spinning Axe</i> — <sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>, Unattach an Equipment from <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>: He deals 1 damage equal to another target creature. When that creature dies this turn, you may attach the unattached Equipment to <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>.
-	flavor_text: <i-flavor>“Welcome to the League of <error-spelling:en_US>Draaaaven</error-spelling:en_US>”</i-flavor>
+	flavor_text: <i-flavor>“Welcome to the League of Draaaaven”</i-flavor>
 	power: 2
 	toughness: 1
 	card_code_text: 
@@ -2802,7 +2802,7 @@ card:
 	rule_text:
 		Grievous
 		<i>Noxian Guillotine</i> — Whenever a creature dealt damage by <atom-cardname><nospellcheck>Darius, the Hand of Noxus</nospellcheck></atom-cardname> dies this turn, <kw-a><nospellcheck>regenerate</nospellcheck></kw-a> <atom-legname><nospellcheck>Darius</nospellcheck></atom-legname>. Then you may have him <kw-a><nospellcheck>fight</nospellcheck></kw-a> another target creature.
-	flavor_text: <i-flavor>Knowing that he never doubts his cause is just, and never hesitates once his <error-spelling:en_US>axe</error-spelling:en_US> is raised, those who stand against the commander of the <error-spelling:en_US>Trifarian</error-spelling:en_US> Legion can expect no mercy.</i-flavor>
+	flavor_text: <i-flavor>Knowing that he never doubts his cause is just, and never hesitates once his axe is raised, those who stand against the commander of the Trifarian Legion can expect no mercy.</i-flavor>
 	power: 3
 	toughness: 3
 	card_code_text: 
@@ -3217,7 +3217,7 @@ card:
 		<kw-a><nospellcheck>Delve</nospellcheck></kw-a>
 		At the beginning of each opponent’s upkeep, that player may pay <sym-auto>1</sym-auto> or discard a card. If they do, you may create a <kw-a><nospellcheck>Treasure toke<param-*s>n</param-*s></nospellcheck></kw-a> or draw a card. Otherwise, destroy target artifact or creature that player controls.
 		<kw-a><nospellcheck>Dredge <param-number>3</param-number></nospellcheck></kw-a>
-	flavor_text: <i-flavor>It is said he comes for those who forget to pay the “<error-spelling:en_US>Bilgewater</error-spelling:en_US> tithe”, pulling them down beneath the waves with him.</i-flavor>
+	flavor_text: <i-flavor>It is said he comes for those who forget to pay the “Bilgewater tithe”, pulling them down beneath the waves with him.</i-flavor>
 	power: 4
 	toughness: 7
 	card_code_text: 
@@ -3342,7 +3342,7 @@ card:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
 		Whenever <atom-cardname><nospellcheck>Braum, the Heart of the Freljord</nospellcheck></atom-cardname> attacks and isn’t blocked, you and the defending player each spawn a 0/1 colorless Poro.
 		<i>Stand Behind Me</i> — <sym-auto>S</sym-auto>: Change a target of target spell or ability to <atom-legname><nospellcheck>Braum</nospellcheck></atom-legname>.
-	flavor_text: <i-flavor>“You are safe with <error-spelling:en_US>Braum</error-spelling:en_US>.”</i-flavor>
+	flavor_text: <i-flavor>“You are safe with Braum.”</i-flavor>
 	power: 0
 	toughness: 5
 	card_code_text: 
@@ -3367,7 +3367,7 @@ card:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<i>Rebirth</i> — When <atom-cardname><nospellcheck>Anivia, the Cryophoenix</nospellcheck></atom-cardname> dies, spawn a 0/1 Egg with “At the beginning of your upkeep, you may sacrifice this. If you do, return target creature card named <atom-cardname><nospellcheck>Anivia, the Cryophoenix</nospellcheck></atom-cardname> from your graveyard to the battlefield.
 		<i>Crystallize —</i> <sym-auto>1UU</sym-auto>, <sym-auto>T</sym-auto>: Spawn a 0/7 blue Wall named Wall of Frost with <kw-a><nospellcheck>defender</nospellcheck></kw-a> and “Whenever this blocks a creature, that creature doesn’t untap during its controller’s next untap step.” Exile it at end of turn.
-	flavor_text: <i-flavor>A benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the <error-spelling:en_US>Freljord</error-spelling:en_US>.</i-flavor>
+	flavor_text: <i-flavor>A benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord.</i-flavor>
 	power: 2
 	toughness: 2
 	card_code_text: 
@@ -3596,7 +3596,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
 		<i>Transfusion</i> — At the beginning of each opponent’s upkeep, choose target creature that player controls. That player may pay life equal to that creature’s mana value. If they do, you gain that much life. Otherwise, you gain control of that creature for as long as you control <atom-cardname><nospellcheck>Vladimir, the Crimson Reaper</nospellcheck></atom-cardname>.
-	flavor_text: <i-flavor>In addition to unnaturally extending his life, his mastery of <error-spelling:en_US>hemomancy</error-spelling:en_US> allows him to control the minds and bodies of others as easily as his own.</i-flavor>
+	flavor_text: <i-flavor>In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily as his own.</i-flavor>
 	power: 3
 	toughness: 4
 	card_code_text: 
@@ -4052,7 +4052,7 @@ card:
 		<i>Acceleration Gate —</i> As long as at least two artifacts have entered the battlefield under your control this turn, creatures you control have <kw-a><nospellcheck>haste</nospellcheck></kw-a> and if a source you control would deal noncombat damage, it deals twice that much damage instead.
 		<i>Hextech Capacitor</i> — <sym-auto>UU</sym-auto>, <sym-auto>T</sym-auto>: <kw-a><nospellcheck>Investigate</nospellcheck></kw-a>.
 		<i>Shock Blast</i> — <sym-auto>RR</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Jayce, the Defender of Tomorrow</nospellcheck></atom-cardname> deals 2 damage to any target.
-	flavor_text: <i-flavor>A brilliant inventor who has pledged his life to the defense of <error-spelling:en_US>Piltover</error-spelling:en_US> and its unyielding pursuit of progress.</i-flavor>
+	flavor_text: <i-flavor>A brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress.</i-flavor>
 	power: 2
 	toughness: 3
 	card_code_text: 
@@ -4165,7 +4165,7 @@ card:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>infect</nospellcheck></kw-a>
 		<i>Guerrilla Warfare</i> — <atom-cardname><nospellcheck>Teemo, the Swift Scout</nospellcheck></atom-cardname> has <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> as long as he’s not attacking.
 		<i>Noxious Trap</i> — At the beginning of your upkeep, spawn a 1/1 green Fungus with <kw-a><nospellcheck>defender</nospellcheck></kw-a> and <kw-a><nospellcheck>infect</nospellcheck></kw-a> named Noxious Trap.
-	flavor_text: <i-flavor>“Captain <error-spelling:en_US>Teemo</error-spelling:en_US> on duty.”</i-flavor>
+	flavor_text: <i-flavor>“Captain Teemo on duty.”</i-flavor>
 	power: 1
 	toughness: 1
 	card_code_text: 
@@ -4223,7 +4223,7 @@ card:
 		<kw-a><nospellcheck>Partne<param-name>r</param-name> with <param-name>Alune, the Moon Seer</param-name></nospellcheck></kw-a>
 		Whenever a Moonstone equipment enters the battlefield under your control, you may attach it to <atom-cardname><nospellcheck>Aphelios, the Weapon of the Faithful</nospellcheck></atom-cardname>.
 		<atom-legname><nospellcheck>Aphelios</nospellcheck></atom-legname> gets +1/+1 for each Moonstone attached to him.
-	flavor_text: <i-flavor>Though fueled by a poison that renders him mute, he is guided by his sister <error-spelling:en_US>Alune</error-spelling:en_US> in her distant temple sanctuary from where she pushes an arsenal of moonstone weapons into his hands.</i-flavor>
+	flavor_text: <i-flavor>Though fueled by a poison that renders him mute, he is guided by his sister Alune in her distant temple sanctuary from where she pushes an arsenal of moonstone weapons into his hands.</i-flavor>
 	power: 1
 	toughness: 1
 	card_code_text: 
@@ -4247,7 +4247,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>Partne<param-name>r</param-name> with <param-name>Aphelios, the Weapon of the Faith</param-name></nospellcheck></kw-a>
 		<i><kw-a><i-auto><nospellcheck>Eminence</i></nospellcheck></i-auto></kw-a> — <sym-auto>WUBRG</sym-auto>: Reveal cards from the top of your library until you reveal a Moonstone card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Activate this ability only if <atom-cardname><nospellcheck>Alune, the Moon Seer</nospellcheck></atom-cardname> is on the battlefield or in your command zone.
-	flavor_text: <i-flavor>For as long as the moon shines overhead, <error-spelling:en_US>Aphelios</error-spelling:en_US> will never be alone.</i-flavor>
+	flavor_text: <i-flavor>For as long as the moon shines overhead, Aphelios will never be alone.</i-flavor>
 	power: 0
 	toughness: 0
 	card_code_text: 
@@ -4321,7 +4321,7 @@ card:
 	rule_text:
 		<i>Terrashape</i> — At the beginning of your upkeep, choose <sym-auto>G</sym-auto>, <sym-auto>U</sym-auto>, or <sym-auto>R</sym-auto>. Until the beginning of your next turn, spells you cast cost that much less to cast.
 		<i>Elemental Wrath </i>— Whenever you cast a spell, if that spell is green, <atom-legname><nospellcheck>Qiyana</nospellcheck></atom-legname> gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn. If that spell is blue, tap target creature and put a stun counter on it. If that spell is red, <atom-legname><nospellcheck>Qiyana</nospellcheck></atom-legname> deals 1 damage to any target.
-	flavor_text: <i-flavor>“You are now part of the legend of <error-spelling:en_US>Qiyana</error-spelling:en_US>!”</i-flavor>
+	flavor_text: <i-flavor>“You are now part of the legend of Qiyana!”</i-flavor>
 	power: 3
 	toughness: 3
 	card_code_text: 
@@ -4494,7 +4494,7 @@ card:
 	rule_text:
 		<i>Assassin’s Path</i> — When <atom-cardname><nospellcheck>Talon, the Blade’s Shadow</nospellcheck></atom-cardname> attacks, you may tap any number of untapped lands you control. If you do, up to that many target creatures defending player controls can’t block Talon this turn.
 		<i>Noxian Diplomacy</i> — Whenever <atom-legname><nospellcheck>Talon</nospellcheck></atom-legname> deals combat damage to an opponent, destroy target creature that player controls with toughness less than or equal to <atom-legname><nospellcheck>Talon</nospellcheck></atom-legname>’s power.
-	flavor_text: <i-flavor>Adopted by the notorious Du <error-spelling:en_US>Couteau</error-spelling:en_US> family, he now plies his deadly trade at the empire’s command, assassinating enemy leaders, captains, and heroes…</i-flavor>
+	flavor_text: <i-flavor>Adopted by the notorious Du Couteau family, he now plies his deadly trade at the empire’s command, assassinating enemy leaders, captains, and heroes…</i-flavor>
 	power: 3
 	toughness: 2
 	card_code_text: 
@@ -4553,7 +4553,7 @@ card:
 		<i>Pyromania</i> — Whenever you cast a red spell, if <atom-cardname><nospellcheck>Annie, the Dark Child</nospellcheck></atom-cardname> has less than four charge counters on her, put a charge counter on her.
 		<i>Summon Tibbers</i> — <sym-auto>RR</sym-auto>, Remove four charge counters from <atom-legname><nospellcheck>Annie</nospellcheck></atom-legname>: Spawn Tibbers, a legendary 2/2 red Bear.
 		Whenever a creature you control control named Tibbers enters the battlefield or attacks, it gets +2/+2 until end of turn and fights another target creature.
-	flavor_text: <i-flavor>“Have you seen my bear <error-spelling:en_US>Tibbers</error-spelling:en_US>?”</i-flavor>
+	flavor_text: <i-flavor>“Have you seen my bear Tibbers?”</i-flavor>
 	power: 1
 	toughness: 1
 	card_code_text: 
@@ -4654,7 +4654,7 @@ card:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>, <kw-a><nospellcheck>trample</nospellcheck></kw-a>, armor, magic resistance
 		<i>Comet of Legend </i>— When you cast <atom-cardname><nospellcheck>Aurelion Sol, The Star Forger</nospellcheck></atom-cardname>, you may exile him with up to five time counters on him. If you do, he gains suspend.
 		<i>Starsurge</i> — Whenever a time counter is removed from <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname> while he’s exiled, look at the top five cards of your library. You may exile a nonland card from among them with time counters on it equal to the number of time counters on <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname>. If it doesn’t have suspend, it gains suspend.
-	flavor_text: <i-flavor>Desiring a return to his mastery of the cosmos, <error-spelling:en_US>Aurelion</error-spelling:en_US> Sol will drag the very stars from the sky, if he must, in order to regain his freedom</i-flavor>
+	flavor_text: <i-flavor>Desiring a return to his mastery of the cosmos, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom</i-flavor>
 	power: 5
 	toughness: 5
 	card_code_text: 
@@ -4881,6 +4881,42 @@ card:
 	illustrator: 
 	copyright: 
 	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes:
+		Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+		
+		Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)
+	time_created: 2021-06-20 00:00:00
+	time_modified: 2022-11-27 11:53:05
+	name: K'Sante, The Pride of Nazumah
+	casting_cost: RGW
+	image: image188
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Fighter</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Soulbond</nospellcheck></kw-a>
+		As long as <atom-cardname><nospellcheck>K’Sante, The Pride of Nazumah</nospellcheck></atom-cardname> is paired with another creature, each of those creatures has training and <kw-a><nospellcheck>mentor</nospellcheck></kw-a>.
+		<i>All Out</i> — <sym-auto>3</sym-auto>: Remove target attacking or blocking creature from combat. <atom-legname><nospellcheck>K’Sante</nospellcheck></atom-legname> gets +X/+0 until end of turn, where X is his toughness, then you may have him <kw-a><nospellcheck>fight</nospellcheck></kw-a> that creature.
+	flavor_text: <i-flavor>“I’m done holding back!”</i-flavor>
+	power: 1
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
 	copyright_2: 
 	copyright_3: 
 	mainframe_image: 
