@@ -26,7 +26,7 @@ styling:
 		level_mana_symbols: magic-mana-large.mse-symbol-font
 		overlay: 
 	magic-m15-mainframe-dfc:
-		other_options: use hovering pt, use holofoil stamps, clear front, clear back, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		other_options: use hovering pt, use holofoil stamps, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
 		legend_crown: standard
 		text_box_mana_symbols: magic-mana-small.mse-symbol-font
 		level_mana_symbols: magic-mana-large.mse-symbol-font
@@ -181,34 +181,9 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
-	notes: First ability represents him gathering static charge
-	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-06-02 00:07:09
-	name: Blitzcrank, the Great Steam Golem
-	casting_cost: 2UR
-	image: image65
-	super_type: <word-list-type>Legendary Artifact Creature</word-list-type>
-	sub_type: <word-list-race>Golem</word-list-race> <word-list-class>Tank</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule_text:
-		Whenever you cast an artifact spell, put a charge counter on <atom-cardname><nospellcheck>Blitzcrank, the Great Steam Golem</nospellcheck></atom-cardname>.
-		<atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname> gets +1/+1 for each charge counter on it.
-		Static Field — <sym-auto>XUR</sym-auto>, <sym-auto>T</sym-auto>, Remove X charge counters from <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname>: Counter each spell, activated ability, and triggered ability. For each spell and ability countered this way, <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname> deals X damage to that spell or ability’s controller.
-	flavor_text: <i-flavor>A behemoth of burnished metal, steam, and crackling electricity, <error-spelling:en_US>Blitzcrank</error-spelling:en_US> walks the streets of <error-spelling:en_US>Zaun</error-spelling:en_US> in a tireless effort to improve the <error-spelling:en_US>undercity</error-spelling:en_US> and give aid to those in need.</i-flavor>
-	power: 2
-	toughness: 3
-	card_code_text: 
-	copyright: 23
-	image_2: 
-	copyright_2: 
-	copyright_3: 
-	mainframe_image: 
-	mainframe_image_2: 
-card:
-	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-23 15:27:59
+	time_modified: 2022-12-31 19:16:06
 	name: Caitlyn, the Sheriff of Piltover
 	casting_cost: 1UR
 	image: image58
@@ -217,7 +192,7 @@ card:
 	rarity: mythic rare
 	rule_text:
 		<i>Yordle Snap Trap</i> — At the beginning of your upkeep, you may pay <sym-auto>U</sym-auto>. If you do, create an artifact token with “<sym-auto>T</sym-auto>, Sacrifice this artifact: Tap and <kw-a><nospellcheck>detain<param-english_number> </param-english_number>target<param-nonland> a</param-nonland><param-one_word>ttacking</param-one_word></nospellcheck></kw-a> creature and remove it from combat.”
-		<i>Ace in the hole</i> — <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Caitlyn, the Sheriff of Piltover</nospellcheck></atom-cardname> deals 1 damage to another target creature. If that creature is tapped or detained, <atom-legname><nospellcheck>Caitlyn</nospellcheck></atom-legname> deals 3 damage to it instead.
+		<i>Ace in the hole</i> — <sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Caitlyn, the Sheriff of Piltover</nospellcheck></atom-cardname> deals damage equal to her power to another target creature. If that creature is tapped or detained, <atom-legname><nospellcheck>Caitlyn</nospellcheck></atom-legname> deals twice that much damage instead.
 	flavor_text: <i-flavor>“They cannot run from the long arm of the law... nor from the scope of my rifle.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -232,7 +207,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-08 22:54:55
+	time_modified: 2022-12-31 19:16:56
 	name: Camille, the Steel Shadow
 	casting_cost: WUBR
 	image: image78
@@ -304,16 +279,21 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
-	notes: 
+	notes:
+		Really broken with Timesifter. Every turn is an extra turn so opponents never untap.
+		
+		Unsure about wording around ’non-extra’ turns. Should it be another sentence, "This ability can’t be activated on extra turns"?
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-09-08 10:59:39
+	time_modified: 2023-01-01 13:20:55
 	name: Ekko, the Boy Who Shattered Time
 	casting_cost: UU
 	image: image57
 	super_type: <word-list-type>Legendary Creature</word-list-type>
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Slayer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule_text: <i>Chronobreak</i> — <sym-auto>UU</sym-auto>, <sym-auto>Q</sym-auto>, Return <atom-cardname><nospellcheck>Ekko, the Boy Who Shattered Time</nospellcheck></atom-cardname> to his owners hand: ENd the turn. Activate this ability only during combat.
+	rule_text:
+		S<i>tolen Time</i> — Opponents skip their untap step during extra turns.
+		<i>Chronobreak</i> — <sym-auto>UU</sym-auto>, <sym-auto>Q</sym-auto>: The player whose turn it is takes an extra turn after this one. End the turn. Activate only during the declare blockers step of non-extra turns.
 	flavor_text: <i-flavor>“My devices work best when they don’t work as intended… which is most of the time.”</i-flavor>
 	power: 2
 	toughness: 1
@@ -477,7 +457,7 @@ card:
 		Needs a token
 		Ideally make a Shark creature somewhere in these sets
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-06-03 06:35:39
+	time_modified: 2023-01-01 13:24:10
 	name: Fizz, the Tidal Trickster
 	casting_cost: U
 	image: image134
@@ -485,7 +465,7 @@ card:
 	sub_type: <word-list-race>Yordle</word-list-race> <word-list-class>Slayer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
-		<i>Playful Trickster</i> — <sym-auto>U</sym-auto>, <sym-auto>Q</sym-auto>: <atom-cardname><nospellcheck>Fizz, the Tidal Trickster</nospellcheck></atom-cardname> <kw-a><nospellcheck>phases out</nospellcheck></kw-a> until end of turn.
+		<i>Playful Trickster</i> — <sym-auto>UU</sym-auto>, <sym-auto>Q</sym-auto>: <atom-cardname><nospellcheck>Fizz, the Tidal Trickster</nospellcheck></atom-cardname> <kw-a><nospellcheck>phases out</nospellcheck></kw-a> until end of turn.
 		<i>Chum the Waters</i> — Whenever <atom-legname><nospellcheck>Fizz</nospellcheck></atom-legname> attacks, if you control at least five islands, reveal cards from the top of your library until your reveal a Kraken, Leviathan, Octopus, Serpent, or Shark. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order. Sacrifice it at the beginning of the next end step.
 	flavor_text: <i-flavor>“Baiting Time”</i-flavor>
 	power: 2
@@ -589,7 +569,8 @@ card:
 			popout image 2: 
 			corner: creature
 			corner 2: creature
-		magic-m15-mainframe-dfc: corner_2: creature
+		magic-m15-mainframe-dfc:
+			corner_2: creature
 	name: Gnar, the Missing Link
 	casting_cost: RGW
 	indicator: colorless
@@ -629,7 +610,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-17 23:21:25
+	time_modified: 2023-01-01 14:24:56
 	name: Gragas, the Rabble Rouser
 	casting_cost: 3RG
 	image: image147
@@ -637,10 +618,10 @@ card:
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Mage</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
-		When <atom-cardname><nospellcheck>Gragas, the Rabble Rouser</nospellcheck></atom-cardname> enters the battlefield and at the beginning of your upkeep, create a <kw-a><nospellcheck>Food toke<param-*s>n</param-*s></nospellcheck></kw-a>.
-		<i>Happy Hour</i> — <sym-auto>2</sym-auto>, Sacrifice a Food: You gain 3 life. Put a +1/+1 counter on <atom-legname><nospellcheck>Gragas</nospellcheck></atom-legname>. 
+		At the beginning of combat on your turn, create a <kw-a><nospellcheck>Food toke<param-*s>n</param-*s></nospellcheck></kw-a>.
+		<i>Happy Hour</i> — <sym-auto>2</sym-auto>, Sacrifice a Food: You gain 3 life. Put a +1/+1 counter on <atom-cardname><nospellcheck>Gragas, the Rabble Rouser</nospellcheck></atom-cardname>. 
 		<i>Body Slam</i> — <sym-auto>T</sym-auto>, Sacrifice two Foods: <atom-legname><nospellcheck>Gragas</nospellcheck></atom-legname> fights another target creature.
-		<i>Drunken Rage</i> — Sacrifice three Foods: <kw-a><nospellcheck>Goad</nospellcheck></kw-a> each creature.
+		<i>Drunken Rage</i> — Sacrifice three Foods: <kw-a><nospellcheck>Goad</nospellcheck></kw-a> all creatures. Active only as a sorcery.
 	flavor_text: <i-flavor>“Let’s get this party started!”</i-flavor>
 	power: 3
 	toughness: 3
@@ -684,7 +665,7 @@ card:
 		
 		LoL mechanics are hard to translate, went with a lore design instead. She cuts and resews the souldbonds between creatures.
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-23 16:12:28
+	time_modified: 2023-01-01 14:26:05
 	name: Gwen, the Hallowed Seamstress
 	casting_cost: 2UB
 	image: image148
@@ -692,7 +673,7 @@ card:
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Fighter</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
-		<sym-auto>UUBB</sym-auto>, <sym-auto>T</sym-auto>: Choose two target creatures. If those creatures are paired, unpair them. Otherwise pair them with each other. They each gain <kw-a><nospellcheck>soulbond</nospellcheck></kw-a> for as long as they remain paired.
+		<sym-auto>UB</sym-auto>, <sym-auto>T</sym-auto>: Choose two target creatures. If those creatures are paired, unpair them. Otherwise pair them with each other. They each gain <kw-a><nospellcheck>soulbond</nospellcheck></kw-a> for as long as they remain paired.
 		Paired creatures have all activated abilities of creatures they are paired with.
 	flavor_text: <i-flavor>A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her.</i-flavor>
 	power: 3
@@ -952,16 +933,19 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-12-31 17:39:46
+	time_modified: 2023-01-01 15:50:34
 	name: Kassadin, the Void Walker
-	casting_cost: 2WB
+	casting_cost: WB
 	image: image187
 	super_type: <word-list-type>Legendary Creature</word-list-type>
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Slayer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
 		<kw-a><nospellcheck>Protection from <param-name>Void and from colorless</param-name></nospellcheck></kw-a>
-		<i>Force Pulse</i> — Whenever a player casts a spell, if it’s not their turn, put a +1/+1 counter on <atom-cardname><nospellcheck>Kassadin, the Void Walker</nospellcheck></atom-cardname>.
+		<margin:0:0:5><i><kw-a><nospellcheck><param-prefix>Rift</param-prefix>walk</i></nospellcheck></kw-a> — <sym-auto>2C</sym-auto>: Exile <atom-cardname><nospellcheck>Kassadin, the Void Walker</nospellcheck></atom-cardname>, then return him to the battlefield. You get a poison counter.</margin:0:0:5>
+		<margin:0:0:5>When <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> enters the battlefield from exile, choose one —</margin:0:0:5>
+		<li><bullet>• </bullet><atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> deals damage equal to the amount of poison counters you have to any target.
+		</li><li><bullet>• </bullet>Put a card from exile into its owners’ graveyard or hand.</li>
 	flavor_text: <i-flavor>Disguised in the robes of a pilgrim, more than a decade since he had last set foot anywhere near that desolate land, <error-spelling:en_US>Kassadin</error-spelling:en_US> made his way into <error-spelling:en_US>Icathia</error-spelling:en_US>. He would go where no man was ever meant to walk.</i-flavor>
 	power: 2
 	toughness: 2
@@ -2780,7 +2764,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-05-08 18:57:47
-	time_modified: 2022-05-08 23:01:05
+	time_modified: 2023-01-01 12:36:29
 	name: Draven, the Glorious Executioner
 	casting_cost: BR
 	image: image17
@@ -2789,11 +2773,11 @@ card:
 	rarity: mythic rare
 	rule_text:
 		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, grievous
-		<i>League of Draven</i> — Whenever a creature dealt damage by <atom-cardname><nospellcheck>Draven, the Glorious Executioner</nospellcheck></atom-cardname> this turn dies, draw a card and create a <kw-a><nospellcheck>Gold toke<param-*s>n</param-*s></nospellcheck></kw-a>.
-		<i>Spinning Axe</i> — <sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>, Unattach an Equipment from <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>: He deals 1 damage equal to another target creature. When that creature dies this turn, you may attach the unattached Equipment to <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>.
+		<i>League of Draven</i> — Whenever a creature dealt damage by <atom-cardname><nospellcheck>Draven, the Glorious Executioner</nospellcheck></atom-cardname> this turn dies, create a <kw-a><nospellcheck>Gold toke<param-*s>n</param-*s></nospellcheck></kw-a>.
+		<i>Spinning Axe</i> — <sym-auto>2</sym-auto>, Unattach an Equipment from <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>: He deals damage equal to his power to another target creature. When that creature dies this turn, you may attach the unattached Equipment to <atom-legname><nospellcheck>Draven</nospellcheck></atom-legname>.
 	flavor_text: <i-flavor>“Welcome to the League of <error-spelling:en_US>Draaaaven</error-spelling:en_US>”</i-flavor>
-	power: 2
-	toughness: 1
+	power: 1
+	toughness: 2
 	card_code_text: 
 	copyright: 43
 	image_2: 
@@ -3314,7 +3298,7 @@ card:
 	has_styling: false
 	notes: The shield ability is actually called Unbreakable, but Stand Behind Me translates better.
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-17 23:15:33
+	time_modified: 2022-12-31 19:10:35
 	name: Braum, the Heart of the Freljord
 	casting_cost: SWU
 	image: image177
@@ -3322,9 +3306,8 @@ card:
 	sub_type: <word-list-race>Human</word-list-race> <word-list-class>Tank</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule_text:
-		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		Whenever <atom-cardname><nospellcheck>Braum, the Heart of the Freljord</nospellcheck></atom-cardname> attacks and isn’t blocked, you and the defending player each spawn a 0/1 colorless Poro.
-		<i>Stand Behind Me</i> — <sym-auto>S</sym-auto>: Change a target of target spell or ability to <atom-legname><nospellcheck>Braum</nospellcheck></atom-legname>.
+		At the beginning of your end step, starting with you, each player votes for peace or war. For each peace vote, that player spawns a 0/1 colorless snow Poro and creatures they control can’t attack you or permanents you control until your next turn. For each war vote, creatures you control get +1/+1 until your next turn.
+		<i>Stand Behind Me</i> — <sym-auto>1S</sym-auto>: Change a target of target spell or ability to <atom-legname><nospellcheck>Braum</nospellcheck></atom-legname>.
 	flavor_text: <i-flavor>“You are safe with <error-spelling:en_US>Braum</error-spelling:en_US>.”</i-flavor>
 	power: 0
 	toughness: 5
@@ -3522,7 +3505,7 @@ card:
 	has_styling: false
 	notes: Foil of Leona
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-06-02 01:16:19
+	time_modified: 2022-12-31 19:20:04
 	name: Diana, Scorn of the Moon
 	casting_cost: 1BB
 	image: image182
@@ -3532,7 +3515,7 @@ card:
 	rule_text:
 		It becomes night as <atom-cardname><nospellcheck>Diana, Scorn of the Moon</nospellcheck></atom-cardname> enters the battlefield.
 		<i>Moonfall</i> — Whenever it becomes night, you may have <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> <kw-a><nospellcheck>fight</nospellcheck></kw-a> target creature an opponent controls.
-		<i>Pale <kw-a><nospellcheck>Cascade</i></nospellcheck></kw-a> — As long as it’s night <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> gets +2/+2 and has <kw-a><nospellcheck>intimidate</nospellcheck></kw-a> and <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		<i>Pale <kw-a><nospellcheck>Cascade</i></nospellcheck></kw-a> — As long as it’s night, <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> gets +2/+2 and has <kw-a><nospellcheck>intimidate</nospellcheck></kw-a> and <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
 	flavor_text: <i-flavor>“A new moon is rising.”</i-flavor>
 	power: 3
 	toughness: 1
@@ -3904,9 +3887,9 @@ card:
 	mainframe_image_2: 
 card:
 	has_styling: false
-	notes: 
+	notes: Important that it’s not wither. Only combat damage adds the counters, otherwise the rend ability would double the -1/-1 counters instead of dealing normal damage.
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-08-28 23:36:01
+	time_modified: 2023-01-01 14:56:04
 	name: Kalista, the Spear of Vengeance
 	casting_cost: 1B
 	image: image144
@@ -3916,7 +3899,7 @@ card:
 	rule_text:
 		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
 		<i>Pierce</i> — <atom-cardname><nospellcheck>Kalista, the Spear of Vengeance</nospellcheck></atom-cardname> deals combat damage to creatures in the form of -1/-1 counters.
-		<i>Rend</i> — <sym-auto>T</sym-auto>: Remove all -1/-1 counters from among creatures your opponents control. For each -1/-1 counter removed from a creature this way, <atom-legname><nospellcheck>Kalista</nospellcheck></atom-legname> deals twice that much damage to that creature.
+		<i>Rend</i> — <sym-auto>T</sym-auto>: Remove all -1/-1 counters from among creatures your opponents control. For each -1/-1 counter removed from a creature this way, <atom-legname><nospellcheck>Kalista</nospellcheck></atom-legname> deals 2 damage to that creature.
 	flavor_text: <i-flavor>“Let’s see how many spears you can endure!”</i-flavor>
 	power: 1
 	toughness: 2
@@ -3994,7 +3977,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-06-02 01:41:52
+	time_modified: 2023-01-01 15:52:58
 	name: Kennen, the Heart of the Tempest
 	casting_cost: URW
 	image: image45
@@ -4007,7 +3990,7 @@ card:
 		<i>Thundering Shuriken</i> — <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals 1 damage to target creature.
 		<i>Electrical <kw-a><nospellcheck>Surge <param-cost></i><atom-kwpph>cost</atom-kwpph></param-cost></nospellcheck></kw-a>— <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals 1 damage to each other creature with a charge counter.
 	flavor_text: <i-flavor></i-flavor>
-	power: 3
+	power: 2
 	toughness: 2
 	card_code_text: 
 	copyright: 
@@ -4089,7 +4072,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-05-21 16:52:23
+	time_modified: 2022-12-31 18:47:41
 	name: Brand, the Burning Vengeance
 	casting_cost: 3BR
 	image: image66
@@ -4099,7 +4082,7 @@ card:
 	rule_text:
 		Grievous
 		<i>Pillar of Flame</i> — If <atom-cardname><nospellcheck>Brand, the Burning Vengeance</nospellcheck></atom-cardname> would deal damage to a creature with a -1/-1 counter on it, <atom-legname><nospellcheck>Brand</nospellcheck></atom-legname> deals twice that much damage instead.
-		<i>Conflagration</i> — <sym-auto>XBR</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Brand</nospellcheck></atom-legname> deals X damage to any target.
+		<i>Conflagration</i> — <sym-auto>XBR</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Brand</nospellcheck></atom-legname> deals X damage to target creature. If that creature has a -1/-1 counter on it, <atom-legname><nospellcheck>Brand</nospellcheck></atom-legname> deals 1 damage to each other creature that shares a controller.
 	flavor_text: <i-flavor>“Some say the world will end in fire.”</i-flavor>
 	power: 4
 	toughness: 3
@@ -4682,7 +4665,7 @@ card:
 	has_styling: false
 	notes: 
 	time_created: 2021-06-20 00:00:00
-	time_modified: 2022-08-18 22:00:48
+	time_modified: 2022-12-31 19:17:13
 	name: Cassiopeia, the Serpent's Embrace
 	casting_cost: BGU
 	image: image43
@@ -4692,7 +4675,7 @@ card:
 	rule_text:
 		<i>Noxious Blast</i> — <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>: Put a -1/-1 counter on another target creature.
 		<i>Twin Fang</i> — <sym-auto>GG</sym-auto>, <sym-auto>Q</sym-auto>:  <atom-cardname><nospellcheck>Cassiopeia, the Serpent’s Embrace</nospellcheck></atom-cardname> and another target creature deal damage to each other equal to their power. If that creature has a -1/-1 counter on it, <atom-legname><nospellcheck>Cassiopeia</nospellcheck></atom-legname> deals twice that much damage instead. 
-		<i>Petrifying Gaze</i> — <sym-auto>UUU</sym-auto>, <sym-auto>T</sym-auto>, <kw-a><nospellcheck>Exert</nospellcheck></kw-a> <atom-legname><nospellcheck>Cassiopeia</nospellcheck></atom-legname>: For each creature attacking your or a permanent you control, tap that creature and put a stun counter on it.
+		<i>Petrifying Gaze</i> — <sym-auto>UUU</sym-auto>, <sym-auto>T</sym-auto>, <kw-a><nospellcheck>Exert</nospellcheck></kw-a> <atom-legname><nospellcheck>Cassiopeia</nospellcheck></atom-legname>: For each creature attacking you or a permanent you control, tap that creature and put a stun counter on it.
 	flavor_text: <i-flavor>Cunning and agile, Cassiopeia now slithers under the veil of night, petrifying her enemies with her baleful gaze.</i-flavor>
 	power: 1
 	toughness: 2
@@ -4882,7 +4865,14 @@ card:
 card:
 	stylesheet: m15-mainframe-dfc
 	stylesheet_version: 2020-09-04
-	has_styling: false
+	has_styling: true
+	styling_data:
+		other_options: use hovering pt, use holofoil stamps, clear front, clear back, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		legend_crown: standard
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
 	notes: Double check her title after release. Ive seen it as Void Empress and Empress of the Void
 	time_created: 2022-05-28 11:18:49
 	time_modified: 2022-12-31 17:37:31
@@ -4945,6 +4935,33 @@ card:
 	card_code_text: 
 	illustrator: Finalized
 	copyright: 2
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: First ability represents him gathering static charge
+	time_created: 2021-06-20 00:00:00
+	time_modified: 2022-12-31 18:44:27
+	name: Blitzcrank, the Great Steam Golem
+	casting_cost: 2UR
+	image: image5
+	super_type: <word-list-type>Legendary Artifact Creature</word-list-type>
+	sub_type: <word-list-race>Golem</word-list-race> <word-list-class>Tank</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		<i>Static Field</i> — At the beginning of each upkeep, put a charge counter on <atom-cardname><nospellcheck>Blitzcrank, the Great Steam Golem</nospellcheck></atom-cardname>.
+		<margin:0:0:5><sym-auto>U</sym-auto>, Remove a charge counter from <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname>: Choose one —</margin:0:0:5>
+		<li><bullet>• </bullet>Put a charge counter on target artifact.
+		</li><li><bullet>• </bullet>Put a +1/+1 counter on target creature.
+		<margin:0:0:5><i>Rocket Grab</i> — <sym-auto>2R</sym-auto>, <sym-auto>T</sym-auto>, Remove four charge counters from <atom-legname><nospellcheck>Blitzcrank</nospellcheck></atom-legname>: Gain control of target creature until end of turn. Untap that creature. It gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.</li></margin:0:0:5>
+	flavor_text: <i-flavor>A behemoth of burnished metal, steam, and crackling electricity, <error-spelling:en_US>Blitzcrank</error-spelling:en_US> walks the streets of <error-spelling:en_US>Zaun</error-spelling:en_US> in a tireless effort to improve the <error-spelling:en_US>undercity</error-spelling:en_US> and give aid to those in need.</i-flavor>
+	power: 2
+	toughness: 4
+	card_code_text: 
+	copyright: 23
 	image_2: 
 	copyright_2: 
 	copyright_3: 
