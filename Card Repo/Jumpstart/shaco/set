@@ -1,0 +1,483 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Shaco, the Demon Jester
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-adventure:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		chop_top: 
+		chop_bottom: 
+		frames: 
+		other_options: auto snow, auto nyx crowns
+		d20_dividers: d20 mode
+		color_indicator_dot: no
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-dfc:
+		other_options: use hovering pt, use holofoil stamps, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		legend_crown: standard
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-tokens:
+		frames: 
+		other_options: 
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-06-20 00:00:00
+	time_modified: 2023-01-01 19:46:48
+	name: Shaco, the Demon Jester
+	casting_cost: 2UBR
+	image: image89
+	super_type: <word-list-type>Legendary Creature</word-list-type>
+	sub_type: <word-list-race>Demon</word-list-race> <word-list-class>Assassin</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule_text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>Shaco, the Demon Jester</nospellcheck></atom-cardname> enters the battlefield, if it was cast, spawn a copy of it, except that copy is an Illusion in addition to its other types and has, “Whenever this becomes the target of a spell or ability, sacrifice it.”
+		Whenever an Illusion dies, each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
+	flavor_text: <i-flavor>He uses toys and simple tricks to deadly effect, finding the results of his bloody “games” hilarious.</i-flavor>
+	power: 3
+	toughness: 2
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:09
+	time_modified: 2023-01-01 17:25:50
+	name: Island
+	image: 
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:15
+	time_modified: 2023-01-01 17:25:46
+	name: Mountain
+	image: 
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:19
+	time_modified: 2023-01-01 17:25:57
+	name: Swamp
+	image: 
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Art: https://cdnb.artstation.com/p/assets/images/images/006/539/065/large/dave-wolf-riot-davew-illustration.jpg?1499360449
+	time_created: 2023-01-01 16:12:27
+	time_modified: 2023-01-01 18:51:13
+	name: Jack in the Box
+	casting_cost: R
+	image: image7
+	super_type: <word-list-type>Artifact Creature</word-list-type>
+	sub_type: <word-list-race></word-list-race>
+	rule_text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Shroud</nospellcheck></kw-a>, <kw-a><nospellcheck>defender</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>Jack in the Box</nospellcheck></atom-cardname> gets +1/+0 for each other creature you control that shares a name with it.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:35
+	time_modified: 2023-01-01 20:14:30
+	name: Two-Shiv Poison
+	casting_cost: U
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule_text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Whenever enchanted creature deals damage to another creature, tap that creature and put a stun counter on it.
+		<sym-auto>R</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Two-Shiv Poison</nospellcheck></atom-cardname>: Enchanted creature deals 2 damage to target creature.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:41
+	time_modified: 2023-01-01 19:39:27
+	name: Hallucinate
+	casting_cost: 2UU
+	image: 
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule_text: Choose target creature you control. Exile that creature, then return it to the battlefield. Spawn a copy of that creature, except it’s an Illusion in addition to its other types and it has “When this creature becomes the target of a spell or ability, sacrifice it.”
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:47
+	time_modified: 2023-01-01 16:35:50
+	name: Decieve
+	casting_cost: 1B
+	image: 
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rule_text: Target creature you control gets +1/+0 and gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn. It can’t be blocked this turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:27
+	time_modified: 2023-01-01 19:59:42
+	name: Murk Wolves
+	casting_cost: 1B
+	image: 
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Wolf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule_text: <atom-cardname><nospellcheck>Murk Wolves</nospellcheck></atom-cardname> gets +1/+1 and gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> as long as you control another Wolf.
+	flavor_text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Inspiration: https://scryfall.com/card/ncc/2/henzie-toolbox-torre
+	time_created: 2023-01-01 16:12:27
+	time_modified: 2023-01-01 19:37:25
+	name: Endless Ambush
+	casting_cost: 1R
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule_text: Each creature spell you cast has blitz. The blitz cost is equal to its mana cost.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:35
+	time_modified: 2023-01-01 19:42:14
+	name: Poisoned Shiv
+	casting_cost: 2
+	image: 
+	super_type: <word-list-type>Artifact</word-list-type>
+	sub_type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule_text:
+		Equipped creature has grievous.
+		Whenever equipped creature deals combat damage to an opponent, that player discards a card.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2021-06-20 00:00:00
+	time_modified: 2023-01-01 19:39:42
+	name: Bedevil
+	casting_cost: BBR
+	image: image1
+	super_type: <word-list-type>Instant</word-list-type>
+	sub_type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule_text: Destroy target artifact, creature, or planeswalker.
+	flavor_text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
+	card_code_text: 
+	copyright: 
+	image_2: 
+	super_type_2: <word-list-type></word-list-type>
+	sub_type_2: 
+	super_type_3: <word-list-type></word-list-type>
+	sub_type_3: 
+	rule_text_2: 
+	rule_text_3: 
+	flavor_text_2: <i-flavor></i-flavor>
+	flavor_text_3: <i-flavor></i-flavor>
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:19
+	time_modified: 2023-01-01 17:25:02
+	name: Blood Crypt
+	image: 
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Mountan</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:19
+	time_modified: 2023-01-01 17:25:26
+	name: Steam Vents
+	image: 
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land> <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2023-01-01 16:12:19
+	time_modified: 2023-01-01 17:25:38
+	name: Watery Grave
+	image: 
+	super_type: <word-list-type>Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land> <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: https://scryfall.com/card/mm3/46/phantasmal-image
+	time_created: 2021-06-20 00:00:00
+	time_modified: 2023-01-01 17:51:57
+	name: Phantasmal Image
+	casting_cost: 1U
+	image: image3
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Illusion</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule_text: You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it has “When this creature becomes the target of a spell or ability, sacrifice it.”
+	flavor_text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: https://scryfall.com/card/war/204/mayhem-devil
+	time_created: 2023-01-01 18:07:54
+	time_modified: 2023-01-01 18:08:36
+	name: Mayhem Devil
+	casting_cost: 1BR
+	image: image4
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Devil</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: Whenever a player sacrifices a permanent, <atom-cardname><nospellcheck>Mayhem Devil</nospellcheck></atom-cardname> deals 1 damage to any target.
+	flavor_text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: Converts unblocked combat damage into removal instead of life loss.
+	time_created: 2023-01-01 16:12:50
+	time_modified: 2023-01-01 19:35:18
+	name: Backstab
+	casting_cost: 2B
+	image: 
+	super_type: <word-list-type>Enchantment</word-list-type>
+	sub_type: <word-list-enchantment></word-list-enchantment>
+	rule_text: Whenever a creature you control attacks and isn’t blocked, you may have it deal damage equal to its power to target creature defending player controls. If you do, prevent all combat damage the attacking creature would deal this turn.
+	flavor_text: <i-flavor></i-flavor>
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: https://scryfall.com/card/rix/101/fanatical-firebrand
+	time_created: 2023-01-01 16:12:27
+	time_modified: 2023-01-01 20:08:14
+	name: Fanatical Firebrand
+	casting_cost: R
+	image: image6
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Goblin</word-list-race> <word-list-class>Pirate</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule_text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		<sym-auto>T</sym-auto>, Sacrifice Fanatical Firebrand: It deals 1 damage to any target.
+	flavor_text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: https://scryfall.com/card/war/204/mayhem-devil
+	time_created: 2023-01-01 18:07:54
+	time_modified: 2023-01-01 20:03:57
+	name: Havoc Jester
+	casting_cost: 4R
+	image: image5
+	super_type: <word-list-type>Creature</word-list-type>
+	sub_type: <word-list-race>Devil</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule_text: Whenever you sacrifice a permanent, <atom-cardname><nospellcheck>Havoc Jester</nospellcheck></atom-cardname> deals 1 damage to any target.
+	flavor_text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+keyword:
+	keyword: Surge
+	match: Surge
+	reminder: 
+	rules: Ovverride for flavor ability
+	mode: expert
+keyword:
+	keyword: Devour
+	match: Devour
+	reminder: 
+	rules: Override for flavor ability
+	mode: expert
+version_control:
+	type: none
+apprentice_code: 
