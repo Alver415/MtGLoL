@@ -1,0 +1,184 @@
+﻿mse_version: 2.0.2
+game: magic
+game_version: 2020-04-25
+stylesheet: m15-altered
+stylesheet_version: 2020-09-04
+set_info:
+	title: Jumpstart Template
+	symbol: symbol2.mse-symbol
+	masterpiece_symbol: 
+	automatic_reminder_text: 
+styling:
+	magic-m15:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-adventure:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-altered:
+		chop_top: 
+		chop_bottom: 
+		frames: 
+		other_options: auto snow, auto nyx crowns
+		d20_dividers: d20 mode
+		color_indicator_dot: no
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-dfc:
+		other_options: use hovering pt, use holofoil stamps, back color indicator, unindent nonloyalty abilities, auto nyx crowns, automate type frames
+		legend_crown: standard
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		level_mana_symbols: magic-mana-large.mse-symbol-font
+		inverted_common_symbol: no
+		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-mainframe-tokens:
+		frames: 
+		other_options: 
+		text_box_mana_symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-09-30 21:13:56
+	name: Wastes
+	casting_cost: 
+	image: image10
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol colorless
+	card_code_text: 
+	illustrator: Riot Games
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:17:55
+	name: Forest
+	casting_cost: 
+	image: image11
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Forest</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol green
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:55
+	name: Island
+	casting_cost: 
+	image: image12
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Island</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol blue
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:13:09
+	name: Mountain
+	casting_cost: 
+	image: image13
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Mountain</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol red
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:12:59
+	name: Plains
+	casting_cost: 
+	image: image14
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Plains</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol white
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+card:
+	has_styling: false
+	notes: 
+	time_created: 2015-07-26 05:12:17
+	time_modified: 2020-07-30 17:11:14
+	name: Swamp
+	casting_cost: 
+	image: image15
+	super_type: <word-list-type>Basic Land</word-list-type>
+	sub_type: <word-list-land>Swamp</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: basic land
+	rule_text: 
+	flavor_text: <i-flavor></i-flavor>
+	watermark: mana symbol black
+	card_code_text: 
+	copyright: 
+	image_2: 
+	copyright_2: 
+	copyright_3: 
+	mainframe_image: 
+	mainframe_image_2: 
+keyword:
+	keyword: Surge
+	match: Surge
+	reminder: 
+	rules: Ovverride for flavor ability
+	mode: expert
+keyword:
+	keyword: Devour
+	match: Devour
+	reminder: 
+	rules: Override for flavor ability
+	mode: expert
+version_control:
+	type: none
+apprentice_code: 
